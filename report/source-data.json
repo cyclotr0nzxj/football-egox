@@ -22,47 +22,31 @@
     ]
   },
   "figure_2": {
+    "curve_source": "vertical component of the virtual forward axis against each clip\u2019s estimated ground normal",
+    "frames": 49,
+    "data_csv": "view-pitch.csv",
+    "data_sha256": "89771329e14ca84760bd5d82d8a6cfcb4b35ff946b2489ead599bc98d3a57b00",
+    "selected_views": [
+      {
+        "pair": "Pair01",
+        "minimum_downward_pitch_degrees": 25.52,
+        "maximum_downward_pitch_degrees": 62.06,
+        "maximum_camera_center_difference_in_estimated_scale": 4.6840360722841785e-15,
+        "selected_camera_metadata_sha256": "e4f801e2d5a56c7d2c50da904fede6ade4d4572e45546f010063688ff51819c6",
+        "ground_record_sha256": "51ae001b54d001c49c55937598f2305cc161d6275b3b983b3d09ecb47c3620c9"
+      },
+      {
+        "pair": "Pair05",
+        "minimum_downward_pitch_degrees": 10.64,
+        "maximum_downward_pitch_degrees": 43.06,
+        "maximum_camera_center_difference_in_estimated_scale": 2.9790409838967277e-15,
+        "selected_camera_metadata_sha256": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
+        "ground_record_sha256": "305afc7cec6aa8dc36b77cd417cfec10704a6774d12dc4ea35551b7ac2230076"
+      }
+    ]
+  },
+  "figure_3": {
     "manifest": "../appendix/manifest.json",
     "selection": "window-local frame 24 for each displayed clip"
-  },
-  "figure_3": [
-    {
-      "pair": "pair01",
-      "local_frame": 40,
-      "formal_prior_sha256": "7846541ec6c90cda675a4f97b51b96cf162a364488cc99814c15a4bd18f87b97",
-      "updated_raw_sha256": "ba53df7e4b0cfb15eae5d374c974b8296749a373971a6c77ed25deffd9f57c2a",
-      "same_virtual_pose_as_approved_candidate": true
-    },
-    {
-      "pair": "pair04",
-      "local_frame": 24,
-      "formal_prior_sha256": "10c4e5f37be548d9e5bc028472cd1fdd63629c74b7744649cdbb61b1ad312849",
-      "updated_raw_sha256": "aa2555b72a82a44c9fb86ef5876909d161fa53dd6b07bf419997f007016bd2d2",
-      "same_virtual_pose_as_approved_candidate": true
-    },
-    {
-      "pair": "pair05",
-      "local_frame": 24,
-      "formal_prior_sha256": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
-      "updated_raw_sha256": "d3c0fc0b06d40bdc034a5a34323b0474d1fb8ff02d5ce73dc32cb55852fb23a1",
-      "same_virtual_pose_as_approved_candidate": true
-    }
-  ],
-  "figure_4": {
-    "pair": "Pair02",
-    "adjacent_source_frames": [
-      [
-        48,
-        49
-      ],
-      [
-        75,
-        76
-      ]
-    ],
-    "technical_draft": "f8cf996508bc6662d0312de8289e0298e8ccd8e40da241c5624f7e3d0e064b4b",
-    "draft_length_frames": 100,
-    "fps": 25,
-    "disposition": "diagnostic, rejected for visible seams"
   }
 }

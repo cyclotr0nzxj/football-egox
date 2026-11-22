@@ -4,7 +4,7 @@
 \definecolor{ink}{HTML}{222A32}
 \definecolor{accent}{HTML}{233E5A}
 \definecolor{muted}{HTML}{536271}
-\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdftitle={单目深度辅助的足球第一视角重建与生成},pdfsubject={计算机视觉第14周}}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdftitle={单目足球录像的三维重建与第一视角转换},pdfsubject={计算机视觉第14周}}
 \setlength{\parindent}{2em}
 \setlength{\parskip}{.33em}
 \setlength{\headheight}{14pt}
@@ -24,76 +24,101 @@
   \centering\includegraphics[width=#1]{figures/#2}
   \captionof{figure}{#3}
 \end{minipage}\par\medskip}
-\newcommand{\refs}[1]{\textsuperscript{\color{accent}#1}}
+\newcommand{\refs}[1]{\unskip\nobreak\hspace{.14em}\textsuperscript{\color{accent}#1}}
 \graphicspath{{figures/}}
 
+
 \begin{document}
-\noindent{\LARGE\bfseries 单目深度辅助的足球第一视角重建与生成\par}
+\noindent{\LARGE\bfseries 单目足球录像的三维重建与第一视角转换\par}
 \medskip
-\noindent{\small\color{muted}单目深度辅助三维重建实验\hfill 2026 年 11 月\par}
+\noindent{\small\color{muted}计算机视觉课程研究\hfill 2026 年 11 月\par}
 \bigskip
-\noindent\textbf{摘要}\quad 从场边视角转换到球员第一视角，既要改变相机朝向，也要保留队友和球。我们用四段自采足球短片比较单目重投影、EgoX 生成与头戴相机实拍。Pair05 的正式先验在窗口内 F24 可见队友和球，同帧生成中队友消失，球不可辨。Pair01 的低头生成出现双球，Pair04 的下视先验中已有草地投影细缝，生成后变成青色条纹。按同帧可辨性和画面质量，最终保留两段 EgoX 首版和两段几何预览。
+\noindent\textbf{摘要}\quad 场边录像可以交代足球的传递路线，视点移到球员头旁后，遮挡关系和取景范围都会改变。本实验考察单一外部机位的可见观测怎样支撑足球第一视角转换。我们从固定 R8 估计单目深度并构建带色点云，将跨帧场地与当帧动态点分开。用红鞋球员的头部路径逐帧确定虚拟相机中心，同一片段的各个朝向共用这条路径，光轴按队友位置或估计球位设定。四段各 49 帧。Pair01 的低头几何预览呈现脚边与近地投影，Pair05 的跟球预览保留前方队友的局部表面，Pair02 和 Pair04 的 EgoX 首版生成可辨的前视人物与场地。头戴实拍用于同一动作阶段的定性对照，帮助读者分别理解虚拟相机的取景与生成画面的可见内容。
 
 \section*{引言}
-从场边看，传球和接球的路线清楚。把镜头移到球员头部附近，视野会随朝向变化，脚边的球也可能被挡住。EgoX \refs{1} 先把单目视频中的可见表面投到虚拟相机，再用视频生成模型补足目标画面。这个过程留下两幅可对照的图像，几何先验和生成结果。
+从场边看一次传球，旁观者容易同时看到传球人、接球人和球走过的路线。视点移到接球人头旁后，脚边的球和前方队友会占据画面的不同部分。R8 拍到了红鞋球员朝场边转身，却只记录了从场边能看到的表面。沿该球员的方向放置虚拟相机后，部分入画区域可能位于源镜头背后或被球员遮住。
 
-本实验用四段自采足球短片检查这两幅图像之间的变化。我们围绕同一位红鞋球员设置前视、跟球和下视候选，观察人在什么位置、球是否可见、草地是否连续。R8 提供场边画面，红鞋球员佩戴的 Nano 提供独立实拍。 图 1 给出了从输入帧、估计深度到带色点云的实际中间结果。
-\figline{\linewidth}{depth-and-pointcloud.jpg}{\textbf{Pair04 的单目几何。} 源 F48 对应窗口内 F24。中栏显示 ViPE 估计深度，色域取深度的第 2 至 98 百分位。点云由 72,313 个静态点和 10,726 个当帧动态点组成，右栏抽样显示，采用估计尺度。}
+Ego-Exo4D 将头戴与外部相机同步，用于研究人如何完成熟练动作 \refs{1}。当输入缩减到单条外部录像时，EgoX 从估计的三维场景渲染目标视图，再用几何引导的生成模型补足外观 \refs{2}。Grounded-Exo2Ego 将重建渲染与物体语义结合，用语义信息补充新视点下稀疏的几何条件 \refs{3}。
 
+在这组录像里，头部中心随球员移动，镜头也可以朝向不同目标。我们把两者分开处理。先用头部标注和深度定出逐帧相机中心，再在同一条路径上分别朝向队友、脚边或球。这样可以明确改变的是哪个成像条件。改变后的画面里出现了什么，可以回到带色点云和源帧核对。
+
+我们将这套设计应用于四段自采足球短片。带色点云提供可追溯的三维中间结果，几何预览显示在给定视点下能投到画面中的表面，EgoX 生成提供另一种第一视角画面。同步的 Nano 用于在同一动作阶段比较三种画面的构图与可见内容。
+
+\newpage
 \section*{结果}
-\subsection*{四段足球短片的同序对照}
-四段都完成了真实的首版推理。Pair01、Pair02、Pair04、Pair05 分别取源 F288–F336、F0–F48、F24–F72、F24–F72，每段 49 帧。图 2 并列 R8、Nano 和选入附录的画面。
-
-Pair02 首版保留前方队友、场地和原始鱼眼画面。Pair04 也保留首版，另两段采用经过核查的几何预览。
-
-\newpage
-\figline{.79\linewidth}{selected-views.jpg}{\textbf{四个同步片段的展示结果。} 左、中栏为 R8 与 Nano 的同序帧，右栏为选入附录的画面。Pair01 和 Pair05 是重投影预览，十字标记来自几何预览。Pair02 与 Pair04 为 EgoX 首版，保留完整鱼眼边缘。源帧编号对应同步短片。四条完整视频见附录 A。}
-\subsection*{低头与跟球的几何预览保留了什么}
-Pair05 的正式几何先验在窗口内 F24 和 F36 可辨前方队友和球。F24 的生成画面以远处球门为主，队友消失，球也不可辨。图 3 下排对照了这一帧。最终选用跟球预览，它与正式先验共用相机轨迹，各自独立渲染。
-
-Pair01 的首版能看到白鞋队友，球很快出画。低头更新版在 F00 的人物外观中混入红鞋球员的特征，随后脚球接触难以辨认，F36–F43 出现双球。图 3 上排给出 F40。低头几何预览保留了朝向和脚边的稀疏投影，因此选作展示。
-\subsection*{Pair04 保留前视首版}
-Pair04 的首版朝向队友。直接跟球时，虚拟相机相对估计的身体前向横转约 100–147°，视线偏离了身体正前方。随后把镜头设在身体正前方下俯约 57°。近处草地的投影间隙在正式先验中已能看到，生成后成为醒目的青色条纹（图 3 中排）。最终保留前视首版。前向依据场地标志盘与运动方向估计。
+\subsection*{从一帧颜色与深度建立可观察的三维场景}
+图 1 取自 Pair04 的源 F48。深度图给出了球员和背景在视线方向上的估计远近。点云把像素的颜色带到三维位置上，斜上方观察时可以分辨球员和地面的相对布局。该示例包含 72{,}313 个跨帧静态点和 10{,}726 个当帧动态点。静态场地沿时间汇聚，球员的位置随当前帧更新。两部分可以在同一坐标系下重投影到虚拟相机。
+\figline{\linewidth}{depth-and-pointcloud.jpg}{\textbf{从彩色图像到带色点云。} Pair04 源 F48 对应窗口内第 24 帧。中栏显示该帧的 ViPE 估计深度，颜色范围取第 2 至 98 百分位。右栏抽样显示场地静态层与该帧动态点，坐标沿用 ViPE 的估计尺度。}
+\subsection*{保持头部路径后改变观看方向}
+Pair01 和 Pair05 的几何预览继承各自首版的 49 个相机中心。我们从保存的外参反算相机中心，两套方向下的位置在数值精度内一致。相对拟合草地平面，Pair01 低头预览的下俯角约为 \(26^\circ\) 至 \(62^\circ\)，Pair05 跟球预览约为 \(11^\circ\) 至 \(43^\circ\)（图 2）。这个差别对应两段的构图重点。Pair01 把接球人脚边放入画面，Pair05 的观看方向随来球变化，同时保留前方部分场地。
+\figline{.91\linewidth}{view-pitch.png}{\textbf{固定头部路径后的观看方向。} 曲线由 Pair01 低头和 Pair05 跟球预览的相机旋转反算，正值表示光轴低于估计草地水平。帧索引属于各自窗口。两条曲线描述设定的虚拟相机方向。}
 
 \newpage
-\figline{.74\linewidth}{view-decisions.jpg}{\textbf{三次同帧对照。} 右栏为存档的真实更新生成。Pair01 的更新版出现双球，Pair04 的下视先验已有草地投影间隙，更新版呈现青色条纹。Pair05 的正式先验保留队友和球，更新版的主体转向球门。行标题中的 F 为各 49 帧窗口内的索引。}
-\subsection*{延长到 100 帧时出现接缝}
-Pair02 的 100 帧试片沿用原首窗，再接两个独立生成的新窗口，在源 F49 和 F76 切换。图 4的相邻帧显示，F48–49 之间鱼眼边界突变，F75–76 之间球和地平线突然移位。试片留作诊断。
+\subsection*{同一动作阶段的三栏对照}
+图 3 的每一行依次展示场边录像、头戴实拍和选定结果。Pair01 在源 F312 的低头几何预览呈现近地草面及脚边的稀疏投影。Pair05 在源 F48 的跟球几何预览中，还能辨认前方队友的部分轮廓。几何图中黄色十字的位置由球位估计给出，画面中的草地和人物颜色来自源观测。
 
-\figline{.90\linewidth}{seam-detail.jpg}{\textbf{Pair02 的两处拼接。} 左两幅为源 F48 与 F49，右两幅为源 F75 与 F76。按相邻源帧取样。第一处上侧鱼眼边界改变，第二处地平线和球的位置跳变。试片用于诊断，附录 A 收录首版 49 帧。}
+Pair02 在源 F24、Pair04 在源 F48 的 EgoX 首版采用朝向队友的设定，画面中可以辨认前方队友和场地，Pair04 还能看到蓝色标志盘。两段同序的头戴实拍取景更朝向地面，Pair04 可见近脚处的球。这个对照把前视设定的画面及实拍取景放在同一动作时刻，便于比较人、球和场地进入视野的位置。附录 A 提供四条完整的 49 帧视频。
+\figline{.90\linewidth}{selected-views.jpg}{\textbf{四段足球短片的三栏对照。} 左栏为场边 R8，中栏为头戴 Nano，右栏为实验结果。四行均取各窗第 24 帧。Pair01 和 Pair05 为几何预览，黄色十字标出估计球位。Pair02 和 Pair04 为 EgoX 首版。完整视频收录于附录 A。}
 
 \newpage
 \section*{讨论}
-Pair05 的人球从正式几何先验到成片发生了变化。Pair04 的草地间隙在投影中就已出现，生成后更加醒目。两段结果对应两步画面验收。先看虚拟相机能看到什么，再看生成是否保住了队友、球和脚球关系。几何预览保住可辨内容时，可以把它作为明确标注的实验结果。拼接还需要检查窗口交界的镜头和运动连续性。
+相机从哪里看，由头部路径决定。相机看向哪里，还需要设定光轴。这个区分在足球场景里尤其具体。低头和跟球预览让人看见新视野中还剩哪些草地、鞋边和队友表面。EgoX 首版呈现另一种取景下的完整外观，其中仍有区域缺少源帧的直接颜色观测。
 
-四段是定性案例。Nano 和虚拟相机的取景不同，实拍对齐约有一帧误差。对照采用同序帧里可见的人球与场地线索。
+一个可检验的后续方向，是在生成画面旁保留逐帧的重投影覆盖图。复查接球或停球时，可以用覆盖图判断某个可见结构是否得到源观测支持，再检查生成是否保留了它。这与当前利用物体语义补充几何条件的研究方向相接 \refs{3}，也把球员和球的对应关系落到可检查的图像位置。
+
+这四段作为定性个案，适合结合原片核查场地、人与球的可见性。实拍相机安装的位置与虚拟相机模型不同，拍掌对齐也存在约一个源帧的误差。本文把头戴实拍用作同一动作阶段的参考，着重看朝向、构图和可辨物体。对于运动中的球，这种读法也让估计球位与图中真正保留下来的颜色分得更清楚。
 
 \section*{方法}
-\subsection*{采集与对齐}
-R8 固定机位与 Nano 头戴相机配对拍摄。以 25 fps 的源帧为单位，按两路画面中拍掌接触的时刻人工对齐，估计误差约为 ±1 帧（40 ms）。对照沿用同步片段的可见帧索引。Nano 用于同步和实拍对照。
+\subsection*{拍摄、同步与单目输入}
+固定的 Canon R8 拍摄场边视角，红鞋球员佩戴 Nano 记录第一视角。两路片段先用音轨定位同步动作，再以可见的拍掌接触帧确定偏移。人工定位的不确定度约为一个源帧，即 25 fps 下约 40 ms。我们从对齐短片中分别取 Pair01 的源 F288–F336、Pair02 的 F0–F48、Pair04 和 Pair05 各自的 F24–F72。用于三维估计和生成的是 R8 画面。Nano 提供同步和独立实拍参照。
 
-\subsection*{深度反投影与目标相机}
-用 ViPE \refs{2} 的固定相机模式与 Lyra 估计深度、内参和动态实例。将像素反投影为 \(dK^{-1}p\)，其中 p 为齐次像素坐标，d 为估计深度，K 为相机内参，再变换至虚拟相机并作鱼眼投影 \refs{3}。用红鞋球员头部的逐帧标注和深度确定相机中心，名义视场约 95°。同一片段的朝向候选共用 49 个相机中心。球的位置通过 EXO 标注、草地约束和插值近似。正式先验另对 Pair01 筛除佩戴者上半身，对 Pair05 逐帧采样可见球。
+\subsection*{从像素射线到带色点云}
+将源图像裁切和缩放到 \(784\times448\) 的计算网格后，用 ViPE 的固定相机模式和 Lyra 配置估计逐帧深度、相机内参及可见实例 \refs{4}。固定 R8 的坐标系作为场景坐标系。对于像素 \(p=(u,v,1)^\mathsf{T}\)，\(K^{-1}p\) 定义从光心出发的射线方向。ViPE 的估计深度 \(d_t(u,v)\) 是沿光轴的深度，将该射线上的位置确定为
+\[
+    X_t=d_t(u,v)K^{-1}p.
+\]
+给三维点赋上同一像素的 RGB，得到带色的可见表面采样。深度与空间距离都沿用估计尺度。点云有助于比较前后关系、投影覆盖和朝向，米制距离需要额外的尺度约束。
 
-\subsection*{生成和逐帧核对}
-采用官方 EgoX \refs{1}，以 Wan2.1 I2V 14B \refs{4} 为底座，加载秩为 256 的官方 LoRA，使用 50 步去噪和几何引导自注意力（GGA）。正式先验、EXO 彩色视频及其文本描述、相机参数与 49 张深度图作为输入。原输出右侧 448×448 为生成画面。附录沿用原帧序，将生成的 30 fps 重新定时为 25 fps。三栏各有 49 帧，播放 1.96 秒。
+\subsection*{分离静态场地与运动前景}
+正式渲染用实例掩码划出场地背景和可见的运动前景。相机固定时，我们可以沿同一源像素在时间上汇聚有效的背景颜色与深度。在某一帧被人物遮住的位置，其它帧的背景观测仍有机会进入静态层。当帧人物等动态点只从该帧反投影，然后与静态点合并 \refs{5}。对 Pair04 源 F48 的点云示例，每隔两个像素采样。将跨帧静态层和当前动态层保存在同一相机坐标系，便可从新的位置观察该时刻的点云。
+
+\subsection*{虚拟相机中心与观看方向}
+我们在 R8 画面逐帧标注红鞋球员的头部。从锚点周围 \(5\times5\) 像素中取属于同一实例的深度中位数，减少轮廓边缘混入背景深度的影响。反投影后用五帧三角权重平滑三维相机中心 \(C_t\)。从估计点云中的草地点拟合平面，取单位法向量 \(n\) 定义上方向。相机光轴由目标位置减去头部中心得到，结合地面上方向构造旋转 \(R_t\)。三维点在虚拟相机下的坐标为 \(X_{e,t}=R_t(X_t-C_t)\)。
+
+\begin{samepage}
+为了把跟球变成可操作的相机条件，我们在 R8 里每四帧标注球心与像素半径，并将标注插值到其余帧。设草地平面为 \(n^\mathsf{T}X+b=0\)，球心像素对应的射线方向为 \(q\)，沿射线的球心近似为 \(\lambda q\)。用像素半径 \(r\) 和焦距 \(f=\sqrt{f_xf_y}\) 估计球心高于地面的距离约为 \(\lambda r/f\)，可得到
+\[
+    \lambda \simeq \frac{-b}{n^\mathsf{T}q-r/f}.
+\]
+分母接近零时，球位估计会对像素偏差非常敏感。求得球位后，用它调整光轴。球从脚边经过时，直接瞄向逐帧估计的位置容易突然横转，因此对偏航进行双向限速，并平滑俯仰。头部中心保持不变。球被遮挡或离开草地时，估计球位仍用于设定观看方向，误差也会增大。
+\end{samepage}
+
+\subsection*{鱼眼重投影与画面覆盖}
+将点转换到虚拟相机后，CPU 预览以等距鱼眼投影把光线与光轴的夹角 \(\theta\) 转换成到图像中心的距离 \(\rho=f_e\theta\)。实验设定的名义视场为 \(95^\circ\)。多个样本落到同一目标像素时，保留离目标相机最近的点，再用相邻样本填补个别采样缝隙。投影缺测在预览中仍可见。几何预览筛去会落入自己视野的佩戴者外侧上半身采样，保留鞋和小腿附近的观测。黄色十字使用前一步的球位估计。正式渲染器按选定机位生成 EgoX 的先验，并使用其自身的鱼眼畸变模型 \refs{5}。
+
+\subsection*{条件生成和对照读图}
+用原版 EgoX 对正式先验和 R8 彩色视频进行条件生成 \refs{2}。它以 Wan2.1 I2V 14B 为底座 \refs{6}，使用官方秩 256 的 LoRA 和 50 步去噪。输入还包括源视频的描述、深度图和相机内外参。几何引导自注意力根据几何关系调整源区域与目标区域的关联，给生成过程提供位置线索。生成结果可补上未被重投影覆盖的外观。几何预览与生成图中的同一个位置因此承载不同的证据。
+
+评估沿用同序帧。提取模型双栏输出右侧 \(448\times448\) 的第一视角，从 30 fps 按原帧序重新定时到 25 fps。每条对照是 49 帧、1.96 秒。图 3 统一取各窗口第 24 帧。读图时先核对目标朝向，再对照队友、足球和场地在画面中的位置。素材和新增俯角曲线的来源随附录一同给出。
 
 \section*{数据、代码与视频附录}
-报告的四段三栏视频及源帧索引、时戳和 SHA-256 收录在
-\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/tree/main/appendix}{附录 A（GitHub 私有仓库）}。
-\href{https://github.com/DAVIAN-Robotics/EgoX/tree/43c095b552a8f09d3a81c0882491f52c5cf4e953}{EgoX 固定源码}
-和
-\href{https://github.com/kdh8156/EgoX-EgoPriorRenderer/tree/17cdef688885c3ac6a4c371a2d620391cc28dab4}{渲染器固定源码}
-可查看实际采用的版本。
+\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/tree/main/appendix}{附录 A}收录四段视频、静帧、帧序和核验清单，可在获授权的 GitHub 帐户中查看。
+同一仓库提供报告源文件、俯角曲线数据和图源索引。EgoX 和正式渲染器在实验中分别固定到
+\href{https://github.com/DAVIAN-Robotics/EgoX/tree/43c095b552a8f09d3a81c0882491f52c5cf4e953}{EgoX 源码版本}和
+\href{https://github.com/kdh8156/EgoX-EgoPriorRenderer/tree/17cdef688885c3ac6a4c371a2d620391cc28dab4}{几何渲染器版本}。
 
 \section*{参考文献}
-\begingroup\small\setlength{\parindent}{0pt}\setlength{\parskip}{.35em}
-1. Kang, T. \textit{et al.} EgoX: Egocentric Video Generation from a Single Exocentric Video. \textit{Proc. IEEE/CVF CVPR} (2026). \href{https://arxiv.org/abs/2512.08269}{arXiv:2512.08269}.
+\begingroup\small\setlength{\parindent}{0pt}\setlength{\parskip}{.32em}
+1. Grauman, K. \textit{et al.} Ego-Exo4D: Understanding Skilled Human Activity from First- and Third-Person Perspectives. \textit{Proc. IEEE/CVF CVPR}, 19383–19400 (2024). \href{https://openaccess.thecvf.com/content/CVPR2024/html/Grauman_Ego-Exo4D_Understanding_Skilled_Human_Activity_from_First-_and_Third-Person_Perspectives_CVPR_2024_paper.html}{论文}.
 
-2. Huang, J. \textit{et al.} ViPE: Video Pose Engine for 3D Geometric Perception. \href{https://arxiv.org/abs/2508.10934}{arXiv:2508.10934} (2025).
+2. Kang, T. \textit{et al.} EgoX: Egocentric Video Generation from a Single Exocentric Video. \textit{Proc. IEEE/CVF CVPR} (2026). \href{https://openaccess.thecvf.com/content/CVPR2026/papers/Kang_EgoX_Egocentric_Video_Generation_from_a_Single_Exocentric_Video_CVPR_2026_paper.pdf}{论文}.
 
-3. EgoX authors. \href{https://github.com/kdh8156/EgoX-EgoPriorRenderer}{EgoX-EgoPriorRenderer}. Official implementation (GitHub).
+3. Wang, S. \textit{et al.} Grounded-Exo2Ego: Structured Semantic Grounding for Robust Exocentric-to-Egocentric Video Generation. \href{https://arxiv.org/abs/2608.20534}{arXiv:2608.20534} (2026).
 
-4. Team Wan \textit{et al.} Wan: Open and Advanced Large-Scale Video Generative Models. \href{https://arxiv.org/abs/2503.20314}{arXiv:2503.20314} (2025).
+4. Huang, J. \textit{et al.} ViPE: Video Pose Engine for 3D Geometric Perception. \href{https://arxiv.org/abs/2508.10934}{arXiv:2508.10934} (2025).
+
+5. EgoX authors. \href{https://github.com/kdh8156/EgoX-EgoPriorRenderer}{EgoX-EgoPriorRenderer}. Official implementation (GitHub).
+
+6. Team Wan \textit{et al.} Wan: Open and Advanced Large-Scale Video Generative Models. \href{https://arxiv.org/abs/2503.20314}{arXiv:2503.20314} (2025).
 \endgroup
 \end{document}
