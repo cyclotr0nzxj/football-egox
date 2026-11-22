@@ -1,0 +1,68 @@
+{
+  "runtime_sources": {
+    "egox": "43c095b552a8f09d3a81c0882491f52c5cf4e953",
+    "renderer": "17cdef688885c3ac6a4c371a2d620391cc28dab4"
+  },
+  "figure_1": {
+    "pair": "Pair04",
+    "local_frame": 24,
+    "synchronized_source_frame": 48,
+    "pointcloud": {
+      "static": 72313,
+      "dynamic_f24": 10726,
+      "frame": 24,
+      "sampling": 2,
+      "world": "ViPE fixed EXO frame"
+    },
+    "pointcloud_sha256": "09fba56562c04d5b48e46ab4298563ccb717eac271ff4099bdce8cec03603c09",
+    "depth_archive_sha256": "b5ff936284e1c06c88823d7b7a34fda90e0a41ba2e1c7ce8d88658d111c98795",
+    "estimated_depth_display_percentiles": [
+      2,
+      98
+    ]
+  },
+  "figure_2": {
+    "manifest": "../appendix/manifest.json",
+    "selection": "window-local frame 24 for each displayed clip"
+  },
+  "figure_3": [
+    {
+      "pair": "pair01",
+      "local_frame": 40,
+      "formal_prior_sha256": "7846541ec6c90cda675a4f97b51b96cf162a364488cc99814c15a4bd18f87b97",
+      "updated_raw_sha256": "ba53df7e4b0cfb15eae5d374c974b8296749a373971a6c77ed25deffd9f57c2a",
+      "same_virtual_pose_as_approved_candidate": true
+    },
+    {
+      "pair": "pair04",
+      "local_frame": 24,
+      "formal_prior_sha256": "10c4e5f37be548d9e5bc028472cd1fdd63629c74b7744649cdbb61b1ad312849",
+      "updated_raw_sha256": "aa2555b72a82a44c9fb86ef5876909d161fa53dd6b07bf419997f007016bd2d2",
+      "same_virtual_pose_as_approved_candidate": true
+    },
+    {
+      "pair": "pair05",
+      "local_frame": 24,
+      "formal_prior_sha256": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
+      "updated_raw_sha256": "d3c0fc0b06d40bdc034a5a34323b0474d1fb8ff02d5ce73dc32cb55852fb23a1",
+      "same_virtual_pose_as_approved_candidate": true
+    }
+  ],
+  "figure_4": {
+    "pair": "Pair02",
+    "adjacent_source_frames": [
+      [
+        48,
+        49
+      ],
+      [
+        75,
+        76
+      ]
+    ],
+    "technical_draft": "f8cf996508bc6662d0312de8289e0298e8ccd8e40da241c5624f7e3d0e064b4b",
+    "draft_length_frames": 100,
+    "fps": 25,
+    "disposition": "diagnostic, rejected for visible seams"
+  }
+}
