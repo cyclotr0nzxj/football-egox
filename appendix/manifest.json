@@ -1,0 +1,134 @@
+{
+  "panel_order": [
+    "R8 exocentric input",
+    "Nano egocentric reference",
+    "EgoX or geometry"
+  ],
+  "physical_sync_uncertainty_frames": 1,
+  "clips": [
+    {
+      "pair": "Pair01",
+      "source_frame_range_in_synchronized_clips": [
+        288,
+        336
+      ],
+      "frames": 49,
+      "fps": 25,
+      "duration_seconds": 1.96,
+      "result_type": "geometry_preview",
+      "video": "videos/Pair01.mp4",
+      "video_sha256": "21326bcb25082766f59a0c39369f1e3f3b46e22847d6721402d9f6ed3b67ffca",
+      "still": "stills/Pair01.jpg",
+      "still_source_frame": 312,
+      "still_sha256": "233add631d4cd20af01b7198a3efcbdd7c1577263f2e51781928ffb0f7bb66f9",
+      "panel_sources_sha256": [
+        "00bbb9a04f51d5736597fe34ac5b68e5cb70485b016b1d65f98088d86cc558f8",
+        "8e5c6979066bf2e8f954e33940a9d64038774f766bc851f8c72019de12859c0d",
+        "6d65503e81c4657c6709e4f430ba35f5291828acbf3e320c5f1828219a58d751"
+      ],
+      "max_frame_rgb_mae_per_panel_vs_input_0_to_255": [
+        2.21,
+        2.356,
+        1.678
+      ],
+      "verified": [
+        "full_decode",
+        "all_presentation_timestamps",
+        "ordered_source_panels"
+      ]
+    },
+    {
+      "pair": "Pair02",
+      "source_frame_range_in_synchronized_clips": [
+        0,
+        48
+      ],
+      "frames": 49,
+      "fps": 25,
+      "duration_seconds": 1.96,
+      "result_type": "egox_generation",
+      "video": "videos/Pair02.mp4",
+      "video_sha256": "7cb43bf0f5da5b7a0c54e91be29613b3f6b4e6dccaa9af8534a63cb795d54a60",
+      "still": "stills/Pair02.jpg",
+      "still_source_frame": 24,
+      "still_sha256": "4b042a99df134571d192591702bafb2846242c9e500738a3680b30d4e637c7e0",
+      "panel_sources_sha256": [
+        "ee7d25f564ce22ba082ba38b062a78bfb544ccedf07f719903631900b0ab5816",
+        "859a47b9c5d78660968a495732fadb34e8481f1f87a98f41c09bbfb275f17106",
+        "a72c52389713689b0abd19decbb4b5726e28df0b8b6270c4cc54505d4249a607"
+      ],
+      "max_frame_rgb_mae_per_panel_vs_input_0_to_255": [
+        2.395,
+        2.265,
+        1.509
+      ],
+      "verified": [
+        "full_decode",
+        "all_presentation_timestamps",
+        "ordered_source_panels"
+      ]
+    },
+    {
+      "pair": "Pair04",
+      "source_frame_range_in_synchronized_clips": [
+        24,
+        72
+      ],
+      "frames": 49,
+      "fps": 25,
+      "duration_seconds": 1.96,
+      "result_type": "egox_generation",
+      "video": "videos/Pair04.mp4",
+      "video_sha256": "d10271f812f00aa937d2a7b1faa986a3f16975fb8df31761063ffd7b338964ee",
+      "still": "stills/Pair04.jpg",
+      "still_source_frame": 48,
+      "still_sha256": "3fedb2cafab52f5625eaaf42916fea33bf61cbf42d998701b021a87fc8a40860",
+      "panel_sources_sha256": [
+        "9c4f10825e9b6e2936ac87e4a1d1e45473f6259b6184d77b262981d9400ab2a4",
+        "291b754f49eceb3999a0aef289b5d2d1823982623cfde7244c7487c5c88ce526",
+        "4d590adb93803383fbf1d398be980cf5f25cd4444efcc94066b302dd9b4cf86c"
+      ],
+      "max_frame_rgb_mae_per_panel_vs_input_0_to_255": [
+        2.329,
+        2.414,
+        1.695
+      ],
+      "verified": [
+        "full_decode",
+        "all_presentation_timestamps",
+        "ordered_source_panels"
+      ]
+    },
+    {
+      "pair": "Pair05",
+      "source_frame_range_in_synchronized_clips": [
+        24,
+        72
+      ],
+      "frames": 49,
+      "fps": 25,
+      "duration_seconds": 1.96,
+      "result_type": "geometry_preview",
+      "video": "videos/Pair05.mp4",
+      "video_sha256": "14be00c5f45e4996c80912b2edd44d50b0327bf2fe220fa86f667519788a0155",
+      "still": "stills/Pair05.jpg",
+      "still_source_frame": 48,
+      "still_sha256": "2351fcf22369f8945c0915f74583b1eb5ae90ce20e7a0135d7dc0f6fb6f85448",
+      "panel_sources_sha256": [
+        "33e2a307ac69a3c2178e8c799f5a47d70f9d22a39718a6f8496e5c274ae662a1",
+        "af531589d00ffc1570592507f947b5abbaffbee7f9a26d062591ea5fcb203d6d",
+        "d6928173be58381811f9806a9c752234cb73b0bcd2b4f719ed9fde2609be8497"
+      ],
+      "max_frame_rgb_mae_per_panel_vs_input_0_to_255": [
+        2.386,
+        2.32,
+        2.06
+      ],
+      "verified": [
+        "full_decode",
+        "all_presentation_timestamps",
+        "ordered_source_panels"
+      ]
+    }
+  ]
+}
