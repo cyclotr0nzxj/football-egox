@@ -10,12 +10,12 @@
 
 | 片段 | 同步源帧 | 右栏内容 | 对照视频 |
 | --- | --- | --- | --- |
-| Pair01 | F288–F336 | 低头看球几何预览 | [Pair01.mp4](appendix/videos/Pair01.mp4) |
-| Pair02 | F000–F048 | EgoX 首版 | [Pair02.mp4](appendix/videos/Pair02.mp4) |
-| Pair04 | F024–F072 | EgoX 首版 | [Pair04.mp4](appendix/videos/Pair04.mp4) |
-| Pair05 | F024–F072 | 跟球几何预览 | [Pair05.mp4](appendix/videos/Pair05.mp4) |
+| Pair01 | F288–F336 | 低头看球几何预览 | [在线播放](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair01) · [下载 MP4](https://raw.githubusercontent.com/cyclotr0nzxj/football-egox-cv-appendix/main/appendix/videos/Pair01.mp4) |
+| Pair02 | F000–F048 | EgoX 首版 | [在线播放](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair02) · [下载 MP4](https://raw.githubusercontent.com/cyclotr0nzxj/football-egox-cv-appendix/main/appendix/videos/Pair02.mp4) |
+| Pair04 | F024–F072 | EgoX 首版 | [在线播放](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair04) · [下载 MP4](https://raw.githubusercontent.com/cyclotr0nzxj/football-egox-cv-appendix/main/appendix/videos/Pair04.mp4) |
+| Pair05 | F024–F072 | 跟球几何预览 | [在线播放](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair05) · [下载 MP4](https://raw.githubusercontent.com/cyclotr0nzxj/football-egox-cv-appendix/main/appendix/videos/Pair05.mp4) |
 
-GitHub 文件页提供下载入口。每段中间帧及逐帧解码、时戳和 SHA-256 记录见 [画面与校验](appendix/README.md)。
+[浏览器播放器](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/)汇集四段视频。每段中间帧及逐帧解码、时戳和 SHA-256 记录见 [画面与校验](appendix/README.md)。
 
 ## 实验方法
 
