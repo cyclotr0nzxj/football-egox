@@ -3,6 +3,8 @@
     "egox": "43c095b552a8f09d3a81c0882491f52c5cf4e953",
     "renderer": "17cdef688885c3ac6a4c371a2d620391cc28dab4"
   },
+  "manifest": "../appendix/manifest.json",
+  "frame_indices_start_at_zero": true,
   "figure_1": {
     "pair": "Pair04",
     "local_frame": 24,
@@ -19,34 +21,109 @@
     "estimated_depth_display_percentiles": [
       2,
       98
-    ]
+    ],
+    "file": "method-stages.jpg",
+    "figure_sha256": "89b97487bdaed8a0896553807b45d1795f393cf15e8bf05484f07da5dd513728",
+    "source_figure_sha256": "617f61aa8fc04996e84c79b1fd4f64f2c1c1c3f0aa65c023f20f4553c1f0c19a",
+    "formal_prior_sha256": "57863558a648e9724ba1de1ea7f712e7534a7ba4634b84e09129f3657f8cf2ee",
+    "previous_figure_commit": "cbc5ff175dd1f2d7226417ed668acf2a1d852423"
   },
   "figure_2": {
-    "curve_source": "vertical component of the virtual forward axis against each clip\u2019s estimated ground normal",
-    "frames": 49,
-    "data_csv": "view-pitch.csv",
-    "data_sha256": "89771329e14ca84760bd5d82d8a6cfcb4b35ff946b2489ead599bc98d3a57b00",
-    "selected_views": [
+    "file": "generated-pass.jpg",
+    "figure_sha256": "a9db9746623acbaec77727a7bf42700e490eaf319bb0861bae04591fb2ff2229",
+    "rows": [
       {
-        "pair": "Pair01",
-        "minimum_downward_pitch_degrees": 25.52,
-        "maximum_downward_pitch_degrees": 62.06,
-        "maximum_camera_center_difference_in_estimated_scale": 4.6840360722841785e-15,
-        "selected_camera_metadata_sha256": "e4f801e2d5a56c7d2c50da904fede6ade4d4572e45546f010063688ff51819c6",
-        "ground_record_sha256": "51ae001b54d001c49c55937598f2305cc161d6275b3b983b3d09ecb47c3620c9"
+        "pair": "Pair02",
+        "result_type": "egox_generation",
+        "local_frame": 0,
+        "synchronized_source_frame": 0,
+        "time_from_clip_start_seconds": 0.0,
+        "video_sha256": "7cb43bf0f5da5b7a0c54e91be29613b3f6b4e6dccaa9af8534a63cb795d54a60"
       },
       {
-        "pair": "Pair05",
-        "minimum_downward_pitch_degrees": 10.64,
-        "maximum_downward_pitch_degrees": 43.06,
-        "maximum_camera_center_difference_in_estimated_scale": 2.9790409838967277e-15,
-        "selected_camera_metadata_sha256": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
-        "ground_record_sha256": "305afc7cec6aa8dc36b77cd417cfec10704a6774d12dc4ea35551b7ac2230076"
+        "pair": "Pair02",
+        "result_type": "egox_generation",
+        "local_frame": 16,
+        "synchronized_source_frame": 16,
+        "time_from_clip_start_seconds": 0.64,
+        "video_sha256": "7cb43bf0f5da5b7a0c54e91be29613b3f6b4e6dccaa9af8534a63cb795d54a60"
+      },
+      {
+        "pair": "Pair02",
+        "result_type": "egox_generation",
+        "local_frame": 32,
+        "synchronized_source_frame": 32,
+        "time_from_clip_start_seconds": 1.28,
+        "video_sha256": "7cb43bf0f5da5b7a0c54e91be29613b3f6b4e6dccaa9af8534a63cb795d54a60"
+      },
+      {
+        "pair": "Pair02",
+        "result_type": "egox_generation",
+        "local_frame": 48,
+        "synchronized_source_frame": 48,
+        "time_from_clip_start_seconds": 1.92,
+        "video_sha256": "7cb43bf0f5da5b7a0c54e91be29613b3f6b4e6dccaa9af8534a63cb795d54a60"
       }
     ]
   },
   "figure_3": {
-    "manifest": "../appendix/manifest.json",
-    "selection": "window-local frame 24 for each displayed clip"
+    "file": "generated-markers.jpg",
+    "figure_sha256": "21524db35636fb491943265c76eda58ed2aed1972ae8bf3ff25e7bf9bcc537ef",
+    "rows": [
+      {
+        "pair": "Pair04",
+        "result_type": "egox_generation",
+        "local_frame": 0,
+        "synchronized_source_frame": 24,
+        "time_from_clip_start_seconds": 0.0,
+        "video_sha256": "d10271f812f00aa937d2a7b1faa986a3f16975fb8df31761063ffd7b338964ee"
+      },
+      {
+        "pair": "Pair04",
+        "result_type": "egox_generation",
+        "local_frame": 16,
+        "synchronized_source_frame": 40,
+        "time_from_clip_start_seconds": 0.64,
+        "video_sha256": "d10271f812f00aa937d2a7b1faa986a3f16975fb8df31761063ffd7b338964ee"
+      },
+      {
+        "pair": "Pair04",
+        "result_type": "egox_generation",
+        "local_frame": 32,
+        "synchronized_source_frame": 56,
+        "time_from_clip_start_seconds": 1.28,
+        "video_sha256": "d10271f812f00aa937d2a7b1faa986a3f16975fb8df31761063ffd7b338964ee"
+      },
+      {
+        "pair": "Pair04",
+        "result_type": "egox_generation",
+        "local_frame": 48,
+        "synchronized_source_frame": 72,
+        "time_from_clip_start_seconds": 1.92,
+        "video_sha256": "d10271f812f00aa937d2a7b1faa986a3f16975fb8df31761063ffd7b338964ee"
+      }
+    ]
+  },
+  "figure_4": {
+    "file": "geometry-previews.jpg",
+    "figure_sha256": "d4b206411f19d7420b22b5999cc1a645e7d5c622842512371c9a2a37e213f72f",
+    "rows": [
+      {
+        "pair": "Pair01",
+        "result_type": "geometry_preview",
+        "local_frame": 24,
+        "synchronized_source_frame": 312,
+        "time_from_clip_start_seconds": 0.96,
+        "video_sha256": "21326bcb25082766f59a0c39369f1e3f3b46e22847d6721402d9f6ed3b67ffca"
+      },
+      {
+        "pair": "Pair05",
+        "result_type": "geometry_preview",
+        "local_frame": 24,
+        "synchronized_source_frame": 48,
+        "time_from_clip_start_seconds": 0.96,
+        "video_sha256": "14be00c5f45e4996c80912b2edd44d50b0327bf2fe220fa86f667519788a0155"
+      }
+    ]
   }
 }

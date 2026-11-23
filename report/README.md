@@ -1,15 +1,13 @@
 # 报告源文件
 
-[阅读全文（PDF）](week14_football_egox.pdf)
+[阅读全文（PDF）](week14_football_egox.pdf) · [图源索引](source-data.json)
 
-正文采用 XeLaTeX 排版。图像来自本次实验的实际帧与点云。俯角曲线由最终几何预览的相机旋转反算。
+方法图来自实验的实际图像、深度、点云和几何先验。多帧结果图从两段已发布的首版视频中提取。正式附录收录片段编号、视频入口和实现资料。
 
-在本目录编译。
+从本目录用 XeLaTeX 编译。
 
 ```sh
 latexmk -xelatex -interaction=nonstopmode -halt-on-error main.tex
 ```
 
-[图源索引](source-data.json)记录了插图帧号和文件哈希。[俯角数据](view-pitch.csv)保留了两个窗口逐帧的方向读数。
-
-四段同步对照视频、关键帧及验证记录见 [附录 A](../appendix/README.md)。
+[视频附录](../appendix/README.md)
