@@ -1,0 +1,23 @@
+[
+  {
+    "model": "gpt-6.2-sol",
+    "input_tokens": 256,
+    "output_tokens": 12000,
+    "reasoning_tokens": 12000,
+    "status": "incomplete"
+  },
+  {
+    "model": "gpt-6.2-sol",
+    "input_tokens": 138,
+    "output_tokens": 1774,
+    "reasoning_tokens": 1644,
+    "status": "completed"
+  },
+  {
+    "model": "gpt-6.2-astra",
+    "input_tokens": 196,
+    "output_tokens": 2826,
+    "reasoning_tokens": 2612,
+    "status": "completed"
+  }
+]

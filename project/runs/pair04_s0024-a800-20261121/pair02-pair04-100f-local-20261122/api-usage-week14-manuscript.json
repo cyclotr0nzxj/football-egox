@@ -1,0 +1,227 @@
+{
+  "calls": [
+    {
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 239,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 4167,
+        "output_tokens_details": {
+          "reasoning_tokens": 3816
+        },
+        "total_tokens": 4406
+      },
+      "request_id": "req_8062fc0672454d1cae7845b58117da7c",
+      "time_utc": "2026-11-22T16:19:37.780373+00:00",
+      "step": "appendix_case_review"
+    },
+    {
+      "step": "claim_review",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3360,
+        "input_tokens_details": {
+          "cache_write_tokens": 3357,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 3357
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 7699,
+        "output_tokens_details": {
+          "reasoning_tokens": 7445
+        },
+        "total_tokens": 11059
+      },
+      "request_id": "req_5d12c4ff27de4dd484abb9f8dd52af63",
+      "time_utc": "2026-11-22T16:32:28.524973+00:00"
+    },
+    {
+      "step": "cvpr_review",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3377,
+        "input_tokens_details": {
+          "cache_write_tokens": 3374,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 3374
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 7590,
+        "output_tokens_details": {
+          "reasoning_tokens": 7340
+        },
+        "total_tokens": 10967
+      },
+      "request_id": "req_d8bf2a24775a4562ad4952cc2ff117ba",
+      "time_utc": "2026-11-22T16:32:28.505441+00:00"
+    },
+    {
+      "step": "draft",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 1638,
+        "input_tokens_details": {
+          "cache_write_tokens": 1635,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1635
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 15000,
+        "output_tokens_details": {
+          "reasoning_tokens": 14419
+        },
+        "total_tokens": 16638
+      },
+      "request_id": "req_0e021fc0f658451e82ae2858bc419043",
+      "time_utc": "2026-11-22T16:25:56.394711+00:00"
+    },
+    {
+      "step": "final_text_check",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1608,
+        "input_tokens_details": {
+          "cache_write_tokens": 1605,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1605
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 6234,
+        "output_tokens_details": {
+          "reasoning_tokens": 6069
+        },
+        "total_tokens": 7842
+      },
+      "request_id": "req_03e42d455eb94531b99d4d43441983bf",
+      "time_utc": "2026-11-22T16:35:32.220406+00:00"
+    },
+    {
+      "step": "main_draft",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1513,
+        "input_tokens_details": {
+          "cache_write_tokens": 1510,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1510
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 18685,
+        "output_tokens_details": {
+          "reasoning_tokens": 16966
+        },
+        "total_tokens": 20198
+      },
+      "request_id": "req_9add8dbb9cad4c99ac3d9044f69fad12",
+      "time_utc": "2026-11-22T16:29:59.429914+00:00"
+    },
+    {
+      "step": "methods_draft",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 1562,
+        "input_tokens_details": {
+          "cache_write_tokens": 1559,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1559
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 15000,
+        "output_tokens_details": {
+          "reasoning_tokens": 15000
+        },
+        "total_tokens": 16562
+      },
+      "request_id": "req_33efd989c5a34192a72745b19bdace83",
+      "time_utc": "2026-11-22T16:29:18.767119+00:00"
+    },
+    {
+      "step": "methods_short",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 326,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 4170,
+        "output_tokens_details": {
+          "reasoning_tokens": 3827
+        },
+        "total_tokens": 4496
+      },
+      "request_id": "req_daade5a251ea43e59e86cc8adea9bd80",
+      "time_utc": "2026-11-22T16:30:33.835872+00:00"
+    },
+    {
+      "step": "nature_review",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 3365,
+        "input_tokens_details": {
+          "cache_write_tokens": 3362,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 3362
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 10792,
+        "output_tokens_details": {
+          "reasoning_tokens": 10558
+        },
+        "total_tokens": 14157
+      },
+      "request_id": "req_0f84779e39cc4186a1934699a3d0884f",
+      "time_utc": "2026-11-22T16:33:07.652611+00:00"
+    }
+  ],
+  "totals": {
+    "input_tokens": 16988,
+    "output_tokens": 89337,
+    "total_tokens": 106325
+  },
+  "completed_calls": 7,
+  "incomplete_calls": 2
+}

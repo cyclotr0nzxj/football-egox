@@ -1,0 +1,13 @@
+[
+  {
+    "status": "transport_error",
+    "error_type": "OSError"
+  },
+  {
+    "model": "gpt-6.2-astra",
+    "input_tokens": 142,
+    "output_tokens": 7389,
+    "reasoning_tokens": 7131,
+    "status": "completed"
+  }
+]

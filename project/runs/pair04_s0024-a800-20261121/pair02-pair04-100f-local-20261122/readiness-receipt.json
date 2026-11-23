@@ -1,0 +1,23 @@
+{
+  "status": "local_preparation_complete_cloud_not_started",
+  "files_sha256": {
+    "exo-geometry-prep.zip": "e777bc9434a576b25eb79956e6e2d79ae3190c80aae1ff91dc648d8f69d3a082",
+    "run_all_after_boot.sh": "e8b0787c8e33396e2dbccbabaaca9cefdd2a7628828abc4c14b5645062758c0d",
+    "prepare_vipe_after_boot.sh": "7028494d27fce6d8a3b74c6c22385e456da1721d4ef7c5623aeaac2e9cbf85f8",
+    "receive_008.py": "91c3b082f42fac519e74b1a4e0c1a9041cb80a71e5c5329d4b6e060300cf9f76",
+    "assemble_extension.py": "3702c3800c20dc82d9ca147f484a4106785a5326afee3ae7647491ed6b5f155c"
+  },
+  "local_evidence": [
+    "stage-geometry-selftest.json",
+    "alignment-selftest.json",
+    "assembly-selftest.json",
+    "render-stage-selftest.json",
+    "driver-selftest.json",
+    "rejection-selftest.json"
+  ],
+  "actual_gpu_run": false,
+  "actual_new_priors_or_outputs": false,
+  "user_open_machine_confirmation_required": true,
+  "first_window_preserved": true,
+  "nano_used": false
+}

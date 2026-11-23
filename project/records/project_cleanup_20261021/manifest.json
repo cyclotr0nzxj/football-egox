@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "created": "2026-10-21T16:14:57.945935+08:00",
+  "scope": "Remove obsolete generated report versions and stale distribution extraction; keep latest report, repository, ZIP, footage and reproducible evidence",
+  "recovery_root": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457",
+  "retired": [
+    {
+      "old_project_path": "dist/week08_harris_sift",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/dist/week08_harris_sift",
+      "file_count": 109,
+      "bytes": 27869112,
+      "pdfs": [
+        {
+          "path": "dist/week08_harris_sift/report/第8周_Harris与SIFT实验报告.pdf",
+          "sha256": "b63fc5349f46d149121ac8de9c477d3a79fb333f90656eb6f9f921bd8541d0bd"
+        }
+      ]
+    },
+    {
+      "old_project_path": "output/week08_harris_sift/history",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/output/week08_harris_sift/history",
+      "file_count": 22,
+      "bytes": 12907385,
+      "pdfs": [
+        {
+          "path": "output/week08_harris_sift/history/paper_20261021/第8周_Harris与SIFT实验报告.pdf",
+          "sha256": "73ca5f257d0a62bc2bb622f29d5034e1ff60b3f2bd202aa101198911c93e4201"
+        },
+        {
+          "path": "output/week08_harris_sift/history/lab_before_source_videos_20261021/第8周_Harris与SIFT实验报告.pdf",
+          "sha256": "2a8018b5eea52ab059b69bd93c65380d337025c5952f39cfa471cf412eadb953"
+        },
+        {
+          "path": "output/week08_harris_sift/history/pre_paper_20261021/第8周_Harris与SIFT实验报告.pdf",
+          "sha256": "8cf325c51a6e9db1cf6442315a08929b05c50e10e0b59b15253c694533be3726"
+        }
+      ]
+    },
+    {
+      "old_project_path": "output/week08/第8周实验报告.pdf",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/output/week08/第8周实验报告.pdf",
+      "file_count": 1,
+      "bytes": 13549065,
+      "pdfs": [
+        {
+          "path": "output/week08/第8周实验报告.pdf",
+          "sha256": "2c7b57dcfa431326584cb282bc2032de79c7f677469e6bdbe5399b316d13e86a"
+        }
+      ]
+    },
+    {
+      "old_project_path": "output/week08/实验报告.md",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/output/week08/实验报告.md",
+      "file_count": 1,
+      "bytes": 19118,
+      "pdfs": []
+    },
+    {
+      "old_project_path": "output/week08/report_data.json",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/output/week08/report_data.json",
+      "file_count": 1,
+      "bytes": 25906,
+      "pdfs": []
+    },
+    {
+      "old_project_path": "tmp/week08_paper_revision",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/tmp/week08_paper_revision",
+      "file_count": 6,
+      "bytes": 49646,
+      "pdfs": []
+    },
+    {
+      "old_project_path": "tmp/week08_report_revision",
+      "recoverable_path": "/Users/mac/.Trash/足球第一视角_旧报告_20261021_161457/tmp/week08_report_revision",
+      "file_count": 1,
+      "bytes": 3035,
+      "pdfs": []
+    }
+  ],
+  "finder_metadata_removed": [
+    "output/.DS_Store",
+    "output/week08_harris_sift/.DS_Store",
+    "dist/.DS_Store"
+  ],
+  "latest_report": "output/week08_harris_sift/第8周_Harris与SIFT实验报告.pdf",
+  "submission_pdf_same_inode_as_output": true,
+  "duplicate_pdf_replaced_with_hardlink": true,
+  "latest_report_sha256": "1eaef9f69b1916441bf9c27acd97183ee2bfa8888bdd6766cefe6c30704aad6d",
+  "latest_zip_sha256": "fa5d3b58fb0bf27c321540db41287d5c2f75419d3a35d25c08ca58fe81ebc1e6",
+  "latest_contents_changed": false,
+  "final_checks": {
+    "latest_report_and_zip_unchanged": true,
+    "output_and_submission_pdf_share_one_file": true,
+    "obsolete_dist_extraction_absent": true,
+    "obsolete_report_versions_absent": true,
+    "required_reproduction_inputs_present": true,
+    "current_source_video_count": 10,
+    "current_total_video_count": 13,
+    "root_readme_points_to_latest": true
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "status": "actual available evidence; generation and visual acceptance may be incomplete",
+  "files": {
+    "legacy-reuse.json": {
+      "sha256": "0ba0a91728def2d90c51664c8ac00b056a0e85a1d52e54c8ea2ea13d3455b902",
+      "bytes": 959
+    },
+    "manifest.json": {
+      "sha256": "a2d2b6d958df84fd7e99d3da5f7942890e26a212ff4a25a3a74bf9af3f2e25f7",
+      "bytes": 2763
+    },
+    "runtime-preflight.log": {
+      "sha256": "564231517825bf6a3ddd6c36ed4b273d7a5dacfc7f84e0af22dbdfbcffe7e160",
+      "bytes": 174
+    },
+    "windows/pair02_s0028/depth-conversion.log": {
+      "sha256": "b704bb5247375d514f5415f35e79968712b09e2560b812e1298bc92f035fe7c8",
+      "bytes": 2003
+    },
+    "windows/pair02_s0028/exo.mp4": {
+      "sha256": "166ab45c8c3a88ace197001a752bdea0de4384c6f2e98c6b949689013c19fb5b",
+      "bytes": 715472
+    },
+    "windows/pair02_s0028/exo_head_anchors.json": {
+      "sha256": "cc47420d8a7ee04dca420b706463654f1e8e4f35603b75f38e8a37474bf1378f",
+      "bytes": 3413
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/depth/exo.zip": {
+      "sha256": "db053f7433e3c75ef03917a9f1656fdfb775b096727e21a0f698279d5ccf1e3e",
+      "bytes": 4879975
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/intrinsics/exo.npz": {
+      "sha256": "cde9437781db1845fbc1e8554809711067fa44a2d957ead35c3f29fac49a9c7d",
+      "bytes": 1678
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/mask/exo.txt": {
+      "sha256": "0428116fb3814da27d7acfaaa574e223a1644175c102e87753a8385ce616ca50",
+      "bytes": 71
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/mask/exo.zip": {
+      "sha256": "b4413bcbb149de27ed7deed7a54c9188b8449574bb780893b2cdc7872628a571",
+      "bytes": 166616
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/rgb/exo.mp4": {
+      "sha256": "46e598a8f502f2b2975c88c9e17df35900792ad855272969e12144220ad4c38a",
+      "bytes": 304902
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/depth/exo.zip": {
+      "sha256": "74854aef178e8e17f758d241239e20fb8b6ab1e64289f089da6dd698808643ff",
+      "bytes": 4774958
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/intrinsics/exo.npz": {
+      "sha256": "ce785239a2f0c52cf92a1ec52a403c7d5bdc5d658c8f338b0a5394be507c5cef",
+      "bytes": 1678
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/intrinsics/exo_camera.txt": {
+      "sha256": "cd0772f72835c4da35e4833e4d7bd53f0e6f6093e50f1fa82f1522064b08d682",
+      "bytes": 578
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/mask/exo.txt": {
+      "sha256": "0428116fb3814da27d7acfaaa574e223a1644175c102e87753a8385ce616ca50",
+      "bytes": 71
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/mask/exo.zip": {
+      "sha256": "109d49c0d7de6732d485451268174d6b7c4398808a8b0b00ef31c3a920d2c3ea",
+      "bytes": 166616
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair02_s0028/geometry-fixed/pair02_s0028/rgb/exo.mp4": {
+      "sha256": "46e598a8f502f2b2975c88c9e17df35900792ad855272969e12144220ad4c38a",
+      "bytes": 304902
+    },
+    "windows/pair02_s0028/inference-input/meta.json": {
+      "sha256": "58a89b1da0671c4349a6ef516e3eb92ec0c271fbf348209d3c840623a43cf432",
+      "bytes": 24750
+    },
+    "windows/pair02_s0028/inference-output/completed.json": {
+      "sha256": "1d0968287dcdefd04e9fb0a1618dfcbaa6d5460e580671f35dab134d16899193",
+      "bytes": 210
+    },
+    "windows/pair02_s0028/inference-output/inference.log": {
+      "sha256": "56425dc13eae0188ad829cd6c19bff24ca0d75ca6f340ef6b1a274de287d6658",
+      "bytes": 8065
+    },
+    "windows/pair02_s0028/inference-output/pair02_s0028.mp4": {
+      "sha256": "4c7434018a74d2affb6fb3f0f170bca629e4ac818a3b983025056253585b89ad",
+      "bytes": 460016
+    },
+    "windows/pair02_s0028/inference-output/runtime_audit.json": {
+      "sha256": "cef79e70cdcae052dcabd11e017b065b8360418fcec1cc8e60b439273f61e613",
+      "bytes": 1321
+    },
+    "windows/pair02_s0028/inference-output/verified/pair02_s0028.contact.jpg": {
+      "sha256": "bea8da09fe393a58c9415d9c314c197c61df96a66f7a951546e2cd6420051d4a",
+      "bytes": 34805
+    },
+    "windows/pair02_s0028/inference-output/verified/pair02_s0028.receipt.json": {
+      "sha256": "78ea0f13e6ca9a0208401ba1611efea85d1c285812e70cfeafa8d339eccabea1",
+      "bytes": 4780
+    },
+    "windows/pair02_s0028/inference-output/verified/pair02_s0028_ego.mp4": {
+      "sha256": "f0114fd445ee81a3a7c6774f41e0e802db478f31bf08de85a1c5e7723ff17bcd",
+      "bytes": 121653
+    },
+    "windows/pair02_s0028/meta-candidate.json": {
+      "sha256": "c38d2183d554e9f8bcb732fdbdd3e3adbc77422d2a822669cd33df70cc18a558",
+      "bytes": 24746
+    },
+    "windows/pair02_s0028/overlap-fixed.json": {
+      "sha256": "8999e3d974c3c038268dcbabeee25f60682fe09d3e79e978c0b6415eccfee22b",
+      "bytes": 1962
+    },
+    "windows/pair02_s0028/overlap-frame-guard.json": {
+      "sha256": "2f4f9eef4bd94f3e8df957bfdf39005f5713be359bd5fee1caf108f83f51c735",
+      "bytes": 300
+    },
+    "windows/pair02_s0028/overlap-legacy-prior.mp4": {
+      "sha256": "ed69d342a2aecbdf19e3f3853a0914364cb2dfe1ddd8adfae3e46d4171d6a6c6",
+      "bytes": 150875
+    },
+    "windows/pair02_s0028/prepared/geometry-check.json": {
+      "sha256": "02b13bbcbcc00f0af4fd7839329982108c2911086433f813fa3bff658ac13f56",
+      "bytes": 13112
+    },
+    "windows/pair02_s0028/prepared/meta.json": {
+      "sha256": "58a89b1da0671c4349a6ef516e3eb92ec0c271fbf348209d3c840623a43cf432",
+      "bytes": 24750
+    },
+    "windows/pair02_s0028/prior/pair02_s0028/ego_Prior.mp4": {
+      "sha256": "39d7da4bd793273dc44e642c7d50154918cacc5d84a78bb6cff18d79b2f9fbf0",
+      "bytes": 406531
+    },
+    "windows/pair02_s0028/render-receipt.json": {
+      "sha256": "1ff4bc8c9df4ceff41b95b408e9e88c2d60c47cca7ebb5f7ab0c9dc9411900b7",
+      "bytes": 5012
+    },
+    "windows/pair02_s0028/render.log": {
+      "sha256": "1608a6251cb2c3ae52b0ec8ae74cfac964562b3bc65c3135599fc12c90be5bbc",
+      "bytes": 39936
+    },
+    "windows/pair02_s0028/vipe-fixed.log": {
+      "sha256": "d154242cc00cc32ec9ef708505c00348d73aed91f009275eeddcc97945859783",
+      "bytes": 15518
+    },
+    "windows/pair02_s0028/vipe.log": {
+      "sha256": "e1026a0dca0f64f63c78fcc17435d05765ddadaf1aa504fefd20649b5028e9c4",
+      "bytes": 15933
+    },
+    "windows/pair02_s0052/depth-conversion.log": {
+      "sha256": "a8caabd644086137f9d1d0cbde96fd074c4a3fcc0c37499bc791676a5b5f75ce",
+      "bytes": 1999
+    },
+    "windows/pair02_s0052/exo.mp4": {
+      "sha256": "eaa0be7621776a407cad3c8733429e2dcb752c4723e859a23ec04d87b1113edd",
+      "bytes": 696067
+    },
+    "windows/pair02_s0052/exo_head_anchors.json": {
+      "sha256": "331f0c718f66534e989b42bad070bf5be294d0978a41aa7f89535758273b0b05",
+      "bytes": 3413
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/depth/exo.zip": {
+      "sha256": "e62e91325db6950615c263cb1ec6c6cb8fdbca31cd6f4ceae2e61a0f997d3f8a",
+      "bytes": 4785935
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/intrinsics/exo.npz": {
+      "sha256": "ce785239a2f0c52cf92a1ec52a403c7d5bdc5d658c8f338b0a5394be507c5cef",
+      "bytes": 1678
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/intrinsics/exo_camera.txt": {
+      "sha256": "cd0772f72835c4da35e4833e4d7bd53f0e6f6093e50f1fa82f1522064b08d682",
+      "bytes": 578
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/mask/exo.txt": {
+      "sha256": "0428116fb3814da27d7acfaaa574e223a1644175c102e87753a8385ce616ca50",
+      "bytes": 71
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/mask/exo.zip": {
+      "sha256": "99b7e21dac3858f0ae6a3bdd9475790765cb662bdbb5a9d411828b47a946e711",
+      "bytes": 167480
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair02_s0052/geometry-fixed/pair02_s0052/rgb/exo.mp4": {
+      "sha256": "dd1eeb5848a4c44dcf36b89e7074cb824842f21c420166df207d4f6bbd5202b6",
+      "bytes": 306131
+    },
+    "windows/pair02_s0052/inference-input/meta.json": {
+      "sha256": "b0adf2611b087eeee220dabafdd4e1e96940e22d5f4c862ef6896d4fdb9810c7",
+      "bytes": 24745
+    },
+    "windows/pair02_s0052/inference-output/completed.json": {
+      "sha256": "888e69fbc2dcea20ecba7092bf766d05afb571a84ffca6add328428870bb728c",
+      "bytes": 210
+    },
+    "windows/pair02_s0052/inference-output/inference.log": {
+      "sha256": "07a1491916aa01ffb34514cbcca3f61a2a0b2004c2c4043b6cdc399091b03db4",
+      "bytes": 7970
+    },
+    "windows/pair02_s0052/inference-output/pair02_s0052.mp4": {
+      "sha256": "f0c399ee4e9fa61d55c34a66b87ad2598d43c1955c83f31e57536b92f1e01134",
+      "bytes": 460068
+    },
+    "windows/pair02_s0052/inference-output/runtime_audit.json": {
+      "sha256": "65b5be81bc487ac922e08a22cbe2046fa9e03ed76aff46298358bcb44c32d20a",
+      "bytes": 1321
+    },
+    "windows/pair02_s0052/inference-output/verified/pair02_s0052.contact.jpg": {
+      "sha256": "6364de4540409af428afec129586dc4f1c540c72806f10cf923442b5d61770f5",
+      "bytes": 34528
+    },
+    "windows/pair02_s0052/inference-output/verified/pair02_s0052.receipt.json": {
+      "sha256": "9f8ee364bfbf48b5decfdcea20010e70ed1836b4139ccdae0060847b9b5181e9",
+      "bytes": 4778
+    },
+    "windows/pair02_s0052/inference-output/verified/pair02_s0052_ego.mp4": {
+      "sha256": "1d5ea8cf37a5dad0f14d672121d7c3d024fa939388dc628f1fecb692899ce6d9",
+      "bytes": 111194
+    },
+    "windows/pair02_s0052/meta-candidate.json": {
+      "sha256": "fca418b3245dbf0f182965d5c716dfb1ff478b8f7363ce1ec3258e3bfba798df",
+      "bytes": 24749
+    },
+    "windows/pair02_s0052/overlap-fixed.json": {
+      "sha256": "090cc561c42d3eb7dbb6aab7f9c1ed540d3b5b09b2bca434ee7d6f0f5d88b121",
+      "bytes": 2239
+    },
+    "windows/pair02_s0052/overlap-frame-guard.json": {
+      "sha256": "bc07894859e0430d7164c419dba1bc7ef54b05aaab21ef94f517ce72c84b4bba",
+      "bytes": 300
+    },
+    "windows/pair02_s0052/overlap-previous-prior.mp4": {
+      "sha256": "d15524ec61695dccd28d4c0b97e438d7fc0a27c6a5eab0af62e702c918c15ffb",
+      "bytes": 174590
+    },
+    "windows/pair02_s0052/prepared/geometry-check.json": {
+      "sha256": "ae56cf45462caee2c7753f831d1ab305052cdd37d51af76d4c9d09f16468b7d1",
+      "bytes": 13113
+    },
+    "windows/pair02_s0052/prepared/meta.json": {
+      "sha256": "b0adf2611b087eeee220dabafdd4e1e96940e22d5f4c862ef6896d4fdb9810c7",
+      "bytes": 24745
+    },
+    "windows/pair02_s0052/prior/pair02_s0052/ego_Prior.mp4": {
+      "sha256": "f033908cb49037238c3b58348a31eb36fcf4103107f3a0a3638731b77832e762",
+      "bytes": 418954
+    },
+    "windows/pair02_s0052/render-receipt.json": {
+      "sha256": "0fd94b9785673125155c5b145da347925e2b1ea89999e9fa2a16a12ac4dcbb5a",
+      "bytes": 5010
+    },
+    "windows/pair02_s0052/render.log": {
+      "sha256": "7b65d7be7ab27e545937996a4d0cf06ef0b0023599302eaea1b1b64ad176120b",
+      "bytes": 39936
+    },
+    "windows/pair02_s0052/vipe-fixed.log": {
+      "sha256": "7c43cabf6fae89199fac1907a3d603cc6d901c681aa241fd078385145ab430e4",
+      "bytes": 15238
+    },
+    "windows/pair04_s0052/exo.mp4": {
+      "sha256": "1faa8752dfa9b04e66d89df49dd4c218891e719c937ce966d08198951a6ee5b4",
+      "bytes": 715658
+    },
+    "windows/pair04_s0052/exo_head_anchors.json": {
+      "sha256": "7a664814a57b7b5a54a135531b133f046a3777e8062c43ae87fb3ca42b1037e6",
+      "bytes": 3413
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/depth/exo.zip": {
+      "sha256": "ac5c1fd7011316abf2e3961a76c107041f4a3a100696ba22da9cbcda523a2968",
+      "bytes": 4181673
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/intrinsics/exo.npz": {
+      "sha256": "e1e468f94a070574ad4a12ea74d43b872f498671d02a5383d7e98b8b2b2daa7e",
+      "bytes": 1678
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/mask/exo.txt": {
+      "sha256": "0f3946f27c993fac34b5ebb5002d093a54af7f46eca834d7938660d6ccbe28a5",
+      "bytes": 81
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/mask/exo.zip": {
+      "sha256": "441206fa2b8bbc88b417a0d3ff4ff1749a4b0669665a0b64aadad86b2fb696d1",
+      "bytes": 133398
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/rgb/exo.mp4": {
+      "sha256": "2b0ab084368355fd9cc1ffff54a9fd02b11378f91de8a8de46d653e64c362d1f",
+      "bytes": 294767
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/depth/exo.zip": {
+      "sha256": "c4ed2fa341116ed19ede1a18916b58350983cad4bfeafaf061fccd2d29f70e93",
+      "bytes": 4110147
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/intrinsics/exo.npz": {
+      "sha256": "7a2bd56763bdf6afb3eb2672a9694206493d61c640400d113bc935ea0db78ead",
+      "bytes": 1678
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/intrinsics/exo_camera.txt": {
+      "sha256": "cd0772f72835c4da35e4833e4d7bd53f0e6f6093e50f1fa82f1522064b08d682",
+      "bytes": 578
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/mask/exo.txt": {
+      "sha256": "0f3946f27c993fac34b5ebb5002d093a54af7f46eca834d7938660d6ccbe28a5",
+      "bytes": 81
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/mask/exo.zip": {
+      "sha256": "de25aedb48bc01e07d4a1b62849095dca1d8f8d84d8b974acd0098a1c3716450",
+      "bytes": 133398
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair04_s0052/geometry-fixed/pair04_s0052/rgb/exo.mp4": {
+      "sha256": "2b0ab084368355fd9cc1ffff54a9fd02b11378f91de8a8de46d653e64c362d1f",
+      "bytes": 294767
+    },
+    "windows/pair04_s0052/meta-candidate.json": {
+      "sha256": "97311985b6b874937ef0de344f257f5760c7f032449739e0df66006326e656a6",
+      "bytes": 24883
+    },
+    "windows/pair04_s0052/overlap-fixed.json": {
+      "sha256": "23bcf203378c21bb4be4f90876e453e3445017ba0135fa6132ab93fca7c556be",
+      "bytes": 1942
+    },
+    "windows/pair04_s0052/overlap-frame-guard.json": {
+      "sha256": "7e4838b14b8dcd05085166854a8c2fc63c77d112ab67be2c6bf573a51a67f160",
+      "bytes": 297
+    },
+    "windows/pair04_s0052/vipe-fixed.log": {
+      "sha256": "216bc65ca40491fdeee115a3d144934f1b63161787ddeb328ab67995a3798230",
+      "bytes": 15495
+    },
+    "windows/pair04_s0052/vipe.log": {
+      "sha256": "a223ae98eef4f962a4e7b62855f1bc9398bca35b19f4c65901d82b39e0d82f6f",
+      "bytes": 15681
+    },
+    "windows/pair04_s0076/exo.mp4": {
+      "sha256": "2cb9b864c51c3aadfca28e46f5993df4512e12461665078035f13c33c3a588ac",
+      "bytes": 710633
+    },
+    "windows/pair04_s0076/exo_head_anchors.json": {
+      "sha256": "92c17b8b12687bf0fa478e8a72af25ec380614e640a0169be60c356f8b450b1c",
+      "bytes": 3413
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/depth/exo.zip": {
+      "sha256": "06de423ffaff84ac2ff836cdb32cab1ebf08d0e3a95a309184431ddadda77a3a",
+      "bytes": 3242348
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/intrinsics/exo.npz": {
+      "sha256": "7a2bd56763bdf6afb3eb2672a9694206493d61c640400d113bc935ea0db78ead",
+      "bytes": 1678
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/intrinsics/exo_camera.txt": {
+      "sha256": "cd0772f72835c4da35e4833e4d7bd53f0e6f6093e50f1fa82f1522064b08d682",
+      "bytes": 578
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/mask/exo.txt": {
+      "sha256": "0860f0060f9fe8ad2cc5940346b534073ed0a4dc8e4d1cd78c643b00537a5dd9",
+      "bytes": 112
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/mask/exo.zip": {
+      "sha256": "41834f6b1cd9ea13adea622bd168a50500ca898a007ebb03b3dd22a0d38a8b26",
+      "bytes": 142504
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair04_s0076/geometry-fixed/pair04_s0076/rgb/exo.mp4": {
+      "sha256": "e8227403c3b08c3e858addc52fde2cfdb6954acaca7b5e5885c9cb1fee4b87be",
+      "bytes": 301688
+    },
+    "windows/pair04_s0076/meta-candidate.json": {
+      "sha256": "87e277df7f72df14a9bd3377f1524e37835e1e892f12b6aaa58f5d5881dfed09",
+      "bytes": 24863
+    },
+    "windows/pair04_s0076/overlap-fixed.json": {
+      "sha256": "53e7b96add98b1f428499c20a05f706d364fe109536ac90ca31e08453c78c3d2",
+      "bytes": 2195
+    },
+    "windows/pair04_s0076/vipe-fixed.log": {
+      "sha256": "5aee93b443088664fd51ad0fb93dd843c9515d023f935ffc595aa546fdfa8049",
+      "bytes": 15423
+    }
+  }
+}

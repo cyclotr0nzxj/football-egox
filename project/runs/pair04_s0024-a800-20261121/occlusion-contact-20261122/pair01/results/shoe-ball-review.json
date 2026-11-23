@@ -1,0 +1,2951 @@
+{
+  "inputs_sha256": {
+    "exo": "94a34d2fdccee5594be5cbc768d7c7656b065d10c5d347c80d5dd3d5a05ee2ab",
+    "vipe_depth": "cfbb972505d9c15a3b8df0439f344bc25772850fc67feeb4b142163833b24616",
+    "vipe_instance": "930e8f733fbfaf65c0efa52733f34b3dffdc1b6db78cb6d731163ddf03dee89c",
+    "wearer_exclusion": "49f74ed9934cea6d335e41b1ddc81f0ecb70e1c692c3c17ec564a598a331695f",
+    "old_comparison_pose": "b34c2e94d40c5f1ad587e2663d2607443e7c69599543cedbc3ea4f130bf523c4",
+    "ball_observations": "5fb82f002e2dc4c91ad3992299a195b360ff8cc1d2493390c66d3eb292763b50"
+  },
+  "prior_receipt_sha256": "f9cc19abfdf1735b79cc64f30a54684d4b3819045fcb9ed1a3717cb85136bf42",
+  "source_frame_pts": "frame_index / 25",
+  "image_radius_px_reviewed_approximately": 7.0,
+  "unknown_rim_guard_radius_px": 9.0,
+  "mode": "EXO observation with assumed sphere near-depth on reviewed same-frame ball core only",
+  "frames": [
+    {
+      "frame": 20,
+      "source_ball_center_xy": [
+        577,
+        272
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 31,
+          "centroid_xy": [
+            523.3225806451613,
+            281.258064516129
+          ],
+          "nearest_to_ball_center_xy": [
+            531,
+            280
+          ],
+          "distance_to_ball_center_px": 46.69047011971501,
+          "minimum_distance_to_reviewed_ball_core_px": 42.7551166528639
+        },
+        {
+          "red_pixels": 34,
+          "centroid_xy": [
+            561.6764705882352,
+            283.6470588235294
+          ],
+          "nearest_to_ball_center_xy": [
+            565,
+            284
+          ],
+          "distance_to_ball_center_px": 16.97056274847714,
+          "minimum_distance_to_reviewed_ball_core_px": 13.45362404707371
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 49,
+          "center_xy": [
+            202.18367346938774,
+            163.30612244897958
+          ],
+          "bounds_xyxy": [
+            183,
+            152,
+            211,
+            174
+          ],
+          "p90_distance_to_median_px": 17.64291130739555
+        },
+        "shoes": {
+          "pixels": 56,
+          "center_xy": [
+            263.5357142857143,
+            271.2857142857143
+          ],
+          "bounds_xyxy": [
+            131,
+            214,
+            300,
+            339
+          ],
+          "p90_distance_to_median_px": 108.73977250844759
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          268,
+          214
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          -65.81632653061226,
+          -50.69387755102042
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.7206184427447813,
+            0.7058901905499974,
+            7.808910232959346
+          ],
+          "ground_clearance_m_assumption": 0.2651284491722934,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 49,
+              "center_xy": [
+                426.14285714285717,
+                197.48979591836735
+              ],
+              "bounds_xyxy": [
+                420,
+                189,
+                430,
+                206
+              ],
+              "p90_distance_to_median_px": 7.424087911424417
+            },
+            "shoes": {
+              "pixels": 56,
+              "center_xy": [
+                263.5357142857143,
+                271.2857142857143
+              ],
+              "bounds_xyxy": [
+                131,
+                214,
+                300,
+                339
+              ],
+              "p90_distance_to_median_px": 108.73977250844759
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              268,
+              214
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              158.14285714285717,
+              -16.51020408163265
+            ]
+          },
+          "ball_core": {
+            "pixels": 49,
+            "center_xy": [
+              426.14285714285717,
+              197.48979591836735
+            ],
+            "bounds_xyxy": [
+              420,
+              189,
+              430,
+              206
+            ],
+            "p90_distance_to_median_px": 7.424087911424417
+          },
+          "shoes": {
+            "pixels": 56,
+            "center_xy": [
+              263.5357142857143,
+              271.2857142857143
+            ],
+            "bounds_xyxy": [
+              131,
+              214,
+              300,
+              339
+            ],
+            "p90_distance_to_median_px": 108.73977250844759
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            268,
+            214
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            158.14285714285717,
+            -16.51020408163265
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.9926802870192595,
+            0.7764792096049971,
+            8.58980125625528
+          ],
+          "ground_clearance_m_assumption": 0.16864129408952278,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 42,
+              "center_xy": [
+                300.3809523809524,
+                175.1904761904762
+              ],
+              "bounds_xyxy": [
+                297,
+                165,
+                302,
+                185
+              ],
+              "p90_distance_to_median_px": 8.954400374531753
+            },
+            "shoes": {
+              "pixels": 56,
+              "center_xy": [
+                263.5357142857143,
+                271.2857142857143
+              ],
+              "bounds_xyxy": [
+                131,
+                214,
+                300,
+                339
+              ],
+              "p90_distance_to_median_px": 108.73977250844759
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              268,
+              214
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              32.38095238095241,
+              -38.809523809523796
+            ]
+          },
+          "ball_core": {
+            "pixels": 42,
+            "center_xy": [
+              300.3809523809524,
+              175.1904761904762
+            ],
+            "bounds_xyxy": [
+              297,
+              165,
+              302,
+              185
+            ],
+            "p90_distance_to_median_px": 8.954400374531753
+          },
+          "shoes": {
+            "pixels": 56,
+            "center_xy": [
+              263.5357142857143,
+              271.2857142857143
+            ],
+            "bounds_xyxy": [
+              131,
+              214,
+              300,
+              339
+            ],
+            "p90_distance_to_median_px": 108.73977250844759
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            268,
+            214
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            32.38095238095241,
+            -38.809523809523796
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.2647421312937377,
+            0.8470682286599968,
+            9.370692279551214
+          ],
+          "ground_clearance_m_assumption": 0.07215413900675205,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 47,
+              "center_xy": [
+                163.93617021276594,
+                160.04255319148936
+              ],
+              "bounds_xyxy": [
+                159,
+                150,
+                167,
+                170
+              ],
+              "p90_distance_to_median_px": 9.121048865799604
+            },
+            "shoes": {
+              "pixels": 56,
+              "center_xy": [
+                263.5357142857143,
+                271.2857142857143
+              ],
+              "bounds_xyxy": [
+                131,
+                214,
+                300,
+                339
+              ],
+              "p90_distance_to_median_px": 108.73977250844759
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              268,
+              214
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -104.06382978723406,
+              -53.95744680851064
+            ]
+          },
+          "ball_core": {
+            "pixels": 48,
+            "center_xy": [
+              163.89583333333334,
+              160.1875
+            ],
+            "bounds_xyxy": [
+              159,
+              150,
+              167,
+              170
+            ],
+            "p90_distance_to_median_px": 9.104632933884059
+          },
+          "shoes": {
+            "pixels": 56,
+            "center_xy": [
+              263.5357142857143,
+              271.2857142857143
+            ],
+            "bounds_xyxy": [
+              131,
+              214,
+              300,
+              339
+            ],
+            "p90_distance_to_median_px": 108.73977250844759
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            268,
+            214
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -104.10416666666666,
+            -53.8125
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 21,
+      "source_ball_center_xy": [
+        581,
+        273
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 31,
+          "centroid_xy": [
+            522.0322580645161,
+            280.93548387096774
+          ],
+          "nearest_to_ball_center_xy": [
+            525,
+            278
+          ],
+          "distance_to_ball_center_px": 56.22277118748239,
+          "minimum_distance_to_reviewed_ball_core_px": 52.23983154643591
+        },
+        {
+          "red_pixels": 40,
+          "centroid_xy": [
+            562.675,
+            284.125
+          ],
+          "nearest_to_ball_center_xy": [
+            565,
+            283
+          ],
+          "distance_to_ball_center_px": 18.867962264113206,
+          "minimum_distance_to_reviewed_ball_core_px": 15.264337522473747
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 46,
+          "center_xy": [
+            208.17391304347825,
+            177.2826086956522
+          ],
+          "bounds_xyxy": [
+            186,
+            167,
+            219,
+            189
+          ],
+          "p90_distance_to_median_px": 18.12764045228235
+        },
+        "shoes": {
+          "pixels": 64,
+          "center_xy": [
+            262.296875,
+            295.515625
+          ],
+          "bounds_xyxy": [
+            127,
+            233,
+            303,
+            361
+          ],
+          "p90_distance_to_median_px": 107.65052836506788
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          241,
+          233
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          -32.82608695652175,
+          -55.717391304347814
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.7826929249029417,
+            0.7214389064563181,
+            7.818042027108264
+          ],
+          "ground_clearance_m_assumption": 0.2508759037991237,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 48,
+              "center_xy": [
+                420.0416666666667,
+                212.1875
+              ],
+              "bounds_xyxy": [
+                414,
+                204,
+                423,
+                220
+              ],
+              "p90_distance_to_median_px": 7.539650628371063
+            },
+            "shoes": {
+              "pixels": 64,
+              "center_xy": [
+                262.296875,
+                295.515625
+              ],
+              "bounds_xyxy": [
+                127,
+                233,
+                303,
+                361
+              ],
+              "p90_distance_to_median_px": 107.65052836506788
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              241,
+              233
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              179.04166666666669,
+              -20.8125
+            ]
+          },
+          "ball_core": {
+            "pixels": 48,
+            "center_xy": [
+              420.0416666666667,
+              212.1875
+            ],
+            "bounds_xyxy": [
+              414,
+              204,
+              423,
+              220
+            ],
+            "p90_distance_to_median_px": 7.539650628371063
+          },
+          "shoes": {
+            "pixels": 64,
+            "center_xy": [
+              262.296875,
+              295.515625
+            ],
+            "bounds_xyxy": [
+              127,
+              233,
+              303,
+              361
+            ],
+            "p90_distance_to_median_px": 107.65052836506788
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            241,
+            233
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            179.04166666666669,
+            -20.8125
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.0609622173932354,
+            0.7935827971019499,
+            8.59984622981909
+          ],
+          "ground_clearance_m_assumption": 0.1529634941790362,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 40,
+              "center_xy": [
+                293.675,
+                189.525
+              ],
+              "bounds_xyxy": [
+                291,
+                180,
+                296,
+                199
+              ],
+              "p90_distance_to_median_px": 8.589603370785778
+            },
+            "shoes": {
+              "pixels": 64,
+              "center_xy": [
+                262.296875,
+                295.515625
+              ],
+              "bounds_xyxy": [
+                127,
+                233,
+                303,
+                361
+              ],
+              "p90_distance_to_median_px": 107.65052836506788
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              241,
+              233
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              52.67500000000001,
+              -43.474999999999994
+            ]
+          },
+          "ball_core": {
+            "pixels": 40,
+            "center_xy": [
+              293.675,
+              189.525
+            ],
+            "bounds_xyxy": [
+              291,
+              180,
+              296,
+              199
+            ],
+            "p90_distance_to_median_px": 8.589603370785778
+          },
+          "shoes": {
+            "pixels": 64,
+            "center_xy": [
+              262.296875,
+              295.515625
+            ],
+            "bounds_xyxy": [
+              127,
+              233,
+              303,
+              361
+            ],
+            "p90_distance_to_median_px": 107.65052836506788
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            241,
+            233
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            52.67500000000001,
+            -43.474999999999994
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.3392315098835295,
+            0.8657266877475818,
+            9.381650432529916
+          ],
+          "ground_clearance_m_assumption": 0.05505108455894836,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 45,
+              "center_xy": [
+                161.44444444444446,
+                172.84444444444443
+              ],
+              "bounds_xyxy": [
+                156,
+                164,
+                165,
+                182
+              ],
+              "p90_distance_to_median_px": 8.73171558337658
+            },
+            "shoes": {
+              "pixels": 64,
+              "center_xy": [
+                262.296875,
+                295.515625
+              ],
+              "bounds_xyxy": [
+                127,
+                233,
+                303,
+                361
+              ],
+              "p90_distance_to_median_px": 107.65052836506788
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              241,
+              233
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -79.55555555555554,
+              -60.155555555555566
+            ]
+          },
+          "ball_core": {
+            "pixels": 47,
+            "center_xy": [
+              161.51063829787233,
+              172.5744680851064
+            ],
+            "bounds_xyxy": [
+              156,
+              163,
+              165,
+              182
+            ],
+            "p90_distance_to_median_px": 9.121048865799604
+          },
+          "shoes": {
+            "pixels": 64,
+            "center_xy": [
+              262.296875,
+              295.515625
+            ],
+            "bounds_xyxy": [
+              127,
+              233,
+              303,
+              361
+            ],
+            "p90_distance_to_median_px": 107.65052836506788
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            241,
+            233
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -79.48936170212767,
+            -60.42553191489361
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 22,
+      "source_ball_center_xy": [
+        585,
+        275
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 26,
+          "centroid_xy": [
+            521.9230769230769,
+            281.1923076923077
+          ],
+          "nearest_to_ball_center_xy": [
+            525,
+            278
+          ],
+          "distance_to_ball_center_px": 60.07495318350236,
+          "minimum_distance_to_reviewed_ball_core_px": 56.08029957123981
+        },
+        {
+          "red_pixels": 45,
+          "centroid_xy": [
+            562.5555555555555,
+            285.4
+          ],
+          "nearest_to_ball_center_xy": [
+            565,
+            284
+          ],
+          "distance_to_ball_center_px": 21.93171219946131,
+          "minimum_distance_to_reviewed_ball_core_px": 18.35755975068582
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 48,
+          "center_xy": [
+            208.375,
+            184.04166666666666
+          ],
+          "bounds_xyxy": [
+            179,
+            174,
+            220,
+            194
+          ],
+          "p90_distance_to_median_px": 17.863500491374992
+        },
+        "shoes": {
+          "pixels": 68,
+          "center_xy": [
+            264.20588235294116,
+            290.25
+          ],
+          "bounds_xyxy": [
+            125,
+            242,
+            305,
+            371
+          ],
+          "p90_distance_to_median_px": 123.4742736427188
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          248,
+          243
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          -39.625,
+          -58.95833333333334
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.845138574428969,
+            0.7518241828801938,
+            7.827816492340841
+          ],
+          "ground_clearance_m_assumption": 0.22178827789030373,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 45,
+              "center_xy": [
+                392.64444444444445,
+                194.82222222222222
+              ],
+              "bounds_xyxy": [
+                388,
+                187,
+                396,
+                203
+              ],
+              "p90_distance_to_median_px": 7.846309242345564
+            },
+            "shoes": {
+              "pixels": 68,
+              "center_xy": [
+                264.20588235294116,
+                290.25
+              ],
+              "bounds_xyxy": [
+                125,
+                242,
+                305,
+                371
+              ],
+              "p90_distance_to_median_px": 123.4742736427188
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              248,
+              243
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              144.64444444444445,
+              -48.17777777777778
+            ]
+          },
+          "ball_core": {
+            "pixels": 45,
+            "center_xy": [
+              392.64444444444445,
+              194.82222222222222
+            ],
+            "bounds_xyxy": [
+              388,
+              187,
+              396,
+              203
+            ],
+            "p90_distance_to_median_px": 7.846309242345564
+          },
+          "shoes": {
+            "pixels": 68,
+            "center_xy": [
+              264.20588235294116,
+              290.25
+            ],
+            "bounds_xyxy": [
+              125,
+              242,
+              305,
+              371
+            ],
+            "p90_distance_to_median_px": 123.4742736427188
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            248,
+            243
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            144.64444444444445,
+            -48.17777777777778
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.129652431871866,
+            0.8270066011682131,
+            8.610598141574926
+          ],
+          "ground_clearance_m_assumption": 0.1209671056793341,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 38,
+              "center_xy": [
+                264.42105263157896,
+                185.92105263157896
+              ],
+              "bounds_xyxy": [
+                262,
+                177,
+                266,
+                195
+              ],
+              "p90_distance_to_median_px": 8.018677324489564
+            },
+            "shoes": {
+              "pixels": 68,
+              "center_xy": [
+                264.20588235294116,
+                290.25
+              ],
+              "bounds_xyxy": [
+                125,
+                242,
+                305,
+                371
+              ],
+              "p90_distance_to_median_px": 123.4742736427188
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              248,
+              243
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              16.42105263157896,
+              -57.07894736842104
+            ]
+          },
+          "ball_core": {
+            "pixels": 38,
+            "center_xy": [
+              264.42105263157896,
+              185.92105263157896
+            ],
+            "bounds_xyxy": [
+              262,
+              177,
+              266,
+              195
+            ],
+            "p90_distance_to_median_px": 8.018677324489564
+          },
+          "shoes": {
+            "pixels": 68,
+            "center_xy": [
+              264.20588235294116,
+              290.25
+            ],
+            "bounds_xyxy": [
+              125,
+              242,
+              305,
+              371
+            ],
+            "p90_distance_to_median_px": 123.4742736427188
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            248,
+            243
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            16.42105263157896,
+            -57.07894736842104
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.4141662893147626,
+            0.9021890194562325,
+            9.393379790809009
+          ],
+          "ground_clearance_m_assumption": 0.020145933468364574,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 47,
+              "center_xy": [
+                136.10638297872342,
+                183.4468085106383
+              ],
+              "bounds_xyxy": [
+                131,
+                174,
+                139,
+                193
+              ],
+              "p90_distance_to_median_px": 8.668877588542804
+            },
+            "shoes": {
+              "pixels": 68,
+              "center_xy": [
+                264.20588235294116,
+                290.25
+              ],
+              "bounds_xyxy": [
+                125,
+                242,
+                305,
+                371
+              ],
+              "p90_distance_to_median_px": 123.4742736427188
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              248,
+              243
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -111.89361702127658,
+              -59.553191489361694
+            ]
+          },
+          "ball_core": {
+            "pixels": 47,
+            "center_xy": [
+              136.10638297872342,
+              183.4468085106383
+            ],
+            "bounds_xyxy": [
+              131,
+              174,
+              139,
+              193
+            ],
+            "p90_distance_to_median_px": 8.668877588542804
+          },
+          "shoes": {
+            "pixels": 68,
+            "center_xy": [
+              264.20588235294116,
+              290.25
+            ],
+            "bounds_xyxy": [
+              125,
+              242,
+              305,
+              371
+            ],
+            "p90_distance_to_median_px": 123.4742736427188
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            248,
+            243
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -111.89361702127658,
+            -59.553191489361694
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 23,
+      "source_ball_center_xy": [
+        588,
+        279
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 30,
+          "centroid_xy": [
+            521.4666666666667,
+            281.26666666666665
+          ],
+          "nearest_to_ball_center_xy": [
+            525,
+            279
+          ],
+          "distance_to_ball_center_px": 63.0,
+          "minimum_distance_to_reviewed_ball_core_px": 59.0
+        },
+        {
+          "red_pixels": 41,
+          "centroid_xy": [
+            561.219512195122,
+            285.8292682926829
+          ],
+          "nearest_to_ball_center_xy": [
+            565,
+            286
+          ],
+          "distance_to_ball_center_px": 24.041630560342615,
+          "minimum_distance_to_reviewed_ball_core_px": 20.248456731316587
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 49,
+          "center_xy": [
+            211.0204081632653,
+            187.6530612244898
+          ],
+          "bounds_xyxy": [
+            191,
+            180,
+            219,
+            197
+          ],
+          "p90_distance_to_median_px": 12.206283423847747
+        },
+        "shoes": {
+          "pixels": 67,
+          "center_xy": [
+            245.83582089552237,
+            298.0149253731343
+          ],
+          "bounds_xyxy": [
+            160,
+            238,
+            278,
+            388
+          ],
+          "p90_distance_to_median_px": 121.95739877294893
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          235,
+          245
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          -23.9795918367347,
+          -57.34693877551021
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.892609132187803,
+            0.8117015421955568,
+            7.836609434651649
+          ],
+          "ground_clearance_m_assumption": 0.16288478124479464,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 45,
+              "center_xy": [
+                345.8666666666667,
+                166.93333333333334
+              ],
+              "bounds_xyxy": [
+                342,
+                159,
+                349,
+                175
+              ],
+              "p90_distance_to_median_px": 7.196493058314501
+            },
+            "shoes": {
+              "pixels": 67,
+              "center_xy": [
+                245.83582089552237,
+                298.0149253731343
+              ],
+              "bounds_xyxy": [
+                160,
+                238,
+                278,
+                388
+              ],
+              "p90_distance_to_median_px": 121.95739877294893
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              235,
+              245
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              110.86666666666667,
+              -78.06666666666666
+            ]
+          },
+          "ball_core": {
+            "pixels": 45,
+            "center_xy": [
+              345.8666666666667,
+              166.93333333333334
+            ],
+            "bounds_xyxy": [
+              342,
+              159,
+              349,
+              175
+            ],
+            "p90_distance_to_median_px": 7.196493058314501
+          },
+          "shoes": {
+            "pixels": 67,
+            "center_xy": [
+              245.83582089552237,
+              298.0149253731343
+            ],
+            "bounds_xyxy": [
+              160,
+              238,
+              278,
+              388
+            ],
+            "p90_distance_to_median_px": 121.95739877294893
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            235,
+            245
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            110.86666666666667,
+            -78.06666666666666
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.1818700454065834,
+            0.8928716964151125,
+            8.620270378116814
+          ],
+          "ground_clearance_m_assumption": 0.05617325936927396,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 37,
+              "center_xy": [
+                220.59459459459458,
+                186.0810810810811
+              ],
+              "bounds_xyxy": [
+                218,
+                177,
+                222,
+                195
+              ],
+              "p90_distance_to_median_px": 8.135839149473258
+            },
+            "shoes": {
+              "pixels": 67,
+              "center_xy": [
+                245.83582089552237,
+                298.0149253731343
+              ],
+              "bounds_xyxy": [
+                160,
+                238,
+                278,
+                388
+              ],
+              "p90_distance_to_median_px": 121.95739877294893
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              235,
+              245
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -14.405405405405418,
+              -58.918918918918905
+            ]
+          },
+          "ball_core": {
+            "pixels": 37,
+            "center_xy": [
+              220.59459459459458,
+              186.0810810810811
+            ],
+            "bounds_xyxy": [
+              218,
+              177,
+              222,
+              195
+            ],
+            "p90_distance_to_median_px": 8.135839149473258
+          },
+          "shoes": {
+            "pixels": 67,
+            "center_xy": [
+              245.83582089552237,
+              298.0149253731343
+            ],
+            "bounds_xyxy": [
+              160,
+              238,
+              278,
+              388
+            ],
+            "p90_distance_to_median_px": 121.95739877294893
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            235,
+            245
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -14.405405405405418,
+            -58.918918918918905
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.325,
+          "center_exo_coordinates_m_assumption": [
+            3.3170197813850657,
+            0.9307963672254009,
+            8.986415836303417
+          ],
+          "ground_clearance_m_assumption": 0.0009872834898848604,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 42,
+              "center_xy": [
+                161.47619047619048,
+                196.9047619047619
+              ],
+              "bounds_xyxy": [
+                157,
+                188,
+                164,
+                206
+              ],
+              "p90_distance_to_median_px": 8.874465844122774
+            },
+            "shoes": {
+              "pixels": 67,
+              "center_xy": [
+                245.83582089552237,
+                298.0149253731343
+              ],
+              "bounds_xyxy": [
+                160,
+                238,
+                278,
+                388
+              ],
+              "p90_distance_to_median_px": 121.95739877294893
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              235,
+              245
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -73.52380952380952,
+              -48.0952380952381
+            ]
+          },
+          "ball_core": {
+            "pixels": 42,
+            "center_xy": [
+              161.47619047619048,
+              196.9047619047619
+            ],
+            "bounds_xyxy": [
+              157,
+              188,
+              164,
+              206
+            ],
+            "p90_distance_to_median_px": 8.874465844122774
+          },
+          "shoes": {
+            "pixels": 67,
+            "center_xy": [
+              245.83582089552237,
+              298.0149253731343
+            ],
+            "bounds_xyxy": [
+              160,
+              238,
+              278,
+              388
+            ],
+            "p90_distance_to_median_px": 121.95739877294893
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            235,
+            245
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -73.52380952380952,
+            -48.0952380952381
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 24,
+      "source_ball_center_xy": [
+        591,
+        283
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 31,
+          "centroid_xy": [
+            521.1935483870968,
+            281.0
+          ],
+          "nearest_to_ball_center_xy": [
+            525,
+            279
+          ],
+          "distance_to_ball_center_px": 66.12110101926616,
+          "minimum_distance_to_reviewed_ball_core_px": 62.12889826803627
+        },
+        {
+          "red_pixels": 47,
+          "centroid_xy": [
+            561.7872340425532,
+            285.1914893617021
+          ],
+          "nearest_to_ball_center_xy": [
+            565,
+            284
+          ],
+          "distance_to_ball_center_px": 26.019223662515376,
+          "minimum_distance_to_reviewed_ball_core_px": 22.02271554554524
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 46,
+          "center_xy": [
+            228.19565217391303,
+            183.30434782608697
+          ],
+          "bounds_xyxy": [
+            204,
+            175,
+            236,
+            190
+          ],
+          "p90_distance_to_median_px": 15.335054282289555
+        },
+        "shoes": {
+          "pixels": 77,
+          "center_xy": [
+            232.2077922077922,
+            305.0779220779221
+          ],
+          "bounds_xyxy": [
+            162,
+            244,
+            248,
+            414
+          ],
+          "p90_distance_to_median_px": 124.52570509936562
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          217,
+          254
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          11.195652173913032,
+          -70.69565217391303
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            2.9402733043531026,
+            0.8717393213911208,
+            7.845653892520088
+          ],
+          "ground_clearance_m_assumption": 0.10381849324748046,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 45,
+              "center_xy": [
+                293.1111111111111,
+                156.57777777777778
+              ],
+              "bounds_xyxy": [
+                288,
+                150,
+                296,
+                164
+              ],
+              "p90_distance_to_median_px": 6.708203932499369
+            },
+            "shoes": {
+              "pixels": 77,
+              "center_xy": [
+                232.2077922077922,
+                305.0779220779221
+              ],
+              "bounds_xyxy": [
+                162,
+                244,
+                248,
+                414
+              ],
+              "p90_distance_to_median_px": 124.52570509936562
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              217,
+              254
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              76.11111111111109,
+              -97.42222222222222
+            ]
+          },
+          "ball_core": {
+            "pixels": 45,
+            "center_xy": [
+              293.1111111111111,
+              156.57777777777778
+            ],
+            "bounds_xyxy": [
+              288,
+              150,
+              296,
+              164
+            ],
+            "p90_distance_to_median_px": 6.708203932499369
+          },
+          "shoes": {
+            "pixels": 77,
+            "center_xy": [
+              232.2077922077922,
+              305.0779220779221
+            ],
+            "bounds_xyxy": [
+              162,
+              244,
+              248,
+              414
+            ],
+            "p90_distance_to_median_px": 124.52570509936562
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            217,
+            254
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            76.11111111111109,
+            -97.42222222222222
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.075,
+          "center_exo_coordinates_m_assumption": [
+            3.199990173763334,
+            0.9487408052866166,
+            8.53866724757955
+          ],
+          "ground_clearance_m_assumption": 0.0031749983091498984,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 34,
+              "center_xy": [
+                192.58823529411765,
+                198.35294117647058
+              ],
+              "bounds_xyxy": [
+                188,
+                191,
+                195,
+                207
+              ],
+              "p90_distance_to_median_px": 7.651207739918813
+            },
+            "shoes": {
+              "pixels": 77,
+              "center_xy": [
+                232.2077922077922,
+                305.0779220779221
+              ],
+              "bounds_xyxy": [
+                162,
+                244,
+                248,
+                414
+              ],
+              "p90_distance_to_median_px": 124.52570509936562
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              217,
+              254
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -24.411764705882348,
+              -55.64705882352942
+            ]
+          },
+          "ball_core": {
+            "pixels": 34,
+            "center_xy": [
+              192.58823529411765,
+              198.35294117647058
+            ],
+            "bounds_xyxy": [
+              188,
+              191,
+              195,
+              207
+            ],
+            "p90_distance_to_median_px": 7.651207739918813
+          },
+          "shoes": {
+            "pixels": 77,
+            "center_xy": [
+              232.2077922077922,
+              305.0779220779221
+            ],
+            "bounds_xyxy": [
+              162,
+              244,
+              248,
+              414
+            ],
+            "p90_distance_to_median_px": 124.52570509936562
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            217,
+            254
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -24.411764705882348,
+            -55.64705882352942
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.775,
+          "center_exo_coordinates_m_assumption": [
+            3.1763796127652046,
+            0.9417406892117942,
+            8.47566620290615
+          ],
+          "ground_clearance_m_assumption": 0.0014152938709476315,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 31,
+              "center_xy": [
+                203.83870967741936,
+                193.38709677419354
+              ],
+              "bounds_xyxy": [
+                200,
+                186,
+                207,
+                202
+              ],
+              "p90_distance_to_median_px": 7.615773105863909
+            },
+            "shoes": {
+              "pixels": 77,
+              "center_xy": [
+                232.2077922077922,
+                305.0779220779221
+              ],
+              "bounds_xyxy": [
+                162,
+                244,
+                248,
+                414
+              ],
+              "p90_distance_to_median_px": 124.52570509936562
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              217,
+              254
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              -13.16129032258064,
+              -60.61290322580646
+            ]
+          },
+          "ball_core": {
+            "pixels": 34,
+            "center_xy": [
+              203.85294117647058,
+              193.3235294117647
+            ],
+            "bounds_xyxy": [
+              200,
+              186,
+              207,
+              202
+            ],
+            "p90_distance_to_median_px": 7.515074140888891
+          },
+          "shoes": {
+            "pixels": 77,
+            "center_xy": [
+              232.2077922077922,
+              305.0779220779221
+            ],
+            "bounds_xyxy": [
+              162,
+              244,
+              248,
+              414
+            ],
+            "p90_distance_to_median_px": 124.52570509936562
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            217,
+            254
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            -13.14705882352942,
+            -60.676470588235304
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 25,
+      "source_ball_center_xy": [
+        595,
+        288
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 35,
+          "centroid_xy": [
+            522.9428571428572,
+            280.57142857142856
+          ],
+          "nearest_to_ball_center_xy": [
+            529,
+            278
+          ],
+          "distance_to_ball_center_px": 66.75327707311455,
+          "minimum_distance_to_reviewed_ball_core_px": 62.80127387243033
+        },
+        {
+          "red_pixels": 48,
+          "centroid_xy": [
+            565.0,
+            283.6666666666667
+          ],
+          "nearest_to_ball_center_xy": [
+            567,
+            288
+          ],
+          "distance_to_ball_center_px": 28.0,
+          "minimum_distance_to_reviewed_ball_core_px": 24.0
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 47,
+          "center_xy": [
+            261.82978723404256,
+            164.12765957446808
+          ],
+          "bounds_xyxy": [
+            246,
+            159,
+            271,
+            168
+          ],
+          "p90_distance_to_median_px": 11.187918310708907
+        },
+        "shoes": {
+          "pixels": 78,
+          "center_xy": [
+            236.51282051282053,
+            313.6025641025641
+          ],
+          "bounds_xyxy": [
+            208,
+            255,
+            273,
+            422
+          ],
+          "p90_distance_to_median_px": 116.92069640331277
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          225,
+          258
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          36.829787234042556,
+          -93.87234042553192
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.0040475130839868,
+            0.9470888711200746,
+            7.857877977574369
+          ],
+          "ground_clearance_m_assumption": 0.029761547343949285,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 43,
+              "center_xy": [
+                261.3953488372093,
+                164.7674418604651
+              ],
+              "bounds_xyxy": [
+                256,
+                159,
+                265,
+                171
+              ],
+              "p90_distance_to_median_px": 6.6471879934860665
+            },
+            "shoes": {
+              "pixels": 78,
+              "center_xy": [
+                236.51282051282053,
+                313.6025641025641
+              ],
+              "bounds_xyxy": [
+                208,
+                255,
+                273,
+                422
+              ],
+              "p90_distance_to_median_px": 116.92069640331277
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              225,
+              258
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              36.395348837209326,
+              -93.23255813953489
+            ]
+          },
+          "ball_core": {
+            "pixels": 44,
+            "center_xy": [
+              261.47727272727275,
+              164.8409090909091
+            ],
+            "bounds_xyxy": [
+              256,
+              159,
+              265,
+              171
+            ],
+            "p90_distance_to_median_px": 6.616680023979414
+          },
+          "shoes": {
+            "pixels": 78,
+            "center_xy": [
+              236.51282051282053,
+              313.6025641025641
+            ],
+            "bounds_xyxy": [
+              208,
+              255,
+              273,
+              422
+            ],
+            "p90_distance_to_median_px": 116.92069640331277
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            225,
+            258
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            36.47727272727275,
+            -93.1590909090909
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.575,
+          "center_exo_coordinates_m_assumption": [
+            3.05342423755655,
+            0.962655917259208,
+            7.9870358135099915
+          ],
+          "ground_clearance_m_assumption": 0.0016772225473863228,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 34,
+              "center_xy": [
+                246.61764705882354,
+                173.88235294117646
+              ],
+              "bounds_xyxy": [
+                241,
+                167,
+                250,
+                180
+              ],
+              "p90_distance_to_median_px": 6.252017483325197
+            },
+            "shoes": {
+              "pixels": 78,
+              "center_xy": [
+                236.51282051282053,
+                313.6025641025641
+              ],
+              "bounds_xyxy": [
+                208,
+                255,
+                273,
+                422
+              ],
+              "p90_distance_to_median_px": 116.92069640331277
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              225,
+              258
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              21.617647058823536,
+              -84.11764705882354
+            ]
+          },
+          "ball_core": {
+            "pixels": 39,
+            "center_xy": [
+              246.46153846153845,
+              173.43589743589743
+            ],
+            "bounds_xyxy": [
+              241,
+              167,
+              250,
+              180
+            ],
+            "p90_distance_to_median_px": 6.464140176446153
+          },
+          "shoes": {
+            "pixels": 78,
+            "center_xy": [
+              236.51282051282053,
+              313.6025641025641
+            ],
+            "bounds_xyxy": [
+              208,
+              255,
+              273,
+              422
+            ],
+            "p90_distance_to_median_px": 116.92069640331277
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            225,
+            258
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            21.461538461538453,
+            -84.56410256410257
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "no_feasible_solution"
+        }
+      ]
+    },
+    {
+      "frame": 26,
+      "source_ball_center_xy": [
+        598,
+        285
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 34,
+          "centroid_xy": [
+            529.7941176470588,
+            280.94117647058823
+          ],
+          "nearest_to_ball_center_xy": [
+            533,
+            281
+          ],
+          "distance_to_ball_center_px": 65.12296062065974,
+          "minimum_distance_to_reviewed_ball_core_px": 61.1310068623117
+        },
+        {
+          "red_pixels": 60,
+          "centroid_xy": [
+            571.5666666666667,
+            281.8
+          ],
+          "nearest_to_ball_center_xy": [
+            575,
+            283
+          ],
+          "distance_to_ball_center_px": 23.08679276123039,
+          "minimum_distance_to_reviewed_ball_core_px": 19.1049731745428
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 43,
+          "center_xy": [
+            242.37209302325581,
+            175.97674418604652
+          ],
+          "bounds_xyxy": [
+            227,
+            172,
+            252,
+            180
+          ],
+          "p90_distance_to_median_px": 11.091174961152332
+        },
+        "shoes": {
+          "pixels": 91,
+          "center_xy": [
+            209.9010989010989,
+            311.27472527472526
+          ],
+          "bounds_xyxy": [
+            95,
+            260,
+            272,
+            412
+          ],
+          "p90_distance_to_median_px": 110.20889256316842
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          176,
+          275
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          66.37209302325581,
+          -99.02325581395348
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.0503689167225776,
+            0.9032645821362973,
+            7.862844149415965
+          ],
+          "ground_clearance_m_assumption": 0.074566078868565,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 45,
+              "center_xy": [
+                267.46666666666664,
+                162.86666666666667
+              ],
+              "bounds_xyxy": [
+                262,
+                156,
+                271,
+                169
+              ],
+              "p90_distance_to_median_px": 6.554744487634326
+            },
+            "shoes": {
+              "pixels": 91,
+              "center_xy": [
+                209.9010989010989,
+                311.27472527472526
+              ],
+              "bounds_xyxy": [
+                95,
+                260,
+                272,
+                412
+              ],
+              "p90_distance_to_median_px": 110.20889256316842
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              176,
+              275
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              91.46666666666664,
+              -112.13333333333333
+            ]
+          },
+          "ball_core": {
+            "pixels": 45,
+            "center_xy": [
+              267.46666666666664,
+              162.86666666666667
+            ],
+            "bounds_xyxy": [
+              262,
+              156,
+              271,
+              169
+            ],
+            "p90_distance_to_median_px": 6.554744487634326
+          },
+          "shoes": {
+            "pixels": 91,
+            "center_xy": [
+              209.9010989010989,
+              311.27472527472526
+            ],
+            "bounds_xyxy": [
+              95,
+              260,
+              272,
+              412
+            ],
+            "p90_distance_to_median_px": 110.20889256316842
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            176,
+            275
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            91.46666666666664,
+            -112.13333333333333
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.275,
+          "center_exo_coordinates_m_assumption": [
+            3.228475973567313,
+            0.9560050212990587,
+            8.321945349340986
+          ],
+          "ground_clearance_m_assumption": 0.0029406707560307582,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 35,
+              "center_xy": [
+                207.4857142857143,
+                196.54285714285714
+              ],
+              "bounds_xyxy": [
+                202,
+                190,
+                211,
+                204
+              ],
+              "p90_distance_to_median_px": 7.481507819230553
+            },
+            "shoes": {
+              "pixels": 91,
+              "center_xy": [
+                209.9010989010989,
+                311.27472527472526
+              ],
+              "bounds_xyxy": [
+                95,
+                260,
+                272,
+                412
+              ],
+              "p90_distance_to_median_px": 110.20889256316842
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              176,
+              275
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              31.485714285714295,
+              -78.45714285714286
+            ]
+          },
+          "ball_core": {
+            "pixels": 35,
+            "center_xy": [
+              207.4857142857143,
+              196.54285714285714
+            ],
+            "bounds_xyxy": [
+              202,
+              190,
+              211,
+              204
+            ],
+            "p90_distance_to_median_px": 7.481507819230553
+          },
+          "shoes": {
+            "pixels": 91,
+            "center_xy": [
+              209.9010989010989,
+              311.27472527472526
+            ],
+            "bounds_xyxy": [
+              95,
+              260,
+              272,
+              412
+            ],
+            "p90_distance_to_median_px": 110.20889256316842
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            176,
+            275
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            31.485714285714295,
+            -78.45714285714286
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 8.0,
+          "center_exo_coordinates_m_assumption": [
+            3.2025540290298022,
+            0.9483291056835823,
+            8.255127133081674
+          ],
+          "ground_clearance_m_assumption": 0.0019097168988072566,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 39,
+              "center_xy": [
+                218.30769230769232,
+                190.53846153846155
+              ],
+              "bounds_xyxy": [
+                213,
+                184,
+                222,
+                198
+              ],
+              "p90_distance_to_median_px": 7.292036661915166
+            },
+            "shoes": {
+              "pixels": 91,
+              "center_xy": [
+                209.9010989010989,
+                311.27472527472526
+              ],
+              "bounds_xyxy": [
+                95,
+                260,
+                272,
+                412
+              ],
+              "p90_distance_to_median_px": 110.20889256316842
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              176,
+              275
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              42.30769230769232,
+              -84.46153846153845
+            ]
+          },
+          "ball_core": {
+            "pixels": 40,
+            "center_xy": [
+              218.225,
+              190.425
+            ],
+            "bounds_xyxy": [
+              213,
+              184,
+              222,
+              198
+            ],
+            "p90_distance_to_median_px": 7.186322915840285
+          },
+          "shoes": {
+            "pixels": 91,
+            "center_xy": [
+              209.9010989010989,
+              311.27472527472526
+            ],
+            "bounds_xyxy": [
+              95,
+              260,
+              272,
+              412
+            ],
+            "p90_distance_to_median_px": 110.20889256316842
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            176,
+            275
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            42.224999999999994,
+            -84.57499999999999
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 27,
+      "source_ball_center_xy": [
+        601,
+        283
+      ],
+      "source_ball_core_pixels": 49,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 42,
+          "centroid_xy": [
+            538.8333333333334,
+            280.64285714285717
+          ],
+          "nearest_to_ball_center_xy": [
+            543,
+            279
+          ],
+          "distance_to_ball_center_px": 58.137767414994535,
+          "minimum_distance_to_reviewed_ball_core_px": 54.147945482723536
+        },
+        {
+          "red_pixels": 46,
+          "centroid_xy": [
+            581.1521739130435,
+            279.54347826086956
+          ],
+          "nearest_to_ball_center_xy": [
+            585,
+            283
+          ],
+          "distance_to_ball_center_px": 16.0,
+          "minimum_distance_to_reviewed_ball_core_px": 12.0
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "separated_contours",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 204,
+      "baseline": {
+        "ball_core": {
+          "pixels": 48,
+          "center_xy": [
+            224.35416666666666,
+            174.125
+          ],
+          "bounds_xyxy": [
+            208,
+            168,
+            233,
+            179
+          ],
+          "p90_distance_to_median_px": 11.643274155152682
+        },
+        "shoes": {
+          "pixels": 85,
+          "center_xy": [
+            188.54117647058823,
+            307.6941176470588
+          ],
+          "bounds_xyxy": [
+            69,
+            248,
+            261,
+            406
+          ],
+          "p90_distance_to_median_px": 89.76077662589057
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          159,
+          249
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          65.35416666666666,
+          -74.875
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.0970498902432118,
+            0.8742868111212894,
+            7.868581300091605
+          ],
+          "ground_clearance_m_assumption": 0.10452155252560277,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 44,
+              "center_xy": [
+                278.34090909090907,
+                148.45454545454547
+              ],
+              "bounds_xyxy": [
+                273,
+                142,
+                282,
+                155
+              ],
+              "p90_distance_to_median_px": 6.800735254367722
+            },
+            "shoes": {
+              "pixels": 85,
+              "center_xy": [
+                188.54117647058823,
+                307.6941176470588
+              ],
+              "bounds_xyxy": [
+                69,
+                248,
+                261,
+                406
+              ],
+              "p90_distance_to_median_px": 89.76077662589057
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              159,
+              249
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              119.34090909090907,
+              -100.54545454545453
+            ]
+          },
+          "ball_core": {
+            "pixels": 44,
+            "center_xy": [
+              278.34090909090907,
+              148.45454545454547
+            ],
+            "bounds_xyxy": [
+              273,
+              142,
+              282,
+              155
+            ],
+            "p90_distance_to_median_px": 6.800735254367722
+          },
+          "shoes": {
+            "pixels": 85,
+            "center_xy": [
+              188.54117647058823,
+              307.6941176470588
+            ],
+            "bounds_xyxy": [
+              69,
+              248,
+              261,
+              406
+            ],
+            "p90_distance_to_median_px": 89.76077662589057
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            159,
+            249
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            119.34090909090907,
+            -100.54545454545453
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.075,
+          "center_exo_coordinates_m_assumption": [
+            3.3706154039028724,
+            0.9515134393792798,
+            8.563620954413517
+          ],
+          "ground_clearance_m_assumption": 0.003940015846445641,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 32,
+              "center_xy": [
+                180.0625,
+                197.03125
+              ],
+              "bounds_xyxy": [
+                175,
+                190,
+                183,
+                205
+              ],
+              "p90_distance_to_median_px": 8.02009146771736
+            },
+            "shoes": {
+              "pixels": 85,
+              "center_xy": [
+                188.54117647058823,
+                307.6941176470588
+              ],
+              "bounds_xyxy": [
+                69,
+                248,
+                261,
+                406
+              ],
+              "p90_distance_to_median_px": 89.76077662589057
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              159,
+              249
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              21.0625,
+              -51.96875
+            ]
+          },
+          "ball_core": {
+            "pixels": 32,
+            "center_xy": [
+              180.0625,
+              197.03125
+            ],
+            "bounds_xyxy": [
+              175,
+              190,
+              183,
+              205
+            ],
+            "p90_distance_to_median_px": 8.02009146771736
+          },
+          "shoes": {
+            "pixels": 85,
+            "center_xy": [
+              188.54117647058823,
+              307.6941176470588
+            ],
+            "bounds_xyxy": [
+              69,
+              248,
+              261,
+              406
+            ],
+            "p90_distance_to_median_px": 89.76077662589057
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            159,
+            249
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            21.0625,
+            -51.96875
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.775,
+          "center_exo_coordinates_m_assumption": [
+            3.3457498589101853,
+            0.9444939793095737,
+            8.500445813786165
+          ],
+          "ground_clearance_m_assumption": 0.0021733609259154685,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 33,
+              "center_xy": [
+                190.54545454545453,
+                190.6060606060606
+              ],
+              "bounds_xyxy": [
+                186,
+                184,
+                194,
+                199
+              ],
+              "p90_distance_to_median_px": 7.373243332177697
+            },
+            "shoes": {
+              "pixels": 85,
+              "center_xy": [
+                188.54117647058823,
+                307.6941176470588
+              ],
+              "bounds_xyxy": [
+                69,
+                248,
+                261,
+                406
+              ],
+              "p90_distance_to_median_px": 89.76077662589057
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              159,
+              249
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              31.545454545454533,
+              -58.393939393939405
+            ]
+          },
+          "ball_core": {
+            "pixels": 33,
+            "center_xy": [
+              190.54545454545453,
+              190.6060606060606
+            ],
+            "bounds_xyxy": [
+              186,
+              184,
+              194,
+              199
+            ],
+            "p90_distance_to_median_px": 7.373243332177697
+          },
+          "shoes": {
+            "pixels": 85,
+            "center_xy": [
+              188.54117647058823,
+              307.6941176470588
+            ],
+            "bounds_xyxy": [
+              69,
+              248,
+              261,
+              406
+            ],
+            "p90_distance_to_median_px": 89.76077662589057
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            159,
+            249
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            31.545454545454533,
+            -58.393939393939405
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 28,
+      "source_ball_center_xy": [
+        604,
+        282
+      ],
+      "source_ball_core_pixels": 43,
+      "red_shoes_sorted_by_source_x": [
+        {
+          "red_pixels": 47,
+          "centroid_xy": [
+            545.5744680851063,
+            283.72340425531917
+          ],
+          "nearest_to_ball_center_xy": [
+            549,
+            282
+          ],
+          "distance_to_ball_center_px": 55.0,
+          "minimum_distance_to_reviewed_ball_core_px": 53.0
+        },
+        {
+          "red_pixels": 32,
+          "centroid_xy": [
+            593.625,
+            279.40625
+          ],
+          "nearest_to_ball_center_xy": [
+            597,
+            282
+          ],
+          "distance_to_ball_center_px": 7.0,
+          "minimum_distance_to_reviewed_ball_core_px": 5.0
+        }
+      ],
+      "nearest_red_shoe_index": 1,
+      "source_2d_relation": "near_or_overlapping_boundary",
+      "physical_contact_status": "uncertain",
+      "held_out_unknown_source_pixels_near_ball": 200,
+      "baseline": {
+        "ball_core": {
+          "pixels": 41,
+          "center_xy": [
+            201.609756097561,
+            152.73170731707316
+          ],
+          "bounds_xyxy": [
+            180,
+            149,
+            217,
+            158
+          ],
+          "p90_distance_to_median_px": 14.317821063276353
+        },
+        "shoes": {
+          "pixels": 70,
+          "center_xy": [
+            205.97142857142856,
+            251.05714285714285
+          ],
+          "bounds_xyxy": [
+            99,
+            188,
+            295,
+            305
+          ],
+          "p90_distance_to_median_px": 159.75865735088314
+        },
+        "source_nearest_shoe_pixel_target_xy": [
+          151,
+          195
+        ],
+        "ball_minus_nearest_shoe_target_dxdy_px": [
+          50.60975609756099,
+          -42.26829268292684
+        ]
+      },
+      "ball_only_depth_variants": [
+        {
+          "radius_m_assumption": 0.1,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.1440732840327286,
+            0.8601709928014069,
+            7.875013744440466
+          ],
+          "ground_clearance_m_assumption": 0.11961432117470791,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 39,
+              "center_xy": [
+                276.9230769230769,
+                121.82051282051282
+              ],
+              "bounds_xyxy": [
+                272,
+                116,
+                280,
+                130
+              ],
+              "p90_distance_to_median_px": 6.324555320336759
+            },
+            "shoes": {
+              "pixels": 70,
+              "center_xy": [
+                205.97142857142856,
+                251.05714285714285
+              ],
+              "bounds_xyxy": [
+                99,
+                188,
+                295,
+                305
+              ],
+              "p90_distance_to_median_px": 159.75865735088314
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              151,
+              195
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              125.9230769230769,
+              -73.17948717948718
+            ]
+          },
+          "ball_core": {
+            "pixels": 39,
+            "center_xy": [
+              276.9230769230769,
+              121.82051282051282
+            ],
+            "bounds_xyxy": [
+              272,
+              116,
+              280,
+              130
+            ],
+            "p90_distance_to_median_px": 6.324555320336759
+          },
+          "shoes": {
+            "pixels": 70,
+            "center_xy": [
+              205.97142857142856,
+              251.05714285714285
+            ],
+            "bounds_xyxy": [
+              99,
+              188,
+              295,
+              305
+            ],
+            "p90_distance_to_median_px": 159.75865735088314
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            151,
+            195
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            125.9230769230769,
+            -73.17948717948718
+          ]
+        },
+        {
+          "radius_m_assumption": 0.11,
+          "state": "tested",
+          "apparent_radius_px": 7.0,
+          "center_exo_coordinates_m_assumption": [
+            3.458480612436001,
+            0.9461880920815474,
+            8.66251511888451
+          ],
+          "ground_clearance_m_assumption": 0.008575753292178731,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 34,
+              "center_xy": [
+                156.7941176470588,
+                173.8235294117647
+              ],
+              "bounds_xyxy": [
+                152,
+                167,
+                160,
+                182
+              ],
+              "p90_distance_to_median_px": 7.05145794845704
+            },
+            "shoes": {
+              "pixels": 70,
+              "center_xy": [
+                205.97142857142856,
+                251.05714285714285
+              ],
+              "bounds_xyxy": [
+                99,
+                188,
+                295,
+                305
+              ],
+              "p90_distance_to_median_px": 159.75865735088314
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              151,
+              195
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              5.794117647058812,
+              -21.176470588235304
+            ]
+          },
+          "ball_core": {
+            "pixels": 34,
+            "center_xy": [
+              156.7941176470588,
+              173.8235294117647
+            ],
+            "bounds_xyxy": [
+              152,
+              167,
+              160,
+              182
+            ],
+            "p90_distance_to_median_px": 7.05145794845704
+          },
+          "shoes": {
+            "pixels": 70,
+            "center_xy": [
+              205.97142857142856,
+              251.05714285714285
+            ],
+            "bounds_xyxy": [
+              99,
+              188,
+              295,
+              305
+            ],
+            "p90_distance_to_median_px": 159.75865735088314
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            151,
+            195
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            5.794117647058812,
+            -21.176470588235304
+          ]
+        },
+        {
+          "radius_m_assumption": 0.12,
+          "state": "tested",
+          "apparent_radius_px": 7.65,
+          "center_exo_coordinates_m_assumption": [
+            3.4520968152685816,
+            0.9444415815357441,
+            8.646525513715174
+          ],
+          "ground_clearance_m_assumption": 0.000627263117742527,
+          "without_rim_guard": {
+            "ball_core": {
+              "pixels": 30,
+              "center_xy": [
+                160.53333333333333,
+                171.46666666666667
+              ],
+              "bounds_xyxy": [
+                156,
+                165,
+                164,
+                179
+              ],
+              "p90_distance_to_median_px": 6.863965166296876
+            },
+            "shoes": {
+              "pixels": 70,
+              "center_xy": [
+                205.97142857142856,
+                251.05714285714285
+              ],
+              "bounds_xyxy": [
+                99,
+                188,
+                295,
+                305
+              ],
+              "p90_distance_to_median_px": 159.75865735088314
+            },
+            "source_nearest_shoe_pixel_target_xy": [
+              151,
+              195
+            ],
+            "ball_minus_nearest_shoe_target_dxdy_px": [
+              9.533333333333331,
+              -23.53333333333333
+            ]
+          },
+          "ball_core": {
+            "pixels": 30,
+            "center_xy": [
+              160.53333333333333,
+              171.46666666666667
+            ],
+            "bounds_xyxy": [
+              156,
+              165,
+              164,
+              179
+            ],
+            "p90_distance_to_median_px": 6.863965166296876
+          },
+          "shoes": {
+            "pixels": 70,
+            "center_xy": [
+              205.97142857142856,
+              251.05714285714285
+            ],
+            "bounds_xyxy": [
+              99,
+              188,
+              295,
+              305
+            ],
+            "p90_distance_to_median_px": 159.75865735088314
+          },
+          "source_nearest_shoe_pixel_target_xy": [
+            151,
+            195
+          ],
+          "ball_minus_nearest_shoe_target_dxdy_px": [
+            9.533333333333331,
+            -23.53333333333333
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pair": "03",
+  "path": "验证视频/同步结果_20261019/03/comparison.mp4",
+  "expected_frames": 786,
+  "decoded_frames": 786,
+  "full_decode_passed": true,
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-v",
+    "error",
+    "-xerror",
+    "-hwaccel",
+    "videotoolbox",
+    "-i",
+    "./验证视频/同步结果_20261019/03/comparison.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a:0",
+    "-fps_mode",
+    "passthrough",
+    "-progress",
+    "pipe:1",
+    "-nostats",
+    "-f",
+    "null",
+    "-"
+  ],
+  "stderr": "",
+  "size_bytes": 16806379,
+  "checked_at": "2026-10-19T13:23:35.608284+00:00"
+}

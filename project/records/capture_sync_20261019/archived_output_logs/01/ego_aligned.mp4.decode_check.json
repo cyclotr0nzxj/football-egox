@@ -1,0 +1,33 @@
+{
+  "pair": "01",
+  "path": "验证视频/同步结果_20261019/01/ego_aligned.mp4",
+  "expected_frames": 1231,
+  "decoded_frames": 1231,
+  "full_decode_passed": true,
+  "command": [
+    "ffmpeg",
+    "-nostdin",
+    "-v",
+    "error",
+    "-xerror",
+    "-hwaccel",
+    "videotoolbox",
+    "-i",
+    "./验证视频/同步结果_20261019/01/ego_aligned.mp4",
+    "-map",
+    "0:v:0",
+    "-map",
+    "0:a:0",
+    "-fps_mode",
+    "passthrough",
+    "-progress",
+    "pipe:1",
+    "-nostats",
+    "-f",
+    "null",
+    "-"
+  ],
+  "stderr": "",
+  "size_bytes": 150125479,
+  "checked_at": "2026-10-19T13:17:30.754947+00:00"
+}

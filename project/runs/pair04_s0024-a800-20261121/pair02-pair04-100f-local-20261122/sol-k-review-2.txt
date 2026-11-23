@@ -1,0 +1,7 @@
+{"model": "gpt-6.2-sol", "input_tokens": 126, "output_tokens": 5009, "reasoning_tokens": 4660, "status": "completed"}
+**Use (3): rerun ViPE with intrinsics locked during estimation, not just overwritten on export.** Use \(K_\text{old}\) as the shared reference for the frozen first window; it’s not ground truth. Keep old poses fixed as overlap anchors. If the rerun is independent, align only the new window with one robust \(\mathrm{Sim}(3)\) on static overlap, applying the same scale to new camera baselines and \(Z\).
+
+- **(1) Copy and force \(K_\text{old}\): fallback only.** At the same pixel and axial \(Z\), this scales camera-frame \(X\) by \(722.132/763.267=0.9461\) (and \(Y\) by the corresponding \(f_y\) ratio). \(Z\) and mask indices stay unchanged. Same-view reprojection is exact by construction; cross-view consistency is not.
+- **(2) Anisotropically transform poses: reject.** For \(A=K_\text{old}^{-1}K_\text{new}\), the induced relative rotation \(ARA^{-1}\) is generally not in \(SO(3)\). Orthonormalizing it does not preserve projections.
+
+**Checks:** Verify GGA and the renderer generate the same rays on the registered RGB/depth/mask grid, accounting for resize, crop, pixel centers, and distortion. Check pose conventions and axial \(Z\) versus unit-ray range. Require sufficient static overlap and parallax, then check cross-view reprojection and depth agreement against the frozen poses. Without GT, this tests consistency, not true calibration or metric scale.

@@ -1,0 +1,247 @@
+[
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/image_encoder/config.json",
+    "bytes": 582,
+    "sha256": "e8f874059bfc3b819410eaf4a3e7753b04dadeb1ef8e2a20825c96739f4ec2d5",
+    "official_hash_verified": true,
+    "seconds": 0.02
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/image_encoder/model.safetensors",
+    "bytes": 1264217760,
+    "sha256": "f5c0bbf4f43f319a80335387d371742333807589c5bb4130a1a2a5d4abf6bf72",
+    "official_hash_verified": true,
+    "seconds": 11.67
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/image_processor/preprocessor_config.json",
+    "bytes": 478,
+    "sha256": "b832cbb47ae2ad80b428b7f31ae0a856137f3e465e6622d03e27754ec2f1aace",
+    "official_hash_verified": true,
+    "seconds": 0.01
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/model_index.json",
+    "bytes": 567,
+    "sha256": "76a80dafb52eddc6220cef1d91c1aa02b949624f5d90676e60818d811777d144",
+    "official_hash_verified": true,
+    "seconds": 0.02
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/scheduler/scheduler_config.json",
+    "bytes": 751,
+    "sha256": "3fed2abbd9bbc301a74db01947198057ec5049808910dccab320925bf27bea6e",
+    "official_hash_verified": true,
+    "seconds": 0.0
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/config.json",
+    "bytes": 854,
+    "sha256": "4087b6192155a4643f6d29fd326c4610103130674011ef4d0a53f8bce5de967d",
+    "official_hash_verified": true,
+    "seconds": 0.04
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model-00001-of-00005.safetensors",
+    "bytes": 4972389712,
+    "sha256": "c0ef3a140898e228a3520c9adec60743d2e8e5b3d229651bb37f1a3921919f99",
+    "official_hash_verified": true,
+    "seconds": 28.7
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model-00002-of-00005.safetensors",
+    "bytes": 4899225672,
+    "sha256": "481c7b2b39771c44df6dd8d13ee12ed072d731b4a650bd092885d4d52db229ad",
+    "official_hash_verified": true,
+    "seconds": 19.99
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model-00003-of-00005.safetensors",
+    "bytes": 4966309504,
+    "sha256": "f93148bcc04052a169e1e49bfcf6125df6cf9bf243cb9c627da75266cf8e35c3",
+    "official_hash_verified": true,
+    "seconds": 17.22
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model-00004-of-00005.safetensors",
+    "bytes": 4999880704,
+    "sha256": "a451792c739c05bca4606190cc2dd16731411bac03b4cf6aacc5767321f857c9",
+    "official_hash_verified": true,
+    "seconds": 16.46
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model-00005-of-00005.safetensors",
+    "bytes": 2885866152,
+    "sha256": "7e76e18d224531b8197a46231cb53daf7f2f6ca707130252becf933026ac4eea",
+    "official_hash_verified": true,
+    "seconds": 8.68
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/text_encoder/model.safetensors.index.json",
+    "bytes": 22476,
+    "sha256": "8af791f24a6447aa30c95786f40adf23d3c9df97470d2f36159c8f1113f120b4",
+    "official_hash_verified": true,
+    "seconds": 0.03
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/tokenizer/special_tokens_map.json",
+    "bytes": 7079,
+    "sha256": "456b58fd240a06c743a7c2cf8008bec501240d68ebd1fc4018ea569505fea270",
+    "official_hash_verified": true,
+    "seconds": 0.01
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/tokenizer/spiece.model",
+    "bytes": 4548313,
+    "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+    "official_hash_verified": true,
+    "seconds": 0.08
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/tokenizer/tokenizer.json",
+    "bytes": 16837459,
+    "sha256": "20a46ac256746594ed7e1e3ef733b83fbc5a6f0922aa7480eda961743de080ef",
+    "official_hash_verified": true,
+    "seconds": 0.15
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/tokenizer/tokenizer_config.json",
+    "bytes": 61758,
+    "sha256": "1d8d2a216bf8e70ac15b7ddcea566c4dd0433c024b39a58ca5e4c66bd78defbd",
+    "official_hash_verified": true,
+    "seconds": 0.0
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/config.json",
+    "bytes": 466,
+    "sha256": "9c718e887b11a0f6f8ed654c0abab0f3a829bc2899912214ad229c79f03e4271",
+    "official_hash_verified": true,
+    "seconds": 0.0
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00001-of-00014.safetensors",
+    "bytes": 4929161040,
+    "sha256": "b4602c35fa0519750a42c03e3f296c02d542291e344c4d702522cddbd1711f13",
+    "official_hash_verified": true,
+    "seconds": 13.26
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00002-of-00014.safetensors",
+    "bytes": 4951011392,
+    "sha256": "1cb4cbb7f3437995d73dd430a3072199ff246f8858b517a2e9c79dea7851302a",
+    "official_hash_verified": true,
+    "seconds": 14.18
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00003-of-00014.safetensors",
+    "bytes": 4951011392,
+    "sha256": "a3883790719aceb84739eaf31d3ca2b1888f9b99d325c59bce65197100e2080c",
+    "official_hash_verified": true,
+    "seconds": 63.41
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00004-of-00014.safetensors",
+    "bytes": 4951093744,
+    "sha256": "670827570d41b40e9898eeaf29b787074fd4315fe143017593b43e88e5736fdf",
+    "official_hash_verified": true,
+    "seconds": 992.58
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00005-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "c0b79116cec6a4715814177bcff74ac8d58960623b892cdd03850516a9b9eb09",
+    "official_hash_verified": true,
+    "seconds": 1038.38
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00006-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "f4e9d59722d8ca75f6f5a04ad9f46af9c9afc24544f8fd02406d8304512ce579",
+    "official_hash_verified": true,
+    "seconds": 281.42
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00007-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "75615923dbaaf21e606fceead6e264e601f5ff520e7469e9e72b456199d18597",
+    "official_hash_verified": true,
+    "seconds": 257.68
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00008-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "fb89b408716cae8a59750f99c79a49afe781f01a0bc735b95431418c5fdad4dd",
+    "official_hash_verified": true,
+    "seconds": 271.61
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00009-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "8278860d50fdc7f742ce60341b6c2fad12a719e420957c8164fc7358d4504889",
+    "official_hash_verified": true,
+    "seconds": 224.59
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00010-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "86f4c9bf482b87b9b6c931c734b283c0f7327ab2ba15afc5a3c924decc5b5293",
+    "official_hash_verified": true,
+    "seconds": 201.67
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00011-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "9107b2123676231e456c90d6a19d77aad814b13939c9201ea8669c7a5669e7d3",
+    "official_hash_verified": true,
+    "seconds": 230.42
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00012-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "668374699d704a57a21905276f74627b3a2d79f674a64dc09196774f5b287d1f",
+    "official_hash_verified": true,
+    "seconds": 267.19
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00013-of-00014.safetensors",
+    "bytes": 4846133208,
+    "sha256": "b9abef6af4f824d4dcdc06c55c3fa3ecbba6fe8f834136ccfc4922a8656d14ae",
+    "official_hash_verified": true,
+    "seconds": 634.52
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model-00014-of-00014.safetensors",
+    "bytes": 2182996112,
+    "sha256": "b2cf8333afb3155fe35fbb31dc3fa5a0be80d6bbed021e40ee8dd0ecc478952d",
+    "official_hash_verified": true,
+    "seconds": 759.64
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/transformer/diffusion_pytorch_model.safetensors.index.json",
+    "bytes": 120925,
+    "sha256": "03fd99aaaa2613aa31f261a6b679f764f6e033f01235093c08714a5f91dd1885",
+    "official_hash_verified": true,
+    "seconds": 281.67
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/vae/config.json",
+    "bytes": 724,
+    "sha256": "f0c1cc1d7decb5badc384f54691746a27a9aeff49f7ebca974e583389342d527",
+    "official_hash_verified": true,
+    "seconds": 2.02
+  },
+  {
+    "path": "models/Wan2.1-I2V-14B-480P-Diffusers/vae/diffusion_pytorch_model.safetensors",
+    "bytes": 507591892,
+    "sha256": "d6e524b3fffede1787a74e81b30976dce5400c4439ba64222168e607ed19e793",
+    "official_hash_verified": true,
+    "seconds": 116.14
+  },
+  {
+    "path": "models/EgoX/pytorch_lora_weights.safetensors",
+    "bytes": 3355522016,
+    "sha256": "1c61d1871d379358a0e98f3acd9bfffcd1c4300b9096231327a7da5f1683e9f6",
+    "official_hash_verified": true,
+    "seconds": 216.95
+  }
+]

@@ -1,0 +1,20 @@
+{"model": "gpt-6.2-sol", "input_tokens": 127, "output_tokens": 3959, "reasoning_tokens": 3244, "status": "completed"}
+**Give each pair’s retry its own output directory and make the driver read that attempt’s result explicitly.** Leave the original 49-frame `overlap.json` untouched.
+
+### Concrete failure modes
+
+- **The old failure report blocks the retry.** With `new_geometry_exists OR old_overlap_exists`, the guard fires even when the new geometry path is unused. An existing geometry directory can also be debris from an interrupted run; its presence says nothing about completion.
+- **Bypassing the guard does not fix the path collision.** Changing `OR` to `AND` can let the retry overwrite the failed evidence. If the retry exits before writing, the driver can read the old failure as if it were the new verdict. If the writer crashes mid-write, the driver can see incomplete JSON. File existence is not a pass signal.
+- **The guard doesn’t serialize GPU work.** Two launchers can both pass an existence check before either creates an output. Conversely, a batch that aborts on the first pair’s error can skip a second pair that was ready to run.
+
+### Retry and scheduling design
+
+1. **Reserve a fresh attempt directory per pair.** Put the new geometry, `overlap.json`, logs, and manifest there. Keep the old report and associated logs read-only. Record the pair, exact frame IDs, and the source and values of the fixed EXO intrinsics. Verify that the calibration matches the camera and image preprocessing, and that the geometry stage is configured to hold it fixed. If an attempt is interrupted, retain it as incomplete and use a new ID rather than writing over it.
+2. **Publish a verdict, not just a file.** Write the new report to a temporary file and publish it atomically when complete. Distinguish a valid overlap failure from an execution error or an interrupted attempt. Pass the driver the exact attempt directory or manifest; run it only after an explicit pass tied to that pair and its new geometry. If the driver requires the literal filename `overlap.json`, resolve it inside the attempt directory. Never fall back to the old report.
+3. **Gate per pair; serialize per GPU.** A failure blocks only that pair’s downstream work. Keep processing the other pairs. Use one exclusive scheduler slot for the target physical GPU across all launchers and all GPU-using stages, including the driver if applicable. Hold the slot until GPU work has ended and its workers have exited, including on errors. A shared advisory lock can serialize cooperating launchers; preventing overlap with unrelated jobs requires an enforced GPU reservation.
+
+### Head-track scale and verification limits
+
+Fixed intrinsics do **not** fix the reconstruction’s world frame or translation scale. Before reusing or splicing a head track, align the accepted retry geometry to a trusted reference using verified shared 3D points or camera poses, or a known metric baseline. Apply one consistent scale and coordinate transform to the affected track positions and translations, then check alignment residuals and motion continuity over matched frames and at joins. Don’t use the failed overlap report as a scale anchor. If the runs cannot be reliably aligned, keep their tracks separate and report scale continuity as unverified.
+
+While the machine is shut down, the guard failure follows from the described logic, but the actual files, deployed configuration, intrinsics used, retry verdicts, driver inputs, GPU scheduling behavior, and head-track alignment cannot be verified. Those need on-host checks after startup; this review does not establish that a retry ran or passed.

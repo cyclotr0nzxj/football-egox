@@ -1,0 +1,37 @@
+{"model": "gpt-6.2-sol", "input_tokens": 153, "output_tokens": 7260, "reasoning_tokens": 6294, "status": "completed"}
+Yes—as a **separate derived reconstruction using the old \(K\) as the canonical camera model**. It’s a reasonable hypothesis for the same fixed camera and crop. It is not a lossless conversion of ViPE’s new reconstruction, and it does not make the native output pass the 1% screen: the new focal length is 5.39% lower than the old one.
+
+### What the substitution does
+
+For a source pixel \(p=(u,v,1)^\top\) with predicted camera-axis depth \(Z_n(p)\), the native and derived lifts are
+\[
+X_n=Z_n(p)K_n^{-1}p,\qquad
+X_d=Z_n(p)K_o^{-1}p
+   =\operatorname{diag}(0.946107,\,0.946107,\,1)\,X_n .
+\]
+The principal point is unchanged, so the swap narrows the rays: at the same \(Z\), camera-space \(X,Y\) shrink by 5.39%. There is no pixel resampling, and each depth and color sample still projects back to its original source pixel under \(K_o\). That is true **by construction**, not evidence that the new shape is correct.
+
+The swap preserves the stored \(Z_n\), but generally changes 3D distances, angles, normals, and novel-view projections. A subsequent scale \(s\) gives a final camera depth of \(sZ_n\); the stored prediction can stay untouched. No scalar can undo the lateral shrink *and* preserve the native \(Z\) for general 3D geometry. The rationale is instead that the **old rays may be the better common rays** and the two depth fields may agree up to scale on those rays. Nothing here establishes what ViPE would have predicted with \(K_o\).
+
+### How to keep the old virtual poses
+
+Lift the new samples using the **source camera’s** pose in the old world frame, not a virtual render pose or an independently estimated new-window world frame. If that source W2C is \((R_s,t_s)\), then
+\[
+X_w=R_s^\top\!\left(sZ_n(p)K_o^{-1}p-t_s\right).
+\]
+This scales the lift about the source camera center. Render \(X_w\) with the old virtual W2Cs unchanged and \(K_o\) on the old render grid. Rebuild GGA’s camera-dependent inputs—such as rays, warps, and visibility—from that same geometry rather than mixing in cached quantities from \(K_n\). If the source-to-old-world embedding is unknown, a depth scale alone does not resolve it.
+
+On a **fit-only** subset of the overlap, use valid, same-time, same-pixel pairs. Both lifts now lie on the same old ray, so exact agreement requires \(Z_o(p)=sZ_n(p)\). A robust fit is
+\[
+\hat s=\exp\!\left[\operatorname{median}_{\rm fit}
+                  \bigl(\log Z_o-\log Z_n\bigr)\right].
+\]
+Fit one value for the window, not one per frame or body part, and don’t set it from the focal-length ratio.
+
+### What would count as validation
+
+- **Held-out head and body:** Freeze \(s\), then report median and tail depth errors separately for head and body on unused overlap frames. Check for residuals that vary with time, depth, or distance from the principal point. For example, if the head consistently needs \(s=1.10\) and the body needs \(s=0.90\), a good pooled median does not rescue the single-scale model.
+- **Translated virtual views:** Render both branches at identical old poses with meaningful translation. Compare projected landmarks, silhouettes, depth ordering, and GGA correspondences. Include a baseline that lifts with native \(K_n\) but renders with the same old target \(K_o\). A source-view match is automatic, and rotations about the source camera center cannot test depth scale.
+- **Seam:** Before blending, render the *same overlap timestamps* from each branch at identical poses, then inspect the actual switch. Look for branch-dependent jumps in head or body position, contour size, depth, or visibility. The same-time comparison separates a seam artifact from real subject motion.
+
+Set tolerances before looking at the holdout. A pass supports using the derived geometry with the old poses **over the tested views and frames**; agreement with the old window is not independent proof of metric accuracy. Keep both native outputs and the failed intrinsics check intact.

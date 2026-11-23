@@ -1,0 +1,49 @@
+{
+  "mode": "single_projection_observation",
+  "exo_sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+  "maps_sha256": "e665f13acd916a49082633ddda9adda8299f2b3e24e636a203eee904491788e2",
+  "alternate_maps_sha256": null,
+  "data_sha256": "2a6c3ef4bfeecc99c1c4afb3637b47377462fa238dfe280f8e55341b1d6eb291",
+  "frames": [
+    {
+      "frame": 12,
+      "target_pixels": 1939,
+      "by_object": {
+        "1": 1872,
+        "2": 30,
+        "6": 37
+      },
+      "primary_candidate_by_object": {
+        "1": 1872,
+        "2": 30,
+        "6": 37
+      },
+      "changed_pixels_inside_lock": 1939,
+      "changed_pixels_outside_lock": 0
+    },
+    {
+      "frame": 24,
+      "target_pixels": 1290,
+      "by_object": {
+        "1": 1214,
+        "2": 14,
+        "4": 20,
+        "6": 42
+      },
+      "primary_candidate_by_object": {
+        "1": 1214,
+        "2": 14,
+        "4": 20,
+        "6": 42
+      },
+      "changed_pixels_inside_lock": 1290,
+      "changed_pixels_outside_lock": 0
+    }
+  ],
+  "diagnostic_old_generation_sha256": "94cf039fea0391942f6e090cc9da98f1baada0a48689611bf8ad920ac2bc6dc6",
+  "limits": [
+    "Unknown pixels are a separate validity bit, including actual black observations.",
+    "The map validates provenance and exact pixel preservation under the supplied projection hypotheses.",
+    "Geometry agreement is not ground truth. Exact anchors alone make no claim about the rest of the frame."
+  ]
+}

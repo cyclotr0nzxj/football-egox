@@ -1,0 +1,66 @@
+{
+  "status": "complete",
+  "checked_at": "2026-10-19T14:11:14.622309+00:00",
+  "pairs": [
+    {
+      "pair": "01",
+      "sampled_visible_frames": [
+        0,
+        182,
+        364
+      ],
+      "orientation_and_pairing_passed": true,
+      "sampled_frames_nonblack": true,
+      "reference_ego_unchanged": true,
+      "note": "Actually viewed paired_overview.jpg; sampled posture/ball/body correspondence consistent with previous synchronization. Original +/-1 frame uncertainty remains."
+    },
+    {
+      "pair": "02",
+      "sampled_visible_frames": [
+        0,
+        175,
+        349
+      ],
+      "orientation_and_pairing_passed": true,
+      "sampled_frames_nonblack": true,
+      "reference_ego_unchanged": true,
+      "note": "Actually viewed paired_overview.jpg; sampled posture/ball/body correspondence consistent with previous synchronization. Original +/-1 frame uncertainty remains."
+    },
+    {
+      "pair": "03",
+      "sampled_visible_frames": [
+        0,
+        140,
+        279
+      ],
+      "orientation_and_pairing_passed": true,
+      "sampled_frames_nonblack": true,
+      "reference_ego_unchanged": true,
+      "note": "Actually viewed paired_overview.jpg; sampled posture/ball/body correspondence consistent with previous synchronization. Original +/-1 frame uncertainty remains."
+    },
+    {
+      "pair": "04",
+      "sampled_visible_frames": [
+        0,
+        155,
+        310
+      ],
+      "orientation_and_pairing_passed": true,
+      "sampled_frames_nonblack": true,
+      "reference_ego_unchanged": true,
+      "note": "Actually viewed paired_overview.jpg; sampled posture/ball/body correspondence consistent with previous synchronization. Original +/-1 frame uncertainty remains."
+    },
+    {
+      "pair": "05",
+      "sampled_visible_frames": [
+        0,
+        132,
+        264
+      ],
+      "orientation_and_pairing_passed": true,
+      "sampled_frames_nonblack": true,
+      "reference_ego_unchanged": true,
+      "note": "Actually viewed paired_overview.jpg; sampled posture/ball/body correspondence consistent with previous synchronization. Original +/-1 frame uncertainty remains."
+    }
+  ]
+}

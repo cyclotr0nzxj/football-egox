@@ -1,0 +1,14 @@
+{
+  "fingerprint": "62484d21a27b47fa86538a040862affeecf37251f080e42a26fa140a55a2da92",
+  "candidate_raw_sha256": "e9fa07634ee91b77c7a5d9faf5d726614edfe32903d615473fa902a87c85996d",
+  "historical_004_sha256": "94cf039fea0391942f6e090cc9da98f1baada0a48689611bf8ad920ac2bc6dc6",
+  "frames": 49,
+  "display_fps": 30,
+  "alignment": "source frame index 0..48",
+  "outputs": {
+    "F12-F24.png": "4659d769f28aff34d629690749ccae3d9236de49790d6bf5a649a6e1453327ef",
+    "Pair05-B-all-frames.jpg": "da0333e4652704dbbfb709e0439574842459dbfb9aa016371159e61e52e546be",
+    "Pair05-B.mp4": "dfd9d564a2daa5457feb81a425f1aa2373eb9c465c7ccce7562dd0ff06d13976",
+    "Pair05-same-frames.mp4": "11c45f765beb9aaf0ad4727c4b302364b0b51402ef4f76c4e6f583028176bb45"
+  }
+}

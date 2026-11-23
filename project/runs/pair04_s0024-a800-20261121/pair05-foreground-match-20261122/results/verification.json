@@ -1,0 +1,441 @@
+{
+  "status": "passed_pair05_cpu_foreground_matching",
+  "scope": "Two real EXO frames, observed depth and the frozen Aria forward projection. No denoising.",
+  "input_hashes": {
+    "exo": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+    "prior": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
+    "meta": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
+    "instances": "7747332adc5416a8fc64ad3f7254164bafaed49b8ba8a7513e515a3e553d59d3",
+    "balls": "74cee28ffbfe5e7782272b2857df50014617e3a1ca55f1cf51f428a00cadb77f",
+    "wearer_exclusion": "6b74ac3711c5336dd4ba7f4cba8f30419417bfa8343a37fe5766623bb307ffa3",
+    "renderer": "177721241c123019e7f1932639c59efb510e314514f561ef9d54ce122f6a1ee8"
+  },
+  "labels": {
+    "1": "teammate",
+    "2": "ball",
+    "3": "disc_1",
+    "4": "disc_2",
+    "5": "disc_3",
+    "6": "disc_4"
+  },
+  "absolute_source_index": "y*784+x, or -1 for pixels outside the protected foreground",
+  "patch_edge_columns": [
+    "object_id",
+    "query_y",
+    "query_x",
+    "key_y",
+    "key_x",
+    "visible_support_pixels",
+    "exact_native_gga_source_sample_pixels"
+  ],
+  "masked_directions": "Mean unit world directions for each edge, using only that object's surviving pixels.",
+  "measurements": {
+    "F12": {
+      "objects": {
+        "teammate": {
+          "source_pixels": 15732,
+          "target_visible_pixels": 1872,
+          "object_specific_patch_edges": 152,
+          "edges_with_exact_native_gga_source_sample": 67,
+          "center_xy": [
+            238.0,
+            201.0
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 1872,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "ball": {
+          "source_pixels": 374,
+          "target_visible_pixels": 30,
+          "object_specific_patch_edges": 6,
+          "edges_with_exact_native_gga_source_sample": 1,
+          "center_xy": [
+            231.0,
+            255.0
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 30,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "disc_1": {
+          "source_pixels": 47,
+          "target_visible_pixels": 0,
+          "object_specific_patch_edges": 0,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "square_visible_pixels": 0
+        },
+        "disc_2": {
+          "source_pixels": 62,
+          "target_visible_pixels": 0,
+          "object_specific_patch_edges": 0,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "square_visible_pixels": 40,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "disc_3": {
+          "source_pixels": 37,
+          "target_visible_pixels": 0,
+          "object_specific_patch_edges": 0,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "square_visible_pixels": 0
+        },
+        "disc_4": {
+          "source_pixels": 38,
+          "target_visible_pixels": 37,
+          "object_specific_patch_edges": 6,
+          "edges_with_exact_native_gga_source_sample": 2,
+          "center_xy": [
+            183.0,
+            418.0
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 38,
+          "square_fraction_in_reviewed_region": 1.0
+        }
+      },
+      "protected_target_pixels": 1939,
+      "object_specific_patch_edges": 164,
+      "object_specific_directions_verified": 164,
+      "ball_edges_fixed_sample_replay": [
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            18,
+            33
+          ],
+          "observed_ball_support": 1,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            18,
+            34
+          ],
+          "observed_ball_support": 6,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            19,
+            33
+          ],
+          "observed_ball_support": 5,
+          "native_samples_labelled_ball_in_source_block": 8,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            19,
+            34
+          ],
+          "observed_ball_support": 5,
+          "native_samples_labelled_ball_in_source_block": 16,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 12,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            19,
+            33
+          ],
+          "observed_ball_support": 12,
+          "native_samples_labelled_ball_in_source_block": 8,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 8,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 2
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            19,
+            34
+          ],
+          "observed_ball_support": 1,
+          "native_samples_labelled_ball_in_source_block": 16,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 4,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        }
+      ],
+      "ball_only_sample_budget_replay": {
+        "observed_input_pixels": 30,
+        "retained_under_same_budget": 29,
+        "retained_object_edges": 6,
+        "maximum_samples_per_source_block": 16
+      },
+      "target_patches_with_multiple_foreground_ids": 0,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2447,
+        "rejected_source_silhouette_pixels": 543,
+        "rejected_disconnected_target_pixels": 32
+      },
+      "rejected": {
+        "observed_foreground_behind_nearer_surface": {
+          "tested": 13474,
+          "admitted": 0
+        },
+        "observed_wrong_foreground_identity_at_protected_pixel": {
+          "tested": 0,
+          "admitted": 0
+        },
+        "observed_foreground_landing_on_unprotected_pixel": {
+          "tested": 2363,
+          "admitted": 0
+        },
+        "observed_background_or_wearer_at_protected_pixel": {
+          "tested": 1791,
+          "admitted": 0
+        },
+        "other_frame_same_identity_landing_at_protected_pixel": {
+          "tested": 6113,
+          "would_pass_without_time_gate": 3,
+          "admitted": 0
+        },
+        "real_ball_routed_to_other_object": {
+          "tested": 30,
+          "admitted": 0
+        }
+      }
+    },
+    "F24": {
+      "objects": {
+        "teammate": {
+          "source_pixels": 13697,
+          "target_visible_pixels": 1214,
+          "object_specific_patch_edges": 115,
+          "edges_with_exact_native_gga_source_sample": 40,
+          "center_xy": [
+            219.0,
+            206.0
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 1214,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "ball": {
+          "source_pixels": 260,
+          "target_visible_pixels": 14,
+          "object_specific_patch_edges": 6,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "center_xy": [
+            228.5,
+            259.5
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 14,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "disc_1": {
+          "source_pixels": 51,
+          "target_visible_pixels": 0,
+          "object_specific_patch_edges": 0,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "square_visible_pixels": 0
+        },
+        "disc_2": {
+          "source_pixels": 55,
+          "target_visible_pixels": 20,
+          "object_specific_patch_edges": 4,
+          "edges_with_exact_native_gga_source_sample": 1,
+          "center_xy": [
+            303.5,
+            429.0
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 44,
+          "square_fraction_in_reviewed_region": 1.0
+        },
+        "disc_3": {
+          "source_pixels": 39,
+          "target_visible_pixels": 0,
+          "object_specific_patch_edges": 0,
+          "edges_with_exact_native_gga_source_sample": 0,
+          "square_visible_pixels": 0
+        },
+        "disc_4": {
+          "source_pixels": 47,
+          "target_visible_pixels": 42,
+          "object_specific_patch_edges": 8,
+          "edges_with_exact_native_gga_source_sample": 3,
+          "center_xy": [
+            177.5,
+            413.5
+          ],
+          "fraction_in_independently_reviewed_prior_region": 1.0,
+          "square_visible_pixels": 45,
+          "square_fraction_in_reviewed_region": 0.9555555555555556
+        }
+      },
+      "protected_target_pixels": 1290,
+      "object_specific_patch_edges": 133,
+      "object_specific_directions_verified": 133,
+      "ball_edges_fixed_sample_replay": [
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            18,
+            31
+          ],
+          "observed_ball_support": 2,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 0,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            15,
+            14
+          ],
+          "key_yx": [
+            18,
+            32
+          ],
+          "observed_ball_support": 1,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 2,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            19,
+            31
+          ],
+          "observed_ball_support": 3,
+          "native_samples_labelled_ball_in_source_block": 6,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 6,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 10,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            19,
+            32
+          ],
+          "observed_ball_support": 6,
+          "native_samples_labelled_ball_in_source_block": 5,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 5,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 9,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            20,
+            31
+          ],
+          "observed_ball_support": 1,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 14,
+          "native_ball_samples_still_observed_after_gate": 0
+        },
+        {
+          "query_yx": [
+            16,
+            14
+          ],
+          "key_yx": [
+            20,
+            32
+          ],
+          "observed_ball_support": 1,
+          "native_samples_labelled_ball_in_source_block": 0,
+          "native_ball_samples_projecting_to_query_block_before_depth_gate": 0,
+          "other_native_samples_projecting_to_query_block_before_depth_gate": 8,
+          "native_ball_samples_still_observed_after_gate": 0
+        }
+      ],
+      "ball_only_sample_budget_replay": {
+        "observed_input_pixels": 14,
+        "retained_under_same_budget": 14,
+        "retained_object_edges": 6,
+        "maximum_samples_per_source_block": 6
+      },
+      "target_patches_with_multiple_foreground_ids": 2,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 1694,
+        "rejected_source_silhouette_pixels": 430,
+        "rejected_disconnected_target_pixels": 50
+      },
+      "rejected": {
+        "observed_foreground_behind_nearer_surface": {
+          "tested": 12003,
+          "admitted": 0
+        },
+        "observed_wrong_foreground_identity_at_protected_pixel": {
+          "tested": 87,
+          "admitted": 0
+        },
+        "observed_foreground_landing_on_unprotected_pixel": {
+          "tested": 3035,
+          "admitted": 0
+        },
+        "observed_background_or_wearer_at_protected_pixel": {
+          "tested": 1709,
+          "admitted": 0
+        },
+        "other_frame_same_identity_landing_at_protected_pixel": {
+          "tested": 2650,
+          "would_pass_without_time_gate": 7,
+          "admitted": 0
+        },
+        "real_ball_routed_to_other_object": {
+          "tested": 14,
+          "admitted": 0
+        },
+        "real_disc_2_routed_to_disc_4": {
+          "tested": 20,
+          "admitted": 0
+        }
+      }
+    }
+  }
+}

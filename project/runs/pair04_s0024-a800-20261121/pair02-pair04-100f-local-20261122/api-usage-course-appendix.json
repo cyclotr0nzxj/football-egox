@@ -1,0 +1,23 @@
+{
+  "model": "gpt-6.2-sol",
+  "effort": "max",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 239,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cache_write_tokens_details": {
+        "ttl_12h_tokens": 0,
+        "ttl_30m_tokens": 0
+      },
+      "cached_tokens": 0
+    },
+    "output_tokens": 4167,
+    "output_tokens_details": {
+      "reasoning_tokens": 3816
+    },
+    "total_tokens": 4406
+  },
+  "request_id": "req_8062fc0672454d1cae7845b58117da7c",
+  "time_utc": "2026-11-22T16:19:37.780373+00:00"
+}

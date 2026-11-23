@@ -1,0 +1,2 @@
+09fba56562c04d5b48e46ab4298563ccb717eac271ff4099bdce8cec03603c09  pointcloud-008/pair04-f24.ply
+68f45ceb2cba619a9d63792dd2a2934c1f4a81585f250a9f314c881047fd22e9  pointcloud-008/pointcloud.json

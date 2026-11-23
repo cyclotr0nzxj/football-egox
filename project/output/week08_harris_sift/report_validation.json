@@ -1,0 +1,121 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-21T07:56:30.764117+00:00",
+  "scope": "Restored lab report with limited academic elements",
+  "pdf_sha256": "1eaef9f69b1916441bf9c27acd97183ee2bfa8888bdd6766cefe6c30704aad6d",
+  "pdf_pages": 9,
+  "pdf_bytes": 5061919,
+  "embedded_fonts": {
+    "/AAAAAA+ArialUnicodeMS": true,
+    "/AAAAAB+ArialUnicodeMS": true,
+    "/AAAAAC+ArialUnicodeMS": true
+  },
+  "safe_character_bounds": [
+    {
+      "page": 1,
+      "characters": 719,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 2,
+      "characters": 680,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 3,
+      "characters": 470,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 4,
+      "characters": 812,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 5,
+      "characters": 252,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 6,
+      "characters": 649,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 7,
+      "characters": 507,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 8,
+      "characters": 531,
+      "outside_safe_bounds": 0
+    },
+    {
+      "page": 9,
+      "characters": 1461,
+      "outside_safe_bounds": 0
+    }
+  ],
+  "render_dpi": 100,
+  "visual_review": [
+    {
+      "page": 1,
+      "render_sha256": "5b0ea04b597a686851894138fad15bda00c2794c90a3dea50551ee0300ca864f",
+      "visual_review": "passed"
+    },
+    {
+      "page": 2,
+      "render_sha256": "3cc9af9496a7fe146849243685aff237794e4d18905a9e9e3ade9e781d84943f",
+      "visual_review": "passed"
+    },
+    {
+      "page": 3,
+      "render_sha256": "c0fc6fdfa9eea4d1e018a77a9b9efaa9808cd9dbedb7e223b8a35c695e1bb68b",
+      "visual_review": "passed"
+    },
+    {
+      "page": 4,
+      "render_sha256": "b77dcff88cf43193819d91f07748c6f894c67301ba64bf4f924dacc2bf713a12",
+      "visual_review": "passed"
+    },
+    {
+      "page": 5,
+      "render_sha256": "9620b8e595fa7e3956dbbcbd3da37a07307ab3cadb6ee5b5ba0719be36b3b7a6",
+      "visual_review": "passed"
+    },
+    {
+      "page": 6,
+      "render_sha256": "34f3067d90158df26e42b58d51fb111569b446eb2280c8da86379b2c9d999163",
+      "visual_review": "passed"
+    },
+    {
+      "page": 7,
+      "render_sha256": "eafa5e0fc9480054c29638fad915d63115021c8ca745029b242a52f93c966f11",
+      "visual_review": "passed"
+    },
+    {
+      "page": 8,
+      "render_sha256": "f09296e3c7c950ff25fa6b86e7023b6b566438cfe5e9dcbb676f12ad110883a0",
+      "visual_review": "passed"
+    },
+    {
+      "page": 9,
+      "render_sha256": "1652d7cd24e82d8be48a52c9020e484050610d8276f2b441c78a4177aa707022",
+      "visual_review": "passed"
+    }
+  ],
+  "review_notes": [
+    "All nine pages rendered and visually inspected.",
+    "Original paired images, capture photos, dynamic preview, two static detector boards, controlled samples and failure board retained.",
+    "Complete numerical tables retained with supplemental two-metric figure."
+  ],
+  "result_image_blocks": 8,
+  "table_blocks": 9,
+  "numeric_sources": [
+    "results/metrics.csv",
+    "results/coordinates",
+    "dynamic/counts.csv"
+  ],
+  "source_video_scope": "Five final-trimmed 4K EXO/EGO pairs (10 files), plus two work inputs and one detection output"
+}

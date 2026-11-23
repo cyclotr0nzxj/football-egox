@@ -1,0 +1,258 @@
+{
+  "name": "pair02_s0000",
+  "width": 784,
+  "height": 448,
+  "video_sha256": "8faabf80ab7cc71b4a7edfc481e42fe46ad347be9421f7921940d8656b15d38c",
+  "target_pixel": [
+    290,
+    183
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "x": 515,
+      "y": 139
+    },
+    {
+      "frame": 1,
+      "x": 514,
+      "y": 139
+    },
+    {
+      "frame": 2,
+      "x": 513,
+      "y": 139
+    },
+    {
+      "frame": 3,
+      "x": 513,
+      "y": 139
+    },
+    {
+      "frame": 4,
+      "x": 512,
+      "y": 139
+    },
+    {
+      "frame": 5,
+      "x": 512,
+      "y": 138
+    },
+    {
+      "frame": 6,
+      "x": 511,
+      "y": 139
+    },
+    {
+      "frame": 7,
+      "x": 511,
+      "y": 140
+    },
+    {
+      "frame": 8,
+      "x": 510,
+      "y": 141
+    },
+    {
+      "frame": 9,
+      "x": 508,
+      "y": 142
+    },
+    {
+      "frame": 10,
+      "x": 506,
+      "y": 143
+    },
+    {
+      "frame": 11,
+      "x": 505,
+      "y": 143
+    },
+    {
+      "frame": 12,
+      "x": 504,
+      "y": 143
+    },
+    {
+      "frame": 13,
+      "x": 502,
+      "y": 143
+    },
+    {
+      "frame": 14,
+      "x": 499,
+      "y": 142
+    },
+    {
+      "frame": 15,
+      "x": 495,
+      "y": 142
+    },
+    {
+      "frame": 16,
+      "x": 491,
+      "y": 142
+    },
+    {
+      "frame": 17,
+      "x": 488,
+      "y": 142
+    },
+    {
+      "frame": 18,
+      "x": 486,
+      "y": 143
+    },
+    {
+      "frame": 19,
+      "x": 484,
+      "y": 144
+    },
+    {
+      "frame": 20,
+      "x": 483,
+      "y": 145
+    },
+    {
+      "frame": 21,
+      "x": 482,
+      "y": 147
+    },
+    {
+      "frame": 22,
+      "x": 481,
+      "y": 148
+    },
+    {
+      "frame": 23,
+      "x": 480,
+      "y": 150
+    },
+    {
+      "frame": 24,
+      "x": 479,
+      "y": 150
+    },
+    {
+      "frame": 25,
+      "x": 479,
+      "y": 150
+    },
+    {
+      "frame": 26,
+      "x": 479,
+      "y": 149
+    },
+    {
+      "frame": 27,
+      "x": 479,
+      "y": 148
+    },
+    {
+      "frame": 28,
+      "x": 479,
+      "y": 147
+    },
+    {
+      "frame": 29,
+      "x": 481,
+      "y": 146
+    },
+    {
+      "frame": 30,
+      "x": 483,
+      "y": 145
+    },
+    {
+      "frame": 31,
+      "x": 485,
+      "y": 144
+    },
+    {
+      "frame": 32,
+      "x": 487,
+      "y": 142
+    },
+    {
+      "frame": 33,
+      "x": 489,
+      "y": 141
+    },
+    {
+      "frame": 34,
+      "x": 491,
+      "y": 141
+    },
+    {
+      "frame": 35,
+      "x": 492,
+      "y": 141
+    },
+    {
+      "frame": 36,
+      "x": 493,
+      "y": 141
+    },
+    {
+      "frame": 37,
+      "x": 494,
+      "y": 141
+    },
+    {
+      "frame": 38,
+      "x": 495,
+      "y": 141
+    },
+    {
+      "frame": 39,
+      "x": 497,
+      "y": 141
+    },
+    {
+      "frame": 40,
+      "x": 498,
+      "y": 141
+    },
+    {
+      "frame": 41,
+      "x": 500,
+      "y": 141
+    },
+    {
+      "frame": 42,
+      "x": 503,
+      "y": 140
+    },
+    {
+      "frame": 43,
+      "x": 505,
+      "y": 140
+    },
+    {
+      "frame": 44,
+      "x": 506,
+      "y": 140
+    },
+    {
+      "frame": 45,
+      "x": 508,
+      "y": 140
+    },
+    {
+      "frame": 46,
+      "x": 510,
+      "y": 141
+    },
+    {
+      "frame": 47,
+      "x": 512,
+      "y": 141
+    },
+    {
+      "frame": 48,
+      "x": 513,
+      "y": 141
+    }
+  ],
+  "notes": "EXO-only annotations for visible frames 0–48 of MVI_5689.MP4. Each anchor was selected on the visible lateral cap/head of the near player in a gray hoodie and red shoes and visually checked on the encoded 784×448 frames. The fixed pixel (290, 183) stays on the distant teammate’s upper torso across all 49 frames, including the receiving step. The virtual look-at has no gaze measurement. Pixel origin is the top left. Instance and depth support require geometry validation."
+}

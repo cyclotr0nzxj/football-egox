@@ -1,0 +1,78 @@
+{
+  "checked_at": "2026-10-19T13:19:16.936476+00:00",
+  "all_10_sources_unchanged": true,
+  "files": [
+    {
+      "path": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+      "sha256": "1db2efe0db24fb4630b7d8030e73d5bf1c1b5d0dc39915979aea4c53bf6b3053",
+      "size": 315231011,
+      "mtime_ns": 1792400778000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+      "sha256": "9b2afbc252d14b9f0f6942ecf83abd12c57542125b16d3fe5b9bc193cc3e3cfd",
+      "size": 174975820,
+      "mtime_ns": 1792400900000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+      "sha256": "9b1d70b28896d42c8e1e5652fd7a18ca5c17ed13d0fe335c96af75523dd096bc",
+      "size": 201694403,
+      "mtime_ns": 1792401148000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "sha256": "a63b261d46a5c4303a8dc6df95bf2d1415e5c976049bef07b2e96ef25ee511dd",
+      "size": 156579646,
+      "mtime_ns": 1792401530000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+      "sha256": "df7ce710232a528ff78edcee9ed1e1afe1b1daac1d6d350ba03f45f891e9124c",
+      "size": 286182605,
+      "mtime_ns": 1792401668000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证exo/MVI_5688.MP4",
+      "sha256": "534374284492be3613eaf9aacf54b6b58f40305ff4b17870061a09ea9c6f7eac",
+      "size": 720252792,
+      "mtime_ns": 1792401862000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证exo/MVI_5689.MP4",
+      "sha256": "27d521df0e881e22d97df54bfeaeba39f337b667a43b82fe3ca4314911dea64d",
+      "size": 409124536,
+      "mtime_ns": 1792401961000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证exo/MVI_5691.MP4",
+      "sha256": "81af5dccc5d11253dbc925b6a0d88b64fd5ba38f9abee07139b0455d8bb3b08d",
+      "size": 467217248,
+      "mtime_ns": 1792402215000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证exo/MVI_5693.MP4",
+      "sha256": "09001d1b5eabb631ae105117d4cf271033dea05d57aed4c54edc43fd9288b510",
+      "size": 372286208,
+      "mtime_ns": 1792402590000000000,
+      "unchanged": true
+    },
+    {
+      "path": "验证视频/验证exo/MVI_5694.MP4",
+      "sha256": "f5d1ec3981b6e6f37efe2e0e5426921a563dffaf77e1b8186b70819292b6c53a",
+      "size": 657014908,
+      "mtime_ns": 1792402747000000000,
+      "unchanged": true
+    }
+  ],
+  "final_stat_check_at": "2026-10-19T13:30:57.327403+00:00",
+  "all_sources_still_unchanged_after_exports": true
+}

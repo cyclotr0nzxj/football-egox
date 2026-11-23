@@ -1,0 +1,236 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-21T07:58:51.938441+00:00",
+  "scope": "Current nine-page experiment report including the final trimmed-source-video documentation; isolated PDF dependency copy, report assembly and PDF build only",
+  "isolation": {
+    "copied_from": "submission/week08_harris_sift",
+    "copy": "tmp/week08_lab_report_portable_sources_update",
+    "git_metadata_copied": false,
+    "formal_submission_modified": false,
+    "source_project_absolute_paths_required_at_runtime": false,
+    "project_specific_inputs_from_package_only": true,
+    "external_dependencies": "Existing Python 3.12 runtime and installed Python packages, system Chinese font",
+    "scientific_figures_redrawn": false,
+    "detection_experiments_rerun": false,
+    "dynamic_video_rerun": false,
+    "source_video_4k_folder_copied": false,
+    "omission_reason": "The ten 4K videos are not read by report assembly or PDF building. Their complete package bytes, CRC/SHA256 and unchanged source hashes were verified separately by the final packaging tool."
+  },
+  "commands": [
+    {
+      "command": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/assemble_feature_report.py --results results --output report_reproduced/report_data.json --capture-evidence data/capture_setup.jpg --paper-figures report/paper_figures --dynamic evidence/dynamic",
+      "exit_code": 0
+    },
+    {
+      "command": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_week08_pdf.py --data report_reproduced/report_data.json --output report_reproduced/第8周_Harris与SIFT实验报告.pdf --markdown report_reproduced/实验报告.md",
+      "exit_code": 0
+    }
+  ],
+  "report_blocks": {
+    "packaged": 77,
+    "rebuilt": 77,
+    "all_text_tables_captions_and_layout_equal": true,
+    "title_subtitle_date_equal": true,
+    "image_path_differences": "Only relative locations differ for newly assembled assets; all eight image bytes agree."
+  },
+  "pdf": {
+    "packaged_pages": 9,
+    "rebuilt_pages": 9,
+    "per_page_whitespace_normalized_text_equal": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "all_pages_text_equal": true,
+    "packaged_sha256": "1eaef9f69b1916441bf9c27acd97183ee2bfa8888bdd6766cefe6c30704aad6d",
+    "rebuilt_sha256": "cc68edb7c48038732450cc788df9709355ada439d12aab0e4347197e8b5f05f4",
+    "binary_identity_required": false,
+    "note": "Metadata may differ; this checks all page text, corresponding image bytes and report block semantics, not cross-platform rendering."
+  },
+  "recreated_assets": [
+    {
+      "file": "controlled_samples.png",
+      "packaged_sha256": "fd51245c2c2f359d1880ceeca3a0a34ca70a9fd3cde630bda28a845526764bfc",
+      "reproduced_sha256": "fd51245c2c2f359d1880ceeca3a0a34ca70a9fd3cde630bda28a845526764bfc",
+      "byte_identical": true
+    },
+    {
+      "file": "failure_case.png",
+      "packaged_sha256": "9fb2ab8aac7a98172b48a3231695133c8e33a70e700df4205b7f6ca00af49b6c",
+      "reproduced_sha256": "9fb2ab8aac7a98172b48a3231695133c8e33a70e700df4205b7f6ca00af49b6c",
+      "byte_identical": true
+    },
+    {
+      "file": "feature_ego_f50.png",
+      "packaged_sha256": "8c5762b77acceb83e1b700f5d5d2dcc7e7ddf380937763e201f0bd427b399085",
+      "reproduced_sha256": "8c5762b77acceb83e1b700f5d5d2dcc7e7ddf380937763e201f0bd427b399085",
+      "byte_identical": true
+    },
+    {
+      "file": "feature_exo_f50.png",
+      "packaged_sha256": "4b3da3beaf217cbd7f4a42ef47c52310f7d1fcde4c090b4778ca96557e6e7751",
+      "reproduced_sha256": "4b3da3beaf217cbd7f4a42ef47c52310f7d1fcde4c090b4778ca96557e6e7751",
+      "byte_identical": true
+    },
+    {
+      "file": "paired_originals.png",
+      "packaged_sha256": "9bb0948b4c39eeabd8ed042d55e86b30216fa876f346d582f4d74478365a2d55",
+      "reproduced_sha256": "9bb0948b4c39eeabd8ed042d55e86b30216fa876f346d582f4d74478365a2d55",
+      "byte_identical": true
+    }
+  ],
+  "markdown_image_links": [
+    {
+      "target": "assets/paired_originals.png",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "../data/capture_setup.jpg",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "../evidence/dynamic/previews/frame_0155.jpg",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "assets/feature_exo_f50.png",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "assets/feature_ego_f50.png",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "assets/controlled_samples.png",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "../report/paper_figures/figure2_stability.png",
+      "exists": true,
+      "is_relative": true
+    },
+    {
+      "target": "assets/failure_case.png",
+      "exists": true,
+      "is_relative": true
+    }
+  ],
+  "all_eight_report_images": [
+    {
+      "packaged_path": "report/assets/paired_originals.png",
+      "reproduced_path": "report_reproduced/assets/paired_originals.png",
+      "sha256": "9bb0948b4c39eeabd8ed042d55e86b30216fa876f346d582f4d74478365a2d55",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "data/capture_setup.jpg",
+      "reproduced_path": "data/capture_setup.jpg",
+      "sha256": "c63ed6d7f382382305248ed982bc780b2b2f77077b5071ddc2d5c8fea739bbed",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "evidence/dynamic/previews/frame_0155.jpg",
+      "reproduced_path": "evidence/dynamic/previews/frame_0155.jpg",
+      "sha256": "f284443d1647deb5cd14220dd3cdb9be476b5b872adcd6d6596e801024241ff8",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "report/assets/feature_exo_f50.png",
+      "reproduced_path": "report_reproduced/assets/feature_exo_f50.png",
+      "sha256": "4b3da3beaf217cbd7f4a42ef47c52310f7d1fcde4c090b4778ca96557e6e7751",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "report/assets/feature_ego_f50.png",
+      "reproduced_path": "report_reproduced/assets/feature_ego_f50.png",
+      "sha256": "8c5762b77acceb83e1b700f5d5d2dcc7e7ddf380937763e201f0bd427b399085",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "report/assets/controlled_samples.png",
+      "reproduced_path": "report_reproduced/assets/controlled_samples.png",
+      "sha256": "fd51245c2c2f359d1880ceeca3a0a34ca70a9fd3cde630bda28a845526764bfc",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "report/paper_figures/figure2_stability.png",
+      "reproduced_path": "report/paper_figures/figure2_stability.png",
+      "sha256": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+      "byte_identical": true
+    },
+    {
+      "packaged_path": "report/assets/failure_case.png",
+      "reproduced_path": "report_reproduced/assets/failure_case.png",
+      "sha256": "9fb2ab8aac7a98172b48a3231695133c8e33a70e700df4205b7f6ca00af49b6c",
+      "byte_identical": true
+    }
+  ],
+  "copied_script_snapshots_sha256": {
+    "scripts/assemble_feature_report.py": "96e7962484b1f969511d694823be939bf80d8e17b54ea6e9bffde0c93a2507ea",
+    "scripts/audit_feature_results.py": "e563db53a205faa6250870b0f36978b2c060a47bc0d3b2c0f0d3f33e20116093",
+    "scripts/audit_feature_video.py": "b2a499135b80b09ce42fa7db17f2a5f878fe19700b7dedbe76043b628be2db5f",
+    "scripts/build_feature_video.py": "84ca1a13e1006a4a372f9e8760c9677ea8969b734be9f37dc8c0fe7959a0a600",
+    "scripts/build_week08_pdf.py": "7a1a50ad9cb144538d63b6baa5da54f19c82ce7d4e73d7d276c5be826e062d59",
+    "scripts/course_feature_detection.py": "6f7ba9709536b48a31328b3cc7a986ddb9c0aee8b39042b01186a9f695903ca1",
+    "scripts/plot_week08_paper_figures.py": "d8874a311da6eb3f198c87d84cdbc23686fc630964f77a07d4f085fdb52a4c24"
+  },
+  "executed_scripts": [
+    "scripts/assemble_feature_report.py",
+    "scripts/build_week08_pdf.py"
+  ],
+  "input_report_data_sha256": "ab48687af90ac8a93038ba7344a5119ad28fecb8a28954542a111a571f5ffed2",
+  "rebuilt_report_data_sha256": "06e63e9be05180067305cc7c1af72d437849bc8c57dd90fb05f259d4dadfd2ab",
+  "historical_paper_evidence": [
+    {
+      "path": "evidence/history/paper_revision_review.json",
+      "current_report_evidence": false
+    },
+    {
+      "path": "evidence/history/paper_portable_reproduction.json",
+      "current_report_evidence": false
+    },
+    {
+      "path": "evidence/history/manuscript_consistency.json",
+      "current_report_evidence": false
+    }
+  ],
+  "historical_boundary": "paper_revision_review.json and paper_portable_reproduction.json validate only the historical six-page draft and are not evidence for this run.",
+  "tested_payload_sha256": {
+    "scripts/assemble_feature_report.py": "96e7962484b1f969511d694823be939bf80d8e17b54ea6e9bffde0c93a2507ea",
+    "scripts/build_week08_pdf.py": "7a1a50ad9cb144538d63b6baa5da54f19c82ce7d4e73d7d276c5be826e062d59",
+    "report/report_data.json": "ab48687af90ac8a93038ba7344a5119ad28fecb8a28954542a111a571f5ffed2",
+    "report/第8周_Harris与SIFT实验报告.pdf": "1eaef9f69b1916441bf9c27acd97183ee2bfa8888bdd6766cefe6c30704aad6d",
+    "report/assets/paired_originals.png": "9bb0948b4c39eeabd8ed042d55e86b30216fa876f346d582f4d74478365a2d55",
+    "data/capture_setup.jpg": "c63ed6d7f382382305248ed982bc780b2b2f77077b5071ddc2d5c8fea739bbed",
+    "evidence/dynamic/previews/frame_0155.jpg": "f284443d1647deb5cd14220dd3cdb9be476b5b872adcd6d6596e801024241ff8",
+    "report/assets/feature_exo_f50.png": "4b3da3beaf217cbd7f4a42ef47c52310f7d1fcde4c090b4778ca96557e6e7751",
+    "report/assets/feature_ego_f50.png": "8c5762b77acceb83e1b700f5d5d2dcc7e7ddf380937763e201f0bd427b399085",
+    "report/assets/controlled_samples.png": "fd51245c2c2f359d1880ceeca3a0a34ca70a9fd3cde630bda28a845526764bfc",
+    "report/paper_figures/figure2_stability.png": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+    "report/assets/failure_case.png": "9fb2ab8aac7a98172b48a3231695133c8e33a70e700df4205b7f6ca00af49b6c"
+  },
+  "source_video_packaging_evidence": {
+    "record": "dist/week08_package_validation.json",
+    "record_sha256": "07544ac94764eb646eae4769d07c978e01ce32854187267f2740ff2d8c098934",
+    "observed_status": "verified",
+    "included_source_video_count": 10,
+    "included_video_count": 13,
+    "source_hashes_unchanged_before_after_zip": true,
+    "crc_and_sha256_checks": "passed",
+    "zip_bytes_at_this_check": 440202396,
+    "zip_sha256_at_this_check": "1bf812789f0793418032254fc9d256f57da2ec550e04931c2cf37f8efebbf73c",
+    "scope_note": "Read-only reference to already completed packaging verification; the isolated report rebuild did not repeat video copying or decoding. This is the package snapshot before this updated evidence is included in the closing archive."
+  }
+}

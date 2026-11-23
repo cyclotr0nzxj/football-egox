@@ -1,0 +1,587 @@
+{
+  "opencv_version": "4.11.0",
+  "numpy_version": "2.3.5",
+  "working_resolution": [
+    960,
+    540
+  ],
+  "parameters": {
+    "main_pair": "04",
+    "size": [
+      960,
+      540
+    ],
+    "manual_reference_method": "Single-annotator coarse polygons drawn by inspecting unprocessed 960x540 images. Not model-produced masks, not pixel-perfect ground truth. Frames selected for instructional diversity, not a random generalization test.",
+    "pilot_frame": 0,
+    "roi_xyxy": [
+      250,
+      250,
+      750,
+      540
+    ],
+    "hsv_rules": [
+      {
+        "name": "bright_low_saturation",
+        "lower": [
+          0,
+          0,
+          135
+        ],
+        "upper": [
+          179,
+          90,
+          255
+        ]
+      },
+      {
+        "name": "yellow",
+        "lower": [
+          15,
+          45,
+          160
+        ],
+        "upper": [
+          40,
+          255,
+          255
+        ]
+      },
+      {
+        "name": "purple",
+        "lower": [
+          110,
+          45,
+          75
+        ],
+        "upper": [
+          165,
+          255,
+          255
+        ]
+      }
+    ],
+    "morph_close_kernel": 5,
+    "morph_close_iterations": 2,
+    "morph_open_kernel": 3,
+    "component_area": [
+      80,
+      15000
+    ],
+    "minimum_circularity": 0.45,
+    "aspect_ratio": [
+      0.55,
+      1.6
+    ],
+    "evaluation_frames": [
+      10,
+      50,
+      170,
+      230,
+      280,
+      130
+    ],
+    "reference_polygons": {
+      "10": [
+        [
+          593,
+          362
+        ],
+        [
+          612,
+          367
+        ],
+        [
+          626,
+          380
+        ],
+        [
+          634,
+          399
+        ],
+        [
+          630,
+          420
+        ],
+        [
+          615,
+          436
+        ],
+        [
+          595,
+          442
+        ],
+        [
+          576,
+          435
+        ],
+        [
+          561,
+          419
+        ],
+        [
+          555,
+          399
+        ],
+        [
+          560,
+          380
+        ],
+        [
+          575,
+          367
+        ]
+      ],
+      "50": [
+        [
+          550,
+          345
+        ],
+        [
+          570,
+          350
+        ],
+        [
+          585,
+          363
+        ],
+        [
+          593,
+          384
+        ],
+        [
+          590,
+          405
+        ],
+        [
+          577,
+          423
+        ],
+        [
+          557,
+          430
+        ],
+        [
+          537,
+          425
+        ],
+        [
+          520,
+          411
+        ],
+        [
+          512,
+          392
+        ],
+        [
+          514,
+          371
+        ],
+        [
+          531,
+          353
+        ]
+      ],
+      "170": [
+        [
+          590,
+          369
+        ],
+        [
+          609,
+          374
+        ],
+        [
+          623,
+          389
+        ],
+        [
+          632,
+          407
+        ],
+        [
+          628,
+          428
+        ],
+        [
+          615,
+          441
+        ],
+        [
+          596,
+          447
+        ],
+        [
+          577,
+          442
+        ],
+        [
+          562,
+          428
+        ],
+        [
+          556,
+          407
+        ],
+        [
+          561,
+          388
+        ],
+        [
+          576,
+          375
+        ]
+      ],
+      "230": [
+        [
+          654,
+          305
+        ],
+        [
+          677,
+          311
+        ],
+        [
+          695,
+          326
+        ],
+        [
+          705,
+          347
+        ],
+        [
+          701,
+          369
+        ],
+        [
+          688,
+          387
+        ],
+        [
+          665,
+          395
+        ],
+        [
+          644,
+          391
+        ],
+        [
+          626,
+          378
+        ],
+        [
+          614,
+          357
+        ],
+        [
+          614,
+          334
+        ],
+        [
+          630,
+          313
+        ]
+      ],
+      "280": [
+        [
+          656,
+          296
+        ],
+        [
+          678,
+          300
+        ],
+        [
+          695,
+          315
+        ],
+        [
+          703,
+          337
+        ],
+        [
+          698,
+          358
+        ],
+        [
+          683,
+          375
+        ],
+        [
+          660,
+          381
+        ],
+        [
+          638,
+          374
+        ],
+        [
+          621,
+          358
+        ],
+        [
+          614,
+          336
+        ],
+        [
+          620,
+          313
+        ],
+        [
+          634,
+          300
+        ]
+      ],
+      "130": [
+        [
+          547,
+          188
+        ],
+        [
+          555,
+          191
+        ],
+        [
+          561,
+          197
+        ],
+        [
+          563,
+          206
+        ],
+        [
+          559,
+          215
+        ],
+        [
+          550,
+          221
+        ],
+        [
+          541,
+          220
+        ],
+        [
+          535,
+          215
+        ],
+        [
+          532,
+          206
+        ],
+        [
+          534,
+          196
+        ],
+        [
+          540,
+          190
+        ]
+      ]
+    },
+    "manual_contact_events": [
+      {
+        "frame": 48,
+        "seconds": 1.92,
+        "event": "foot-ball approach/contact transition",
+        "uncertainty_frames": 2
+      },
+      {
+        "frame": 150,
+        "seconds": 6.0,
+        "event": "receiving/controlling contact transition",
+        "uncertainty_frames": 2
+      },
+      {
+        "frame": 270,
+        "seconds": 10.8,
+        "event": "foot-ball controlling transition",
+        "uncertainty_frames": 2
+      },
+      {
+        "frame": 292,
+        "seconds": 11.68,
+        "event": "opposite-side touch transition",
+        "uncertainty_frames": 2
+      }
+    ],
+    "event_annotation_note": "Manually selected from visible neighboring frames; not automatic touch detection or force/contact ground truth. Previously estimated +/-1 frame camera synchronization uncertainty also applies.",
+    "annotation_provenance": "Coarse reference polygons and nearby-touch frame choices were visually drafted by the coding assistant from unprocessed frames. No independent human or second-annotator verification has been performed."
+  },
+  "evaluation_sample_count": 6,
+  "mean_iou_raw": 0.45118452130620373,
+  "mean_iou_refined": 0.6192933729355471,
+  "mean_iou_roi_contains_ball": 0.7431520475226565,
+  "covered_frames": 4,
+  "coverage_threshold_iou": 0.5,
+  "processing": {
+    "gray_mean": 100.71963348765432,
+    "gray_std": 20.32769934518262,
+    "gaussian_std": 18.834877098245435,
+    "edge_pixels": 2494,
+    "edge_fraction": 0.004810956790123457
+  },
+  "frames": [
+    {
+      "frame": 10,
+      "source_pts": 0.4,
+      "raw_hsv": {
+        "tp": 4266,
+        "fp": 1168,
+        "fn": 492,
+        "iou": 0.719878501518731,
+        "precision": 0.7850570482149429,
+        "recall": 0.8965952080706179,
+        "predicted_pixels": 5434,
+        "reference_pixels": 4758
+      },
+      "refined": {
+        "tp": 4758,
+        "fp": 425,
+        "fn": 0,
+        "iou": 0.9180011576307158,
+        "precision": 0.9180011576307158,
+        "recall": 1.0,
+        "predicted_pixels": 5183,
+        "reference_pixels": 4758
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 3
+    },
+    {
+      "frame": 50,
+      "source_pts": 2.0,
+      "raw_hsv": {
+        "tp": 5117,
+        "fp": 1654,
+        "fn": 129,
+        "iou": 0.7415942028985507,
+        "precision": 0.7557229360508049,
+        "recall": 0.9754098360655737,
+        "predicted_pixels": 6771,
+        "reference_pixels": 5246
+      },
+      "refined": {
+        "tp": 5219,
+        "fp": 382,
+        "fn": 27,
+        "iou": 0.9273276474769012,
+        "precision": 0.9317978932333512,
+        "recall": 0.9948532215020969,
+        "predicted_pixels": 5601,
+        "reference_pixels": 5246
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 6
+    },
+    {
+      "frame": 170,
+      "source_pts": 6.8,
+      "raw_hsv": {
+        "tp": 4225,
+        "fp": 12810,
+        "fn": 206,
+        "iou": 0.2450553912186068,
+        "precision": 0.24801878485471088,
+        "recall": 0.9535093658316407,
+        "predicted_pixels": 17035,
+        "reference_pixels": 4431
+      },
+      "refined": {
+        "tp": 0,
+        "fp": 2235,
+        "fn": 4431,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted_pixels": 2235,
+        "reference_pixels": 4431
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 12
+    },
+    {
+      "frame": 230,
+      "source_pts": 9.2,
+      "raw_hsv": {
+        "tp": 5553,
+        "fp": 6284,
+        "fn": 724,
+        "iou": 0.4420826367327442,
+        "precision": 0.46912224381177664,
+        "recall": 0.8846582762466146,
+        "predicted_pixels": 11837,
+        "reference_pixels": 6277
+      },
+      "refined": {
+        "tp": 6267,
+        "fp": 549,
+        "fn": 10,
+        "iou": 0.9181072370348667,
+        "precision": 0.9194542253521126,
+        "recall": 0.9984068822685996,
+        "predicted_pixels": 6816,
+        "reference_pixels": 6277
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 16
+    },
+    {
+      "frame": 280,
+      "source_pts": 11.2,
+      "raw_hsv": {
+        "tp": 5423,
+        "fp": 3889,
+        "fn": 398,
+        "iou": 0.5584963954685891,
+        "precision": 0.5823668384879725,
+        "recall": 0.9316268682356983,
+        "predicted_pixels": 9312,
+        "reference_pixels": 5821
+      },
+      "refined": {
+        "tp": 5593,
+        "fp": 52,
+        "fn": 228,
+        "iou": 0.9523241954707986,
+        "precision": 0.9907883082373782,
+        "recall": 0.9608314722556262,
+        "predicted_pixels": 5645,
+        "reference_pixels": 5821
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 3
+    },
+    {
+      "frame": 130,
+      "source_pts": 5.2,
+      "raw_hsv": {
+        "tp": 0,
+        "fp": 19,
+        "fn": 804,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted_pixels": 19,
+        "reference_pixels": 804
+      },
+      "refined": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 804,
+        "iou": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "predicted_pixels": 0,
+        "reference_pixels": 804
+      },
+      "reference_kind": "manual_coarse_polygon",
+      "candidates": 0
+    }
+  ],
+  "limitations": [
+    "Single-scene, six purposefully chosen frames with one approximate annotator.",
+    "Manual polygons are coarse references, not a fine pixel ground-truth benchmark.",
+    "F130 is an intentional out-of-ROI challenge and is included in the all-frame mean.",
+    "No claim of trained semantic segmentation or automatic touch detection."
+  ]
+}

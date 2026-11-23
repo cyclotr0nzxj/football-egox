@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "png_count": 19,
+  "images": {
+    "controlled/independent_grid.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/ransac_inliers.png": {
+      "size": [
+        1920,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/ratio_matches.png": {
+      "size": [
+        1920,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/registered_target.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/registration_checkerboard.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/registration_overlay.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/source.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/source_keypoints.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/target.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "controlled/target_keypoints.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/ransac_inliers.png": {
+      "size": [
+        1920,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/ratio_matches.png": {
+      "size": [
+        1920,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/registered_target.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/registration_checkerboard.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/registration_overlay.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/source.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/source_keypoints.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/target.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    },
+    "temporal/target_keypoints.png": {
+      "size": [
+        960,
+        584
+      ],
+      "mode": "RGB"
+    }
+  },
+  "source_integrity": {
+    "source_image": {
+      "path": "./output/week08/frames/scene04/exo/0050.jpg",
+      "sha256": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09"
+    },
+    "temporal_image": {
+      "path": "./output/week08/frames/scene04/exo/0200.jpg",
+      "sha256": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92"
+    }
+  },
+  "independent_homogeneous_projection_check": {
+    "grid_points": 187,
+    "mean_px": 0.4758140030001561,
+    "max_csv_roundoff_px": 4.970580391727708e-09
+  },
+  "visual_review": [
+    "Controlled RANSAC match image checked.",
+    "Controlled checkerboard and independent grid checked.",
+    "Temporal RANSAC and overlay checked; background aligned, moving people retain double exposure."
+  ],
+  "claim_boundary": "Temporal data have no homography ground truth; no registration accuracy is claimed."
+}

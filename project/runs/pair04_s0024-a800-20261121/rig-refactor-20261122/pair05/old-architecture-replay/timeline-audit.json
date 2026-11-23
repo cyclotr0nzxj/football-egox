@@ -1,0 +1,728 @@
+{
+  "scope": "Observed EXO same-frame geometry and route construction on CPU. No VAE or denoising.",
+  "frozen_source_hashes": {
+    "exo": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+    "prior": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
+    "meta": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
+    "instances": "7747332adc5416a8fc64ad3f7254164bafaed49b8ba8a7513e515a3e553d59d3",
+    "balls": "74cee28ffbfe5e7782272b2857df50014617e3a1ca55f1cf51f428a00cadb77f",
+    "wearer_exclusion": "6b74ac3711c5336dd4ba7f4cba8f30419417bfa8343a37fe5766623bb307ffa3",
+    "renderer": "177721241c123019e7f1932639c59efb510e314514f561ef9d54ce122f6a1ee8",
+    "foreground_verification": "11de61639b178c78106ed02b993433246d1891b3cd2d68492884b70d135c7e1f",
+    "foreground_mapping": "e665f13acd916a49082633ddda9adda8299f2b3e24e636a203eee904491788e2",
+    "deployed_route_plan": "3cd25a102a6ecf4006add800b293dcf40b82b296392ff652aeea308fcd0f501e",
+    "infer": "99199fac22858821d356f0ec3b8577495290dd579a8d80368de1fca68d559bed"
+  },
+  "per_slot_depth_hashes": {
+    "F00": "8a190c1dae9d81f807a928262c27257b0f991e26115807180d3ff7471cffcb25",
+    "F04": "64adabdfde709de0c82e7bfa78fe077b1e108100e7425b7d85d18f8d45ba8176",
+    "F08": "177193df58462ba20dfe7aa2568e79c0de0aa358cfe8b406396f4adec94e768d",
+    "F12": "4cb747425c15e0f5fe21006bf17dcc6bc4e1711654266845cb218ce17e9dfb66",
+    "F16": "cbc3d357c24ab9e696eb101b1bf34652274afd9b173a534864bb5941a98792f7",
+    "F20": "63975888e5be5ecb157741b814e1bf27170553a1ca8b8bdd4200bc89b19f0fcc",
+    "F24": "32bf746d41ac843508fcc3a8a95a579278265649d2318387773de2d7b0912742",
+    "F28": "e118e2840f15cdf0f43a54cc9113db0c51869635d42ab432ac1f620fe6aeaaa6",
+    "F32": "9d8753625ae5a46149460d86449fc077a12cfbc4a25905a43e2e2ec3aec109cd",
+    "F36": "95794a1ed5b2f3a34095e51bd1e9aef91ce59873474f09cb630cc88df57b0029",
+    "F40": "bfded03d822f2c700b13d0f52c079b60eaa1ff00277875749ce5fe7ea75582f7",
+    "F44": "8755a60fde90c152c0768a6ff26ae41dfd9efdd72e122cdb70106b66c63b30d0",
+    "F48": "e3bd504b9decd441a73a2d8f81d8b7bf7bdac43b870e890550627f1457f4bb14"
+  },
+  "old_two_slot_exclusive": {
+    "frames": [
+      12,
+      24
+    ],
+    "target_query_blocks": 51,
+    "recomputed_mapping_edges_cosine_samples_exact": true
+  },
+  "sample_columns": [
+    "source_and_target_frame",
+    "target_flat_pixel",
+    "source_flat_pixel",
+    "object_id"
+  ],
+  "edge_columns": [
+    "flat_ego_query",
+    "object_id",
+    "flat_exo_key",
+    "sample_count"
+  ],
+  "diagnostic_plan_sha256": "dafabd6f34bb35d58b217ce085f8fe220f855c08a633f948b6ed6684bd5563a7",
+  "candidate_target_query_blocks": 317,
+  "total_target_query_blocks": 10192,
+  "candidate_object_edges": 1844,
+  "candidate_selected_samples": 11767,
+  "max_samples_per_same_frame_source_block": 16,
+  "off_time_negative_cases": 1392,
+  "support_class_rule": "limited means one ball target block or at most eight retained ball samples; fragmented means p90 radius exceeds one 16-pixel patch; heuristic evidence labels",
+  "frames": {
+    "F00": {
+      "slot": 0,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 196,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.71244017920782,
+      "projected_geometry_coverage_in_circle": 0.24241828115976977,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2065,
+        "rejected_source_silhouette_pixels": 446,
+        "rejected_disconnected_target_pixels": 10
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 13981,
+        "adjacent_frame": 4,
+        "off_time_pixels_that_would_pass_without_frame_check": 281,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 23,
+      "source_blocks": 86,
+      "object_edges": 157,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1609,
+          "visible_target_query_blocks": 18,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 987,
+          "distinct_source_blocks": 83,
+          "distinct_target_query_blocks": 18,
+          "object_edges": 149,
+          "sample_radius_p90_from_target_median_px": 42.05948168962618
+        },
+        "ball": {
+          "visible_target_pixels": 124,
+          "visible_target_query_blocks": 5,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 34,
+          "distinct_source_blocks": 3,
+          "distinct_target_query_blocks": 5,
+          "object_edges": 8,
+          "sample_radius_p90_from_target_median_px": 11.896199509508921
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F04": {
+      "slot": 1,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 253,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.884864066795642,
+      "projected_geometry_coverage_in_circle": 0.22642670846474555,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 1884,
+        "rejected_source_silhouette_pixels": 473,
+        "rejected_disconnected_target_pixels": 18
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 14385,
+        "adjacent_frame": 0,
+        "off_time_pixels_that_would_pass_without_frame_check": 351,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 17,
+      "source_blocks": 86,
+      "object_edges": 141,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1393,
+          "visible_target_query_blocks": 15,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 908,
+          "distinct_source_blocks": 82,
+          "distinct_target_query_blocks": 15,
+          "object_edges": 136,
+          "sample_radius_p90_from_target_median_px": 38.88308297452665
+        },
+        "ball": {
+          "visible_target_pixels": 50,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 37,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 5,
+          "sample_radius_p90_from_target_median_px": 5.563479642218822
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F08": {
+      "slot": 2,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 316,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.975295285612463,
+      "projected_geometry_coverage_in_circle": 0.2144901417031025,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 1993,
+        "rejected_source_silhouette_pixels": 487,
+        "rejected_disconnected_target_pixels": 15
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 13449,
+        "adjacent_frame": 4,
+        "off_time_pixels_that_would_pass_without_frame_check": 65,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 22,
+      "source_blocks": 83,
+      "object_edges": 143,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1491,
+          "visible_target_query_blocks": 20,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 861,
+          "distinct_source_blocks": 80,
+          "distinct_target_query_blocks": 20,
+          "object_edges": 138,
+          "sample_radius_p90_from_target_median_px": 38.48376280978771
+        },
+        "ball": {
+          "visible_target_pixels": 20,
+          "visible_target_query_blocks": 3,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 20,
+          "distinct_source_blocks": 3,
+          "distinct_target_query_blocks": 3,
+          "object_edges": 5,
+          "sample_radius_p90_from_target_median_px": 4.821342892086676
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F12": {
+      "slot": 3,
+      "previously_foreground_routed": true,
+      "source_ball_mask_pixels": 374,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": true,
+      "prior_near_black_fraction_upper_circle": 0.9665385398635576,
+      "projected_geometry_coverage_in_circle": 0.21700944898878685,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2447,
+        "rejected_source_silhouette_pixels": 543,
+        "rejected_disconnected_target_pixels": 32
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 13474,
+        "adjacent_frame": 8,
+        "off_time_pixels_that_would_pass_without_frame_check": 6,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 26,
+      "source_blocks": 91,
+      "object_edges": 164,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1872,
+          "visible_target_query_blocks": 20,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 993,
+          "distinct_source_blocks": 85,
+          "distinct_target_query_blocks": 20,
+          "object_edges": 152,
+          "sample_radius_p90_from_target_median_px": 42.190046219457976
+        },
+        "ball": {
+          "visible_target_pixels": 30,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 29,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 6,
+          "sample_radius_p90_from_target_median_px": 4.577708763999663
+        },
+        "disc_4": {
+          "visible_target_pixels": 37,
+          "visible_target_query_blocks": 4,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 30,
+          "distinct_source_blocks": 2,
+          "distinct_target_query_blocks": 4,
+          "object_edges": 6,
+          "sample_radius_p90_from_target_median_px": 13.483849897818365
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F16": {
+      "slot": 4,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 290,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.9695932186131758,
+      "projected_geometry_coverage_in_circle": 0.21649543415216108,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2453,
+        "rejected_source_silhouette_pixels": 511,
+        "rejected_disconnected_target_pixels": 24
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 12197,
+        "adjacent_frame": 12,
+        "off_time_pixels_that_would_pass_without_frame_check": 37,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 25,
+      "source_blocks": 81,
+      "object_edges": 140,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1918,
+          "visible_target_query_blocks": 24,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 930,
+          "distinct_source_blocks": 77,
+          "distinct_target_query_blocks": 24,
+          "object_edges": 135,
+          "sample_radius_p90_from_target_median_px": 41.012193308819754
+        },
+        "ball": {
+          "visible_target_pixels": 20,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 20,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 5,
+          "sample_radius_p90_from_target_median_px": 4.2655902139073145
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F20": {
+      "slot": 5,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 294,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.971527848487934,
+      "projected_geometry_coverage_in_circle": 0.21145047371861178,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2253,
+        "rejected_source_silhouette_pixels": 558,
+        "rejected_disconnected_target_pixels": 49
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 6,
+        "behind_nearest_surface_rejected": 13420,
+        "adjacent_frame": 16,
+        "off_time_pixels_that_would_pass_without_frame_check": 112,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 22,
+      "source_blocks": 85,
+      "object_edges": 143,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1646,
+          "visible_target_query_blocks": 22,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 878,
+          "distinct_source_blocks": 81,
+          "distinct_target_query_blocks": 22,
+          "object_edges": 139,
+          "sample_radius_p90_from_target_median_px": 39.56480506216506
+        },
+        "ball": {
+          "visible_target_pixels": 8,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 8,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 4,
+          "sample_radius_p90_from_target_median_px": 4.3292715550726255
+        }
+      },
+      "support_class": "limited_ball_support"
+    },
+    "F24": {
+      "slot": 6,
+      "previously_foreground_routed": true,
+      "source_ball_mask_pixels": 260,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": true,
+      "prior_near_black_fraction_upper_circle": 0.9817737501272783,
+      "projected_geometry_coverage_in_circle": 0.20929288057721962,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 1694,
+        "rejected_source_silhouette_pixels": 430,
+        "rejected_disconnected_target_pixels": 50
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 87,
+        "behind_nearest_surface_rejected": 12003,
+        "adjacent_frame": 20,
+        "off_time_pixels_that_would_pass_without_frame_check": 20,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 1,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 25,
+      "source_blocks": 80,
+      "object_edges": 131,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1214,
+          "visible_target_query_blocks": 15,
+          "pixels_rejected_by_mixed_source_blocks": 3,
+          "samples": 790,
+          "distinct_source_blocks": 72,
+          "distinct_target_query_blocks": 15,
+          "object_edges": 114,
+          "sample_radius_p90_from_target_median_px": 40.61771939505404
+        },
+        "ball": {
+          "visible_target_pixels": 14,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 1,
+          "samples": 13,
+          "distinct_source_blocks": 5,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 5,
+          "sample_radius_p90_from_target_median_px": 4.123105625617661
+        },
+        "disc_2": {
+          "visible_target_pixels": 20,
+          "visible_target_query_blocks": 4,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 16,
+          "distinct_source_blocks": 1,
+          "distinct_target_query_blocks": 4,
+          "object_edges": 4,
+          "sample_radius_p90_from_target_median_px": 6.150367627183861
+        },
+        "disc_4": {
+          "visible_target_pixels": 42,
+          "visible_target_query_blocks": 6,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 32,
+          "distinct_source_blocks": 2,
+          "distinct_target_query_blocks": 6,
+          "object_edges": 8,
+          "sample_radius_p90_from_target_median_px": 16.66806858211866
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F28": {
+      "slot": 7,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 234,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.9667421851135323,
+      "projected_geometry_coverage_in_circle": 0.21774556900173242,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2446,
+        "rejected_source_silhouette_pixels": 479,
+        "rejected_disconnected_target_pixels": 25
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 10,
+        "behind_nearest_surface_rejected": 10251,
+        "adjacent_frame": 24,
+        "off_time_pixels_that_would_pass_without_frame_check": 21,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 26,
+      "source_blocks": 75,
+      "object_edges": 147,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1942,
+          "visible_target_query_blocks": 26,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 917,
+          "distinct_source_blocks": 72,
+          "distinct_target_query_blocks": 26,
+          "object_edges": 143,
+          "sample_radius_p90_from_target_median_px": 46.23412702851722
+        },
+        "ball": {
+          "visible_target_pixels": 16,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 16,
+          "distinct_source_blocks": 3,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 4,
+          "sample_radius_p90_from_target_median_px": 3.1622776601683795
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F32": {
+      "slot": 8,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 268,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.9541925465838509,
+      "projected_geometry_coverage_in_circle": 0.22378682979763045,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2287,
+        "rejected_source_silhouette_pixels": 539,
+        "rejected_disconnected_target_pixels": 44
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 9583,
+        "adjacent_frame": 28,
+        "off_time_pixels_that_would_pass_without_frame_check": 8,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 27,
+      "source_blocks": 67,
+      "object_edges": 142,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1704,
+          "visible_target_query_blocks": 26,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 850,
+          "distinct_source_blocks": 65,
+          "distinct_target_query_blocks": 26,
+          "object_edges": 140,
+          "sample_radius_p90_from_target_median_px": 51.04409646840737
+        },
+        "ball": {
+          "visible_target_pixels": 34,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 22,
+          "distinct_source_blocks": 2,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 2,
+          "sample_radius_p90_from_target_median_px": 5.6830574638054845
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F36": {
+      "slot": 9,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 199,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.8356455554424193,
+      "projected_geometry_coverage_in_circle": 0.23558378759130108,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2468,
+        "rejected_source_silhouette_pixels": 443,
+        "rejected_disconnected_target_pixels": 19
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 8741,
+        "adjacent_frame": 32,
+        "off_time_pixels_that_would_pass_without_frame_check": 97,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 27,
+      "source_blocks": 69,
+      "object_edges": 144,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 2006,
+          "visible_target_query_blocks": 25,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 832,
+          "distinct_source_blocks": 65,
+          "distinct_target_query_blocks": 25,
+          "object_edges": 137,
+          "sample_radius_p90_from_target_median_px": 48.86613201155441
+        },
+        "ball": {
+          "visible_target_pixels": 41,
+          "visible_target_query_blocks": 2,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 36,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 2,
+          "object_edges": 7,
+          "sample_radius_p90_from_target_median_px": 5.846723875808163
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F40": {
+      "slot": 10,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 204,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.644880867528765,
+      "projected_geometry_coverage_in_circle": 0.24248173978157542,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2323,
+        "rejected_source_silhouette_pixels": 394,
+        "rejected_disconnected_target_pixels": 27
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 8099,
+        "adjacent_frame": 36,
+        "off_time_pixels_that_would_pass_without_frame_check": 150,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 31,
+      "source_blocks": 60,
+      "object_edges": 135,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1902,
+          "visible_target_query_blocks": 21,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 762,
+          "distinct_source_blocks": 56,
+          "distinct_target_query_blocks": 21,
+          "object_edges": 116,
+          "sample_radius_p90_from_target_median_px": 46.261205636779465
+        },
+        "ball": {
+          "visible_target_pixels": 96,
+          "visible_target_query_blocks": 10,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 61,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 10,
+          "object_edges": 19,
+          "sample_radius_p90_from_target_median_px": 62.96824596572466
+        }
+      },
+      "support_class": "fragmented_ball_projection"
+    },
+    "F44": {
+      "slot": 11,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 155,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.45350524386518687,
+      "projected_geometry_coverage_in_circle": 0.2555288324248174,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2365,
+        "rejected_source_silhouette_pixels": 404,
+        "rejected_disconnected_target_pixels": 21
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 8142,
+        "adjacent_frame": 40,
+        "off_time_pixels_that_would_pass_without_frame_check": 225,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 22,
+      "source_blocks": 63,
+      "object_edges": 123,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 1940,
+          "visible_target_query_blocks": 18,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 787,
+          "distinct_source_blocks": 59,
+          "distinct_target_query_blocks": 18,
+          "object_edges": 115,
+          "sample_radius_p90_from_target_median_px": 46.11506856397359
+        },
+        "ball": {
+          "visible_target_pixels": 85,
+          "visible_target_query_blocks": 4,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 41,
+          "distinct_source_blocks": 4,
+          "distinct_target_query_blocks": 4,
+          "object_edges": 8,
+          "sample_radius_p90_from_target_median_px": 8.246211251235321
+        }
+      },
+      "support_class": "both_objects_supported"
+    },
+    "F48": {
+      "slot": 12,
+      "previously_foreground_routed": false,
+      "source_ball_mask_pixels": 143,
+      "source_ball_pixels_conflicting_with_people": 0,
+      "discs_reviewed_here": false,
+      "prior_near_black_fraction_upper_circle": 0.32345229610019344,
+      "projected_geometry_coverage_in_circle": 0.26157009322071545,
+      "teammate_confidence_filter": {
+        "before_confidence_filter_square": 2701,
+        "rejected_source_silhouette_pixels": 407,
+        "rejected_disconnected_target_pixels": 37
+      },
+      "negative_probes": {
+        "wrong_identity_rejected": 0,
+        "behind_nearest_surface_rejected": 9652,
+        "adjacent_frame": 44,
+        "off_time_pixels_that_would_pass_without_frame_check": 19,
+        "off_time_pixels_admitted": 0
+      },
+      "mixed_source_blocks_excluded": 0,
+      "highest_source_block_sample_count": 16,
+      "target_query_blocks": 24,
+      "source_blocks": 65,
+      "object_edges": 134,
+      "objects": {
+        "teammate": {
+          "visible_target_pixels": 2163,
+          "visible_target_query_blocks": 19,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 814,
+          "distinct_source_blocks": 62,
+          "distinct_target_query_blocks": 19,
+          "object_edges": 125,
+          "sample_radius_p90_from_target_median_px": 42.14023643455757
+        },
+        "ball": {
+          "visible_target_pixels": 101,
+          "visible_target_query_blocks": 5,
+          "pixels_rejected_by_mixed_source_blocks": 0,
+          "samples": 43,
+          "distinct_source_blocks": 3,
+          "distinct_target_query_blocks": 5,
+          "object_edges": 9,
+          "sample_radius_p90_from_target_median_px": 9.378320766403945
+        }
+      },
+      "support_class": "both_objects_supported"
+    }
+  }
+}

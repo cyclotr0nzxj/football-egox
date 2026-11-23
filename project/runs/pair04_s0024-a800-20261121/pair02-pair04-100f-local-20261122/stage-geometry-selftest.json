@@ -1,0 +1,26 @@
+[
+  {
+    "head_only_depth_error_rejected": true,
+    "chained_2x3_scale_composes_once": true,
+    "pair": "Pair02",
+    "synthetic_scale": 1.7,
+    "translation_transform_recovers_original": true,
+    "projection_invariant": true,
+    "wrong_scale_rejected": true,
+    "supported_frames": 49,
+    "median_head_relative_difference": 0.0007071342587658564,
+    "p90_head_relative_difference": 0.0018587405786436772
+  },
+  {
+    "head_only_depth_error_rejected": true,
+    "chained_2x3_scale_composes_once": true,
+    "pair": "Pair04",
+    "synthetic_scale": 1.7,
+    "translation_transform_recovers_original": true,
+    "projection_invariant": true,
+    "wrong_scale_rejected": true,
+    "supported_frames": 49,
+    "median_head_relative_difference": 0.0028363047001620147,
+    "p90_head_relative_difference": 0.005782063325668792
+  }
+]

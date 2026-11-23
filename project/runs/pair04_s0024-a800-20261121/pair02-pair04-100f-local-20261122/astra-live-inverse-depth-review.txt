@@ -1,0 +1,12 @@
+{"model": "gpt-6.2-astra", "input_tokens": 281, "output_tokens": 7265, "reasoning_tokens": 6800, "status": "completed"}
+**Yes to the branch test, provided the claimed product is a derived, camera-relative depth in the reference convention.** It is not a native 73-frame result or a metric reconstruction. For native last-window depth \(z\), the frozen map is
+\[
+Z_{\rm derived}=\frac{z}{1.4749-0.08033z}.
+\]
+This gives depth in the middle convention used for the fit; apply the frozen reference scale only if it is not already included. The denominator stays above \(0.557\) on the reported range, so the map is positive and increasing without clipping. The endpoints are *slightly outside* fit support. With fixed \(K\), each backprojected point stays on its camera ray, but its distance changes by a depth-dependent factor—not a rigid transform or a change of units.
+
+The heldout static and matched-time foreground errors support using **one map for background and moving objects**. They do not directly validate the non-overlap tail. Preserve the native maps and first 49 frames, label the derived maps separately, and have both rendering/GGA paths consume exactly the scored \(Z_{\rm derived}\) and \(K\), without a second normalization or cached native geometry.
+
+**The calibration model has changed; the gates need not change.** Keep the scalar result recorded as a failure. Rerun the original gates with the same pairs, masks, units, thresholds, aggregation, and support rules. The 45/49 head support, 3.73% median, and 5.20% p90 must qualify under those rules; the four unsupported cases are not passes. If the contract itself requires native depth or scalar-only alignment, this branch does not satisfy it.
+
+**A concrete stop condition** is that the frozen map passes static overlap but fails the original matched-time foreground gate, or fails the head error or coverage gate on the delivered sequence. Do not rescue it with an object-specific scale, per-frame refit, clipping, or frame exclusion. Reject the stitched product in that case, or, if supported, recompute all 73 frames jointly with the official weights and retest. Joint inference removes the cross-window calibration assumption; the failed scalar alone does not require it.

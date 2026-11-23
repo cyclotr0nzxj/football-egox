@@ -1,0 +1,21 @@
+{
+  "image_id": "ego_f0200",
+  "condition": "rotation45",
+  "methods": {
+    "harris": {
+      "Ns": 392,
+      "Nt": 70,
+      "M": 68,
+      "r": 0.9714285714285714,
+      "cs": 0.17346938775510204
+    },
+    "sift": {
+      "Ns": 254,
+      "Nt": 245,
+      "M": 162,
+      "r": 0.6612244897959184,
+      "cs": 0.6377952755905512
+    }
+  },
+  "coordinates": "results/coordinates/ego_f0200/rotation45.json"
+}

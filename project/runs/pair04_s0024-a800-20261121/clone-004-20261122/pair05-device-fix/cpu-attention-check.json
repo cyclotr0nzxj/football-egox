@@ -1,0 +1,8 @@
+{
+  "device": "cpu",
+  "cuda_executed": false,
+  "target_queries": 51,
+  "plan_edges": 295,
+  "valid_routing_and_unmodified_targets": true,
+  "invalid_split_rejected": true
+}

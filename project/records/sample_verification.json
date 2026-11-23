@@ -1,0 +1,320 @@
+[
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00000.npy",
+    "bytes": 1426560,
+    "git_blob": "d291295a2a26f98d96a84b608156c34c7d236d38",
+    "sha256": "e8e665b619d57333a0ad4afe70544a36be44e13ecbe27e67e234416381f6e2d0"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00001.npy",
+    "bytes": 1426560,
+    "git_blob": "54f185e890ef951f8594e26560820ea706a387b9",
+    "sha256": "92ca514d06df51a588a1f6f5bcdd5fe64ab56ab2af0ca534b96f6016a79c9e92"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00002.npy",
+    "bytes": 1426560,
+    "git_blob": "c2e6ae7c748bc8889e06046f803b80439c1014a5",
+    "sha256": "9d234c43d4ea3b83edfdacd330909fc472e7f32df83cda70d83572a16dba9bf9"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00003.npy",
+    "bytes": 1426560,
+    "git_blob": "d456415ffce6fbc064f0e7ca565c09c77af2abcb",
+    "sha256": "89657e15ecec15e6039c05cbc2713c894efd685c98bbda11dd6c52d0aa176995"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00004.npy",
+    "bytes": 1426560,
+    "git_blob": "f9b2046ccd39ce74a678de9c6eaf56d81f293a3b",
+    "sha256": "690432dc81f038d2bc1a5443cb18582f9947308d85545c39f4d8fdf2668b0661"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00005.npy",
+    "bytes": 1426560,
+    "git_blob": "a0128f7b72a9c838c91aa5e5e4213020d40b3ef0",
+    "sha256": "f68861a186a93d47a0c6f17021dc889674f6ec676262ee8863fd79c25d690814"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00006.npy",
+    "bytes": 1426560,
+    "git_blob": "43b575d97c3924793c62a8004e80a5928ace42ca",
+    "sha256": "60ae72efe1a3f6947b8b1c511ab7f5b6bd3fb9371ce09cb25edb8f3c7960e17b"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00007.npy",
+    "bytes": 1426560,
+    "git_blob": "30cc32f74937089876dad81516bf7b17b2140077",
+    "sha256": "366248197bebb3813634b3f065f69db8384163c4b6fb0807e14fa5b3fdddde59"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00008.npy",
+    "bytes": 1426560,
+    "git_blob": "0b059b122d92aca27488bef7125de8a76548727b",
+    "sha256": "74d406f998ea9c641923ec3caefbb4273e3fac0f3f163b952d62822f11f6efb5"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00009.npy",
+    "bytes": 1426560,
+    "git_blob": "d66f1b11214ae21127e95ea479008709c4582892",
+    "sha256": "de7327a03aa0c491d4791af8d56fde0f881ed7949ba1a293322d421169b135b6"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00010.npy",
+    "bytes": 1426560,
+    "git_blob": "43a58a5fe6064c33464df64c154b85d8a03d959d",
+    "sha256": "13b8c4564629d89d421b469b3fc057d5aae412d22860dcdfc21dd2d26e563428"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00011.npy",
+    "bytes": 1426560,
+    "git_blob": "a037b007da89db30dd40a0e4be4515690df2dc85",
+    "sha256": "88cab454b47f246b3602961478a4f86b881e149b723358958fd737825feae917"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00012.npy",
+    "bytes": 1426560,
+    "git_blob": "77cc352c5cf39b382006afe0a868d69de8ed10ec",
+    "sha256": "d11b1d8046a82d0ba1c5948a82a972735b0b1a27dd9b4542012dbc7cfa83afd8"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00013.npy",
+    "bytes": 1426560,
+    "git_blob": "e5cb31fa66e3c41e6d4f958a72ea80f998f190ed",
+    "sha256": "6c4838d2121a3db2e3a8791b8fe411e3c576828ddb20c20e37592fdbcf7c1286"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00014.npy",
+    "bytes": 1426560,
+    "git_blob": "96eb0c6928353809b69676bd3bfc76a034f87ed8",
+    "sha256": "d6cf5876333eacf7dfa6ecb0a549fc1598e9f570f8ccfa06867d5b153c70a3e4"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00015.npy",
+    "bytes": 1426560,
+    "git_blob": "207c10833a1ebbf2be65f0801cd9380a9ddeb273",
+    "sha256": "41388150693803ad42c4162eeac5a3b29b582f092e0f38bfc40ece53b21cdf03"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00016.npy",
+    "bytes": 1426560,
+    "git_blob": "cf998cc2774e92db1bbb8ae62008e8434da69077",
+    "sha256": "e8d93b869313fd41d2e58f6a0873a3f25b90cc6313dc78cebbecd4fd3826f9cd"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00017.npy",
+    "bytes": 1426560,
+    "git_blob": "be7dc4bcd25e300251014f97e12fb526366ed1ed",
+    "sha256": "e590831f2f76b84ec5faba2973fed4480bfde932ba5835c0bb39511b38fe59fa"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00018.npy",
+    "bytes": 1426560,
+    "git_blob": "1df67dbef7d27c940b412d0f3e08c647fe24f40f",
+    "sha256": "894ebbcc42f4182de9e0aa96bba7f6acc4b823863aeb82c0b46a141d16f0b165"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00019.npy",
+    "bytes": 1426560,
+    "git_blob": "eeb0ac8f7ef75c3501e0af26cec80691dbfa43e6",
+    "sha256": "6c243ca64e20765df1b930aba746e7efbe8a98439935fff10db94a19898fe672"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00020.npy",
+    "bytes": 1426560,
+    "git_blob": "a836c5e115aec9753a4b7f692baf97b12ccdbb80",
+    "sha256": "a5b80a76e08e0f9da62caf0017debd2250d0666e892d86ac968a8469a17cf337"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00021.npy",
+    "bytes": 1426560,
+    "git_blob": "31b41cf584fd469c6019456aab5fa9b84dd50453",
+    "sha256": "3be2fa3e31b76eaa823302f389eff3191282a9797674378fe74e11804372655b"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00022.npy",
+    "bytes": 1426560,
+    "git_blob": "c9c95985d16b78e9b1f08a43a4fd907b5db54268",
+    "sha256": "0fb9a72634fa1fa8632eb6765b62d220a2728bfea9eb19a476191c5d36e252fd"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00023.npy",
+    "bytes": 1426560,
+    "git_blob": "ea651369bdd6a9c23d4dbf2f7e5e3718f221dcf8",
+    "sha256": "268bc37b8ad530cf28fe201ead5f7fc000a2b2c6ec2fb2f582aaad0c56cd2f27"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00024.npy",
+    "bytes": 1426560,
+    "git_blob": "3cbbbfbfeffa95c987a0131db563b33b9a2876d0",
+    "sha256": "8ad41068aa3b36e0801ad63c3ad603de9e52a37145642a82454a8da1492d17f1"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00025.npy",
+    "bytes": 1426560,
+    "git_blob": "172b0a6d06b167dabf1c7ff1e591d765ccfe0609",
+    "sha256": "340ffb86e798e58d722227c5b33bf69b5a1203534c01fe86e76ba74781c5b7a0"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00026.npy",
+    "bytes": 1426560,
+    "git_blob": "71b4474d39b13fb7eadd4aa56af6060f10efe50f",
+    "sha256": "833ffb5b1abdc9f364e9bf7b209536f70a0b1d213981c88124bbd895097c1a49"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00027.npy",
+    "bytes": 1426560,
+    "git_blob": "6b726f22d8e7605eba3abc3001a465b08939f925",
+    "sha256": "b47051f02878f39f5e4553b023daff277bd935ab0195a940a19c15f4c360c529"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00028.npy",
+    "bytes": 1426560,
+    "git_blob": "4b276e317f7a00b85ab9333f094f1218a68e4bb2",
+    "sha256": "dafaa73729fd868275f3e70472ead49cdd06ebde29d50b8a3b1a96eb0a5558db"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00029.npy",
+    "bytes": 1426560,
+    "git_blob": "11ad611d1628094688a20d6c058c2892eccb3c7c",
+    "sha256": "042d17d8b37df74d07975d1e3e143388e056d04b0931519bbb2c5017e531b520"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00030.npy",
+    "bytes": 1426560,
+    "git_blob": "3b926fe1756857e6898b9fd1d112fe753c8f1327",
+    "sha256": "d18774c81d976e699310d4443611a1913d07755525dcdcf05d8de48c76788ea7"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00031.npy",
+    "bytes": 1426560,
+    "git_blob": "8de8f270aebadb25d5356b472bd374c4a710da93",
+    "sha256": "0a4d642725cc49986da27c72ec3b0dcec6e6f21a0a52e665db283b4ba07af4fa"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00032.npy",
+    "bytes": 1426560,
+    "git_blob": "45c5bb7a1098303406c43927ae5b102716fc7917",
+    "sha256": "8da4b3c08174e3226a08bb607b4117862388f6a882897d704e28b7c8758dd3d5"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00033.npy",
+    "bytes": 1426560,
+    "git_blob": "62dd8b88a53e1715f2a4e98d354e78f79beb9ada",
+    "sha256": "c7f5e6b9f9042f11091d786261e248f9f6ddff75ed135c96d30d5afce9932dc4"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00034.npy",
+    "bytes": 1426560,
+    "git_blob": "a97131d0a51aa967713e43ecdeb8f14b4cf151a7",
+    "sha256": "364666d10edd666ef25c6cb21988c4693dcbcc805ffda2d46184b16e32234aec"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00035.npy",
+    "bytes": 1426560,
+    "git_blob": "982b1041cc7b908adb488efb3b7394c2b6d815dd",
+    "sha256": "d4a722936aecf7b7401be4df797ddb282de002eb5ad19ce486e09564c952f7d1"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00036.npy",
+    "bytes": 1426560,
+    "git_blob": "8ceb1fb2bdda70f63c27041d0f1a54dd878ef25a",
+    "sha256": "ac681679870481e29ff47b2c2a37a1ac632f3ba088e2beee6ae3dd64385fd5fe"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00037.npy",
+    "bytes": 1426560,
+    "git_blob": "0fb4ea664515f8dca5362a1dcc9d1058db670396",
+    "sha256": "fc205873baec1d714f07a8165066150144a9476ae15e2e4fa9d37f9c5ad56f86"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00038.npy",
+    "bytes": 1426560,
+    "git_blob": "8944f241bcb32406f1c49c5d1278a73af78bf1b1",
+    "sha256": "d87d95062d23ce6cc6e6d51ce33299f4cee2303c0a04bc0a18c1c0114fe25d4f"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00039.npy",
+    "bytes": 1426560,
+    "git_blob": "4276f61f611ee42509b00e531f215d4a15753a13",
+    "sha256": "abb8a8146d8c476ddd35de517634c9349421a349b9f26015c6c9b9baf6a60999"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00040.npy",
+    "bytes": 1426560,
+    "git_blob": "694c8ad3e1b42826d73a01f2f9f1f57384163121",
+    "sha256": "ccd5d7ec8430473af8770572fe95a36fe54892e1c643274d28067926468d1dda"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00041.npy",
+    "bytes": 1426560,
+    "git_blob": "e770533ac944de57c42c1c8a23183e4b9fcd3b86",
+    "sha256": "e68a231e5c5dd867403d0e7b7ffed605cb171e43d888386b10d36a0c145292b5"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00042.npy",
+    "bytes": 1426560,
+    "git_blob": "7683e979eff275a169ddd4214c16ecb9f2812282",
+    "sha256": "999abd65030c382d32c638b13fe738f75b3abd04295fd061c8fbd41759633263"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00043.npy",
+    "bytes": 1426560,
+    "git_blob": "046b92d3346507a94785f86fce4db67245dc700c",
+    "sha256": "02c138ff7de0466b035fb7f1d57cf76d845372c19bc649e73b89e406478ee18f"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00044.npy",
+    "bytes": 1426560,
+    "git_blob": "e69b2c262065e8cf898d771e6b3de0b580d9a808",
+    "sha256": "40e46b0e965709ba0635c0d8d99b2101430281f51a5b851af5243c27ec925051"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00045.npy",
+    "bytes": 1426560,
+    "git_blob": "b5dda87146e49a5c9f4be8cf0f318475a585e714",
+    "sha256": "155468fcaae4cbc8781089dc42fab4e678a0808c34138204d7f10b9d1ea849b3"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00046.npy",
+    "bytes": 1426560,
+    "git_blob": "d257590083f2ec723f16e105303a8b7efa52cb8f",
+    "sha256": "40f250362b69e29556eb72eb34f5107b68dc4e21cc59aee643eb45dfcb0087e2"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00047.npy",
+    "bytes": 1426560,
+    "git_blob": "0f4dacf33a1f14b33df286e755831e4870947559",
+    "sha256": "a32943b594059dbb6b75cd6ac7ff623281755406afa74e29e1c2801f4555bf86"
+  },
+  {
+    "path": "example/egoexo4D/depth_maps/cmu_soccer06_6_877_925/00048.npy",
+    "bytes": 1426560,
+    "git_blob": "49c987d081f79bc44fead053d4fe46a83544e5b0",
+    "sha256": "775fc6ae0abc6f31f2781e0b623571876270cf266c12e23721c2185e8c7eb394"
+  },
+  {
+    "path": "example/egoexo4D/meta.json",
+    "bytes": 198189,
+    "git_blob": "a8c74726e59da771f8c7c49d7bc6c1fd407227b0",
+    "sha256": "f22ae5461d9b501526ec55d66b90f33fdbcaf9fda3e4d6d4673d2ec663475082"
+  },
+  {
+    "path": "example/egoexo4D/videos/cmu_soccer06_6_877_925/ego_GT.mp4",
+    "bytes": 188925,
+    "git_blob": "77e511711fd104139bd9c7b6886272e62f0bbd99",
+    "sha256": "24a0e000c46727df21dc32ab5ba885afbba886ec5701832e82b3a1f0b4d41e6c"
+  },
+  {
+    "path": "example/egoexo4D/videos/cmu_soccer06_6_877_925/ego_Prior.mp4",
+    "bytes": 207672,
+    "git_blob": "aea57ede0423b57093cd125510b8248dcc363e17",
+    "sha256": "a8bbfa19a885f5f43b095cbea1d2c411b059a151cf96fd477c9006642c980b4f"
+  },
+  {
+    "path": "example/egoexo4D/videos/cmu_soccer06_6_877_925/exo.mp4",
+    "bytes": 159902,
+    "git_blob": "ce3dadc4e59e6439be99166d786af9ddaa270df5",
+    "sha256": "2ff43497893eddf94444a98ea8a4e3a60cf0082b2a75ae6d9461502376f94996"
+  }
+]

@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-21T07:20:21.355838+00:00",
+  "scope": "Isolated copy of current local submission payload; redraw scientific figures and rebuild paper without rerunning detection experiments or video",
+  "isolation": {
+    "copied_from": "submission/week08_harris_sift",
+    "test_directory": "tmp/week08_paper_portable",
+    "git_metadata_copied": false,
+    "used_only_packaged_data_scripts_and_qa_helpers": true,
+    "source_project_runtime_dependency_found": false,
+    "allowances": "Local Python packages, FFmpeg if needed, and system fonts; not a claim of cross-platform binary reproducibility"
+  },
+  "commands": [
+    {
+      "cwd": "portable copy root",
+      "command": "PYTHONPATH=/Users/mac/.cache/football-course-cv /usr/local/Caskroom/miniforge/base/bin/python3 scripts/plot_week08_paper_figures.py --results results --frames-root data/frames/scene04 --output report_reproduced/paper_figures --qa-tools report/paper_figures/qa_tools",
+      "exit_code": 0
+    },
+    {
+      "cwd": "portable copy root",
+      "command": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/assemble_feature_report.py --results results --output report_reproduced/report_data.json --capture-evidence data/capture_setup.jpg --paper-figures report_reproduced/paper_figures --dynamic evidence/dynamic",
+      "exit_code": 0
+    },
+    {
+      "cwd": "portable copy root",
+      "command": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/build_week08_pdf.py --data report_reproduced/report_data.json --output report_reproduced/第8周_Harris与SIFT实验报告.pdf --markdown report_reproduced/实验报告.md",
+      "exit_code": 0
+    }
+  ],
+  "figures": [
+    {
+      "file": "figure1_feature_plate.png",
+      "packaged_sha256": "222f5cd6e870c8c6ae970289499c6d975e6ce59baad76d486b6cb06ef452db50",
+      "reproduced_sha256": "222f5cd6e870c8c6ae970289499c6d975e6ce59baad76d486b6cb06ef452db50",
+      "byte_identical": true
+    },
+    {
+      "file": "figure2_stability.png",
+      "packaged_sha256": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+      "reproduced_sha256": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+      "byte_identical": true
+    },
+    {
+      "file": "figure3_retention_case.png",
+      "packaged_sha256": "804fc430723448107205955887db33d5065971e94db0274a10959221fc01e2fe",
+      "reproduced_sha256": "804fc430723448107205955887db33d5065971e94db0274a10959221fc01e2fe",
+      "byte_identical": true
+    }
+  ],
+  "source_data": [
+    {
+      "file": "figure1_source_data.json",
+      "packaged_sha256": "11bb50872787dbf9753a264fc5f48d87e2748dbab1616ef17480e26beb11722a",
+      "reproduced_sha256": "11bb50872787dbf9753a264fc5f48d87e2748dbab1616ef17480e26beb11722a",
+      "parsed_data_equal": true,
+      "byte_identical": true,
+      "row_count": null
+    },
+    {
+      "file": "figure2_source_data.csv",
+      "packaged_sha256": "81761c37fe1fe8deba14568a1b78b5c3fbac54c930a87763142d751d27d85d1f",
+      "reproduced_sha256": "81761c37fe1fe8deba14568a1b78b5c3fbac54c930a87763142d751d27d85d1f",
+      "parsed_data_equal": true,
+      "byte_identical": true,
+      "row_count": 96
+    },
+    {
+      "file": "figure3_source_data.json",
+      "packaged_sha256": "54b27d47d6da6cff48458582cfda347a96ab6320c2fddb8aced94b565d647937",
+      "reproduced_sha256": "54b27d47d6da6cff48458582cfda347a96ab6320c2fddb8aced94b565d647937",
+      "parsed_data_equal": true,
+      "byte_identical": true,
+      "row_count": null
+    }
+  ],
+  "pdf": {
+    "packaged_pages": 6,
+    "rebuilt_pages": 6,
+    "whitespace_normalized_text_equal": true,
+    "per_page_normalized_text_equal": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "packaged_sha256": "73ca5f257d0a62bc2bb622f29d5034e1ff60b3f2bd202aa101198911c93e4201",
+    "rebuilt_sha256": "8c84d5e7d2b8fb0700b709622c7c38a434cac4a5c5b8f2a72d1b2c0de5d29aa2",
+    "binary_identity_required": false,
+    "metadata_note": "Creation timestamps may differ; rendered figure PNGs and normalized article text were compared separately."
+  },
+  "markdown_images": [
+    {
+      "target": "paper_figures/figure1_feature_plate.png",
+      "exists": true,
+      "absolute": false
+    },
+    {
+      "target": "paper_figures/figure2_stability.png",
+      "exists": true,
+      "absolute": false
+    },
+    {
+      "target": "paper_figures/figure3_retention_case.png",
+      "exists": true,
+      "absolute": false
+    }
+  ],
+  "reproduced_report_image_paths": [
+    "report_reproduced/paper_figures/figure1_feature_plate.png",
+    "report_reproduced/paper_figures/figure2_stability.png",
+    "report_reproduced/paper_figures/figure3_retention_case.png"
+  ],
+  "tested_payload_sha256": {
+    "scripts/plot_week08_paper_figures.py": "d8874a311da6eb3f198c87d84cdbc23686fc630964f77a07d4f085fdb52a4c24",
+    "scripts/assemble_feature_report.py": "d5494f827d251bfd346454ba9584a951a406dfd80a2277324d1e4f984e9e7f77",
+    "scripts/build_week08_pdf.py": "7a1a50ad9cb144538d63b6baa5da54f19c82ce7d4e73d7d276c5be826e062d59",
+    "report/paper_figures/figure1_feature_plate.png": "222f5cd6e870c8c6ae970289499c6d975e6ce59baad76d486b6cb06ef452db50",
+    "report/paper_figures/figure2_stability.png": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+    "report/paper_figures/figure3_retention_case.png": "804fc430723448107205955887db33d5065971e94db0274a10959221fc01e2fe",
+    "report/paper_figures/figure1_source_data.json": "11bb50872787dbf9753a264fc5f48d87e2748dbab1616ef17480e26beb11722a",
+    "report/paper_figures/figure2_source_data.csv": "81761c37fe1fe8deba14568a1b78b5c3fbac54c930a87763142d751d27d85d1f",
+    "report/paper_figures/figure3_source_data.json": "54b27d47d6da6cff48458582cfda347a96ab6320c2fddb8aced94b565d647937",
+    "report/第8周_Harris与SIFT实验报告.pdf": "73ca5f257d0a62bc2bb622f29d5034e1ff60b3f2bd202aa101198911c93e4201",
+    "report/paper_figures/qa_tools/audit_panel_alignment.py": "43958e6b49d897f326ff64e73cbed0bf057e17c06533b5b57d3dededf8111e76"
+  },
+  "environment": {
+    "figure_python": "/usr/local/Caskroom/miniforge/base/bin/python3",
+    "report_python": "/Users/mac/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "figure_PYTHONPATH": "/Users/mac/.cache/football-course-cv",
+    "figure_matplotlib": "3.10.8",
+    "figure_numpy": "2.2.6",
+    "opencv": "4.11.0",
+    "note": "Existing local runtimes are external dependencies; every project-specific script, data file and QA helper came from the isolated package copy."
+  },
+  "pinned_numpy_2_3_5_compatibility": {
+    "status": "passed",
+    "scope": "Plotting with the pinned requirements NumPy version; no detector experiment rerun",
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "opencv": "4.11.0",
+    "png_byte_identity": {
+      "figure1_feature_plate.png": true,
+      "figure2_stability.png": true,
+      "figure3_retention_case.png": true
+    }
+  }
+}

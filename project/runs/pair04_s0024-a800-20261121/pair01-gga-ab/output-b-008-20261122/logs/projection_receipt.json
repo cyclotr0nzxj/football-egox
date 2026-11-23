@@ -1,0 +1,60 @@
+{
+  "metric": "Continuous Aria screen reprojection of the staged GGA rays; excludes physical latent-cell centers, point rasterization and attention pooling.",
+  "take": "pair01_s0288",
+  "numpy_version": "2.2.6",
+  "opencv_version": "5.0.0",
+  "metadata_sha256": "e4f801e2d5a56c7d2c50da904fede6ade4d4572e45546f010063688ff51819c6",
+  "image_width_px": 448,
+  "ray_grid": [
+    56,
+    56
+  ],
+  "nominal_circle_cells": 2451,
+  "outside_nominal_circle_cells": 685,
+  "outside_circle_policy": "Solve the same front-facing Aria equation in B without discarding, folding, substituting or rearranging corner rays; full-grid validity is algebraic.",
+  "b_max_angle_from_optical_axis_deg": 66.00279998779297,
+  "optical_center_ray_xy": [
+    0,
+    0
+  ],
+  "optical_center_after_rot90_row_col": [
+    28,
+    27
+  ],
+  "discrete_grid_mapping": "Upstream clockwise rotation maps pre-rotation (row=y, col=x) to (row=x, col=55-y). The existing continuous metric uses (screen_u=448-8y, screen_v=8x) before the same array permutation.",
+  "pose_frames": [
+    0,
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    32,
+    36,
+    40,
+    44,
+    48
+  ],
+  "a_official": {
+    "nominal_circle_median_px": 13.11937642922498,
+    "nominal_circle_p90_px": 38.24586124544548,
+    "nominal_circle_max_px": 54.63872692676783,
+    "outside_nominal_circle_max_px": 106.25162802320686,
+    "full_grid_max_px": 106.25162802320686
+  },
+  "b_matched_aria": {
+    "nominal_circle_median_px": 6.103880513285811e-06,
+    "nominal_circle_p90_px": 1.2406649073361373e-05,
+    "nominal_circle_max_px": 3.39803345010446e-05,
+    "outside_nominal_circle_max_px": 3.5455611413866475e-05,
+    "full_grid_max_px": 3.5455611413866475e-05
+  },
+  "exo_point_map_code_unchanged": true,
+  "source_sha256": {
+    "infer_a.py": "99199fac22858821d356f0ec3b8577495290dd579a8d80368de1fca68d559bed",
+    "infer_b.py": "2eef1b90c00c9f158a49ce604d68406039f2467a0819e43f80f11a53bdd356df",
+    "aria_gga.py": "e23b80c36a1c828ee4d570694ff1cecbe33f0cdb5b481534056fd14ea19eb7bf"
+  }
+}

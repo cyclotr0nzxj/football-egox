@@ -1,0 +1,290 @@
+{
+  "pair": "Pair02",
+  "old_head_depth_comparison": {
+    "method": "5x5 head patch fitted MiDaS Z versus legacy five-frame-smoothed head-center Z, same 49 frames",
+    "median_relative_error": 6.1314474081676895,
+    "p90_relative_error": 7.052739872437568,
+    "median_predicted_to_legacy_ratio": 7.1314474081676895
+  },
+  "method": "global affine MiDaS inverse depth to ViPE inverse depth, green field, even frames train, odd frames held out",
+  "a": 0.00022159534273669124,
+  "b": 0.007336375303566456,
+  "train_count": 58615,
+  "train_inlier_fraction": 0.9780090420540817,
+  "holdout_median_relative_inv_error": 0.025384905748069286,
+  "heldout_frames": [
+    {
+      "frame": 1,
+      "n": 2359,
+      "median_abs_inv_error": 0.00433310866355896,
+      "median_relative_inv_error": 0.028769854456186295,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 3,
+      "n": 2352,
+      "median_abs_inv_error": 0.0018125884234905243,
+      "median_relative_inv_error": 0.012440565973520279,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 5,
+      "n": 2339,
+      "median_abs_inv_error": 0.005502790212631226,
+      "median_relative_inv_error": 0.03593779355287552,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 7,
+      "n": 2336,
+      "median_abs_inv_error": 0.0047200992703437805,
+      "median_relative_inv_error": 0.03194507956504822,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 9,
+      "n": 2345,
+      "median_abs_inv_error": 0.004665866494178772,
+      "median_relative_inv_error": 0.030747530981898308,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 11,
+      "n": 2328,
+      "median_abs_inv_error": 0.003724604845046997,
+      "median_relative_inv_error": 0.025175638496875763,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 13,
+      "n": 2323,
+      "median_abs_inv_error": 0.0018016546964645386,
+      "median_relative_inv_error": 0.010891780257225037,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 15,
+      "n": 2342,
+      "median_abs_inv_error": 0.005353353917598724,
+      "median_relative_inv_error": 0.03181938827037811,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 17,
+      "n": 2346,
+      "median_abs_inv_error": 0.005187541246414185,
+      "median_relative_inv_error": 0.03245408087968826,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 19,
+      "n": 2339,
+      "median_abs_inv_error": 0.007126107811927795,
+      "median_relative_inv_error": 0.0430365651845932,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 21,
+      "n": 2351,
+      "median_abs_inv_error": 0.008194223046302795,
+      "median_relative_inv_error": 0.046387288719415665,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 23,
+      "n": 2347,
+      "median_abs_inv_error": 0.004254177212715149,
+      "median_relative_inv_error": 0.02559417299926281,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 25,
+      "n": 2352,
+      "median_abs_inv_error": 0.002194974571466446,
+      "median_relative_inv_error": 0.014124158769845963,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 27,
+      "n": 2334,
+      "median_abs_inv_error": 0.005875140428543091,
+      "median_relative_inv_error": 0.03985163941979408,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 29,
+      "n": 2341,
+      "median_abs_inv_error": 0.002441301941871643,
+      "median_relative_inv_error": 0.015172712504863739,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 31,
+      "n": 2342,
+      "median_abs_inv_error": 0.0033012069761753082,
+      "median_relative_inv_error": 0.020040815696120262,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 33,
+      "n": 2331,
+      "median_abs_inv_error": 0.0037211179733276367,
+      "median_relative_inv_error": 0.022540835663676262,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 35,
+      "n": 2329,
+      "median_abs_inv_error": 0.0031979531049728394,
+      "median_relative_inv_error": 0.01888659968972206,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 37,
+      "n": 2331,
+      "median_abs_inv_error": 0.003288738429546356,
+      "median_relative_inv_error": 0.01861937716603279,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 39,
+      "n": 2340,
+      "median_abs_inv_error": 0.0061015114188194275,
+      "median_relative_inv_error": 0.036616936326026917,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 41,
+      "n": 2346,
+      "median_abs_inv_error": 0.0026024803519248962,
+      "median_relative_inv_error": 0.01628723368048668,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 43,
+      "n": 2363,
+      "median_abs_inv_error": 0.0023148804903030396,
+      "median_relative_inv_error": 0.015330469235777855,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 45,
+      "n": 2360,
+      "median_abs_inv_error": 0.002297569066286087,
+      "median_relative_inv_error": 0.015856817364692688,
+      "negative_prediction_fraction": 0.0
+    },
+    {
+      "frame": 47,
+      "n": 2339,
+      "median_abs_inv_error": 0.004097104072570801,
+      "median_relative_inv_error": 0.028050046414136887,
+      "negative_prediction_fraction": 0.0
+    }
+  ],
+  "predicted_nonpositive_fraction_per_frame": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "seconds": 2.4,
+  "caution": "relative-model fit to another estimate, not metric validation; independent unseen surfaces unverified"
+}

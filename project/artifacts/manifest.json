@@ -1,0 +1,102 @@
+{
+  "sample": "cmu_soccer06_6_877_925",
+  "gpu_inference_completed": true,
+  "fps": 30,
+  "source_fps": 20,
+  "frame_count": 49,
+  "width": 1680,
+  "height": 448,
+  "frames": [
+    "artifacts/frames/000.png",
+    "artifacts/frames/001.png",
+    "artifacts/frames/002.png",
+    "artifacts/frames/003.png",
+    "artifacts/frames/004.png",
+    "artifacts/frames/005.png",
+    "artifacts/frames/006.png",
+    "artifacts/frames/007.png",
+    "artifacts/frames/008.png",
+    "artifacts/frames/009.png",
+    "artifacts/frames/010.png",
+    "artifacts/frames/011.png",
+    "artifacts/frames/012.png",
+    "artifacts/frames/013.png",
+    "artifacts/frames/014.png",
+    "artifacts/frames/015.png",
+    "artifacts/frames/016.png",
+    "artifacts/frames/017.png",
+    "artifacts/frames/018.png",
+    "artifacts/frames/019.png",
+    "artifacts/frames/020.png",
+    "artifacts/frames/021.png",
+    "artifacts/frames/022.png",
+    "artifacts/frames/023.png",
+    "artifacts/frames/024.png",
+    "artifacts/frames/025.png",
+    "artifacts/frames/026.png",
+    "artifacts/frames/027.png",
+    "artifacts/frames/028.png",
+    "artifacts/frames/029.png",
+    "artifacts/frames/030.png",
+    "artifacts/frames/031.png",
+    "artifacts/frames/032.png",
+    "artifacts/frames/033.png",
+    "artifacts/frames/034.png",
+    "artifacts/frames/035.png",
+    "artifacts/frames/036.png",
+    "artifacts/frames/037.png",
+    "artifacts/frames/038.png",
+    "artifacts/frames/039.png",
+    "artifacts/frames/040.png",
+    "artifacts/frames/041.png",
+    "artifacts/frames/042.png",
+    "artifacts/frames/043.png",
+    "artifacts/frames/044.png",
+    "artifacts/frames/045.png",
+    "artifacts/frames/046.png",
+    "artifacts/frames/047.png",
+    "artifacts/frames/048.png"
+  ],
+  "run_summary": [
+    "A800 80GB · 第 1 次启动成功 · 推理耗时 19.4 分钟",
+    "seed 42 · 49 帧 · 50 步 · guidance 5.0 · GGA 3.0",
+    "官方 Wan 14B + EgoX LoRA；没有训练、微调、量化或减帧。",
+    "CPU、网页交互、GPU 真推理与原生平面评估均已验证；正式启动 1 次，无重试。"
+  ],
+  "alignment_summary": [
+    "源视频 50 帧 / 20fps；遵循官方代码选用前 49 帧。生成和对照回放均为 30fps，按帧编号配对。",
+    "生成画面取官方输出右侧 448×448 分支；未做旋转、缩放、掩膜或对齐搜索。",
+    "已核对真实输出尺寸、右侧分支、画面方向和源帧编号；按官方原生 448×448 平面直接比较。",
+    "生成中的球、人和相机视野与 GT 存在偏差，保留这些误差，不做后验配准。",
+    "原始传感器标定和采集时间未独立验证；指标仅描述该交付图像平面，不代表标定精度。",
+    "原生交付平面：PSNR 17.480 dB；SSIM 0.6384。包括鱼眼黑边，仅代表这个官方样例。"
+  ],
+  "observations": [
+    "场景与视角：球门、黄色标志盘、红衣球员和向下看脚部再抬头的变化能够生成；草地明显更平滑、偏蓝，视野和人物尺度与 GT 不完全一致。",
+    "球的位置：0–16 帧可见脚前足球；20–48 帧 GT 中球逐渐到达对方脚下，生成中球仍偏近、滞留在前景，传递距离和接球关系没有准确复现。",
+    "人和遮挡：0–18 帧生成了较大面积的红色躯干、手臂和鞋，肢体轮廓与 GT 不同；脚与球接触附近存在形变。28–48 帧对方球员的脚部与手臂动作明显弱于 GT，不能据此验证真实接触或遮挡关系。",
+    "连续性与闪烁：49 帧均不同，场地和球门大体连续，缩略逐帧检查未见整屏突闪；局部球纹、手脚形状仍有变化。相邻帧 MAE 包含真实运动，未将其冒充独立闪烁指标。"
+  ],
+  "downloads": [
+    {
+      "label": "下载三路对照视频",
+      "path": "artifacts/comparison.mp4"
+    },
+    {
+      "label": "下载生成第一人称",
+      "path": "artifacts/generated_ego.mp4"
+    },
+    {
+      "label": "下载官方原始输出",
+      "path": "artifacts/official_output.mp4"
+    },
+    {
+      "label": "逐帧指标 CSV",
+      "path": "artifacts/metrics_per_frame.csv"
+    },
+    {
+      "label": "评估与对齐记录",
+      "path": "artifacts/evaluation.json"
+    }
+  ]
+}

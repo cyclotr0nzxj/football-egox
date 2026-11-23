@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "retained_aligned_videos": [
+    "./验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+    "./验证视频/验证exo/MVI_5688.MP4",
+    "./验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+    "./验证视频/验证exo/MVI_5689.MP4",
+    "./验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+    "./验证视频/验证exo/MVI_5691.MP4",
+    "./验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+    "./验证视频/验证exo/MVI_5693.MP4",
+    "./验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+    "./验证视频/验证exo/MVI_5694.MP4"
+  ],
+  "deleted_preview_paths": [
+    "./验证视频/同步结果_20261019/03/comparison.mp4",
+    "./验证视频/同步结果_20261019/04/comparison.mp4",
+    "./验证视频/同步结果_20261019/05/comparison.mp4",
+    "./验证视频/同步结果_20261019/02/comparison.mp4",
+    "./验证视频/同步结果_20261019/01/comparison.mp4"
+  ],
+  "archived_logs": "./records/capture_sync_20261019/archived_output_logs",
+  "removed_directory": "./验证视频/同步结果_20261019",
+  "video_file_bytes_in_removed_directory": 1185733979,
+  "note": "Aligned videos use hard links, so removing these directory entries only frees the old comparison videos and minor metadata.",
+  "completed_at": "2026-10-19T14:01:43.850706+00:00",
+  "free_space_increase_bytes": 94416896
+}

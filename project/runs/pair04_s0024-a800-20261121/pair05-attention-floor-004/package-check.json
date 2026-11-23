@@ -1,0 +1,97 @@
+{
+  "filename": "pair05-gga-attention-floor-004.zip",
+  "sha256": "4bd5ec58910dc5674e73ed805bbdb0b080db54c12a9316248159b7f2a87cbaa7",
+  "size_bytes": 123329,
+  "source_sha256": "61f6b4cae58a6e2c06a0b5fcc6d9e91b7d09b4a66aaf16d4e27d0497945e17ad",
+  "member_count": 47,
+  "manifest_sha256": "579cddc01b8728f905fae3afeb46f51bef256341758e41b2cfec94574e477359",
+  "adaptations": {
+    "run_pair05_gga_foreground_008.sh": "a3d5e7379a4fe93599de76ad607de8d37d1ebc88c22affce7039eef5936dd600",
+    "check_foreground_cuda.py": "daa753cfe6db02a15a743e9daef374429f9a98cbeed0f6799bc5a9cbc0e4324f",
+    "verify_foreground_008.py": "0affe1886f10e5ff63ddbdd7bdaa843dd8bf0f21672660a347d6101abeab06c6",
+    "stage_foreground_008.py": "d87e130c366ec579d7c91b458a36c3f4c238555371ffac918bc6809b68335add",
+    "staged/pair05_gga_routes.py": "8120f33ec52e1efe9e6433669ad702ef67145268725539bc289cf2cbdb0b5164",
+    "verify_floor_diagnostics.py": "60f9fde037017b1016c4d083a5a5a490f623dd18d9fb637adb1fe1d91b7df7a3"
+  },
+  "remote_output_directory": "pair05-gga-foreground-results-004-floor25",
+  "inference_timeout_seconds": 3600,
+  "local": {
+    "inputs": {
+      "take": "pair05_s0024",
+      "frames": 49,
+      "depths_verified": 49,
+      "exo_sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+      "prior_sha256": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa"
+    },
+    "projection": {
+      "metric": "Continuous Aria screen reprojection of the staged GGA rays; excludes physical latent-cell centers, point rasterization and attention pooling.",
+      "take": "pair05_s0024",
+      "numpy_version": "2.2.6",
+      "opencv_version": "4.13.0",
+      "metadata_sha256": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
+      "image_width_px": 448,
+      "ray_grid": [
+        56,
+        56
+      ],
+      "nominal_circle_cells": 2451,
+      "outside_nominal_circle_cells": 685,
+      "outside_circle_policy": "Solve the same front-facing Aria equation in B without discarding, folding, substituting or rearranging corner rays; full-grid validity is algebraic.",
+      "b_max_angle_from_optical_axis_deg": 66.00279235839844,
+      "optical_center_ray_xy": [
+        0,
+        0
+      ],
+      "optical_center_after_rot90_row_col": [
+        28,
+        27
+      ],
+      "discrete_grid_mapping": "Upstream clockwise rotation maps pre-rotation (row=y, col=x) to (row=x, col=55-y). The existing continuous metric uses (screen_u=448-8y, screen_v=8x) before the same array permutation.",
+      "pose_frames": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48
+      ],
+      "a_official": {
+        "nominal_circle_median_px": 13.119378096109388,
+        "nominal_circle_p90_px": 38.24586527105139,
+        "nominal_circle_max_px": 54.63872336536638,
+        "outside_nominal_circle_max_px": 106.25162439905941,
+        "full_grid_max_px": 106.25162439905941
+      },
+      "b_matched_aria": {
+        "nominal_circle_median_px": 6.2255448009862265e-06,
+        "nominal_circle_p90_px": 1.209888915142763e-05,
+        "nominal_circle_max_px": 2.733218614036943e-05,
+        "outside_nominal_circle_max_px": 3.628708361909834e-05,
+        "full_grid_max_px": 3.628708361909834e-05
+      },
+      "exo_point_map_code_unchanged": true,
+      "source_sha256": {
+        "infer_a.py": "99199fac22858821d356f0ec3b8577495290dd579a8d80368de1fca68d559bed",
+        "infer_b.py": "2eef1b90c00c9f158a49ce604d68406039f2467a0819e43f80f11a53bdd356df",
+        "aria_gga.py": "e23b80c36a1c828ee4d570694ff1cecbe33f0cdb5b481534056fd14ea19eb7bf"
+      }
+    },
+    "stage": "PAIR05_FOREGROUND_STAGE_OK",
+    "structure": "PAIR05_GGA_STRUCTURE_OK blocks=171 branches=53 edges=295 budget=16",
+    "telemetry_fixtures": [
+      "valid",
+      "missing_sample_refused",
+      "wrong_count_refused",
+      "low_mass_refused"
+    ]
+  },
+  "real_cuda_preflight_executed": false,
+  "inference_executed": false
+}

@@ -1,0 +1,102 @@
+{
+  "radius_hypothesis_m": 0.11,
+  "interpretation": "The ellipse represents reviewed visible EXO samples, and may be partial. The ground and radius estimates are sensitivity cues, not camera or contact calibration.",
+  "frames": {
+    "F12": {
+      "nominal": {
+        "source_center_px": [
+          548.0588989257812,
+          311.72186279296875
+        ],
+        "observed_ellipse_diameters_px": [
+          20.534841537475586,
+          21.475540161132812
+        ],
+        "angular_radius_quantiles_degrees": [
+          0.9958025429631467,
+          1.043636039214595,
+          1.0914131396275109
+        ],
+        "ray_Z_from_nominal_radius_and_ellipse_m": 5.722854408409003,
+        "ray_Z_from_nominal_radius_and_ground_m": 3.879465651676926,
+        "raw_projective_ball_Z_quantiles_m": [
+          3.783965553032179,
+          3.8308541989021947,
+          3.8992720857801655
+        ],
+        "source_pixels": 374
+      },
+      "alternate": {
+        "source_center_px": [
+          548.0588989257812,
+          311.72186279296875
+        ],
+        "observed_ellipse_diameters_px": [
+          20.534841537475586,
+          21.475540161132812
+        ],
+        "angular_radius_quantiles_degrees": [
+          0.8149984921467757,
+          0.8532659863194139,
+          0.8873347361771974
+        ],
+        "ray_Z_from_nominal_radius_and_ellipse_m": 7.135728231649866,
+        "ray_Z_from_nominal_radius_and_ground_m": 4.449142434651211,
+        "raw_projective_ball_Z_quantiles_m": [
+          4.29810106723472,
+          4.329205081380817,
+          4.392069374016316
+        ],
+        "source_pixels": 374
+      }
+    },
+    "F24": {
+      "nominal": {
+        "source_center_px": [
+          511.9619445800781,
+          311.18145751953125
+        ],
+        "observed_ellipse_diameters_px": [
+          18.90004539489746,
+          19.926240921020508
+        ],
+        "angular_radius_quantiles_degrees": [
+          0.6119668876122744,
+          0.9674073432829813,
+          1.1078906266926365
+        ],
+        "ray_Z_from_nominal_radius_and_ellipse_m": 6.275065342138979,
+        "ray_Z_from_nominal_radius_and_ground_m": 3.8704087841802783,
+        "raw_projective_ball_Z_quantiles_m": [
+          3.8215544157635137,
+          3.8431192541718833,
+          3.896964313495831
+        ],
+        "source_pixels": 260
+      },
+      "alternate": {
+        "source_center_px": [
+          511.9619445800781,
+          311.18145751953125
+        ],
+        "observed_ellipse_diameters_px": [
+          18.90004539489746,
+          19.926240921020508
+        ],
+        "angular_radius_quantiles_degrees": [
+          0.49672813193298443,
+          0.7840895368687716,
+          0.9022157333052342
+        ],
+        "ray_Z_from_nominal_radius_and_ellipse_m": 7.84790951055361,
+        "ray_Z_from_nominal_radius_and_ground_m": 4.439682804912024,
+        "raw_projective_ball_Z_quantiles_m": [
+          4.339780370667933,
+          4.358025089356773,
+          4.378397775261189
+        ],
+        "source_pixels": 260
+      }
+    }
+  }
+}

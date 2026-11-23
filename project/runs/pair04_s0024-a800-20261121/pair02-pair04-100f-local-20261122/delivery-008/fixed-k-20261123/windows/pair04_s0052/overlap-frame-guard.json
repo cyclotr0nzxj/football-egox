@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "heldout_frames": 10,
+  "max_frame_median_relative_error": 0.04674053192138672,
+  "max_frame_p90_relative_error": 0.09299033880233765,
+  "gate": "Every held-out frame: median <= 20%, pixel p90 <= 40%; provisional consistency screen; spatial and visual seam checks remain."
+}

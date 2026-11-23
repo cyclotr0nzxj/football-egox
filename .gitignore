@@ -7,3 +7,14 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+# Local credentials and generated environments
+.env
+.env.*
+!.env.example
+**/secrets/
+**/__pycache__/
+**/.DS_Store
+**/.venv/
+project/dist/
+project/tmp/

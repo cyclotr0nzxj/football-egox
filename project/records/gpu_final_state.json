@@ -1,0 +1,12 @@
+{
+  "utc": "2026-09-11T06:36:33.495964+00:00",
+  "gpu_csv": "NVIDIA A800-SXM4-80GB, 0 MiB, 0 %",
+  "compute_processes": "",
+  "additional_gpu_jobs_started_after_success": false,
+  "disk_usage_bytes": {
+    "total": 268435456000,
+    "used": 106726617088,
+    "free": 161708838912
+  },
+  "manual_shutdown_required": true
+}

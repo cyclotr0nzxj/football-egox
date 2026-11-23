@@ -1,0 +1,16 @@
+started_at=2026-11-21T16:00:52+08:00
+timeout_seconds=890
+kill_after_seconds=10
+finished_at=2026-11-21T16:01:57+08:00
+vipe_exit_code=0
+artifact_check=passed
+b5ff936284e1c06c88823d7b7a34fda90e0a41ba2e1c7ce8d88658d111c98795  vipe_results/pair04_s0024/depth/exo.zip
+7a2bd56763bdf6afb3eb2672a9694206493d61c640400d113bc935ea0db78ead  vipe_results/pair04_s0024/intrinsics/exo.npz
+cd0772f72835c4da35e4833e4d7bd53f0e6f6093e50f1fa82f1522064b08d682  vipe_results/pair04_s0024/intrinsics/exo_camera.txt
+d317b049a95b9b7c96e000372826c2f1193ad93b852765d187c5932c4a463b3e  vipe_results/pair04_s0024/mask/exo.txt
+a5cf955b3e2f721a8ac30aa5ad5be7ee06065ea9c6e11fd829a29ee45bf1a241  vipe_results/pair04_s0024/mask/exo.zip
+abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d  vipe_results/pair04_s0024/pose/exo.npz
+ebba8d671a888deb7676daede166c5cf30fc093e0ab9a73764ff43a8b1dec1ff  vipe_results/pair04_s0024/rgb/exo.mp4
+b2d237f30110fe8d67443363be9a65c5be745caa13b9c4d1d3dd49424c6a283b  vipe_results/pair04_s0024/vipe/exo_info.pkl
+85e89a11e743a9f96ef3159444032b82c26e7829447d1b6ce3589ac8d0f5dc9e  vipe_results/pair04_s0024/vipe/exo_slam_map.pt
+4 MiB, 0 %

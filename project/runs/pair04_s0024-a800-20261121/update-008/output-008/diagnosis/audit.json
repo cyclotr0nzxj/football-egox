@@ -1,0 +1,32 @@
+[
+  {
+    "take": "pair04_s0024",
+    "accepted_pose_equals_actual_inference_pose": true,
+    "max_head_center_difference_vs_original_vipe_units": 8.881784197001252e-15,
+    "actual_prior_sha256": "10c4e5f37be548d9e5bc028472cd1fdd63629c74b7744649cdbb61b1ad312849",
+    "actual_raw_sha256": "aa2555b72a82a44c9fb86ef5876909d161fa53dd6b07bf419997f007016bd2d2",
+    "independent_decoded_frames": 49,
+    "closest_raw_exo_latent_frame_index_matches": 49,
+    "image": "pair04_s0024-pipeline.jpg"
+  },
+  {
+    "take": "pair05_s0024",
+    "accepted_pose_equals_actual_inference_pose": true,
+    "max_head_center_difference_vs_original_vipe_units": 2.6645352591003757e-15,
+    "actual_prior_sha256": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
+    "actual_raw_sha256": "d3c0fc0b06d40bdc034a5a34323b0474d1fb8ff02d5ce73dc32cb55852fb23a1",
+    "independent_decoded_frames": 49,
+    "closest_raw_exo_latent_frame_index_matches": 49,
+    "image": "pair05_s0024-pipeline.jpg"
+  },
+  {
+    "take": "pair01_s0288",
+    "accepted_pose_equals_actual_inference_pose": true,
+    "max_head_center_difference_vs_original_vipe_units": 4.440892098500626e-15,
+    "actual_prior_sha256": "7846541ec6c90cda675a4f97b51b96cf162a364488cc99814c15a4bd18f87b97",
+    "actual_raw_sha256": "ba53df7e4b0cfb15eae5d374c974b8296749a373971a6c77ed25deffd9f57c2a",
+    "independent_decoded_frames": 49,
+    "closest_raw_exo_latent_frame_index_matches": 49,
+    "image": "pair01_s0288-pipeline.jpg"
+  }
+]

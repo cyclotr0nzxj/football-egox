@@ -1,0 +1,83 @@
+(
+set -eu
+set -o pipefail
+cd /root/autodl-tmp/football_egox/pair04-20261121/egox-shared-008/pair05-vae-66fc463f.FlNTz4tU
+test -f exo-geometry-ready.zip
+script=run_fixed_k_008_checked.sh
+log=fixed-k-launch.log
+checksum=a55525a3d29383ae1e0fb72e9fe97c6b42b350868e25288b7db0452cdec4f8de
+if [ ! -e "$script" ]; then
+  partial=$(mktemp .fixed-k-script.XXXXXXXX)
+  trap 'rm -f -- "$partial"' EXIT
+  base64 -d <<'EGOX_SCRIPT' | gzip -d > "$partial"
+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
+sG8zSR4AAA==
+EGOX_SCRIPT
+  printf '%s  %s\n' "$checksum" "$partial" | sha256sum -c -
+  ln -- "$partial" "$script"
+fi
+printf '%s  %s\n' "$checksum" "$script" | sha256sum -c -
+set -C
+if [ -e "$log" ]; then
+  echo "Existing launch log: $PWD/$log" >&2
+  exit 2
+fi
+exec 3>"$log"
+nohup bash "./$script" </dev/null >&3 2>&1 3>&- &
+printf 'FIXED_K_LAUNCH_PID=%s log=%s/%s\n' "$!" "$PWD" "$log"
+)

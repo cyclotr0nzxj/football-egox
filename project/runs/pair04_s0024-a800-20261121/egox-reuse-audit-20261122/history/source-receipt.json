@@ -1,0 +1,112 @@
+{
+  "pair01_s0288": {
+    "frame_indices": [
+      0,
+      24,
+      36,
+      43
+    ],
+    "sources": [
+      {
+        "label": "R8 原片",
+        "path": "multiclip-prep/pair01_s0288/example/self_capture/videos/pair01_s0288/exo.mp4",
+        "fps": 25,
+        "sha256": "94a34d2fdccee5594be5cbc768d7c7656b065d10c5d347c80d5dd3d5a05ee2ab"
+      },
+      {
+        "label": "首版正式先验",
+        "path": "multiclip-evidence/pair01_s0288/teammate-prior/pair01_s0288/ego_Prior.mp4",
+        "fps": 30,
+        "sha256": "5736bdc487bdbdedc7772973afacffbfb38b287410fca14de5b1a6d62b7e558a"
+      },
+      {
+        "label": "首版成片",
+        "path": "four-egox-outputs-008/verified/pair01_s0288_ego.mp4",
+        "fps": 30,
+        "sha256": "515214b8d487c6edec53a7f5b8a0d39f1ab2bdb866b098759c099b9fd3512a11"
+      },
+      {
+        "label": "低头正式先验",
+        "path": "update-008/output-008/priors/pair01_s0288-final.mp4",
+        "fps": 30,
+        "sha256": "7846541ec6c90cda675a4f97b51b96cf162a364488cc99814c15a4bd18f87b97"
+      },
+      {
+        "label": "低头更新成片",
+        "path": "update-008/output-008/verified/pair01_s0288_ego.mp4",
+        "fps": 30,
+        "sha256": "9864dd1fd77a84181d22ea5fe846c96542fa536b106abc2099e6ea6829c1633c"
+      },
+      {
+        "label": "A 原投影成片",
+        "path": "pair01-gga-ab/output-a-008-20261122/verified/A_ego.mp4",
+        "fps": 30,
+        "sha256": "e65aefa11744e663f080f658245295101ff72687eb1305adcea36ffde535ed8c"
+      },
+      {
+        "label": "B 鱼眼修正成片",
+        "path": "pair01-gga-ab/output-b-008-20261122/verified/B_ego.mp4",
+        "fps": 30,
+        "sha256": "51c7003c6d58d483f268bd41b3d46063a2b77c64d46f629cfb1393ccea344810"
+      },
+      {
+        "label": "004 新正式先验",
+        "path": "clone-004-20261122/pair01/prior/pair01_s0288/ego_Prior.mp4",
+        "fps": 30,
+        "sha256": "4f23a9f78cbe5c2c5074c238ba80cd0fe668693473883db405dd7c86f021b39b"
+      }
+    ]
+  },
+  "pair05_s0024": {
+    "frame_indices": [
+      12,
+      24,
+      36,
+      48
+    ],
+    "sources": [
+      {
+        "label": "R8 原片",
+        "path": "multiclip-prep/pair05_s0024/example/self_capture/videos/pair05_s0024/exo.mp4",
+        "fps": 25,
+        "sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7"
+      },
+      {
+        "label": "首版正式先验",
+        "path": "multiclip-evidence/pair05_s0024/teammate-prior/pair05_s0024/ego_Prior.mp4",
+        "fps": 30,
+        "sha256": "9debe47249476e642e53f149b54d96da7cba2c063aa568cd322a09500c857683"
+      },
+      {
+        "label": "首版成片",
+        "path": "four-egox-outputs-008/verified/pair05_s0024_ego.mp4",
+        "fps": 30,
+        "sha256": "df81ba4a06fd42b7ae64b35d5de52fd40882143e3356595e1bbbde077bcc2dec"
+      },
+      {
+        "label": "跟球正式先验",
+        "path": "update-008/output-008/priors/pair05_s0024-final.mp4",
+        "fps": 30,
+        "sha256": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa"
+      },
+      {
+        "label": "跟球更新成片",
+        "path": "update-008/output-008/verified/pair05_s0024_ego.mp4",
+        "fps": 30,
+        "sha256": "98fe4e765bb2376ca86581c5b49b3df6bdc2329d47e4fed1a68c46150a204db9"
+      },
+      {
+        "label": "鱼眼修正成片",
+        "path": "pair05-aria-008/output-008-20261122/verified/pair05_s0024_ego.mp4",
+        "fps": 30,
+        "sha256": "189252e559002d8f61db322e7b9fd0bb4de915b41cb3a0a53b5741123514b04c"
+      },
+      {
+        "label": "004 前景 GGA",
+        "path": "clone-004-20261122/pair05/verified/pair05_s0024_ego.mp4",
+        "fps": 30,
+        "sha256": "94cf039fea0391942f6e090cc9da98f1baada0a48689611bf8ad920ac2bc6dc6"
+      }
+    ]
+  }
+}

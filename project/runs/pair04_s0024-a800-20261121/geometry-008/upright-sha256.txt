@@ -1,0 +1,3 @@
+57863558a648e9724ba1de1ea7f712e7534a7ba4634b84e09129f3657f8cf2ee  prior-008-upright/pair04_s0024/ego_Prior.mp4
+f6330c141eeb8cdb186c0a7c678823b4ac4ba5bdd82daec3157b66f32a8ba736  viewpoint-008-upright/meta.json
+71abc3c44a2296eed2fec7f1b3a52ad213a8d16bdde0f70747c394794ae9d772  viewpoint-008-upright/trajectory-check.json

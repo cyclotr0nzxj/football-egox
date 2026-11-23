@@ -1,0 +1,21 @@
+{
+  "take": "pair05_s0024",
+  "numeric_verification": "passed",
+  "manual_visual_verdict": "rejected",
+  "historical_only": true,
+  "frame_indices": [
+    0,
+    12,
+    24,
+    36,
+    48
+  ],
+  "result": {
+    "take": "pair05_s0024",
+    "status": "verified",
+    "video": "pair05_s0024_ego.mp4",
+    "receipt": "pair05_s0024.receipt.json",
+    "sha256": "189252e559002d8f61db322e7b9fd0bb4de915b41cb3a0a53b5741123514b04c"
+  },
+  "remote_raw_sha256": "c75206919368fe2a07e0a68ba8e693cc296c58fcb77209c20c3a10256f21279d"
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": 1,
+  "pair_id": "04",
+  "trim_manifest": "records/user_ego_trim_20261019/trim_manifest.json",
+  "image_size": [
+    960,
+    540
+  ],
+  "selected_visible_frames": [
+    0,
+    10,
+    48,
+    50,
+    130,
+    150,
+    170,
+    200,
+    230,
+    270,
+    280,
+    292
+  ],
+  "preroll_policy": "ffmpeg trim=start=0 precedes select; negative PTS and discard packets are excluded from the visible-frame index.",
+  "filter_for_all_selected_frames": "trim=start=0,select='eq(n,0)+eq(n,10)+eq(n,48)+eq(n,50)+eq(n,130)+eq(n,150)+eq(n,170)+eq(n,200)+eq(n,230)+eq(n,270)+eq(n,280)+eq(n,292)',scale=960:540",
+  "historical_raw_exo_backup_available_now": false,
+  "historical_raw_exo_note": "Raw EXO frame indices below are historical coordinates from the trim manifest. The raw backup was absent when this course experiment was prepared; these numbers are not evidence that raw footage was recovered.",
+  "source_videos": {
+    "exo": {
+      "path": "验证视频/裁剪后验证exo/MVI_5693.MP4",
+      "sha256": "9c4f10825e9b6e2936ac87e4a1d1e45473f6259b6184d77b262981d9400ab2a4",
+      "probe": {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.100 h264_videotoolbox"
+        }
+      }
+    },
+    "ego": {
+      "path": "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "sha256": "291b754f49eceb3999a0aef289b5d2d1823982623cfde7244c7487c5c88ce526",
+      "probe": {
+        "codec_name": "hevc",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-10-19T13:55:34.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "encoder": "Lavc62.28.100 hevc_videotoolbox"
+        }
+      }
+    }
+  },
+  "frames": [
+    {
+      "visible_frame": 0,
+      "source_pts_seconds": 0.0,
+      "source_pts_exact": "0.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 99,
+      "base_aligned_pts_seconds": 3.96,
+      "historical_raw_exo_frame": 130,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0000.jpg",
+        "ego": "ego/0000.jpg"
+      }
+    },
+    {
+      "visible_frame": 10,
+      "source_pts_seconds": 0.4,
+      "source_pts_exact": "0.400000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 109,
+      "base_aligned_pts_seconds": 4.36,
+      "historical_raw_exo_frame": 140,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0010.jpg",
+        "ego": "ego/0010.jpg"
+      }
+    },
+    {
+      "visible_frame": 48,
+      "source_pts_seconds": 1.92,
+      "source_pts_exact": "1.920000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 147,
+      "base_aligned_pts_seconds": 5.88,
+      "historical_raw_exo_frame": 178,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0048.jpg",
+        "ego": "ego/0048.jpg"
+      }
+    },
+    {
+      "visible_frame": 50,
+      "source_pts_seconds": 2.0,
+      "source_pts_exact": "2.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 149,
+      "base_aligned_pts_seconds": 5.96,
+      "historical_raw_exo_frame": 180,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0050.jpg",
+        "ego": "ego/0050.jpg"
+      }
+    },
+    {
+      "visible_frame": 130,
+      "source_pts_seconds": 5.2,
+      "source_pts_exact": "5.200000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 229,
+      "base_aligned_pts_seconds": 9.16,
+      "historical_raw_exo_frame": 260,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0130.jpg",
+        "ego": "ego/0130.jpg"
+      }
+    },
+    {
+      "visible_frame": 150,
+      "source_pts_seconds": 6.0,
+      "source_pts_exact": "6.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 249,
+      "base_aligned_pts_seconds": 9.96,
+      "historical_raw_exo_frame": 280,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0150.jpg",
+        "ego": "ego/0150.jpg"
+      }
+    },
+    {
+      "visible_frame": 170,
+      "source_pts_seconds": 6.8,
+      "source_pts_exact": "6.800000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 269,
+      "base_aligned_pts_seconds": 10.76,
+      "historical_raw_exo_frame": 300,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0170.jpg",
+        "ego": "ego/0170.jpg"
+      }
+    },
+    {
+      "visible_frame": 200,
+      "source_pts_seconds": 8.0,
+      "source_pts_exact": "8.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 299,
+      "base_aligned_pts_seconds": 11.96,
+      "historical_raw_exo_frame": 330,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0200.jpg",
+        "ego": "ego/0200.jpg"
+      }
+    },
+    {
+      "visible_frame": 230,
+      "source_pts_seconds": 9.2,
+      "source_pts_exact": "9.200000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 329,
+      "base_aligned_pts_seconds": 13.16,
+      "historical_raw_exo_frame": 360,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0230.jpg",
+        "ego": "ego/0230.jpg"
+      }
+    },
+    {
+      "visible_frame": 270,
+      "source_pts_seconds": 10.8,
+      "source_pts_exact": "10.800000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 369,
+      "base_aligned_pts_seconds": 14.76,
+      "historical_raw_exo_frame": 400,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0270.jpg",
+        "ego": "ego/0270.jpg"
+      }
+    },
+    {
+      "visible_frame": 280,
+      "source_pts_seconds": 11.2,
+      "source_pts_exact": "11.200000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 379,
+      "base_aligned_pts_seconds": 15.16,
+      "historical_raw_exo_frame": 410,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0280.jpg",
+        "ego": "ego/0280.jpg"
+      }
+    },
+    {
+      "visible_frame": 292,
+      "source_pts_seconds": 11.68,
+      "source_pts_exact": "11.680000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 391,
+      "base_aligned_pts_seconds": 15.64,
+      "historical_raw_exo_frame": 422,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "exo/0292.jpg",
+        "ego": "ego/0292.jpg"
+      }
+    }
+  ]
+}

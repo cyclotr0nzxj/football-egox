@@ -1,0 +1,167 @@
+[
+  {
+    "pair": 1,
+    "exo": "验证视频/验证exo/MVI_5688.MP4",
+    "ego": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+    "coarse_delta_s": 0.87,
+    "measurements": [
+      {
+        "event": "start_clap",
+        "exo_window_center_s": 1.079,
+        "local_waveform_delta_s": 0.870375,
+        "max_correlation": 0.5032,
+        "exo_loudest_sample_s": 1.0786875,
+        "ego_loudest_sample_s": 0.208125,
+        "loudest_sample_delta_s": 0.8705625
+      },
+      {
+        "event": "middle",
+        "exo_window_center_s": 25.13065625,
+        "local_waveform_delta_s": 0.8769375,
+        "max_correlation": 0.1358,
+        "exo_loudest_sample_s": 26.3391875,
+        "ego_loudest_sample_s": 25.0468125,
+        "loudest_sample_delta_s": 1.292375
+      },
+      {
+        "event": "end_clap",
+        "exo_window_center_s": 47.275,
+        "local_waveform_delta_s": 0.86975,
+        "max_correlation": 0.3932,
+        "exo_loudest_sample_s": 47.2731875,
+        "ego_loudest_sample_s": 46.406,
+        "loudest_sample_delta_s": 0.8671875
+      }
+    ]
+  },
+  {
+    "pair": 2,
+    "exo": "验证视频/验证exo/MVI_5689.MP4",
+    "ego": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+    "coarse_delta_s": 1.07,
+    "measurements": [
+      {
+        "event": "start_clap",
+        "status": "outside_ego_start"
+      },
+      {
+        "event": "middle",
+        "exo_window_center_s": 14.176,
+        "local_waveform_delta_s": 1.060125,
+        "max_correlation": 0.0774,
+        "exo_loudest_sample_s": 12.5600625,
+        "ego_loudest_sample_s": 13.8410625,
+        "loudest_sample_delta_s": -1.281
+      },
+      {
+        "event": "end_clap",
+        "exo_window_center_s": 25.339,
+        "local_waveform_delta_s": 1.0721875,
+        "max_correlation": 0.4305,
+        "exo_loudest_sample_s": 25.3398125,
+        "ego_loudest_sample_s": 24.2673125,
+        "loudest_sample_delta_s": 1.0725
+      }
+    ]
+  },
+  {
+    "pair": 3,
+    "exo": "验证视频/验证exo/MVI_5691.MP4",
+    "ego": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+    "coarse_delta_s": 1.02,
+    "measurements": [
+      {
+        "event": "start_clap",
+        "exo_window_center_s": 3.201,
+        "local_waveform_delta_s": 1.0195,
+        "max_correlation": 0.4152,
+        "exo_loudest_sample_s": 3.1994375,
+        "ego_loudest_sample_s": 2.1824375,
+        "loudest_sample_delta_s": 1.017
+      },
+      {
+        "event": "middle",
+        "exo_window_center_s": 16.27734375,
+        "local_waveform_delta_s": 1.026,
+        "max_correlation": 0.0362,
+        "exo_loudest_sample_s": 14.94725,
+        "ego_loudest_sample_s": 13.2381875,
+        "loudest_sample_delta_s": 1.7090625
+      },
+      {
+        "event": "end_clap",
+        "exo_window_center_s": 29.585,
+        "local_waveform_delta_s": 1.019625,
+        "max_correlation": 0.459,
+        "exo_loudest_sample_s": 29.5849375,
+        "ego_loudest_sample_s": 28.5658125,
+        "loudest_sample_delta_s": 1.019125
+      }
+    ]
+  },
+  {
+    "pair": 4,
+    "exo": "验证视频/验证exo/MVI_5693.MP4",
+    "ego": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+    "coarse_delta_s": 1.332,
+    "measurements": [
+      {
+        "event": "start_clap",
+        "exo_window_center_s": 3.189,
+        "local_waveform_delta_s": 1.3309375,
+        "max_correlation": 0.4928,
+        "exo_loudest_sample_s": 3.187875,
+        "ego_loudest_sample_s": 1.856875,
+        "loudest_sample_delta_s": 1.331
+      },
+      {
+        "event": "middle",
+        "exo_window_center_s": 12.93865625,
+        "local_waveform_delta_s": 1.26175,
+        "max_correlation": 0.0251,
+        "exo_loudest_sample_s": 11.3489375,
+        "ego_loudest_sample_s": 14.23025,
+        "loudest_sample_delta_s": -2.8813125
+      },
+      {
+        "event": "end_clap",
+        "exo_window_center_s": 22.467,
+        "local_waveform_delta_s": 1.326,
+        "max_correlation": 0.3396,
+        "exo_loudest_sample_s": 22.467125,
+        "ego_loudest_sample_s": 21.1410625,
+        "loudest_sample_delta_s": 1.3260625
+      }
+    ]
+  },
+  {
+    "pair": 5,
+    "exo": "验证视频/验证exo/MVI_5694.MP4",
+    "ego": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+    "coarse_delta_s": 0.956,
+    "measurements": [
+      {
+        "event": "start_clap",
+        "status": "outside_ego_start"
+      },
+      {
+        "event": "middle",
+        "exo_window_center_s": 22.88,
+        "local_waveform_delta_s": 0.9266875,
+        "max_correlation": 0.0296,
+        "exo_loudest_sample_s": 22.7291875,
+        "ego_loudest_sample_s": 20.446375,
+        "loudest_sample_delta_s": 2.2828125
+      },
+      {
+        "event": "end_clap",
+        "exo_window_center_s": 42.975,
+        "local_waveform_delta_s": 0.95525,
+        "max_correlation": 0.3335,
+        "exo_loudest_sample_s": 42.9736875,
+        "ego_loudest_sample_s": 42.0184375,
+        "loudest_sample_delta_s": 0.95525
+      }
+    ]
+  }
+]

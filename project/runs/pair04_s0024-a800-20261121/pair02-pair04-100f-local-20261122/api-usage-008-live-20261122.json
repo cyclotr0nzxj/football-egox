@@ -1,0 +1,26 @@
+[
+  {
+    "receipt": "sol-live-fixed-k-failure-review.txt",
+    "model": "gpt-6.2-sol",
+    "input_tokens": 227,
+    "output_tokens": 5517,
+    "reasoning_tokens": 4861,
+    "status": "completed"
+  },
+  {
+    "receipt": "astra-live-inverse-depth-review.txt",
+    "model": "gpt-6.2-astra",
+    "input_tokens": 281,
+    "output_tokens": 7265,
+    "reasoning_tokens": 6800,
+    "status": "completed"
+  },
+  {
+    "receipt": "sol-live-complete-regeneration-review.txt",
+    "model": "gpt-6.2-sol",
+    "input_tokens": 179,
+    "output_tokens": 5001,
+    "reasoning_tokens": 4564,
+    "status": "completed"
+  }
+]

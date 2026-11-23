@@ -1,0 +1,16 @@
+[
+  {
+    "forced_failure": null,
+    "both_pairs_attempted": true,
+    "evidence_collection_attempted": true,
+    "existing_run_rejected": true,
+    "returncode": 0
+  },
+  {
+    "forced_failure": "Pair02",
+    "both_pairs_attempted": true,
+    "evidence_collection_attempted": true,
+    "existing_run_rejected": true,
+    "returncode": 2
+  }
+]

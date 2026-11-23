@@ -1,0 +1,86 @@
+{
+  "torch": "2.2.2",
+  "device": "cpu",
+  "frozen_inputs_verified": true,
+  "actual_negative_matches": {
+    "F12": {
+      "observed_foreground_behind_nearer_surface": {
+        "tested": 13474,
+        "admitted": 0
+      },
+      "observed_wrong_foreground_identity_at_protected_pixel": {
+        "tested": 0,
+        "admitted": 0
+      },
+      "observed_foreground_landing_on_unprotected_pixel": {
+        "tested": 2363,
+        "admitted": 0
+      },
+      "observed_background_or_wearer_at_protected_pixel": {
+        "tested": 1791,
+        "admitted": 0
+      },
+      "other_frame_same_identity_landing_at_protected_pixel": {
+        "tested": 6113,
+        "would_pass_without_time_gate": 3,
+        "admitted": 0
+      },
+      "real_ball_routed_to_other_object": {
+        "tested": 30,
+        "admitted": 0
+      }
+    },
+    "F24": {
+      "observed_foreground_behind_nearer_surface": {
+        "tested": 12003,
+        "admitted": 0
+      },
+      "observed_wrong_foreground_identity_at_protected_pixel": {
+        "tested": 87,
+        "admitted": 0
+      },
+      "observed_foreground_landing_on_unprotected_pixel": {
+        "tested": 3035,
+        "admitted": 0
+      },
+      "observed_background_or_wearer_at_protected_pixel": {
+        "tested": 1709,
+        "admitted": 0
+      },
+      "other_frame_same_identity_landing_at_protected_pixel": {
+        "tested": 2650,
+        "would_pass_without_time_gate": 7,
+        "admitted": 0
+      },
+      "real_ball_routed_to_other_object": {
+        "tested": 14,
+        "admitted": 0
+      },
+      "real_disc_2_routed_to_disc_4": {
+        "tested": 20,
+        "admitted": 0
+      }
+    }
+  },
+  "joint_geometry_budget": {
+    "verified_depth_frames": 13,
+    "replaced_source_blocks": 171,
+    "active_max_points": 16,
+    "native_max_points": 16,
+    "native_unchanged_max_abs_error": 0.0,
+    "replacement_max_abs_error": 1.7881393432617188e-07
+  },
+  "sparse_sdpa": {
+    "finite_exo_edges": 295,
+    "isolated_identity_branches": 53,
+    "mixed_ego_queries": 2,
+    "ego_rows_left_to_native_attention": 10141,
+    "synthetic_extra_feature_in_admitted_exo_value_can_pass": true,
+    "synthetic_extra_feature_in_preserved_ego_value_can_pass": true
+  },
+  "processor": {
+    "staged_source_method_cpu_witness": true,
+    "missing_gga_rejected": true,
+    "kv_cache_rejected": true
+  }
+}

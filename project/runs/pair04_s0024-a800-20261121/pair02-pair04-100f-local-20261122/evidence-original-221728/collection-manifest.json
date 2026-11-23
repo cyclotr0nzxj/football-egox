@@ -1,0 +1,121 @@
+{
+  "status": "actual available evidence; generation and visual acceptance may be incomplete",
+  "files": {
+    "legacy-reuse.json": {
+      "sha256": "0ba0a91728def2d90c51664c8ac00b056a0e85a1d52e54c8ea2ea13d3455b902",
+      "bytes": 959
+    },
+    "manifest.json": {
+      "sha256": "a2d2b6d958df84fd7e99d3da5f7942890e26a212ff4a25a3a74bf9af3f2e25f7",
+      "bytes": 2763
+    },
+    "runtime-preflight.log": {
+      "sha256": "564231517825bf6a3ddd6c36ed4b273d7a5dacfc7f84e0af22dbdfbcffe7e160",
+      "bytes": 174
+    },
+    "windows/pair02_s0028/exo.mp4": {
+      "sha256": "166ab45c8c3a88ace197001a752bdea0de4384c6f2e98c6b949689013c19fb5b",
+      "bytes": 715472
+    },
+    "windows/pair02_s0028/exo_head_anchors.json": {
+      "sha256": "cc47420d8a7ee04dca420b706463654f1e8e4f35603b75f38e8a37474bf1378f",
+      "bytes": 3413
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/depth/exo.zip": {
+      "sha256": "db053f7433e3c75ef03917a9f1656fdfb775b096727e21a0f698279d5ccf1e3e",
+      "bytes": 4879975
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/intrinsics/exo.npz": {
+      "sha256": "cde9437781db1845fbc1e8554809711067fa44a2d957ead35c3f29fac49a9c7d",
+      "bytes": 1678
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/mask/exo.txt": {
+      "sha256": "0428116fb3814da27d7acfaaa574e223a1644175c102e87753a8385ce616ca50",
+      "bytes": 71
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/mask/exo.zip": {
+      "sha256": "b4413bcbb149de27ed7deed7a54c9188b8449574bb780893b2cdc7872628a571",
+      "bytes": 166616
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair02_s0028/geometry/pair02_s0028/rgb/exo.mp4": {
+      "sha256": "46e598a8f502f2b2975c88c9e17df35900792ad855272969e12144220ad4c38a",
+      "bytes": 304902
+    },
+    "windows/pair02_s0028/meta-candidate.json": {
+      "sha256": "c38d2183d554e9f8bcb732fdbdd3e3adbc77422d2a822669cd33df70cc18a558",
+      "bytes": 24746
+    },
+    "windows/pair02_s0028/vipe.log": {
+      "sha256": "e1026a0dca0f64f63c78fcc17435d05765ddadaf1aa504fefd20649b5028e9c4",
+      "bytes": 15933
+    },
+    "windows/pair02_s0052/exo.mp4": {
+      "sha256": "eaa0be7621776a407cad3c8733429e2dcb752c4723e859a23ec04d87b1113edd",
+      "bytes": 696067
+    },
+    "windows/pair02_s0052/exo_head_anchors.json": {
+      "sha256": "331f0c718f66534e989b42bad070bf5be294d0978a41aa7f89535758273b0b05",
+      "bytes": 3413
+    },
+    "windows/pair02_s0052/meta-candidate.json": {
+      "sha256": "fca418b3245dbf0f182965d5c716dfb1ff478b8f7363ce1ec3258e3bfba798df",
+      "bytes": 24749
+    },
+    "windows/pair04_s0052/exo.mp4": {
+      "sha256": "1faa8752dfa9b04e66d89df49dd4c218891e719c937ce966d08198951a6ee5b4",
+      "bytes": 715658
+    },
+    "windows/pair04_s0052/exo_head_anchors.json": {
+      "sha256": "7a664814a57b7b5a54a135531b133f046a3777e8062c43ae87fb3ca42b1037e6",
+      "bytes": 3413
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/depth/exo.zip": {
+      "sha256": "ac5c1fd7011316abf2e3961a76c107041f4a3a100696ba22da9cbcda523a2968",
+      "bytes": 4181673
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/intrinsics/exo.npz": {
+      "sha256": "e1e468f94a070574ad4a12ea74d43b872f498671d02a5383d7e98b8b2b2daa7e",
+      "bytes": 1678
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/mask/exo.txt": {
+      "sha256": "0f3946f27c993fac34b5ebb5002d093a54af7f46eca834d7938660d6ccbe28a5",
+      "bytes": 81
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/mask/exo.zip": {
+      "sha256": "441206fa2b8bbc88b417a0d3ff4ff1749a4b0669665a0b64aadad86b2fb696d1",
+      "bytes": 133398
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/pose/exo.npz": {
+      "sha256": "abdff3a87c4a92928d04c60eb95801eebd8092ed1408432355baefd95678407d",
+      "bytes": 4030
+    },
+    "windows/pair04_s0052/geometry/pair04_s0052/rgb/exo.mp4": {
+      "sha256": "2b0ab084368355fd9cc1ffff54a9fd02b11378f91de8a8de46d653e64c362d1f",
+      "bytes": 294767
+    },
+    "windows/pair04_s0052/meta-candidate.json": {
+      "sha256": "97311985b6b874937ef0de344f257f5760c7f032449739e0df66006326e656a6",
+      "bytes": 24883
+    },
+    "windows/pair04_s0052/vipe.log": {
+      "sha256": "a223ae98eef4f962a4e7b62855f1bc9398bca35b19f4c65901d82b39e0d82f6f",
+      "bytes": 15681
+    },
+    "windows/pair04_s0076/exo.mp4": {
+      "sha256": "2cb9b864c51c3aadfca28e46f5993df4512e12461665078035f13c33c3a588ac",
+      "bytes": 710633
+    },
+    "windows/pair04_s0076/exo_head_anchors.json": {
+      "sha256": "92c17b8b12687bf0fa478e8a72af25ec380614e640a0169be60c356f8b450b1c",
+      "bytes": 3413
+    },
+    "windows/pair04_s0076/meta-candidate.json": {
+      "sha256": "87e277df7f72df14a9bd3377f1524e37835e1e892f12b6aaa58f5d5881dfed09",
+      "bytes": 24863
+    }
+  }
+}

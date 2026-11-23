@@ -1,0 +1,24 @@
+{
+  "basis": "Manual EXO review at 4-frame steps. Entries are [staged frame, ball center x, ball center y, approximate image radius, support]. Other frames are interpolated. Partial and blurred samples are uncertain.",
+  "pair04_s0024": [
+    [0, 335, 269, 9, "visible"], [4, 345, 268, 9, "visible"], [8, 355, 262, 9, "partial"],
+    [12, 353, 259, 9, "visible"], [16, 360, 256, 9, "visible"], [20, 377, 255, 9, "visible"],
+    [24, 388, 253, 8, "visible"], [28, 414, 256, 8, "visible"], [32, 436, 255, 9, "visible"],
+    [36, 454, 264, 9, "partial"], [40, 456, 258, 9, "partial"], [44, 461, 257, 9, "partial"],
+    [48, 461, 253, 9, "partial"]
+  ],
+  "pair01_s0288": [
+    [0, 387, 297, 10, "blurred"], [4, 455, 291, 9, "blurred"], [8, 506, 288, 9, "visible"],
+    [12, 540, 282, 8, "visible"], [16, 562, 274, 7, "visible"], [20, 577, 272, 7, "visible"],
+    [24, 591, 282, 8, "visible"], [28, 601, 282, 8, "visible"], [32, 610, 287, 8, "visible"],
+    [36, 610, 291, 8, "visible"], [40, 613, 292, 8, "visible"], [44, 616, 292, 8, "visible"],
+    [48, 618, 296, 8, "visible"]
+  ],
+  "pair05_s0024": [
+    [0, 327, 258, 11, "blurred"], [4, 397, 275, 13, "blurred"], [8, 473, 292, 14, "blurred"],
+    [12, 548, 312, 15, "blurred"], [16, 545, 314, 15, "visible"], [20, 529, 311, 15, "visible"],
+    [24, 512, 312, 15, "visible"], [28, 497, 310, 14, "visible"], [32, 423, 287, 13, "blurred"],
+    [36, 363, 271, 12, "blurred"], [40, 322, 257, 11, "blurred"], [44, 292, 251, 10, "visible"],
+    [48, 267, 245, 10, "visible"]
+  ]
+}

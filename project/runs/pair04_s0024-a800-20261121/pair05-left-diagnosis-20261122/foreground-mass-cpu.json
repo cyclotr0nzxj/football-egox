@@ -1,0 +1,104 @@
+{
+  "mode": "synthetic_equal_qk_cpu_sdpa_not_real_model_attention",
+  "torch_version": "2.2.2",
+  "plan_sha256": "3cd25a102a6ecf4006add800b293dcf40b82b296392ff652aeea308fcd0f501e",
+  "matched_executed_hashes": [
+    "pair05_gga_routes.py",
+    "plan/pair05-gga-routes.npz",
+    "core/finetune/models/wan_i2v/custom_transformer.py",
+    "core/finetune/models/wan_i2v/sft_trainer.py",
+    "infer.py",
+    "meta.json"
+  ],
+  "total_query_count": 10192,
+  "routed_query_count": 51,
+  "branches": 53,
+  "ego_keys_per_branch": 10192,
+  "exo_keys_per_branch_min": 1,
+  "exo_keys_per_branch_max": 16,
+  "equal_logit_exo_mass_pct": {
+    "min": 0.03919137269258499,
+    "mean": 0.21752160787582397,
+    "max": 0.62362140417099
+  },
+  "exo_only_control_max_abs_error_from_one": 1.1920928955078125e-07,
+  "diagnostic_group_floor": {
+    "mode": "synthetic_nonuniform_qk_only",
+    "example_target_minimum_matching_exo_mass": 0.25,
+    "branches_raised": 52,
+    "branches_unchanged": 1,
+    "max_abs_error_vs_expected_mass": 7.748603820800781e-07
+  },
+  "frames": {
+    "12": {
+      "slot_index": 3,
+      "routed_queries": 26,
+      "edges": 164,
+      "per_object_id": {
+        "1": {
+          "branches": 20,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.03919137269258499,
+            "mean": 0.2968708574771881,
+            "max": 0.62362140417099
+          }
+        },
+        "2": {
+          "branches": 2,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.0784096047282219,
+            "mean": 0.11750076711177826,
+            "max": 0.15659192204475403
+          }
+        },
+        "6": {
+          "branches": 4,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.0392024889588356,
+            "mean": 0.0588095560669899,
+            "max": 0.07840763032436371
+          }
+        }
+      }
+    },
+    "24": {
+      "slot_index": 6,
+      "routed_queries": 25,
+      "edges": 131,
+      "per_object_id": {
+        "1": {
+          "branches": 15,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.07832551747560501,
+            "mean": 0.296975314617157,
+            "max": 0.5073988437652588
+          }
+        },
+        "2": {
+          "branches": 2,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.07833990454673767,
+            "mean": 0.09794579446315765,
+            "max": 0.11755169928073883
+          }
+        },
+        "4": {
+          "branches": 4,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.03919938579201698,
+            "mean": 0.03920868784189224,
+            "max": 0.03922296687960625
+          }
+        },
+        "6": {
+          "branches": 6,
+          "equal_logit_exo_mass_pct": {
+            "min": 0.039202362298965454,
+            "mean": 0.05227198824286461,
+            "max": 0.07840731739997864
+          }
+        }
+      }
+    }
+  }
+}

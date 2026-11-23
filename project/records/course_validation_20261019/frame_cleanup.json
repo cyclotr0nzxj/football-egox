@@ -1,0 +1,19 @@
+{
+  "scope": "Only temporary JPEGs extracted by this course run; source videos untouched",
+  "retained_frames_per_view": [
+    0,
+    10,
+    48,
+    50,
+    130,
+    150,
+    170,
+    200,
+    230,
+    270,
+    280,
+    292
+  ],
+  "removed_jpegs": 598,
+  "removed_bytes": 80963769
+}

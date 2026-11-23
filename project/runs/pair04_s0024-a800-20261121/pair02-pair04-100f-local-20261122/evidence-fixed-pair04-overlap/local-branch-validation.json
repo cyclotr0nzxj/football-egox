@@ -1,0 +1,107 @@
+{
+  "fit": [
+    1.4749213457107544,
+    -0.08032681792974472
+  ],
+  "fit_frame_step": 2,
+  "fit_source_frames": [
+    76,
+    100
+  ],
+  "fit_depth_bounds": [
+    4.3125,
+    11.40625
+  ],
+  "native_depth_bounds": [
+    4.2734375,
+    11.421875
+  ],
+  "heldout_foreground": [
+    {
+      "source_frame": 77,
+      "matched_foreground_pixels": 44322,
+      "median": 0.012393474578857422,
+      "p90": 0.012393474578857422
+    },
+    {
+      "source_frame": 79,
+      "matched_foreground_pixels": 44964,
+      "median": 0.009302377700805664,
+      "p90": 0.009302377700805664
+    },
+    {
+      "source_frame": 81,
+      "matched_foreground_pixels": 44849,
+      "median": 0.0046547651290893555,
+      "p90": 0.0046547651290893555
+    },
+    {
+      "source_frame": 83,
+      "matched_foreground_pixels": 45004,
+      "median": 0.007770061492919922,
+      "p90": 0.007770061492919922
+    },
+    {
+      "source_frame": 85,
+      "matched_foreground_pixels": 45130,
+      "median": 0.006998419761657715,
+      "p90": 0.006998419761657715
+    },
+    {
+      "source_frame": 87,
+      "matched_foreground_pixels": 45057,
+      "median": 0.0007787942886352539,
+      "p90": 0.0008209943771362305
+    },
+    {
+      "source_frame": 89,
+      "matched_foreground_pixels": 44967,
+      "median": 0.002345561981201172,
+      "p90": 0.002345561981201172
+    },
+    {
+      "source_frame": 91,
+      "matched_foreground_pixels": 44981,
+      "median": 0.005485892295837402,
+      "p90": 0.005485892295837402
+    },
+    {
+      "source_frame": 93,
+      "matched_foreground_pixels": 45137,
+      "median": 0.007064342498779297,
+      "p90": 0.007064342498779297
+    },
+    {
+      "source_frame": 95,
+      "matched_foreground_pixels": 45136,
+      "median": 0.007855474948883057,
+      "p90": 0.007855474948883057
+    },
+    {
+      "source_frame": 97,
+      "matched_foreground_pixels": 45285,
+      "median": 0.003930807113647461,
+      "p90": 0.003930807113647461
+    },
+    {
+      "source_frame": 99,
+      "matched_foreground_pixels": 45230,
+      "median": 0.0015735626220703125,
+      "p90": 0.0016515254974365234
+    }
+  ],
+  "derived_depth_sha256": "e7944250222c28271b0d56c91bdffacea6dd1b2287709d507e783c531f42412c",
+  "native_depth_sha256": "06de423ffaff84ac2ff836cdb32cab1ebf08d0e3a95a309184431ddadda77a3a",
+  "geometry_units": "Last-window depth transformed into the native middle-window gauge",
+  "overlap_median": 0.0015333890914916992,
+  "pair04_s0052": {
+    "head_supported_frames": 49,
+    "head_relative_difference_median": 0.013119613053890162,
+    "head_relative_difference_p90": 0.049777067044548
+  },
+  "pair04_s0076": {
+    "head_supported_frames": 45,
+    "head_relative_difference_median": 0.037179370815221296,
+    "head_relative_difference_p90": 0.05188615062850268
+  }
+}

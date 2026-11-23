@@ -1,0 +1,184 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-21T07:03:57.842086+00:00",
+  "scope": "Final read-only review of regenerated Chinese Markdown, scientific figure semantics and source-data values from unchanged measured experiments. No detector rerun; final PDF page-layout and ZIP checks belong to separate validation.",
+  "reviewed_assembler_sha256": "d5494f827d251bfd346454ba9584a951a406dfd80a2277324d1e4f984e9e7f77",
+  "checked": {
+    "Harris_structure_tensor_A_response_R_H_match_count_M_notation": "passed",
+    "repeatability_r_and_source_retention_cs_distinguished": "passed",
+    "four_frames_one_clip_not_independent_acquisitions": "passed",
+    "dynamic_evidence_not_tracking": "passed",
+    "static_JPEG_and_dynamic_H264_numerical_inputs_distinguished": "passed",
+    "independent_static_audit_scope_not_overclaimed": "passed",
+    "no_universal_detector_ranking_or_novel_algorithm_claim": "passed",
+    "no_completed_self_collected_EgoX_or_finetuning_claim": "passed",
+    "case_Ns_Nt_M_and_percentages": "passed",
+    "five_references_verified_in_primary_sources": "passed",
+    "generated_Chinese_manuscript_abstract_to_references": "passed",
+    "fixed_EgoX_generation_wording": "passed",
+    "Figure1_four_displayed_point_counts": "passed",
+    "Figure2_all_96_numeric_values_and_24_macro_means": "passed",
+    "Figure3_all_10_source_count_and_ratio_values": "passed",
+    "capture_scene_geometry_and_frame_mapping": "passed",
+    "three_PNG_figures_visually_reviewed_for_semantic_content": "passed",
+    "Figure1_caption_matches_center_only_overlay": "passed",
+    "Figure3_gray_source_and_colored_matched_target_legend": "passed",
+    "latest_regenerated_manuscript_no_unresolved_review_findings": "passed"
+  },
+  "required_fixes": [],
+  "case_values": [
+    {
+      "condition": "rotation45",
+      "method": "harris",
+      "Ns": 392,
+      "Nt": 70,
+      "M": 68,
+      "r": 0.9714285714,
+      "cs": 0.1734693878
+    },
+    {
+      "condition": "rotation45",
+      "method": "sift",
+      "Ns": 254,
+      "Nt": 245,
+      "M": 162,
+      "r": 0.6612244898,
+      "cs": 0.6377952756
+    },
+    {
+      "condition": "gaussian",
+      "method": "harris",
+      "Ns": 496,
+      "Nt": 73,
+      "M": 28,
+      "r": 0.3835616438,
+      "cs": 0.0564516129
+    },
+    {
+      "condition": "gaussian",
+      "method": "sift",
+      "Ns": 333,
+      "Nt": 43,
+      "M": 27,
+      "r": 0.6279069767,
+      "cs": 0.0810810811
+    }
+  ],
+  "bibliography_notes": [
+    "Harris and Stephens 1988 official BMVA archive DOI10.5244/C.2.23; conference electronic page numbering differs from traditional paper numbering, so current no-pages citation is sound.",
+    "Lowe IJCV60:91-110(2004) verified publisher DOI10.1023/B:VISI.0000029664.99615.94.",
+    "Mikolajczyk et al IJCV65:43-72(2005) verified publisher DOI10.1007/s11263-005-3848-x. Oxford author-PDF cover says2006; use publisher2005.",
+    "OpenCV4.11.0 Harris and SIFT official documentation titles verified.",
+    "Classical affine-region overlap evaluation is not numerically identical to this 3-target-pixel center criterion."
+  ],
+  "not_checked_yet": [
+    "Final PDF page layout and embedded text",
+    "Submission ZIP"
+  ],
+  "updated_utc": "2026-10-21T07:16:35.933217+00:00",
+  "quantified_checks": {
+    "metric_rows": 48,
+    "unique_experiment_keys": 48,
+    "images": [
+      "exo_f0050",
+      "exo_f0200",
+      "ego_f0050",
+      "ego_f0200"
+    ],
+    "conditions": [
+      "identity",
+      "rotation15",
+      "rotation45",
+      "scale075",
+      "scale125",
+      "gaussian"
+    ],
+    "methods": [
+      "harris",
+      "sift"
+    ],
+    "metric_fields": [
+      "common_source_count",
+      "common_target_count",
+      "one_to_one_match_count",
+      "repeatability",
+      "source_retained_count"
+    ],
+    "figure1_point_counts_checked": 4,
+    "figure2_values_checked": 96,
+    "figure2_unique_macro_groups_checked": 24,
+    "figure2_max_absolute_value_difference": 0,
+    "figure2_max_absolute_macro_difference": 1.1102230246251565e-16,
+    "figure3_count_and_ratio_values_checked": 10,
+    "table1_retained_counts_checked": 8,
+    "rendered_figures_inspected": 3,
+    "capture_photo_inspected": "R8 settings display shows Tv,24mm,1/60",
+    "capture_geometry_record": "height123cm,near disc6.3m for scene2/3",
+    "frame_mapping_checked": {
+      "F50_base_aligned_frame": 149,
+      "F200_base_aligned_frame": 299,
+      "time_seconds": [
+        2.0,
+        8.0
+      ]
+    },
+    "experiment_parameters_from_saved_run": {
+      "seed": 42,
+      "opencv_threads": 1,
+      "image_size": [
+        960,
+        540
+      ],
+      "harris": {
+        "blockSize": 2,
+        "ksize": 3,
+        "k": 0.04,
+        "positive_response_threshold_fraction": 0.01,
+        "local_nms_window": 3
+      },
+      "sift": {
+        "nfeatures": 500,
+        "nOctaveLayers": 3,
+        "contrastThreshold": 0.04,
+        "edgeThreshold": 10,
+        "sigma": 1.6
+      },
+      "unique_position_rounding_decimals": 3,
+      "minimum_position_distance_px": 5.0,
+      "maximum_retained_positions": 500,
+      "common_visibility_margin_px": 16,
+      "repeatability_tolerance_target_px": 3.0,
+      "gaussian_kernel": [
+        9,
+        9
+      ],
+      "gaussian_sigma": 2.0
+    },
+    "opencv_version": "4.11.0",
+    "numpy_version": "2.3.5",
+    "bibliographic_primary_sources_checked": 5
+  },
+  "artifact_sha256": {
+    "实验报告.md": "d4b7882bb39bb842fc174808c04ff9293b6eaba39bfd01991a18a9dc52ad4496",
+    "report_data.json": "4c5bdc1a8f6c891f1d24a734c91bb2e40b196f4804a604adf96bdbe2145adacc",
+    "figure1_feature_plate.png": "222f5cd6e870c8c6ae970289499c6d975e6ce59baad76d486b6cb06ef452db50",
+    "figure2_stability.png": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+    "figure3_retention_case.png": "804fc430723448107205955887db33d5065971e94db0274a10959221fc01e2fe",
+    "figure2_source_data.csv": "81761c37fe1fe8deba14568a1b78b5c3fbac54c930a87763142d751d27d85d1f",
+    "figure3_source_data.json": "54b27d47d6da6cff48458582cfda347a96ab6320c2fddb8aced94b565d647937"
+  },
+  "resolved_findings": [
+    {
+      "location": "Conclusion",
+      "resolution": "Generation explicitly qualified as EgoX generation; controlled image generation remains correctly stated in Methods."
+    },
+    {
+      "location": "Figure1 caption",
+      "resolution": "Explicitly states saved center locations only; no scale or orientation display/evaluation."
+    },
+    {
+      "location": "Figure3 caption",
+      "resolution": "Gray projected source centers and colored matched target centers explained in Chinese."
+    }
+  ]
+}

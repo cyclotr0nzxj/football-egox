@@ -1,0 +1,63 @@
+{
+  "attempt": 1,
+  "reason": "\u9996\u6b21\u5b98\u65b9\u9636\u6bb5 A \u57fa\u7ebf\uff1a\u56fa\u5b9a seed 42\uff0c\u5b98\u65b9\u6743\u91cd\u5df2\u5b8c\u6574\u6821\u9a8c",
+  "started_utc": "2026-09-11T06:07:50.151513+00:00",
+  "status": "success",
+  "command": [
+    "/root/autodl-tmp/football_egox/envs/egox/bin/python",
+    "/root/autodl-tmp/football_egox/scripts/instrumented_infer.py",
+    "--meta_data_file",
+    "./example/egoexo4D/football_meta.json",
+    "--model_path",
+    "/root/autodl-tmp/football_egox/models/Wan2.1-I2V-14B-480P-Diffusers",
+    "--lora_path",
+    "/root/autodl-tmp/football_egox/models/EgoX/pytorch_lora_weights.safetensors",
+    "--lora_rank",
+    "256",
+    "--out",
+    "/root/autodl-tmp/football_egox/runs/attempt_01",
+    "--seed",
+    "42",
+    "--use_GGA",
+    "--cos_sim_scaling_factor",
+    "3.0"
+  ],
+  "cwd": "/root/autodl-tmp/football_egox/EgoX",
+  "seed": 42,
+  "official_commit": "43c095b552a8f09d3a81c0882491f52c5cf4e953",
+  "settings": {
+    "frames": 49,
+    "steps": 50,
+    "guidance_scale": 5.0,
+    "fps": 30,
+    "ego_size": [
+      448,
+      448
+    ],
+    "exo_size": [
+      784,
+      448
+    ],
+    "GGA": true,
+    "cos_sim_scaling_factor": 3.0,
+    "kv_cache": false,
+    "quantized": false
+  },
+  "gt_used_for_inference": false,
+  "output_directory": "/root/autodl-tmp/football_egox/runs/attempt_01",
+  "ended_utc": "2026-09-11T06:27:13.216571+00:00",
+  "elapsed_seconds": 1163.0644942037761,
+  "exit_code": 0,
+  "output_probe": {
+    "frames": 49,
+    "fps": 30.0,
+    "shapes": [
+      [
+        448,
+        1232,
+        3
+      ]
+    ]
+  },
+  "output_sha256": "226ab80a04c8585207b36ff523de607698dc1ccd32c86e3f85759d88f2207ff7"
+}

@@ -1,0 +1,77 @@
+{
+  "old_start": 0,
+  "new_start": 28,
+  "overlap": [
+    28,
+    48
+  ],
+  "old_K": [
+    763.2669677734375,
+    763.2669677734375,
+    392.0,
+    224.0
+  ],
+  "new_K": [
+    763.2669677734375,
+    763.2669677734375,
+    392.0,
+    224.0
+  ],
+  "scale_to_old": 0.9794829487800598,
+  "heldout_frames": [
+    {
+      "frame": 29,
+      "median_relative_error": 0.001727759838104248,
+      "p90_relative_error": 0.013186335563659668
+    },
+    {
+      "frame": 31,
+      "median_relative_error": 0.001708686351776123,
+      "p90_relative_error": 0.012827038764953613
+    },
+    {
+      "frame": 33,
+      "median_relative_error": 0.00196683406829834,
+      "p90_relative_error": 0.01239478588104248
+    },
+    {
+      "frame": 35,
+      "median_relative_error": 0.002489745616912842,
+      "p90_relative_error": 0.01242983341217041
+    },
+    {
+      "frame": 37,
+      "median_relative_error": 0.002764403820037842,
+      "p90_relative_error": 0.012554526329040527
+    },
+    {
+      "frame": 39,
+      "median_relative_error": 0.0028687119483947754,
+      "p90_relative_error": 0.012803435325622559
+    },
+    {
+      "frame": 41,
+      "median_relative_error": 0.0030106306076049805,
+      "p90_relative_error": 0.012939423322677612
+    },
+    {
+      "frame": 43,
+      "median_relative_error": 0.003573775291442871,
+      "p90_relative_error": 0.01231754757463932
+    },
+    {
+      "frame": 45,
+      "median_relative_error": 0.0036467909812927246,
+      "p90_relative_error": 0.01225349772721529
+    },
+    {
+      "frame": 47,
+      "median_relative_error": 0.003390967845916748,
+      "p90_relative_error": 0.012490928173065186
+    }
+  ],
+  "heldout_median_relative_error": 0.0028165578842163086,
+  "heldout_frame_p90_of_pixel_p90_error": 0.012964114546775818,
+  "passed_provisional_gate": true,
+  "gate": "Provisional consistency screen: median <= 10%, p90-of-frame-p90 <= 25%; not metric validation; inspect foreground and rendered seams separately."
+}

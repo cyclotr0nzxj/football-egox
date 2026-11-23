@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "working_video_full_decode": {
+    "exo": {
+      "status": "passed",
+      "decoded_frame_count": 311,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 25,
+      "display_duration_seconds": 12.44,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 12.4,
+      "all_frame_pts_match_n_over_25": true,
+      "aac_audio_present": false,
+      "sha256": "a6a55d2bf06005b149ee8b3a2697a80062fafa1a0bf9467a6c561c2f30519b29"
+    },
+    "ego": {
+      "status": "passed",
+      "decoded_frame_count": 311,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 25,
+      "display_duration_seconds": 12.44,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 12.4,
+      "all_frame_pts_match_n_over_25": true,
+      "aac_audio_present": true,
+      "sha256": "c704441bb6215b2a7dfadab282da6463df6b108be5f88dbafceaf3fd3f203c50"
+    }
+  },
+  "comparison_video_full_decode": {
+    "status": "passed",
+    "decoded_frame_count": 311,
+    "size": [
+      1536,
+      960
+    ],
+    "fps": 25,
+    "display_duration_seconds": 12.44,
+    "first_pts_seconds": 0.0,
+    "last_pts_seconds": 12.4,
+    "all_frame_pts_match_n_over_25": true,
+    "aac_audio_present": true,
+    "sha256": "e24f97d84805ef7ebb8bc384848984b5e7e0eb4157a708e2d8075c0bc4358bf0"
+  },
+  "opencv_decoded_frames_per_view": 311,
+  "all_three_video_pts_sequences_equal": true,
+  "counts_rows": 1244,
+  "expected_counts_rows": 1244,
+  "unique_frame_view_method_rows": true,
+  "retained_points_within_500_budget": true,
+  "working_video_hashes_unchanged": true,
+  "original_video_hashes_unchanged": true,
+  "original_hash_check_scope": "Existing user trim inputs",
+  "preview_jpegs_verified": [
+    "frame_0000.jpg",
+    "frame_0050.jpg",
+    "frame_0155.jpg",
+    "frame_0200.jpg",
+    "frame_0310.jpg"
+  ],
+  "output_video_bytes": 8709288,
+  "directory_bytes_before_audit_readme": 19189768
+}

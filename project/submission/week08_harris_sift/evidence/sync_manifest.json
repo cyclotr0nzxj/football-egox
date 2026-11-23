@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "fps": 25,
+  "output_root": "验证视频/同步结果_20261019",
+  "frame_indexing": "zero-based; trim end exclusive",
+  "sync_equation": "source_exo_frame = source_ego_frame + visual_offset_frames",
+  "method": "audio coarse pairing and visual clap-contact alignment; no speed change",
+  "notes": [
+    "Device clock difference is only a pairing clue, not a synchronization offset.",
+    "Reference audio in comparison is Nano; individual exports retain original respective audio.",
+    "No geometry, generation, or spatial registration performed.",
+    "Original camera recordings are now under the backup directory. The previous input directories now contain aligned videos; do not apply the offsets to them again."
+  ],
+  "pairs": [
+    {
+      "id": "01",
+      "ego": "验证视频/原始视频备份_20261019/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+      "exo": "验证视频/原始视频备份_20261019/验证exo/MVI_5688.MP4",
+      "ego_start_frame": 0,
+      "exo_start_frame": 19,
+      "frame_count": 1231,
+      "duration_seconds": 49.24,
+      "visual_offset_frames": 19,
+      "visual_offset_seconds": 0.76,
+      "visual_uncertainty_frames": 1,
+      "end_clap_source_frames_exo": [
+        1179,
+        1180
+      ],
+      "end_clap_source_frames_ego": [
+        1160,
+        1161
+      ],
+      "clap_note": "ending visual clap; start and end audio offsets consistent",
+      "visual_audit_status": "verified",
+      "visual_evidence": "records/capture_sync_20261019/visual_audit/final_visual_audit.json",
+      "opening_clap_shared": true,
+      "aligned_ego": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+      "ego_path_before_replacement": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+      "aligned_exo": "验证视频/验证exo/MVI_5688.MP4",
+      "exo_path_before_replacement": "验证视频/验证exo/MVI_5688.MP4"
+    },
+    {
+      "id": "02",
+      "ego": "验证视频/原始视频备份_20261019/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+      "exo": "验证视频/原始视频备份_20261019/验证exo/MVI_5689.MP4",
+      "ego_start_frame": 0,
+      "exo_start_frame": 24,
+      "frame_count": 680,
+      "duration_seconds": 27.2,
+      "visual_offset_frames": 24,
+      "visual_offset_seconds": 0.96,
+      "visual_uncertainty_frames": 1,
+      "end_clap_source_frames_exo": [
+        630,
+        631
+      ],
+      "end_clap_source_frames_ego": [
+        606,
+        607
+      ],
+      "clap_note": "ending visual clap, start clap absent in ego",
+      "visual_audit_status": "verified",
+      "visual_evidence": "records/capture_sync_20261019/visual_audit/final_visual_audit.json",
+      "opening_clap_shared": false,
+      "middle_event_check": "ball_and_body_motion_consistent_contact_frame_not_visible_in_ego",
+      "aligned_ego": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+      "ego_path_before_replacement": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+      "aligned_exo": "验证视频/验证exo/MVI_5689.MP4",
+      "exo_path_before_replacement": "验证视频/验证exo/MVI_5689.MP4"
+    },
+    {
+      "id": "03",
+      "ego": "验证视频/原始视频备份_20261019/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+      "exo": "验证视频/原始视频备份_20261019/验证exo/MVI_5691.MP4",
+      "ego_start_frame": 0,
+      "exo_start_frame": 23,
+      "frame_count": 786,
+      "duration_seconds": 31.44,
+      "visual_offset_frames": 23,
+      "visual_offset_seconds": 0.92,
+      "visual_uncertainty_frames": 1,
+      "end_clap_source_frames_exo": [
+        737,
+        738
+      ],
+      "end_clap_source_frames_ego": [
+        714,
+        715
+      ],
+      "clap_note": "ending visual clap; start and end audio offsets consistent",
+      "visual_audit_status": "verified",
+      "visual_evidence": "records/capture_sync_20261019/visual_audit/final_visual_audit.json",
+      "opening_clap_shared": true,
+      "aligned_ego": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+      "ego_path_before_replacement": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+      "aligned_exo": "验证视频/验证exo/MVI_5691.MP4",
+      "exo_path_before_replacement": "验证视频/验证exo/MVI_5691.MP4"
+    },
+    {
+      "id": "04",
+      "ego": "验证视频/原始视频备份_20261019/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "exo": "验证视频/原始视频备份_20261019/验证exo/MVI_5693.MP4",
+      "ego_start_frame": 0,
+      "exo_start_frame": 31,
+      "frame_count": 609,
+      "duration_seconds": 24.36,
+      "visual_offset_frames": 31,
+      "visual_offset_seconds": 1.24,
+      "visual_uncertainty_frames": 1,
+      "end_clap_source_frames_exo": [
+        559,
+        560
+      ],
+      "end_clap_source_frames_ego": [
+        528,
+        529
+      ],
+      "clap_note": "ending visual clap; start and end audio offsets consistent",
+      "visual_audit_status": "verified",
+      "visual_evidence": "records/capture_sync_20261019/visual_audit/final_visual_audit.json",
+      "opening_clap_shared": true,
+      "aligned_ego": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "ego_path_before_replacement": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "aligned_exo": "验证视频/验证exo/MVI_5693.MP4",
+      "exo_path_before_replacement": "验证视频/验证exo/MVI_5693.MP4"
+    },
+    {
+      "id": "05",
+      "ego": "验证视频/原始视频备份_20261019/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+      "exo": "验证视频/原始视频备份_20261019/验证exo/MVI_5694.MP4",
+      "ego_start_frame": 0,
+      "exo_start_frame": 21,
+      "frame_count": 1123,
+      "duration_seconds": 44.92,
+      "visual_offset_frames": 21,
+      "visual_offset_seconds": 0.84,
+      "visual_uncertainty_frames": 1,
+      "end_clap_source_frames_exo": [
+        1071,
+        1072
+      ],
+      "end_clap_source_frames_ego": [
+        1050,
+        1051
+      ],
+      "clap_note": "ending visual clap, start clap absent in ego",
+      "visual_audit_status": "verified",
+      "visual_evidence": "records/capture_sync_20261019/visual_audit/final_visual_audit.json",
+      "opening_clap_shared": false,
+      "middle_event_check": "same_ball_and_red_shoe_motion_visible_in_both",
+      "aligned_ego": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+      "ego_path_before_replacement": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+      "aligned_exo": "验证视频/验证exo/MVI_5694.MP4",
+      "exo_path_before_replacement": "验证视频/验证exo/MVI_5694.MP4"
+    }
+  ],
+  "visual_alignment_status": "all_5_pairs_verified_against_source_frames",
+  "replacement_record": "records/capture_sync_20261019/source_replacement.json"
+}

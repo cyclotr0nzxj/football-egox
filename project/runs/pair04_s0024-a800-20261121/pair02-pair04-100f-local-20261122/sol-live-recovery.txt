@@ -1,0 +1,9 @@
+{"model": "gpt-6.2-sol", "input_tokens": 86, "output_tokens": 4356, "reasoning_tokens": 4018, "status": "completed"}
+**Diagnose the stall:** 32% is roughly one chunk, not proof it reached disk. Try uploading a 256 KiB test file to the same directory. Check the failing `PUT /api/contents/...` status in Network or authorized gateway logs if DevTools detaches. `413` points to a body limit (1 MiB becomes ~1.33 MiB before JSON overhead); `401/403` points to session, XSRF, or permissions; `502/504` alongside terminal WebSocket drops suggests a gateway or backend issue. If chunk 1 succeeds and an equal-sized chunk 2 fails, check chunk-append support and disk quota before changing any limits.
+
+**Transfer options, ranked:**
+1. **JupyterLab Files:** Split locally into numbered 256 KiB parts and upload each as a separate file. Concatenate in order in a notebook and compare SHA-256 with the local original.
+2. **Provider file manager:** If JupyterLab uploads fail, use the provider’s already-authenticated browser file manager, if it writes to the same volume.
+3. **Notebook fallback:** If the kernel connection is stable, paste small base64 blocks into a scratch notebook, decode, and verify the hash. Use this only for non-sensitive files; notebook history and checkpoints can retain the payload.
+
+**Launch:** Check `nvidia-smi -L` and the job allocation. Use one allocated GPU per job with separate logs; if only one A800 is allocated, queue the four jobs. Don’t export cookies, tokens, or HAR files, open ports, or disable TLS/XSRF checks.

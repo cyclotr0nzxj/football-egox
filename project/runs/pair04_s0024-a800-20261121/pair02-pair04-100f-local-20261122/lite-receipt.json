@@ -1,0 +1,23 @@
+{
+  "full_sha256": "e777bc9434a576b25eb79956e6e2d79ae3190c80aae1ff91dc648d8f69d3a082",
+  "lite_sha256": "477153e0d753ba961e3324197db198e78d32165dfdd07c0e16050184aca64743",
+  "lite_bytes": 3258233,
+  "remote_reuse": {
+    "legacy/Pair02/depth/exo.zip": {
+      "path": "/root/autodl-tmp/football_egox/pair04-20261121/multiclip-008/pair02_s0000/geometry/vipe_results/pair02_s0000/depth/exo.zip",
+      "sha256": "f0492e8376e42e866a8b80e45f1bf1ee18bb0652db431eee13510f0ba6fe556d"
+    },
+    "legacy/Pair04/depth/exo.zip": {
+      "path": "/root/autodl-tmp/football_egox/pair04-20261121/first_vipe/vipe_results/pair04_s0024/depth/exo.zip",
+      "sha256": "b5ff936284e1c06c88823d7b7a34fda90e0a41ba2e1c7ce8d88658d111c98795"
+    },
+    "legacy/Pair02/prior.mp4": {
+      "path": "/root/autodl-tmp/football_egox/pair04-20261121/multiclip-008/pair02_s0000/prior/pair02_s0000/ego_Prior.mp4",
+      "sha256": "eaae8f0b12120858ed7e6b189d9d419ad8300187456d7897faa88913f814a49e"
+    },
+    "legacy/Pair04/prior.mp4": {
+      "path": "/root/autodl-tmp/football_egox/pair04-20261121/prior-008-upright/pair04_s0024/ego_Prior.mp4",
+      "sha256": "57863558a648e9724ba1de1ea7f712e7534a7ba4634b84e09129f3657f8cf2ee"
+    }
+  }
+}

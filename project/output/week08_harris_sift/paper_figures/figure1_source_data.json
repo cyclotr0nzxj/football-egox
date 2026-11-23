@@ -1,0 +1,30 @@
+{
+  "panels": [
+    {
+      "panel": "c",
+      "image_id": "exo_f0050",
+      "method": "harris",
+      "displayed_center_count": 500
+    },
+    {
+      "panel": "d",
+      "image_id": "exo_f0050",
+      "method": "sift",
+      "displayed_center_count": 266
+    },
+    {
+      "panel": "g",
+      "image_id": "ego_f0050",
+      "method": "harris",
+      "displayed_center_count": 82
+    },
+    {
+      "panel": "h",
+      "image_id": "ego_f0050",
+      "method": "sift",
+      "displayed_center_count": 331
+    }
+  ],
+  "response_display_only": "log1p(1000*clip(C/max(C_valid),0,1))/log1p(1000); magma palette; 16px invalid center margin",
+  "response_display_recomputed": true
+}

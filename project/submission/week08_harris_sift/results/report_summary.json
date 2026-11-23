@@ -1,0 +1,541 @@
+{
+  "retained_counts_by_image_and_method": [
+    {
+      "image_id": "exo_f0050",
+      "method": "harris",
+      "source_raw_count": 13882,
+      "source_unique_count": 2874,
+      "source_retained_count": 500
+    },
+    {
+      "image_id": "exo_f0050",
+      "method": "sift",
+      "source_raw_count": 453,
+      "source_unique_count": 328,
+      "source_retained_count": 266
+    },
+    {
+      "image_id": "exo_f0200",
+      "method": "harris",
+      "source_raw_count": 16258,
+      "source_unique_count": 3156,
+      "source_retained_count": 500
+    },
+    {
+      "image_id": "exo_f0200",
+      "method": "sift",
+      "source_raw_count": 467,
+      "source_unique_count": 331,
+      "source_retained_count": 270
+    },
+    {
+      "image_id": "ego_f0050",
+      "method": "harris",
+      "source_raw_count": 309,
+      "source_unique_count": 99,
+      "source_retained_count": 82
+    },
+    {
+      "image_id": "ego_f0050",
+      "method": "sift",
+      "source_raw_count": 469,
+      "source_unique_count": 363,
+      "source_retained_count": 331
+    },
+    {
+      "image_id": "ego_f0200",
+      "method": "harris",
+      "source_raw_count": 1415,
+      "source_unique_count": 596,
+      "source_retained_count": 496
+    },
+    {
+      "image_id": "ego_f0200",
+      "method": "sift",
+      "source_raw_count": 461,
+      "source_unique_count": 358,
+      "source_retained_count": 333
+    }
+  ],
+  "macro_and_absolute_matching_counts": [
+    {
+      "condition": "identity",
+      "method": "harris",
+      "four_frame_macro_repeatability": 1.0,
+      "matched_count_sum_over_four_frames": 1578,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 500,
+          "common_target_count": 500,
+          "match_count": 500,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 500,
+          "common_target_count": 500,
+          "match_count": 500,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 82,
+          "common_target_count": 82,
+          "match_count": 82,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 496,
+          "common_target_count": 496,
+          "match_count": 496,
+          "repeatability": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "identity",
+      "method": "sift",
+      "four_frame_macro_repeatability": 1.0,
+      "matched_count_sum_over_four_frames": 1200,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 266,
+          "common_target_count": 266,
+          "match_count": 266,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 270,
+          "common_target_count": 270,
+          "match_count": 270,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 331,
+          "common_target_count": 331,
+          "match_count": 331,
+          "repeatability": 1.0
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 333,
+          "common_target_count": 333,
+          "match_count": 333,
+          "repeatability": 1.0
+        }
+      ]
+    },
+    {
+      "condition": "rotation15",
+      "method": "harris",
+      "four_frame_macro_repeatability": 0.9338621598874292,
+      "matched_count_sum_over_four_frames": 764,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 306,
+          "common_target_count": 500,
+          "match_count": 284,
+          "repeatability": 0.9281045751633987
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 315,
+          "common_target_count": 500,
+          "match_count": 285,
+          "repeatability": 0.9047619047619048
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 72,
+          "common_target_count": 60,
+          "match_count": 55,
+          "repeatability": 0.9166666666666666
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 455,
+          "common_target_count": 142,
+          "match_count": 140,
+          "repeatability": 0.9859154929577465
+        }
+      ]
+    },
+    {
+      "condition": "rotation15",
+      "method": "sift",
+      "four_frame_macro_repeatability": 0.753758774316552,
+      "matched_count_sum_over_four_frames": 642,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 168,
+          "common_target_count": 275,
+          "match_count": 136,
+          "repeatability": 0.8095238095238095
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 176,
+          "common_target_count": 268,
+          "match_count": 149,
+          "repeatability": 0.8465909090909091
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 295,
+          "common_target_count": 268,
+          "match_count": 189,
+          "repeatability": 0.7052238805970149
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 285,
+          "common_target_count": 257,
+          "match_count": 168,
+          "repeatability": 0.6536964980544747
+        }
+      ]
+    },
+    {
+      "condition": "rotation45",
+      "method": "harris",
+      "four_frame_macro_repeatability": 0.9370187436676799,
+      "matched_count_sum_over_four_frames": 493,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 210,
+          "common_target_count": 500,
+          "match_count": 194,
+          "repeatability": 0.9238095238095239
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 204,
+          "common_target_count": 500,
+          "match_count": 187,
+          "repeatability": 0.9166666666666666
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 64,
+          "common_target_count": 47,
+          "match_count": 44,
+          "repeatability": 0.9361702127659575
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 392,
+          "common_target_count": 70,
+          "match_count": 68,
+          "repeatability": 0.9714285714285714
+        }
+      ]
+    },
+    {
+      "condition": "rotation45",
+      "method": "sift",
+      "four_frame_macro_repeatability": 0.7752773432381899,
+      "matched_count_sum_over_four_frames": 550,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 124,
+          "common_target_count": 291,
+          "match_count": 105,
+          "repeatability": 0.8467741935483871
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 121,
+          "common_target_count": 272,
+          "match_count": 104,
+          "repeatability": 0.859504132231405
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 244,
+          "common_target_count": 255,
+          "match_count": 179,
+          "repeatability": 0.7336065573770492
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 254,
+          "common_target_count": 245,
+          "match_count": 162,
+          "repeatability": 0.6612244897959184
+        }
+      ]
+    },
+    {
+      "condition": "scale075",
+      "method": "harris",
+      "four_frame_macro_repeatability": 0.795637731287803,
+      "matched_count_sum_over_four_frames": 781,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 481,
+          "common_target_count": 500,
+          "match_count": 338,
+          "repeatability": 0.7027027027027027
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 485,
+          "common_target_count": 500,
+          "match_count": 342,
+          "repeatability": 0.7051546391752578
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 81,
+          "common_target_count": 38,
+          "match_count": 31,
+          "repeatability": 0.8157894736842105
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 488,
+          "common_target_count": 73,
+          "match_count": 70,
+          "repeatability": 0.958904109589041
+        }
+      ]
+    },
+    {
+      "condition": "scale075",
+      "method": "sift",
+      "four_frame_macro_repeatability": 0.5783578556374737,
+      "matched_count_sum_over_four_frames": 490,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 253,
+          "common_target_count": 248,
+          "match_count": 117,
+          "repeatability": 0.4717741935483871
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 256,
+          "common_target_count": 248,
+          "match_count": 125,
+          "repeatability": 0.5040322580645161
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 322,
+          "common_target_count": 184,
+          "match_count": 131,
+          "repeatability": 0.7119565217391305
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 323,
+          "common_target_count": 187,
+          "match_count": 117,
+          "repeatability": 0.6256684491978609
+        }
+      ]
+    },
+    {
+      "condition": "scale125",
+      "method": "harris",
+      "four_frame_macro_repeatability": 0.935201022215004,
+      "matched_count_sum_over_four_frames": 896,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 275,
+          "common_target_count": 500,
+          "match_count": 264,
+          "repeatability": 0.96
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 277,
+          "common_target_count": 500,
+          "match_count": 262,
+          "repeatability": 0.9458483754512635
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 63,
+          "common_target_count": 122,
+          "match_count": 62,
+          "repeatability": 0.9841269841269841
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 362,
+          "common_target_count": 500,
+          "match_count": 308,
+          "repeatability": 0.850828729281768
+        }
+      ]
+    },
+    {
+      "condition": "scale125",
+      "method": "sift",
+      "four_frame_macro_repeatability": 0.6891884065038629,
+      "matched_count_sum_over_four_frames": 519,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 159,
+          "common_target_count": 278,
+          "match_count": 129,
+          "repeatability": 0.8113207547169812
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 158,
+          "common_target_count": 279,
+          "match_count": 116,
+          "repeatability": 0.7341772151898734
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 238,
+          "common_target_count": 345,
+          "match_count": 175,
+          "repeatability": 0.7352941176470589
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 208,
+          "common_target_count": 313,
+          "match_count": 99,
+          "repeatability": 0.47596153846153844
+        }
+      ]
+    },
+    {
+      "condition": "gaussian",
+      "method": "harris",
+      "four_frame_macro_repeatability": 0.44383485540334855,
+      "matched_count_sum_over_four_frames": 479,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 500,
+          "common_target_count": 500,
+          "match_count": 216,
+          "repeatability": 0.432
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 500,
+          "common_target_count": 500,
+          "match_count": 216,
+          "repeatability": 0.432
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 82,
+          "common_target_count": 36,
+          "match_count": 19,
+          "repeatability": 0.5277777777777778
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 496,
+          "common_target_count": 73,
+          "match_count": 28,
+          "repeatability": 0.3835616438356164
+        }
+      ]
+    },
+    {
+      "condition": "gaussian",
+      "method": "sift",
+      "four_frame_macro_repeatability": 0.5241827771592515,
+      "matched_count_sum_over_four_frames": 286,
+      "per_frame": [
+        {
+          "image_id": "exo_f0050",
+          "common_source_count": 266,
+          "common_target_count": 368,
+          "match_count": 112,
+          "repeatability": 0.42105263157894735
+        },
+        {
+          "image_id": "exo_f0200",
+          "common_source_count": 270,
+          "common_target_count": 372,
+          "match_count": 109,
+          "repeatability": 0.40370370370370373
+        },
+        {
+          "image_id": "ego_f0050",
+          "common_source_count": 331,
+          "common_target_count": 59,
+          "match_count": 38,
+          "repeatability": 0.6440677966101694
+        },
+        {
+          "image_id": "ego_f0200",
+          "common_source_count": 333,
+          "common_target_count": 43,
+          "match_count": 27,
+          "repeatability": 0.627906976744186
+        }
+      ]
+    }
+  ],
+  "weakest_nonidentity_case_per_method": {
+    "harris": {
+      "image_id": "ego_f0200",
+      "view": "ego",
+      "visible_frame": 200,
+      "condition": "gaussian",
+      "method": "harris",
+      "source_raw_count": 1415,
+      "source_unique_count": 596,
+      "source_retained_count": 496,
+      "target_raw_count": 493,
+      "target_unique_count": 97,
+      "target_retained_count": 73,
+      "common_source_count": 496,
+      "common_target_count": 73,
+      "one_to_one_match_count": 28,
+      "repeatability_denominator": 73,
+      "repeatability": 0.3835616438356164,
+      "source_detection_and_selection_ms": 108.28588798176497,
+      "target_detection_and_selection_ms": 20.953085040673614,
+      "coordinate_file": "coordinates/ego_f0200/gaussian.json"
+    },
+    "sift": {
+      "image_id": "exo_f0200",
+      "view": "exo",
+      "visible_frame": 200,
+      "condition": "gaussian",
+      "method": "sift",
+      "source_raw_count": 467,
+      "source_unique_count": 331,
+      "source_retained_count": 270,
+      "target_raw_count": 483,
+      "target_unique_count": 385,
+      "target_retained_count": 372,
+      "common_source_count": 270,
+      "common_target_count": 372,
+      "one_to_one_match_count": 109,
+      "repeatability_denominator": 270,
+      "repeatability": 0.40370370370370373,
+      "source_detection_and_selection_ms": 203.09794798959047,
+      "target_detection_and_selection_ms": 197.59988004807383,
+      "coordinate_file": "coordinates/exo_f0200/gaussian.json"
+    }
+  },
+  "font_default_fallback_check": "passed",
+  "numeric_metrics_changed": false,
+  "jpeg_display_only_note": "Numeric evaluation used in-memory transformed uint8 arrays, before display JPEG encoding."
+}

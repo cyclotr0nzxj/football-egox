@@ -1,0 +1,97 @@
+{
+  "pairs": {
+    "nominal": {
+      "F12": {
+        "full_target_ball_old_reviewed": [
+          36,
+          62
+        ],
+        "sampled_target_ball_old_official_uniform": [
+          1,
+          2
+        ],
+        "sampled_target_ball_reviewed_official_uniform": [
+          2,
+          2
+        ],
+        "sampled_target_teammate_official_uniform": [
+          130,
+          146
+        ],
+        "sampled_target_all_discs_official_uniform": [
+          5,
+          7
+        ]
+      },
+      "F24": {
+        "full_target_ball_old_reviewed": [
+          3,
+          71
+        ],
+        "sampled_target_ball_old_official_uniform": [
+          0,
+          0
+        ],
+        "sampled_target_ball_reviewed_official_uniform": [
+          4,
+          4
+        ],
+        "sampled_target_teammate_official_uniform": [
+          88,
+          76
+        ],
+        "sampled_target_all_discs_official_uniform": [
+          11,
+          6
+        ]
+      }
+    },
+    "alternate": {
+      "F12": {
+        "full_target_ball_old_reviewed": [
+          30,
+          66
+        ],
+        "sampled_target_ball_old_official_uniform": [
+          1,
+          3
+        ],
+        "sampled_target_ball_reviewed_official_uniform": [
+          3,
+          6
+        ],
+        "sampled_target_teammate_official_uniform": [
+          110,
+          88
+        ],
+        "sampled_target_all_discs_official_uniform": [
+          3,
+          7
+        ]
+      },
+      "F24": {
+        "full_target_ball_old_reviewed": [
+          12,
+          95
+        ],
+        "sampled_target_ball_old_official_uniform": [
+          0,
+          0
+        ],
+        "sampled_target_ball_reviewed_official_uniform": [
+          6,
+          0
+        ],
+        "sampled_target_teammate_official_uniform": [
+          72,
+          67
+        ],
+        "sampled_target_all_discs_official_uniform": [
+          11,
+          6
+        ]
+      }
+    }
+  },
+  "interpretation": "Post hoc, two reviewed contours and frozen target winners. Counts test direct pixel support of geometric sampling, not generated video."
+}

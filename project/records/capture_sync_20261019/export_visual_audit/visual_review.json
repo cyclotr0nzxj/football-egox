@@ -1,0 +1,178 @@
+{
+  "status": "complete_passed_sampled_visual_review",
+  "scope": "sampled visual review only; independent technical/full-decode validation handled by parent",
+  "frame_indexing": "zero-based output frame, 25fps",
+  "uncertainty_frames": 1,
+  "pairs": [
+    {
+      "id": "01",
+      "comparison_path": "验证视频/同步结果_20261019/01/comparison.mp4",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "fps": "25/1",
+        "nb_frames": "1231",
+        "duration": "49.240000"
+      },
+      "sample_output_frames": [
+        6,
+        615,
+        1160,
+        1161,
+        1162,
+        1230
+      ],
+      "status": "passed_sampled_visual_review",
+      "sample_evidence": "pair_01_samples.jpg",
+      "clap_evidence": "pair_01_end_clap.jpg",
+      "actually_viewed": true,
+      "left_view": "EXO/R8",
+      "right_view": "EGO/Nano",
+      "orientation": "upright; Nano Display Matrix rotation correctly reflected",
+      "black_frames_in_samples": false,
+      "pairing": "same actors, ball and field; middle sample shows corresponding pass",
+      "end_clap": "F1160 closing motion, F1161 palms together in both; transition consistent within about one frame",
+      "last_frame": "real content; Nano hand reaches toward camera",
+      "scope": "six selected frames plus three-frame clap detail, not whole-video viewing"
+    },
+    {
+      "id": "02",
+      "comparison_path": "验证视频/同步结果_20261019/02/comparison.mp4",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "fps": "25/1",
+        "nb_frames": "680",
+        "duration": "27.200000"
+      },
+      "sample_output_frames": [
+        0,
+        430,
+        606,
+        607,
+        608,
+        679
+      ],
+      "status": "passed_sampled_visual_review",
+      "sample_evidence": "pair_02_samples.jpg",
+      "clap_evidence": "pair_02_end_clap.jpg",
+      "actually_viewed": true,
+      "left_view": "EXO/R8",
+      "right_view": "EGO/Nano",
+      "orientation": "upright",
+      "black_frames_in_samples": false,
+      "pairing": "same actors and ball; middle F430 ball near main actor matches",
+      "end_clap": "F606 hands closing; F607 palms together in both; transition consistent within about one frame",
+      "opening": "F0 shows after-clap posture; shared opening contact is absent as documented",
+      "last_frame": "real content; Nano hand reaches toward camera",
+      "limitations": [
+        "Middle foot-ball contact point outside Nano image; do not treat it as independent precise contact verification."
+      ],
+      "scope": "six selected frames plus three-frame clap detail, not whole-video viewing"
+    },
+    {
+      "id": "03",
+      "comparison_path": "验证视频/同步结果_20261019/03/comparison.mp4",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "fps": "25/1",
+        "nb_frames": "786",
+        "duration": "31.440000"
+      },
+      "sample_output_frames": [
+        55,
+        393,
+        714,
+        715,
+        716,
+        785
+      ],
+      "status": "passed_sampled_visual_review",
+      "sample_evidence": "pair_03_samples.jpg",
+      "clap_evidence": "pair_03_end_clap.jpg",
+      "actually_viewed": true,
+      "left_view": "EXO/R8",
+      "right_view": "EGO/Nano",
+      "orientation": "upright",
+      "black_frames_in_samples": false,
+      "pairing": "same close training interaction around the ball at F393; teammate walks beside main actor at ending clap",
+      "end_clap": "F714 closing motion, F715 palms together; both views transition together within about one frame",
+      "opening": "Shared clap visible at F55",
+      "last_frame": "real content; teammate walking away past camera wearer",
+      "scope": "six selected frames plus three-frame clap detail, not whole-video viewing"
+    },
+    {
+      "id": "04",
+      "comparison_path": "验证视频/同步结果_20261019/04/comparison.mp4",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "fps": "25/1",
+        "nb_frames": "609",
+        "duration": "24.360000"
+      },
+      "sample_output_frames": [
+        47,
+        304,
+        528,
+        529,
+        530,
+        608
+      ],
+      "status": "passed_sampled_visual_review",
+      "sample_evidence": "pair_04_samples.jpg",
+      "clap_evidence": "pair_04_end_clap.jpg",
+      "actually_viewed": true,
+      "left_view": "EXO/R8",
+      "right_view": "EGO/Nano",
+      "orientation": "upright",
+      "black_frames_in_samples": false,
+      "pairing": "same line of blue cones, ball and actors; middle sample shows wearer approaching teammate",
+      "end_clap": "F528 closing motion, F529 palms together in both; transition consistent within about one frame",
+      "opening": "Shared clap visible at F47",
+      "last_frame": "real content; line of cones and teammate present, hand approaches Nano",
+      "scope": "six selected frames plus three-frame clap detail, not whole-video viewing"
+    },
+    {
+      "id": "05",
+      "comparison_path": "验证视频/同步结果_20261019/05/comparison.mp4",
+      "video": {
+        "width": 1920,
+        "height": 540,
+        "fps": "25/1",
+        "nb_frames": "1123",
+        "duration": "44.920000"
+      },
+      "sample_output_frames": [
+        0,
+        443,
+        1050,
+        1051,
+        1052,
+        1122
+      ],
+      "status": "passed_sampled_visual_review",
+      "sample_evidence": "pair_05_samples.jpg",
+      "clap_evidence": "pair_05_end_clap.jpg",
+      "actually_viewed": true,
+      "left_view": "EXO/R8",
+      "right_view": "EGO/Nano",
+      "orientation": "upright",
+      "black_frames_in_samples": false,
+      "pairing": "Same actors, blue cones and ball. Middle F443 shows corresponding red-shoe swing toward the ball in both views.",
+      "end_clap": "F1050 closing motion, F1051 palms together in both; transition consistent within about one frame",
+      "opening": "F0 shows hands lowering after the opening clap; shared opening contact is absent as documented",
+      "last_frame": "Real scene remains visible; wearer hand approaches Nano",
+      "scope": "six selected frames plus three-frame clap detail, not whole-video viewing"
+    }
+  ],
+  "overview_evidence": "overview.jpg",
+  "conclusion": "All five finished comparison videos were actually inspected at selected opening, middle, ending-clap and last-frame samples. Left EXO/R8 and right EGO/Nano are upright, paired correctly and contain no black frames in these samples. Ending-clap transitions are consistent within approximately one frame.",
+  "limitations": [
+    "This is sampled visual acceptance, not complete playback or full-decode validation.",
+    "The visual timing assessment has approximately plus/minus one-frame uncertainty at 25fps.",
+    "Pair 02 and 05 do not include a complete common opening clap; ending claps support synchronization.",
+    "Pair 02 middle foot-ball contact lies outside the Nano image; only ball and body motion corroborate pairing."
+  ]
+}

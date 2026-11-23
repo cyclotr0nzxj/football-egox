@@ -1,0 +1,63 @@
+{
+  "endpoint": "https://api.openai.com/v1/responses",
+  "scope": "Expert editorial draft and independent manuscript review. Desensitized text only.",
+  "requests": [
+    {
+      "step": "expert",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "completed",
+      "incomplete_details": null,
+      "usage": {
+        "input_tokens": 430,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 19548,
+        "output_tokens_details": {
+          "reasoning_tokens": 18968
+        },
+        "total_tokens": 19978
+      },
+      "request_id": "req_a4f9e4c398a5451eab1073162e0ab385",
+      "time_utc": "2026-11-23T02:09:17.291321+00:00",
+      "max_output_tokens": 36000
+    },
+    {
+      "step": "independent_review",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "completed",
+      "incomplete_details": null,
+      "usage": {
+        "input_tokens": 2133,
+        "input_tokens_details": {
+          "cache_write_tokens": 2130,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 2130
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 23873,
+        "output_tokens_details": {
+          "reasoning_tokens": 22908
+        },
+        "total_tokens": 26006
+      },
+      "request_id": "req_c72fc5fff2cd460189929b7272379b6c",
+      "time_utc": "2026-11-23T02:20:20.891928+00:00",
+      "max_output_tokens": 36000
+    }
+  ],
+  "totals": {
+    "input_tokens": 2563,
+    "output_tokens": 43421,
+    "total_tokens": 45984
+  }
+}

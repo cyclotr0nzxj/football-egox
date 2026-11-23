@@ -1,0 +1,39 @@
+[
+  {
+    "failed_window": null,
+    "frame_outlier_window": null,
+    "pairs_continued": [
+      "Pair02",
+      "Pair04"
+    ],
+    "legacy_evidence_unchanged": true,
+    "evidence_collected": true,
+    "duplicate_rejected": true,
+    "corrupted_input_rejected": true,
+    "returncode": 0
+  },
+  {
+    "failed_window": "pair02_s0028",
+    "frame_outlier_window": null,
+    "pairs_continued": [
+      "Pair04"
+    ],
+    "legacy_evidence_unchanged": true,
+    "evidence_collected": true,
+    "duplicate_rejected": true,
+    "corrupted_input_rejected": null,
+    "returncode": 2
+  },
+  {
+    "failed_window": null,
+    "frame_outlier_window": "pair02_s0028",
+    "pairs_continued": [
+      "Pair04"
+    ],
+    "legacy_evidence_unchanged": true,
+    "evidence_collected": true,
+    "duplicate_rejected": true,
+    "corrupted_input_rejected": null,
+    "returncode": 2
+  }
+]

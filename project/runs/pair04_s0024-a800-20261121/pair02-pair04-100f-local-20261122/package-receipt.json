@@ -1,0 +1,8 @@
+{
+  "archive": "exo-geometry-prep.zip",
+  "sha256": "e777bc9434a576b25eb79956e6e2d79ae3190c80aae1ff91dc648d8f69d3a082",
+  "bytes": 13393399,
+  "files": 38,
+  "decoded_archive_and_member_hashes_ok": true,
+  "contents": "EXO windows, provisional 2D/3D head candidates, old geometry/viewpoint, overlap consistency script. No Nano, new ViPE geometry, newly rendered prior, or new inference result. Pipeline is locally simulated; actual GPU execution remains unverified."
+}

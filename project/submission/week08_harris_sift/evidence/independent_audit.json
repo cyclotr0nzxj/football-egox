@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "audit_timestamp_utc": "2026-10-19T16:12:29.891023+00:00",
+  "method": "No producer import or detector rerun. Scalar-trigonometry H reconstruction, mask rebuild, coordinate visibility checks, independent DFS augmenting-path maximum matching, four-image macro recomputation and source SHA-256 verification.",
+  "inputs": {
+    "results_directory": "results",
+    "frames_root": "data/frames/scene04",
+    "metrics_sha256": "cc49069d5a4b0e1883eddbc83298b1028a6838908f6be772531407b1da1ab5e9",
+    "producer_audit_sha256": "e9b6dca81a49dfe0b8886a3e7f1ac3aca1b8b205c18b1c6590ed54bf1c63b676",
+    "coordinate_collection_sha256": "77ead39287231ad45c4c6bae9a068f789a2a331744c92f8fbc86e42e47ae81f7",
+    "auditor_sha256": "e563db53a205faa6250870b0f36978b2c060a47bc0d3b2c0f0d3f33e20116093",
+    "numpy_version": "2.3.5",
+    "opencv_version": "4.11.0"
+  },
+  "passed_counts": {
+    "source_image_hashes": 4,
+    "known_transforms": 6,
+    "reconstructed_valid_masks": 6,
+    "coordinate_files": 24,
+    "source_and_target_position_sets": 96,
+    "common_visibility_cases": 48,
+    "maximum_cardinality_matchings": 48,
+    "one_to_one_threshold_checks": 48,
+    "identity_controls": 8,
+    "four_image_macro_means": 12,
+    "metric_rows": 48,
+    "producer_certificate_rows": 48
+  },
+  "max_projection_difference_px": 0.0,
+  "source_hash_checks": [
+    {
+      "image_id": "exo_f0050",
+      "sha256": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09",
+      "matches_record": true
+    },
+    {
+      "image_id": "exo_f0200",
+      "sha256": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92",
+      "matches_record": true
+    },
+    {
+      "image_id": "ego_f0050",
+      "sha256": "194e4bb99aef7fe15282c7dc68b543381ccfc3dc8af2c386297a54edbcec56f1",
+      "matches_record": true
+    },
+    {
+      "image_id": "ego_f0200",
+      "sha256": "c6c5f7deafffe396de02aa989fcbe05eccc75d3c7f6a04a4340f6df76805cb79",
+      "matches_record": true
+    }
+  ],
+  "independent_macro_results": [
+    {
+      "condition": "identity",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 1.0,
+      "source_coverage_M_over_Ns": 1.0,
+      "target_coverage_M_over_Nt": 1.0,
+      "balanced_coverage_2M_over_sum": 1.0
+    },
+    {
+      "condition": "identity",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 1.0,
+      "source_coverage_M_over_Ns": 1.0,
+      "target_coverage_M_over_Nt": 1.0,
+      "balanced_coverage_2M_over_sum": 1.0
+    },
+    {
+      "condition": "rotation15",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.9338621598874292,
+      "source_coverage_M_over_Ns": 0.726111919126625,
+      "target_coverage_M_over_Nt": 0.7601455399061032,
+      "balanced_coverage_2M_over_sum": 0.6766115504731154
+    },
+    {
+      "condition": "rotation15",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.753758774316552,
+      "source_coverage_M_over_Ns": 0.7215665922317349,
+      "target_coverage_M_over_Nt": 0.6023589956126689,
+      "balanced_coverage_2M_over_sum": 0.6441240132296399
+    },
+    {
+      "condition": "rotation45",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.9370187436676798,
+      "source_coverage_M_over_Ns": 0.6753613945578232,
+      "target_coverage_M_over_Nt": 0.6673996960486323,
+      "balanced_coverage_2M_over_sum": 0.541223490101131
+    },
+    {
+      "condition": "rotation45",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.7752773432381899,
+      "source_coverage_M_over_Ns": 0.7694200396868481,
+      "target_coverage_M_over_Nt": 0.526590739388539,
+      "balanced_coverage_2M_over_sum": 0.6005049124583512
+    },
+    {
+      "condition": "scale075",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.795637731287803,
+      "source_coverage_M_over_Ns": 0.48350400355287404,
+      "target_coverage_M_over_Nt": 0.7836733958183129,
+      "balanced_coverage_2M_over_sum": 0.5385179441762127
+    },
+    {
+      "condition": "scale075",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.5783578556374737,
+      "source_coverage_M_over_Ns": 0.429948310797301,
+      "target_coverage_M_over_Nt": 0.5783578556374737,
+      "balanced_coverage_2M_over_sum": 0.4849269262429515
+    },
+    {
+      "condition": "scale125",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.9352010222150039,
+      "source_coverage_M_over_Ns": 0.9352010222150039,
+      "target_coverage_M_over_Nt": 0.5440491803278689,
+      "balanced_coverage_2M_over_sum": 0.6851416091532849
+    },
+    {
+      "condition": "scale125",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.6891884065038629,
+      "source_coverage_M_over_Ns": 0.6891884065038629,
+      "target_coverage_M_over_Nt": 0.425834923205367,
+      "balanced_coverage_2M_over_sum": 0.5254157263550163
+    },
+    {
+      "condition": "gaussian",
+      "method": "harris",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.44383485540334855,
+      "source_coverage_M_over_Ns": 0.28803973249409914,
+      "target_coverage_M_over_Nt": 0.44383485540334855,
+      "balanced_coverage_2M_over_sum": 0.3211130439963063
+    },
+    {
+      "condition": "gaussian",
+      "method": "sift",
+      "valid_images": 4,
+      "null_images": 0,
+      "macro_repeatability": 0.5241827771592517,
+      "source_coverage_M_over_Ns": 0.2551602604353439,
+      "target_coverage_M_over_Nt": 0.46733333803237104,
+      "balanced_coverage_2M_over_sum": 0.2578412454789641
+    }
+  ],
+  "denominator_bias_examples": [
+    {
+      "image_id": "ego_f0200",
+      "condition": "gaussian",
+      "method": "harris",
+      "Ns_common_source": 496,
+      "Nt_common_target": 73,
+      "M_matches": 28,
+      "repeatability_M_over_min": 0.3835616438356164,
+      "source_coverage_M_over_Ns": 0.056451612903225805,
+      "target_coverage_M_over_Nt": 0.3835616438356164,
+      "balanced_coverage_2M_over_sum": 0.0984182776801406
+    },
+    {
+      "image_id": "ego_f0200",
+      "condition": "gaussian",
+      "method": "sift",
+      "Ns_common_source": 333,
+      "Nt_common_target": 43,
+      "M_matches": 27,
+      "repeatability_M_over_min": 0.627906976744186,
+      "source_coverage_M_over_Ns": 0.08108108108108109,
+      "target_coverage_M_over_Nt": 0.627906976744186,
+      "balanced_coverage_2M_over_sum": 0.14361702127659576
+    },
+    {
+      "image_id": "ego_f0200",
+      "condition": "rotation45",
+      "method": "harris",
+      "Ns_common_source": 392,
+      "Nt_common_target": 70,
+      "M_matches": 68,
+      "repeatability_M_over_min": 0.9714285714285714,
+      "source_coverage_M_over_Ns": 0.17346938775510204,
+      "target_coverage_M_over_Nt": 0.9714285714285714,
+      "balanced_coverage_2M_over_sum": 0.2943722943722944
+    },
+    {
+      "image_id": "ego_f0200",
+      "condition": "rotation45",
+      "method": "sift",
+      "Ns_common_source": 254,
+      "Nt_common_target": 245,
+      "M_matches": 162,
+      "repeatability_M_over_min": 0.6612244897959184,
+      "source_coverage_M_over_Ns": 0.6377952755905512,
+      "target_coverage_M_over_Nt": 0.6612244897959184,
+      "balanced_coverage_2M_over_sum": 0.6492985971943888
+    },
+    {
+      "image_id": "ego_f0200",
+      "condition": "scale075",
+      "method": "harris",
+      "Ns_common_source": 488,
+      "Nt_common_target": 73,
+      "M_matches": 70,
+      "repeatability_M_over_min": 0.958904109589041,
+      "source_coverage_M_over_Ns": 0.14344262295081966,
+      "target_coverage_M_over_Nt": 0.958904109589041,
+      "balanced_coverage_2M_over_sum": 0.24955436720142601
+    },
+    {
+      "image_id": "ego_f0200",
+      "condition": "scale075",
+      "method": "sift",
+      "Ns_common_source": 323,
+      "Nt_common_target": 187,
+      "M_matches": 117,
+      "repeatability_M_over_min": 0.6256684491978609,
+      "source_coverage_M_over_Ns": 0.3622291021671827,
+      "target_coverage_M_over_Nt": 0.6256684491978609,
+      "balanced_coverage_2M_over_sum": 0.4588235294117647
+    },
+    {
+      "image_id": "exo_f0050",
+      "condition": "rotation45",
+      "method": "harris",
+      "Ns_common_source": 210,
+      "Nt_common_target": 500,
+      "M_matches": 194,
+      "repeatability_M_over_min": 0.9238095238095239,
+      "source_coverage_M_over_Ns": 0.9238095238095239,
+      "target_coverage_M_over_Nt": 0.388,
+      "balanced_coverage_2M_over_sum": 0.5464788732394367
+    },
+    {
+      "image_id": "exo_f0050",
+      "condition": "rotation45",
+      "method": "sift",
+      "Ns_common_source": 124,
+      "Nt_common_target": 291,
+      "M_matches": 105,
+      "repeatability_M_over_min": 0.8467741935483871,
+      "source_coverage_M_over_Ns": 0.8467741935483871,
+      "target_coverage_M_over_Nt": 0.36082474226804123,
+      "balanced_coverage_2M_over_sum": 0.5060240963855421
+    }
+  ],
+  "limitations": [
+    "Audits exported retained positions; does not independently rerun or validate Harris/SIFT detection, response ranking, or descriptor computation.",
+    "Mask reconstruction reuses OpenCV warp/erosion primitives; H construction and the matching algorithm are independent of the producer's Python implementation.",
+    "Common visibility tests rounded centers with a 16px square erosion, not full SIFT support regions or continuous 16px clearance.",
+    "R=M/min(Ns,Nt) can be high after severe point-set shrinkage; inspect Ns, Nt, M, both directional coverages and balanced coverage together.",
+    "Tolerance is 3 target-image pixels; its source-pixel equivalent changes under scaling. All reported values are specific to the 5px/500-location selection policy.",
+    "Four selected frames from one scene and synthetic image changes do not establish generalization, real cross-view accuracy, panorama quality, descriptor quality or scale/orientation accuracy.",
+    "Single-run timings are not independently benchmarked. No cloud work, training or source-video modification occurs."
+  ],
+  "packaging_note": {
+    "audit_scope": "Historical independent audit of the original source-project files before portable path rewriting.",
+    "hash_meaning": "The declared metrics_sha256 and producer_audit_sha256 remain the original source-file hashes; they are not replaced with hashes of packaged files that were not the original audit inputs.",
+    "portable_paths": "Only location strings are rewritten; frames_root is data/frames/scene04. Numeric results and audit conclusions are preserved.",
+    "hash_mapping": "manifest.json source_to_submission_mappings records the original and packaged SHA256 values separately.",
+    "reaudit": "Run scripts/audit_feature_results.py on results with --frames-root data/frames/scene04 to audit packaged files anew. Current delivery evidence is evidence/delivery_validation.json; previous static reproduction is explicitly historical."
+  }
+}

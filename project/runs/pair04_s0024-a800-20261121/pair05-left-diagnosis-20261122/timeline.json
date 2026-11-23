@@ -1,0 +1,353 @@
+{
+  "F00": {
+    "old_teammate_camera_left_degrees": -3.22,
+    "views": {
+      "0": {
+        "teammate": [
+          1609,
+          [
+            232.0,
+            126.0
+          ]
+        ],
+        "ball": [
+          124,
+          [
+            235.0,
+            267.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2424
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F04": {
+    "old_teammate_camera_left_degrees": -5.6,
+    "views": {
+      "0": {
+        "teammate": [
+          1393,
+          [
+            243.0,
+            165.0
+          ]
+        ],
+        "ball": [
+          50,
+          [
+            235.0,
+            251.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2264
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F08": {
+    "old_teammate_camera_left_degrees": -6.42,
+    "views": {
+      "0": {
+        "teammate": [
+          1491,
+          [
+            246.0,
+            194.0
+          ]
+        ],
+        "ball": [
+          20,
+          [
+            236.5,
+            251.5
+          ]
+        ],
+        "nominal_circle_coverage": 0.2145
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F12": {
+    "old_teammate_camera_left_degrees": -4.64,
+    "views": {
+      "0": {
+        "teammate": [
+          1872,
+          [
+            238.0,
+            201.0
+          ]
+        ],
+        "ball": [
+          30,
+          [
+            231.0,
+            255.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          37,
+          [
+            183.0,
+            418.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.217,
+        "three_way_visible": true
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {
+      "teammate": -2.98,
+      "ball": -1.43,
+      "disc_4": 12.82
+    }
+  },
+  "F16": {
+    "old_teammate_camera_left_degrees": -3.19,
+    "views": {
+      "0": {
+        "teammate": [
+          1918,
+          [
+            230.0,
+            208.0
+          ]
+        ],
+        "ball": [
+          20,
+          [
+            228.0,
+            259.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2165
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F20": {
+    "old_teammate_camera_left_degrees": -1.55,
+    "views": {
+      "0": {
+        "teammate": [
+          1646,
+          [
+            226.0,
+            207.0
+          ]
+        ],
+        "ball": [
+          8,
+          [
+            231.5,
+            257.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2115
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F24": {
+    "old_teammate_camera_left_degrees": 0.27,
+    "views": {
+      "0": {
+        "teammate": [
+          1214,
+          [
+            219.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          14,
+          [
+            228.5,
+            259.5
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          20,
+          [
+            303.5,
+            429.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          42,
+          [
+            177.5,
+            413.5
+          ]
+        ],
+        "nominal_circle_coverage": 0.2093,
+        "three_way_visible": true
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {
+      "teammate": 1.18,
+      "ball": -1.07,
+      "disc_2": -25.35,
+      "disc_4": 14.09
+    }
+  },
+  "F28": {
+    "old_teammate_camera_left_degrees": 1.37,
+    "views": {
+      "0": {
+        "teammate": [
+          1942,
+          [
+            216.0,
+            200.0
+          ]
+        ],
+        "ball": [
+          16,
+          [
+            229.0,
+            256.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2177
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F32": {
+    "old_teammate_camera_left_degrees": 1.68,
+    "views": {
+      "0": {
+        "teammate": [
+          1704,
+          [
+            216.0,
+            177.5
+          ]
+        ],
+        "ball": [
+          34,
+          [
+            232.0,
+            254.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2238
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F36": {
+    "old_teammate_camera_left_degrees": 2.01,
+    "views": {
+      "0": {
+        "teammate": [
+          2006,
+          [
+            211.0,
+            152.0
+          ]
+        ],
+        "ball": [
+          41,
+          [
+            232.0,
+            253.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2356
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F40": {
+    "old_teammate_camera_left_degrees": 1.5,
+    "views": {
+      "0": {
+        "teammate": [
+          1902,
+          [
+            213.0,
+            123.0
+          ]
+        ],
+        "ball": [
+          96,
+          [
+            243.0,
+            241.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2425
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F44": {
+    "old_teammate_camera_left_degrees": 6.43,
+    "views": {
+      "0": {
+        "teammate": [
+          1940,
+          [
+            187.0,
+            81.0
+          ]
+        ],
+        "ball": [
+          85,
+          [
+            239.0,
+            237.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2555
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  },
+  "F48": {
+    "old_teammate_camera_left_degrees": 12.9,
+    "views": {
+      "0": {
+        "teammate": [
+          2163,
+          [
+            152.0,
+            55.0
+          ]
+        ],
+        "ball": [
+          101,
+          [
+            238.0,
+            237.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2616
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {}
+  }
+}

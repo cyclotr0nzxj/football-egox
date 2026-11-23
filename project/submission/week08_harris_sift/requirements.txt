@@ -1,0 +1,7 @@
+# Python 3.12; same installed dependencies as the earlier course experiments.
+numpy==2.3.5
+opencv-python-headless==4.11.0.86
+Pillow==12.3.0
+reportlab==4.4.9
+pypdf==6.10.0
+matplotlib==3.10.8

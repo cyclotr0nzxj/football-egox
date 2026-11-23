@@ -1,0 +1,7 @@
+{
+  "model": "gpt-6.2-sol",
+  "input_tokens": 240,
+  "output_tokens": 4685,
+  "reasoning_tokens": 4388,
+  "status": "completed"
+}

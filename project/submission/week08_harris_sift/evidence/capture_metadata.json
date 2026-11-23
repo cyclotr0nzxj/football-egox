@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "inspection_date": "2026-10-19",
+  "method": "All nine source JPG files were visually inspected with view_image. Scene-to-clip assignments are visual inferences checked against the existing paired overview, not original take-level annotations.",
+  "source_directory": "验证视频/拍摄信息",
+  "trim_manifest": "records/user_ego_trim_20261019/trim_manifest.json",
+  "visual_clip_reference": "records/user_ego_trim_20261019/paired_overview.jpg",
+  "all_nine_photos_visually_inspected": true,
+  "photo_inventory": [
+    {"file": "Nano格式.JPG", "iphone_exif_datetime_original": "2026:10:19 16:34:14", "observation": "Resolution menu highlights 4K/16:9 and 25 frames/s. Top-right text resembles HB | STD; its meaning is not assigned here."},
+    {"file": "R8参数.JPG", "iphone_exif_datetime_original": "2026:10:19 16:39:18", "observation": "R8 display shows 24 mm, 1/60 s, Tv, SERVO AF and exposure compensation ±0. No readable aperture or ISO value."},
+    {"file": "R8格式.JPG", "iphone_exif_datetime_original": "2026:10:19 16:27:42", "observation": "R8 recording-size menu shows 3840×2160, 25.00 frames/s, standard IPB; 4K 25.00P option is selected."},
+    {"file": "场景1机位1.JPG", "iphone_exif_datetime_original": "2026:10:19 16:55:54", "observation": "R8 on a ground stand to the side of two participants; four widely spaced blue discs bound the activity area. Main participant wears grey hoodie, dark trousers with white side stripes, red shoes and dark cap."},
+    {"file": "场景1机位2.JPG", "iphone_exif_datetime_original": "2026:10:19 16:56:09", "observation": "Same general activity arrangement documented from another viewpoint. Four blue discs form a large quadrilateral; R8 stand is outside the activity area."},
+    {"file": "场景2机位1.JPG", "iphone_exif_datetime_original": "2026:10:19 17:17:57", "observation": "Four closely spaced blue discs arranged in a row; R8 on side stand; participant with cap and red shoes is at one end of the row."},
+    {"file": "场景2机位2.JPG", "iphone_exif_datetime_original": "2026:10:19 17:18:05", "observation": "Same row of four discs from another documentation viewpoint. A small device is visible near the cap brim/temple region; exact attachment and optical-centre position are not measurable."},
+    {"file": "场景3机位1.JPG", "iphone_exif_datetime_original": "2026:10:19 17:20:05", "observation": "Four closely spaced blue discs form a compact group around the cap-wearing participant, rather than the long row in scene 2. R8 remains on a side stand."},
+    {"file": "场景3机位2.JPG", "iphone_exif_datetime_original": "2026:10:19 17:20:15", "observation": "Compact disc group documented from the reverse side; cap-wearing participant is farther from the documentation camera and the light-shirt partner is closer."}
+  ],
+  "exif_interpretation": {
+    "photo_camera": "Apple iPhone 13 Pro",
+    "photo_lens_focal_length_mm": 5.7,
+    "limitation": "These EXIF values describe the phone taking the documentation photos. They are not R8 or Nano lens parameters; phone timestamps are not used to synchronize the videos."
+  },
+  "camera_observations": {
+    "exo": {
+      "device": "Canon R8",
+      "observed_menu": {"width": 3840, "height": 2160, "fps": 25.0, "compression_menu_label": "标准(IPB)", "evidence": "R8格式.JPG"},
+      "observed_shooting_settings": {"focal_length_mm": 24, "shutter_seconds": 0.016666666666666666, "mode": "Tv", "autofocus_display": "SERVO AF", "exposure_compensation_ev": 0, "evidence": "R8参数.JPG"},
+      "support": {"observed": "R8 mounted on a ground stand beside the activity area", "evidence": ["场景1机位1.JPG", "场景1机位2.JPG", "场景2机位1.JPG", "场景2机位2.JPG", "场景3机位1.JPG", "场景3机位2.JPG"]},
+      "limitation": "A setup photo records settings at that instant; it does not prove unchanged zoom, exposure, crop, stabilization or focus for every take. Stand visibility does not itself prove zero camera motion during recording."
+    },
+    "ego": {
+      "device": "DJI Nano",
+      "observed_menu": {"resolution_label": "4K", "aspect_ratio": "16:9", "fps": 25, "evidence": "Nano格式.JPG"},
+      "mount_observation": {"description": "Small device visible near cap brim/temple; consistent with a head-mounted viewpoint", "status": "visual_indication_only", "evidence": ["场景2机位2.JPG", "场景1机位2.JPG"], "exact_location": null, "optical_center_height_m": null, "mount_rotation": null},
+      "limitation": "No explicit photo/menu record of Nano shutter, ISO, lens/FOV mode, stabilization mode or per-frame orientation. Screen text HB | STD is transcribed without assigning a technical meaning."
+    }
+  },
+  "scene_geometry": [
+    {"scene_id": "1", "evidence": ["场地信息.md", "场景1机位1.JPG", "场景1机位2.JPG"], "reported_camera_height_m": 1.23, "reported_distance_to_first_disc_m": 3.6, "reported_edge_length_m": 6.0, "reported_disc_spacing_m": null, "visual_layout": "Four widely spaced discs in a quadrilateral", "limits": ["The measurement note does not define the coordinate origin, disc numbering or camera optical-centre reference.", "The 3.6 m distance is not explicitly identified as horizontal ground distance or slant range.", "The meaning of edge length is not accompanied by an explicit square-corner correspondence. Do not create metric disc coordinates silently."]},
+    {"scene_id": "2", "evidence": ["场地信息.md", "场景2机位1.JPG", "场景2机位2.JPG"], "reported_camera_height_m": 1.23, "reported_distance_to_nearest_right_bottom_disc_m": 6.3, "reported_disc_spacing_m": 0.38, "visual_layout": "Four closely spaced discs in a row", "limits": ["The note describes the nearest right-bottom disc without a numbered image-coordinate correspondence.", "The four discs are approximately collinear; they cannot alone determine a complete plane homography.", "The distance measurement reference and uncertainty are not recorded."]},
+    {"scene_id": "3", "evidence": ["场地信息.md", "场景3机位1.JPG", "场景3机位2.JPG"], "reported_camera_height_m": 1.23, "reported_distance_to_nearest_right_bottom_disc_m": 6.3, "reported_disc_spacing_m": 0.38, "visual_layout": "Four closely spaced discs form a compact group around the main participant", "limits": ["The shared scene 2/3 note reports 0.38 m disc spacing but does not assign all corner coordinates or define whether every adjacent spacing is identical.", "Do not promote the compact group to a calibrated 0.38 m square without explicit correspondence.", "The distance measurement reference and uncertainty are not recorded."]}
+  ],
+  "clip_scene_inferences": [
+    {"pair_id": "01", "exo": "验证视频/裁剪后验证exo/MVI_5688.MP4", "ego": "验证视频/裁剪后验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4", "likely_scene_id": "1", "status": "visual_inference", "confidence": "high", "evidence": "Overview row 01: widely spaced discs and scene 1 camera/background arrangement; comparison with 场景1机位1.JPG and 场景1机位2.JPG."},
+    {"pair_id": "02", "exo": "验证视频/裁剪后验证exo/MVI_5689.MP4", "ego": "验证视频/裁剪后验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4", "likely_scene_id": "1", "status": "visual_inference", "confidence": "high", "evidence": "Overview row 02: same large disc area and scene 1 background/camera framing."},
+    {"pair_id": "03", "exo": "验证视频/裁剪后验证exo/MVI_5691.MP4", "ego": "验证视频/裁剪后验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4", "likely_scene_id": "1", "status": "visual_inference", "confidence": "high", "evidence": "Overview row 03: same large disc area and scene 1 background/camera framing, participants temporarily closer together."},
+    {"pair_id": "04", "exo": "验证视频/裁剪后验证exo/MVI_5693.MP4", "ego": "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4", "likely_scene_id": "2", "status": "visual_inference", "confidence": "high", "evidence": "Overview row 04: four close discs in a row, matching scene 2 photos; documentation photo sequence also precedes the Nano filename time."},
+    {"pair_id": "05", "exo": "验证视频/裁剪后验证exo/MVI_5694.MP4", "ego": "验证视频/裁剪后验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4", "likely_scene_id": "3", "status": "visual_inference", "confidence": "high", "evidence": "Overview row 05: four-disc compact group around the cap-wearing participant, matching scene 3 photos; scene 2 row layout is absent."}
+  ],
+  "calibration_status": {
+    "intrinsic_matrix_K_exo": null,
+    "intrinsic_matrix_K_ego": null,
+    "distortion_coefficients_exo": null,
+    "distortion_coefficients_ego": null,
+    "world_to_camera_extrinsics_exo": null,
+    "per_frame_ego_trajectory": null,
+    "depth_maps": null,
+    "generated_geometric_prior": null,
+    "missing_records": ["Exact lens model and active sensor/crop mode", "Optical intrinsics and distortion calibration", "Numbered ground control points and their complete world coordinates", "Camera pitch/yaw/roll and exact optical-centre position", "Precise head mount transform and per-frame head orientation", "Depth and geometric prior preprocessing"],
+    "usable_now": ["Document acquisition formats and a 24 mm / 1/60 s setup observation", "Use measured heights and distances as geometric plausibility checks", "Explain three activity layouts and pair-scene inferences", "Use video image features for empirical image-plane matching/registration with residuals"],
+    "not_supported": ["Constructing a measured K, R, t from height, one distance and focal-length menu alone", "Treating phone-photo EXIF as video-camera calibration", "A single exact EXO-to-EGO homography that also aligns people and the ball at different depths", "Treating these capture notes as completed EgoX depth, trajectory or geometry inputs"]
+  }
+}

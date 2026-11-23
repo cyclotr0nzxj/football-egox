@@ -10,6 +10,18 @@
 
 [阅读全文（PDF）](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/report/week14_football_egox.pdf) · [报告源文件与图源](report/README.md) · [四段视频播放页](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/)
 
+## 克隆完整项目
+
+安装 Git LFS 后克隆。大文件会随工作区检出，EgoX 通过固定版本的子模块取得。
+
+```sh
+git lfs install
+git clone --recurse-submodules https://github.com/cyclotr0nzxj/football-egox-cv-appendix.git
+cd football-egox-cv-appendix/project
+```
+
+[项目目录](project/README.md)提供源码、原始及同步裁剪的自采录像、实验输入与记录、首版推理命令，以及第 8 周 Harris/SIFT 实验。
+
 ## 视频附录
 
 左栏为场边第三人称，中栏为头戴实拍第一人称，右栏为转换结果或几何预览。场边相机为 Canon EOS R8，头戴相机为 DJI Nano。视频标签中的 R8 和 Nano 分别指这两路画面。Pair 编号是文件标识，正文使用片段名称。四段均为 49 帧、25 fps、1.96 秒。拍掌对齐的人工判断误差约为一帧。

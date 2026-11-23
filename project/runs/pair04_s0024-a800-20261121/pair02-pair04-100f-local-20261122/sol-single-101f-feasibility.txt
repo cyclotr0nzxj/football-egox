@@ -1,0 +1,5 @@
+**Verdict:** A single 101-frame EgoX-derived generation is plausible but outside the immediately validated scope. Keep the two genuine 49-frame outputs and show two separately labeled geometric previews rather than a three-window splice.
+
+**Prerequisites:** Adapt the stock CLI and conditioning path from 49 frames/13 slots to 101 frames/26 slots. Wan supports that temporal length, but the conditioning still needs validation: build one coherent, temporally aligned EXO-only geometry/prior from the available frames and head tracks, then profile an end-to-end run at 1232×448.
+
+**Memory:** One dense FP32 GGA tensor grows from 2.93 to 11.71 GiB (4×), before intermediates and masks. The 49-frame peak of 72.17 GiB reserved on an A800 80GB signals substantial OOM risk, not proof. Reserved memory includes allocator cache, and the 101-frame peak depends on which tensors coexist.

@@ -1,0 +1,87 @@
+{
+  "old_start": 28,
+  "new_start": 52,
+  "overlap": [
+    52,
+    76
+  ],
+  "old_K": [
+    763.2669677734375,
+    763.2669677734375,
+    392.0,
+    224.0
+  ],
+  "new_K": [
+    763.2669677734375,
+    763.2669677734375,
+    392.0,
+    224.0
+  ],
+  "scale_to_old": 1.0188679695129395,
+  "heldout_frames": [
+    {
+      "frame": 53,
+      "median_relative_error": 0.00193023681640625,
+      "p90_relative_error": 0.005531609058380127
+    },
+    {
+      "frame": 55,
+      "median_relative_error": 0.0019860267639160156,
+      "p90_relative_error": 0.004844367504119873
+    },
+    {
+      "frame": 57,
+      "median_relative_error": 0.0023584365844726562,
+      "p90_relative_error": 0.00508799497038126
+    },
+    {
+      "frame": 59,
+      "median_relative_error": 0.0024277567863464355,
+      "p90_relative_error": 0.00515133049339056
+    },
+    {
+      "frame": 61,
+      "median_relative_error": 0.002893805503845215,
+      "p90_relative_error": 0.0053597562946379185
+    },
+    {
+      "frame": 63,
+      "median_relative_error": 0.003142118453979492,
+      "p90_relative_error": 0.005473613739013672
+    },
+    {
+      "frame": 65,
+      "median_relative_error": 0.0034430623054504395,
+      "p90_relative_error": 0.005607115104794502
+    },
+    {
+      "frame": 67,
+      "median_relative_error": 0.0034995079040527344,
+      "p90_relative_error": 0.005964040756225586
+    },
+    {
+      "frame": 69,
+      "median_relative_error": 0.003317713737487793,
+      "p90_relative_error": 0.0064980387687683105
+    },
+    {
+      "frame": 71,
+      "median_relative_error": 0.0032083988189697266,
+      "p90_relative_error": 0.00696253776550293
+    },
+    {
+      "frame": 73,
+      "median_relative_error": 0.0033571720123291016,
+      "p90_relative_error": 0.007363080978393555
+    },
+    {
+      "frame": 75,
+      "median_relative_error": 0.0033521652221679688,
+      "p90_relative_error": 0.007586479187011719
+    }
+  ],
+  "heldout_median_relative_error": 0.0031752586364746094,
+  "heldout_frame_p90_of_pixel_p90_error": 0.007323026657104492,
+  "passed_provisional_gate": true,
+  "gate": "Provisional consistency screen: median <= 10%, p90-of-frame-p90 <= 25%; not metric validation; inspect foreground and rendered seams separately."
+}

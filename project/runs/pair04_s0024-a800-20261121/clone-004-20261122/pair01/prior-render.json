@@ -1,0 +1,37 @@
+{
+  "status": "prior_technical_pass_visual_pending",
+  "take": "pair01_s0288",
+  "frames": 49,
+  "fps": 30,
+  "prior_sha256": "4f23a9f78cbe5c2c5074c238ba80cd0fe668693473883db405dd7c86f021b39b",
+  "meta_sha256": "b34c2e94d40c5f1ad587e2663d2607443e7c69599543cedbc3ea4f130bf523c4",
+  "runtime_fingerprint": "f7208e0391a64bdba8009a5f08afc383adce71edbfba2c4434841c83dae081d7",
+  "review_frames": [
+    0,
+    4,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    48
+  ],
+  "conditioning": {
+    "count": 49,
+    "rgb_sha256": "bfc6a6a6f8d0b2d733b8b28ef360abf9fc4ff69c0c6c41dfca643fce78ef3e2e",
+    "preprocessed_pixels_match_in_order": true
+  },
+  "review_image_sha256": "3b3bb811b650181d88457a731c02a2220cd4fe1c960313e1693ba4d5583657b0"
+}

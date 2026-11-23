@@ -1,0 +1,6937 @@
+{
+  "status": "CPU_DIAGNOSTIC_ONLY",
+  "source_sha256": {
+    "EXO": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+    "instance_masks": "7747332adc5416a8fc64ad3f7254164bafaed49b8ba8a7513e515a3e553d59d3",
+    "ball_masks": "74cee28ffbfe5e7782272b2857df50014617e3a1ca55f1cf51f428a00cadb77f",
+    "historical_prior": "c6ee04f0be3d48bcfc7564576fedfa137d2ad63f7f46ccdae711980b8713eeaa",
+    "distortion_source": "177721241c123019e7f1932639c59efb510e314514f561ef9d54ce122f6a1ee8"
+  },
+  "foot_support_filter": "within 12px of wearer base",
+  "source_code_sha256": "eb168ee22246dbbf8ddb598b2ad731cb3419fd63bbcb67f3348c25025357a3b1",
+  "all_49_sealed_depth_digests_verified": true,
+  "frame_count": 49,
+  "source_indices": [
+    24,
+    72
+  ],
+  "source_fps": 25,
+  "preview_fps": 30,
+  "input_fitted_plane": {
+    "unit_up": [
+      0.026156013743244808,
+      -0.9864464884157487,
+      -0.16198514881711018
+    ],
+    "height_vipe_units": 1.3545791057171355
+  },
+  "line_fits_at_F00_F12_F24_F36_F48": [
+    [
+      {
+        "line": [
+          -0.10710694111860902,
+          291.4585592914211
+        ],
+        "samples": 42,
+        "rmse_px": 0.3897403367390017
+      },
+      {
+        "line": [
+          0.12665411435193744,
+          145.1780836683189
+        ],
+        "samples": 42,
+        "rmse_px": 0.5770719721329965
+      }
+    ],
+    [
+      {
+        "line": [
+          -0.10643180192346453,
+          291.2715479785133
+        ],
+        "samples": 42,
+        "rmse_px": 0.4019839605225309
+      },
+      {
+        "line": [
+          0.12937447167355662,
+          143.35411947646529
+        ],
+        "samples": 42,
+        "rmse_px": 0.6609244422059816
+      }
+    ],
+    [
+      {
+        "line": [
+          -0.1092601824115473,
+          293.8686555946578
+        ],
+        "samples": 42,
+        "rmse_px": 0.48405397698806124
+      },
+      {
+        "line": [
+          0.1333733849487097,
+          141.00403053389286
+        ],
+        "samples": 42,
+        "rmse_px": 0.8303905469726818
+      }
+    ],
+    [
+      {
+        "line": [
+          -0.10832666695367231,
+          293.0610217831575
+        ],
+        "samples": 42,
+        "rmse_px": 0.44837246451306434
+      },
+      {
+        "line": [
+          0.13254158717615233,
+          141.53804206254443
+        ],
+        "samples": 42,
+        "rmse_px": 0.7863413664748526
+      }
+    ],
+    [
+      {
+        "line": [
+          -0.10583581472793302,
+          290.51286950305115
+        ],
+        "samples": 42,
+        "rmse_px": 0.36837350433767513
+      },
+      {
+        "line": [
+          0.12612082503549168,
+          145.41284033142165
+        ],
+        "samples": 42,
+        "rmse_px": 0.5359620693584591
+      }
+    ]
+  ],
+  "median_lines": [
+    [
+      -0.10710694111860902,
+      291.4585592914211
+    ],
+    [
+      0.12937447167355662,
+      143.35411947646529
+    ]
+  ],
+  "pose_sensitivity": {
+    "head_center_shift_approx_m_median": 0.7110775800910542,
+    "head_center_shift_approx_m_max": 0.7222044397612887
+  },
+  "target_label_meanings": {
+    "1": "teammate",
+    "2": "ball",
+    "3": "disc_1",
+    "4": "disc_2",
+    "5": "disc_3",
+    "6": "disc_4"
+  },
+  "source_index": "Same frame, y * 784 + x; -1 marks no verified foreground.",
+  "metrics": {
+    "F00": {
+      "ball_center_shift_px": 10.44030650891055,
+      "nominal": {
+        "direct_coverage": 0.22827335435929003,
+        "objects": {
+          "teammate": {
+            "pixels": 1708,
+            "largest_contiguous_component": 1704,
+            "center_xy": [
+              200.0,
+              136.0
+            ]
+          },
+          "ball": {
+            "pixels": 150,
+            "largest_contiguous_component": 88,
+            "center_xy": [
+              227.0,
+              282.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 59,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              312.0,
+              390.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              186.0,
+              367.0
+            ]
+          }
+        },
+        "frame": 0,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            247.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7117916362973761,
+        "plane_identity_error": 6.158268339717665e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.22138174803119626,
+        "objects": {
+          "teammate": {
+            "pixels": 1334,
+            "largest_contiguous_component": 1331,
+            "center_xy": [
+              217.0,
+              147.0
+            ]
+          },
+          "ball": {
+            "pixels": 126,
+            "largest_contiguous_component": 82,
+            "center_xy": [
+              217.0,
+              279.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 58,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              302.5,
+              384.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              174.0,
+              376.0
+            ]
+          }
+        },
+        "frame": 0,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            247.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.513886652292911e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F01": {
+      "ball_center_shift_px": 8.94427190999916,
+      "nominal": {
+        "direct_coverage": 0.22565885914089717,
+        "objects": {
+          "teammate": {
+            "pixels": 1604,
+            "largest_contiguous_component": 1597,
+            "center_xy": [
+              200.0,
+              140.0
+            ]
+          },
+          "ball": {
+            "pixels": 91,
+            "largest_contiguous_component": 87,
+            "center_xy": [
+              231.0,
+              261.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 60,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              311.0,
+              392.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              180.0,
+              375.0
+            ]
+          }
+        },
+        "frame": 1,
+        "lowest_wearer_y": 245,
+        "red_shoe_source_points": [
+          [
+            249.0,
+            243
+          ],
+          [
+            230.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7116720572157434,
+        "plane_identity_error": 6.16911036144252e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21901474143784544,
+        "objects": {
+          "teammate": {
+            "pixels": 1273,
+            "largest_contiguous_component": 1270,
+            "center_xy": [
+              218.0,
+              150.0
+            ]
+          },
+          "ball": {
+            "pixels": 84,
+            "largest_contiguous_component": 82,
+            "center_xy": [
+              223.0,
+              257.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 58,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              302.0,
+              385.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 37,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              167.0,
+              387.0
+            ]
+          }
+        },
+        "frame": 1,
+        "lowest_wearer_y": 245,
+        "red_shoe_source_points": [
+          [
+            249.0,
+            243
+          ],
+          [
+            230.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.227657278756737e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F02": {
+      "ball_center_shift_px": 8.246211251235321,
+      "nominal": {
+        "direct_coverage": 0.22367895014056086,
+        "objects": {
+          "teammate": {
+            "pixels": 1555,
+            "largest_contiguous_component": 1546,
+            "center_xy": [
+              203.0,
+              145.0
+            ]
+          },
+          "ball": {
+            "pixels": 97,
+            "largest_contiguous_component": 97,
+            "center_xy": [
+              225.0,
+              255.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              309.0,
+              395.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              176.0,
+              378.0
+            ]
+          }
+        },
+        "frame": 2,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            249.0,
+            243
+          ],
+          [
+            223.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7112307534620991,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21726962933819002,
+        "objects": {
+          "teammate": {
+            "pixels": 1218,
+            "largest_contiguous_component": 1209,
+            "center_xy": [
+              220.0,
+              154.0
+            ]
+          },
+          "ball": {
+            "pixels": 70,
+            "largest_contiguous_component": 69,
+            "center_xy": [
+              217.0,
+              253.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 50,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              301.0,
+              388.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              163.5,
+              389.0
+            ]
+          }
+        },
+        "frame": 2,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            249.0,
+            243
+          ],
+          [
+            223.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.158268339717665e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F03": {
+      "ball_center_shift_px": 12.0,
+      "nominal": {
+        "direct_coverage": 0.22216228907940577,
+        "objects": {
+          "teammate": {
+            "pixels": 1552,
+            "largest_contiguous_component": 1474,
+            "center_xy": [
+              207.0,
+              153.0
+            ]
+          },
+          "ball": {
+            "pixels": 83,
+            "largest_contiguous_component": 81,
+            "center_xy": [
+              216.0,
+              256.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              306.0,
+              397.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 40,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              175.0,
+              381.0
+            ]
+          }
+        },
+        "frame": 3,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            219.0,
+            243
+          ],
+          [
+            250.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7114442875364432,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21693964450480063,
+        "objects": {
+          "teammate": {
+            "pixels": 1238,
+            "largest_contiguous_component": 1179,
+            "center_xy": [
+              222.0,
+              160.0
+            ]
+          },
+          "ball": {
+            "pixels": 72,
+            "largest_contiguous_component": 67,
+            "center_xy": [
+              204.0,
+              256.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 50,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              299.5,
+              390.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 40,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              162.5,
+              391.5
+            ]
+          }
+        },
+        "frame": 3,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            219.0,
+            243
+          ],
+          [
+            250.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.140921104957897e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F04": {
+      "ball_center_shift_px": 9.5524865872714,
+      "nominal": {
+        "direct_coverage": 0.22022045525215284,
+        "objects": {
+          "teammate": {
+            "pixels": 1427,
+            "largest_contiguous_component": 1416,
+            "center_xy": [
+              209.0,
+              156.0
+            ]
+          },
+          "ball": {
+            "pixels": 62,
+            "largest_contiguous_component": 62,
+            "center_xy": [
+              224.5,
+              243.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              306.0,
+              401.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              174.0,
+              384.0
+            ]
+          }
+        },
+        "frame": 4,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            215.0,
+            243
+          ],
+          [
+            250.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7113474854227405,
+        "plane_identity_error": 6.353424730765056e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21516914895642297,
+        "objects": {
+          "teammate": {
+            "pixels": 1118,
+            "largest_contiguous_component": 1102,
+            "center_xy": [
+              223.0,
+              162.0
+            ]
+          },
+          "ball": {
+            "pixels": 43,
+            "largest_contiguous_component": 37,
+            "center_xy": [
+              215.0,
+              242.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 47,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              298.0,
+              394.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              161.0,
+              394.0
+            ]
+          }
+        },
+        "frame": 4,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            215.0,
+            243
+          ],
+          [
+            250.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.305719835175694e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F05": {
+      "ball_center_shift_px": 11.01135777277262,
+      "nominal": {
+        "direct_coverage": 0.21988412455658288,
+        "objects": {
+          "teammate": {
+            "pixels": 1452,
+            "largest_contiguous_component": 1392,
+            "center_xy": [
+              210.0,
+              160.0
+            ]
+          },
+          "ball": {
+            "pixels": 61,
+            "largest_contiguous_component": 61,
+            "center_xy": [
+              224.0,
+              237.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              303.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              172.0,
+              385.5
+            ]
+          }
+        },
+        "frame": 5,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.711128257106414,
+        "plane_identity_error": 6.353424730765056e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2147630137768668,
+        "objects": {
+          "teammate": {
+            "pixels": 1176,
+            "largest_contiguous_component": 1149,
+            "center_xy": [
+              223.0,
+              166.0
+            ]
+          },
+          "ball": {
+            "pixels": 52,
+            "largest_contiguous_component": 51,
+            "center_xy": [
+              213.0,
+              237.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              295.0,
+              399.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              158.0,
+              396.0
+            ]
+          }
+        },
+        "frame": 5,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.366435156834882e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F06": {
+      "ball_center_shift_px": 10.0,
+      "nominal": {
+        "direct_coverage": 0.2182024710787331,
+        "objects": {
+          "teammate": {
+            "pixels": 1451,
+            "largest_contiguous_component": 1354,
+            "center_xy": [
+              211.0,
+              164.0
+            ]
+          },
+          "ball": {
+            "pixels": 59,
+            "largest_contiguous_component": 59,
+            "center_xy": [
+              222.0,
+              234.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 49,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              302.0,
+              406.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              170.0,
+              388.5
+            ]
+          }
+        },
+        "frame": 6,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7109431942419825,
+        "plane_identity_error": 6.153931531027723e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2135572999625594,
+        "objects": {
+          "teammate": {
+            "pixels": 1181,
+            "largest_contiguous_component": 1171,
+            "center_xy": [
+              224.0,
+              170.0
+            ]
+          },
+          "ball": {
+            "pixels": 41,
+            "largest_contiguous_component": 41,
+            "center_xy": [
+              212.0,
+              234.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 48,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              294.0,
+              401.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              157.0,
+              399.0
+            ]
+          }
+        },
+        "frame": 6,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.583275591331983e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F07": {
+      "ball_center_shift_px": 10.04987562112089,
+      "nominal": {
+        "direct_coverage": 0.2176757645177462,
+        "objects": {
+          "teammate": {
+            "pixels": 1448,
+            "largest_contiguous_component": 1363,
+            "center_xy": [
+              212.0,
+              168.0
+            ]
+          },
+          "ball": {
+            "pixels": 48,
+            "largest_contiguous_component": 45,
+            "center_xy": [
+              225.0,
+              229.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              298.0,
+              410.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 43,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              169.0,
+              389.0
+            ]
+          }
+        },
+        "frame": 7,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            214.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7109602769679301,
+        "plane_identity_error": 6.179952383167375e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21347480375421207,
+        "objects": {
+          "teammate": {
+            "pixels": 1192,
+            "largest_contiguous_component": 1158,
+            "center_xy": [
+              223.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 40,
+            "largest_contiguous_component": 34,
+            "center_xy": [
+              215.0,
+              230.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 14,
+            "center_xy": [
+              291.0,
+              405.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              155.5,
+              399.0
+            ]
+          }
+        },
+        "frame": 7,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            250.0,
+            243
+          ],
+          [
+            214.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.583275591331983e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F08": {
+      "ball_center_shift_px": 11.5,
+      "nominal": {
+        "direct_coverage": 0.21870379419099775,
+        "objects": {
+          "teammate": {
+            "pixels": 1533,
+            "largest_contiguous_component": 1521,
+            "center_xy": [
+              211.0,
+              169.0
+            ]
+          },
+          "ball": {
+            "pixels": 24,
+            "largest_contiguous_component": 24,
+            "center_xy": [
+              223.5,
+              227.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              296.0,
+              413.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 44,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              169.5,
+              389.0
+            ]
+          }
+        },
+        "frame": 8,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            251.0,
+            243
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7111567283163265,
+        "plane_identity_error": 6.025995674674434e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2138492096228654,
+        "objects": {
+          "teammate": {
+            "pixels": 1256,
+            "largest_contiguous_component": 1208,
+            "center_xy": [
+              223.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 15,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              212.0,
+              227.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 49,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              288.0,
+              409.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              155.5,
+              398.5
+            ]
+          }
+        },
+        "frame": 8,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            251.0,
+            243
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.192962809237201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F09": {
+      "ball_center_shift_px": 13.536986370680884,
+      "nominal": {
+        "direct_coverage": 0.2190401248865677,
+        "objects": {
+          "teammate": {
+            "pixels": 1820,
+            "largest_contiguous_component": 1767,
+            "center_xy": [
+              208.0,
+              172.0
+            ]
+          },
+          "ball": {
+            "pixels": 33,
+            "largest_contiguous_component": 33,
+            "center_xy": [
+              226.0,
+              225.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              297.0,
+              411.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 43,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              170.0,
+              388.0
+            ]
+          }
+        },
+        "frame": 9,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            248.0,
+            241
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7116378917638484,
+        "plane_identity_error": 6.097553018058477e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21500415653972826,
+        "objects": {
+          "teammate": {
+            "pixels": 1494,
+            "largest_contiguous_component": 1451,
+            "center_xy": [
+              221.0,
+              177.0
+            ]
+          },
+          "ball": {
+            "pixels": 30,
+            "largest_contiguous_component": 27,
+            "center_xy": [
+              212.5,
+              226.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              288.0,
+              406.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              157.0,
+              398.0
+            ]
+          }
+        },
+        "frame": 9,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            248.0,
+            241
+          ],
+          [
+            213.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.192962809237201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F10": {
+      "ball_center_shift_px": 12.041594578792296,
+      "nominal": {
+        "direct_coverage": 0.22075985353750088,
+        "objects": {
+          "teammate": {
+            "pixels": 1994,
+            "largest_contiguous_component": 1961,
+            "center_xy": [
+              204.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 29,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              230.0,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              300.0,
+              406.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              174.0,
+              387.0
+            ]
+          }
+        },
+        "frame": 10,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            246.0,
+            241
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7119710049198251,
+        "plane_identity_error": 6.097553018058477e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21580373517447948,
+        "objects": {
+          "teammate": {
+            "pixels": 1590,
+            "largest_contiguous_component": 1554,
+            "center_xy": [
+              221.0,
+              177.0
+            ]
+          },
+          "ball": {
+            "pixels": 24,
+            "largest_contiguous_component": 20,
+            "center_xy": [
+              218.0,
+              222.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 46,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              290.0,
+              401.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 37,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              158.0,
+              396.0
+            ]
+          }
+        },
+        "frame": 10,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            246.0,
+            241
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.002143226879753e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F11": {
+      "ball_center_shift_px": 16.278820596099706,
+      "nominal": {
+        "direct_coverage": 0.22223843942557256,
+        "objects": {
+          "teammate": {
+            "pixels": 1949,
+            "largest_contiguous_component": 1935,
+            "center_xy": [
+              199.0,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 37,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              231.0,
+              225.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              299.0,
+              403.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              176.0,
+              385.0
+            ]
+          }
+        },
+        "frame": 11,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            243.0,
+            239
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7127681987973761,
+        "plane_identity_error": 6.097553018058477e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.216730231052842,
+        "objects": {
+          "teammate": {
+            "pixels": 1499,
+            "largest_contiguous_component": 1488,
+            "center_xy": [
+              222.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 29,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              215.0,
+              228.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 20,
+            "center_xy": [
+              290.0,
+              397.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              160.0,
+              394.0
+            ]
+          }
+        },
+        "frame": 11,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            243.0,
+            239
+          ],
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.366435156834882e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F12": {
+      "ball_center_shift_px": 16.194134740701646,
+      "nominal": {
+        "direct_coverage": 0.22173077045112735,
+        "objects": {
+          "teammate": {
+            "pixels": 2072,
+            "largest_contiguous_component": 2051,
+            "center_xy": [
+              197.0,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 36,
+            "largest_contiguous_component": 35,
+            "center_xy": [
+              231.0,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 61,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              301.0,
+              402.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              178.0,
+              381.5
+            ]
+          }
+        },
+        "frame": 12,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            239.0,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 0.713451507835277,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21633678759764696,
+        "objects": {
+          "teammate": {
+            "pixels": 1558,
+            "largest_contiguous_component": 1552,
+            "center_xy": [
+              222.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 30,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              215.0,
+              223.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 57,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              291.0,
+              396.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              163.0,
+              389.5
+            ]
+          }
+        },
+        "frame": 12,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            239.0,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F13": {
+      "ball_center_shift_px": 17.26267650163207,
+      "nominal": {
+        "direct_coverage": 0.22095022940291784,
+        "objects": {
+          "teammate": {
+            "pixels": 2116,
+            "largest_contiguous_component": 2053,
+            "center_xy": [
+              199.0,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 50,
+            "largest_contiguous_component": 23,
+            "center_xy": [
+              228.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 62,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              301.5,
+              399.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 43,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              179.0,
+              381.0
+            ]
+          }
+        },
+        "frame": 13,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            237.0,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 0.7134344251093294,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21602584035079925,
+        "objects": {
+          "teammate": {
+            "pixels": 1576,
+            "largest_contiguous_component": 1526,
+            "center_xy": [
+              222.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 53,
+            "largest_contiguous_component": 20,
+            "center_xy": [
+              211.0,
+              227.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 61,
+            "largest_contiguous_component": 20,
+            "center_xy": [
+              291.0,
+              393.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 40,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              162.0,
+              390.5
+            ]
+          }
+        },
+        "frame": 13,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            237.0,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.305719835175694e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F14": {
+      "ball_center_shift_px": 15.033296378372908,
+      "nominal": {
+        "direct_coverage": 0.2199348914540274,
+        "objects": {
+          "teammate": {
+            "pixels": 2090,
+            "largest_contiguous_component": 2021,
+            "center_xy": [
+              199.5,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 49,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              230.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 63,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              301.0,
+              396.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              182.0,
+              376.0
+            ]
+          }
+        },
+        "frame": 14,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            232.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.7129304846938775,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21556259241161801,
+        "objects": {
+          "teammate": {
+            "pixels": 1585,
+            "largest_contiguous_component": 1536,
+            "center_xy": [
+              222.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 43,
+            "largest_contiguous_component": 28,
+            "center_xy": [
+              215.0,
+              225.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 60,
+            "largest_contiguous_component": 20,
+            "center_xy": [
+              291.0,
+              389.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 36,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              166.0,
+              384.5
+            ]
+          }
+        },
+        "frame": 14,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            232.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.305719835175694e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F15": {
+      "ball_center_shift_px": 15.628499608087784,
+      "nominal": {
+        "direct_coverage": 0.21945895179048502,
+        "objects": {
+          "teammate": {
+            "pixels": 2011,
+            "largest_contiguous_component": 1963,
+            "center_xy": [
+              203.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 32,
+            "largest_contiguous_component": 25,
+            "center_xy": [
+              234.5,
+              222.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              301.0,
+              396.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              181.0,
+              376.0
+            ]
+          }
+        },
+        "frame": 15,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            229.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.712104819606414,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21549913378981236,
+        "objects": {
+          "teammate": {
+            "pixels": 1557,
+            "largest_contiguous_component": 1523,
+            "center_xy": [
+              222.0,
+              176.0
+            ]
+          },
+          "ball": {
+            "pixels": 30,
+            "largest_contiguous_component": 23,
+            "center_xy": [
+              219.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              290.5,
+              390.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              165.0,
+              385.0
+            ]
+          }
+        },
+        "frame": 15,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            229.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.305719835175694e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F16": {
+      "ball_center_shift_px": 18.24828759089466,
+      "nominal": {
+        "direct_coverage": 0.22023314697651397,
+        "objects": {
+          "teammate": {
+            "pixels": 2000,
+            "largest_contiguous_component": 1971,
+            "center_xy": [
+              205.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 7,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              237.0,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 58,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              301.0,
+              398.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 37,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              180.0,
+              379.0
+            ]
+          }
+        },
+        "frame": 16,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            225.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.7112279063411079,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2163812086329109,
+        "objects": {
+          "teammate": {
+            "pixels": 1607,
+            "largest_contiguous_component": 1587,
+            "center_xy": [
+              221.0,
+              178.0
+            ]
+          },
+          "ball": {
+            "pixels": 15,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              219.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              291.0,
+              393.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 37,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              165.0,
+              388.0
+            ]
+          }
+        },
+        "frame": 16,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ],
+          [
+            225.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.149594722337781e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F17": {
+      "ball_center_shift_px": 16.688319268278637,
+      "nominal": {
+        "direct_coverage": 0.221210409752321,
+        "objects": {
+          "teammate": {
+            "pixels": 2002,
+            "largest_contiguous_component": 1983,
+            "center_xy": [
+              205.0,
+              175.0
+            ]
+          },
+          "ball": {
+            "pixels": 6,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              237.5,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              298.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 36,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              174.0,
+              383.5
+            ]
+          }
+        },
+        "frame": 17,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7107638256195336,
+        "plane_identity_error": 6.34041430469523e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21745365934142644,
+        "objects": {
+          "teammate": {
+            "pixels": 1657,
+            "largest_contiguous_component": 1628,
+            "center_xy": [
+              220.0,
+              179.0
+            ]
+          },
+          "ball": {
+            "pixels": 12,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              221.0,
+              223.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              288.0,
+              399.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 35,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              157.0,
+              394.0
+            ]
+          }
+        },
+        "frame": 17,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.058521739848999e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F18": {
+      "ball_center_shift_px": 15.628499608087784,
+      "nominal": {
+        "direct_coverage": 0.221210409752321,
+        "objects": {
+          "teammate": {
+            "pixels": 2093,
+            "largest_contiguous_component": 2078,
+            "center_xy": [
+              203.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 10,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              237.5,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              297.0,
+              410.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              173.0,
+              385.0
+            ]
+          }
+        },
+        "frame": 18,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7106784119897959,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21799940348895502,
+        "objects": {
+          "teammate": {
+            "pixels": 1704,
+            "largest_contiguous_component": 1688,
+            "center_xy": [
+              220.0,
+              178.0
+            ]
+          },
+          "ball": {
+            "pixels": 15,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              222.0,
+              223.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              288.0,
+              405.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              155.0,
+              395.0
+            ]
+          }
+        },
+        "frame": 18,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F19": {
+      "ball_center_shift_px": 15.297058540778355,
+      "nominal": {
+        "direct_coverage": 0.22052505663681995,
+        "objects": {
+          "teammate": {
+            "pixels": 1999,
+            "largest_contiguous_component": 1953,
+            "center_xy": [
+              200.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 13,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              238.0,
+              220.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              298.0,
+              409.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              170.5,
+              385.0
+            ]
+          }
+        },
+        "frame": 19,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7111937408892128,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21630505828674412,
+        "objects": {
+          "teammate": {
+            "pixels": 1584,
+            "largest_contiguous_component": 1553,
+            "center_xy": [
+              220.0,
+              176.0
+            ]
+          },
+          "ball": {
+            "pixels": 10,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              223.0,
+              223.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              288.0,
+              405.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              154.0,
+              395.0
+            ]
+          }
+        },
+        "frame": 19,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F20": {
+      "ball_center_shift_px": 12.854960132182441,
+      "nominal": {
+        "direct_coverage": 0.21856418522302531,
+        "objects": {
+          "teammate": {
+            "pixels": 1818,
+            "largest_contiguous_component": 1801,
+            "center_xy": [
+              198.0,
+              172.0
+            ]
+          },
+          "ball": {
+            "pixels": 8,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              236.5,
+              220.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              296.0,
+              408.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              171.0,
+              383.0
+            ]
+          }
+        },
+        "frame": 20,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7106983418367347,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21419188618061594,
+        "objects": {
+          "teammate": {
+            "pixels": 1445,
+            "largest_contiguous_component": 1427,
+            "center_xy": [
+              220.0,
+              176.0
+            ]
+          },
+          "ball": {
+            "pixels": 8,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              224.0,
+              223.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              288.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 39,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              155.0,
+              393.0
+            ]
+          }
+        },
+        "frame": 20,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.366435156834882e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F21": {
+      "ball_center_shift_px": 12.020815280171307,
+      "nominal": {
+        "direct_coverage": 0.216000456902077,
+        "objects": {
+          "teammate": {
+            "pixels": 1712,
+            "largest_contiguous_component": 1700,
+            "center_xy": [
+              199.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 5,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              235.0,
+              219.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              295.0,
+              408.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              170.0,
+              382.0
+            ]
+          }
+        },
+        "frame": 21,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7099011479591837,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2127957965008916,
+        "objects": {
+          "teammate": {
+            "pixels": 1372,
+            "largest_contiguous_component": 1323,
+            "center_xy": [
+              220.0,
+              176.0
+            ]
+          },
+          "ball": {
+            "pixels": 10,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              223.5,
+              222.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              287.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 40,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              153.5,
+              392.0
+            ]
+          }
+        },
+        "frame": 21,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F22": {
+      "ball_center_shift_px": 14.807092894960848,
+      "nominal": {
+        "direct_coverage": 0.21504223171281167,
+        "objects": {
+          "teammate": {
+            "pixels": 1568,
+            "largest_contiguous_component": 1538,
+            "center_xy": [
+              198.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 8,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              238.0,
+              219.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              296.5,
+              407.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 45,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              172.0,
+              381.0
+            ]
+          }
+        },
+        "frame": 22,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.709511092383382,
+        "plane_identity_error": 6.277530578691071e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21247215752968276,
+        "objects": {
+          "teammate": {
+            "pixels": 1277,
+            "largest_contiguous_component": 1238,
+            "center_xy": [
+              220.0,
+              177.0
+            ]
+          },
+          "ball": {
+            "pixels": 16,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              223.5,
+              222.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              288.0,
+              405.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 44,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              156.0,
+              392.0
+            ]
+          }
+        },
+        "frame": 22,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.670011765130823e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F23": {
+      "ball_center_shift_px": 15.297058540778355,
+      "nominal": {
+        "direct_coverage": 0.21414111928317142,
+        "objects": {
+          "teammate": {
+            "pixels": 1284,
+            "largest_contiguous_component": 1275,
+            "center_xy": [
+              201.0,
+              170.5
+            ]
+          },
+          "ball": {
+            "pixels": 6,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              239.0,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              297.0,
+              406.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 46,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              174.0,
+              380.5
+            ]
+          }
+        },
+        "frame": 23,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7097331678206997,
+        "plane_identity_error": 6.329572282970375e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21136163164808386,
+        "objects": {
+          "teammate": {
+            "pixels": 1046,
+            "largest_contiguous_component": 1012,
+            "center_xy": [
+              221.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 21,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              224.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              288.0,
+              402.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              158.0,
+              391.0
+            ]
+          }
+        },
+        "frame": 23,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            213.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F24": {
+      "ball_center_shift_px": 15.337861650177967,
+      "nominal": {
+        "direct_coverage": 0.21426803652678272,
+        "objects": {
+          "teammate": {
+            "pixels": 1267,
+            "largest_contiguous_component": 1253,
+            "center_xy": [
+              196.0,
+              168.0
+            ]
+          },
+          "ball": {
+            "pixels": 3,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              240.0,
+              219.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              299.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              176.0,
+              380.0
+            ]
+          }
+        },
+        "frame": 24,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            212.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.710151694606414,
+        "plane_identity_error": 6.329572282970375e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21159008268658422,
+        "objects": {
+          "teammate": {
+            "pixels": 1069,
+            "largest_contiguous_component": 1035,
+            "center_xy": [
+              219.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 12,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              225.5,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              289.0,
+              401.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              159.0,
+              391.0
+            ]
+          }
+        },
+        "frame": 24,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            212.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.670011765130823e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F25": {
+      "ball_center_shift_px": 16.77050983124842,
+      "nominal": {
+        "direct_coverage": 0.21447110411656078,
+        "objects": {
+          "teammate": {
+            "pixels": 1259,
+            "largest_contiguous_component": 1236,
+            "center_xy": [
+              191.0,
+              166.0
+            ]
+          },
+          "ball": {
+            "pixels": 5,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              244.0,
+              221.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 59,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              301.0,
+              402.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 44,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              179.0,
+              378.0
+            ]
+          }
+        },
+        "frame": 25,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            242
+          ]
+        ],
+        "valid_depth_fraction": 0.7105702213921283,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21151393234041743,
+        "objects": {
+          "teammate": {
+            "pixels": 1043,
+            "largest_contiguous_component": 999,
+            "center_xy": [
+              217.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 12,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              227.5,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              291.0,
+              399.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 43,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              161.0,
+              389.0
+            ]
+          }
+        },
+        "frame": 25,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            242
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.670011765130823e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F26": {
+      "ball_center_shift_px": 16.77050983124842,
+      "nominal": {
+        "direct_coverage": 0.2142870741133244,
+        "objects": {
+          "teammate": {
+            "pixels": 1370,
+            "largest_contiguous_component": 1349,
+            "center_xy": [
+              192.0,
+              164.0
+            ]
+          },
+          "ball": {
+            "pixels": 2,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              243.5,
+              220.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              302.0,
+              401.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              178.0,
+              378.0
+            ]
+          }
+        },
+        "frame": 26,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            242
+          ]
+        ],
+        "valid_depth_fraction": 0.710521820335277,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21187564648470963,
+        "objects": {
+          "teammate": {
+            "pixels": 1180,
+            "largest_contiguous_component": 1158,
+            "center_xy": [
+              217.0,
+              172.0
+            ]
+          },
+          "ball": {
+            "pixels": 9,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              227.0,
+              223.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              290.0,
+              397.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 48,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              159.5,
+              390.0
+            ]
+          }
+        },
+        "frame": 26,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            242
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F27": {
+      "ball_center_shift_px": 19.026297590440446,
+      "nominal": {
+        "direct_coverage": 0.21589892310718795,
+        "objects": {
+          "teammate": {
+            "pixels": 1580,
+            "largest_contiguous_component": 1550,
+            "center_xy": [
+              195.0,
+              164.0
+            ]
+          },
+          "ball": {
+            "pixels": 7,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              247.0,
+              224.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              304.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 48,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              181.0,
+              379.0
+            ]
+          }
+        },
+        "frame": 27,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            211.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7104421009475219,
+        "plane_identity_error": 6.522560269672795e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21370960065489297,
+        "objects": {
+          "teammate": {
+            "pixels": 1384,
+            "largest_contiguous_component": 1304,
+            "center_xy": [
+              216.0,
+              173.0
+            ]
+          },
+          "ball": {
+            "pixels": 15,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              228.0,
+              225.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              292.5,
+              400.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              162.0,
+              390.0
+            ]
+          }
+        },
+        "frame": 27,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            211.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.869504964868156e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F28": {
+      "ball_center_shift_px": 19.235384061671343,
+      "nominal": {
+        "direct_coverage": 0.21908454592183166,
+        "objects": {
+          "teammate": {
+            "pixels": 1997,
+            "largest_contiguous_component": 1939,
+            "center_xy": [
+              196.0,
+              165.0
+            ]
+          },
+          "ball": {
+            "pixels": 6,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              247.0,
+              223.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              303.5,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              179.5,
+              379.0
+            ]
+          }
+        },
+        "frame": 28,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7107894497084548,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2161844869053134,
+        "objects": {
+          "teammate": {
+            "pixels": 1721,
+            "largest_contiguous_component": 1681,
+            "center_xy": [
+              217.0,
+              174.0
+            ]
+          },
+          "ball": {
+            "pixels": 14,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              228.0,
+              226.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              291.5,
+              400.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              161.0,
+              390.5
+            ]
+          }
+        },
+        "frame": 28,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.869504964868156e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F29": {
+      "ball_center_shift_px": 21.213203435596427,
+      "nominal": {
+        "direct_coverage": 0.22032833490922243,
+        "objects": {
+          "teammate": {
+            "pixels": 1734,
+            "largest_contiguous_component": 1651,
+            "center_xy": [
+              191.0,
+              164.0
+            ]
+          },
+          "ball": {
+            "pixels": 122,
+            "largest_contiguous_component": 75,
+            "center_xy": [
+              243.0,
+              230.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              305.0,
+              404.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              180.5,
+              379.0
+            ]
+          }
+        },
+        "frame": 29,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7114328990524781,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2174409676170653,
+        "objects": {
+          "teammate": {
+            "pixels": 1434,
+            "largest_contiguous_component": 1372,
+            "center_xy": [
+              215.0,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 121,
+            "largest_contiguous_component": 68,
+            "center_xy": [
+              222.0,
+              233.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              293.0,
+              400.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              161.0,
+              391.0
+            ]
+          }
+        },
+        "frame": 29,
+        "lowest_wearer_y": 244,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.869504964868156e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F30": {
+      "ball_center_shift_px": 21.095023109728988,
+      "nominal": {
+        "direct_coverage": 0.21741558416834303,
+        "objects": {
+          "teammate": {
+            "pixels": 1804,
+            "largest_contiguous_component": 1651,
+            "center_xy": [
+              192.0,
+              163.0
+            ]
+          },
+          "ball": {
+            "pixels": 101,
+            "largest_contiguous_component": 75,
+            "center_xy": [
+              245.0,
+              231.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              308.0,
+              401.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              182.5,
+              377.5
+            ]
+          }
+        },
+        "frame": 30,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7120165588556852,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21450283342746362,
+        "objects": {
+          "teammate": {
+            "pixels": 1497,
+            "largest_contiguous_component": 1393,
+            "center_xy": [
+              215.0,
+              171.0
+            ]
+          },
+          "ball": {
+            "pixels": 104,
+            "largest_contiguous_component": 77,
+            "center_xy": [
+              224.0,
+              233.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              295.0,
+              398.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              163.0,
+              389.0
+            ]
+          }
+        },
+        "frame": 30,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.18483129294356e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F31": {
+      "ball_center_shift_px": 18.0,
+      "nominal": {
+        "direct_coverage": 0.21565778034432648,
+        "objects": {
+          "teammate": {
+            "pixels": 1733,
+            "largest_contiguous_component": 1353,
+            "center_xy": [
+              193.0,
+              160.0
+            ]
+          },
+          "ball": {
+            "pixels": 45,
+            "largest_contiguous_component": 45,
+            "center_xy": [
+              248.0,
+              230.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              310.5,
+              394.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              187.0,
+              373.0
+            ]
+          }
+        },
+        "frame": 31,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 0.7126030657798834,
+        "plane_identity_error": 6.271025365656158e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2123769695969743,
+        "objects": {
+          "teammate": {
+            "pixels": 1386,
+            "largest_contiguous_component": 1224,
+            "center_xy": [
+              215.0,
+              170.0
+            ]
+          },
+          "ball": {
+            "pixels": 35,
+            "largest_contiguous_component": 35,
+            "center_xy": [
+              230.0,
+              230.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              297.5,
+              389.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 50,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              167.0,
+              383.5
+            ]
+          }
+        },
+        "frame": 31,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.0,
+            243
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.245004513516506e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F32": {
+      "ball_center_shift_px": 18.0,
+      "nominal": {
+        "direct_coverage": 0.2164763965656194,
+        "objects": {
+          "teammate": {
+            "pixels": 1845,
+            "largest_contiguous_component": 1409,
+            "center_xy": [
+              189.0,
+              160.0
+            ]
+          },
+          "ball": {
+            "pixels": 39,
+            "largest_contiguous_component": 39,
+            "center_xy": [
+              247.0,
+              234.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              312.0,
+              384.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              189.0,
+              366.0
+            ]
+          }
+        },
+        "frame": 32,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.0,
+            243
+          ],
+          [
+            220.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.7128507653061225,
+        "plane_identity_error": 6.25367813089639e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2122310147668213,
+        "objects": {
+          "teammate": {
+            "pixels": 1418,
+            "largest_contiguous_component": 1262,
+            "center_xy": [
+              214.0,
+              167.0
+            ]
+          },
+          "ball": {
+            "pixels": 28,
+            "largest_contiguous_component": 28,
+            "center_xy": [
+              229.0,
+              234.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              299.0,
+              381.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 46,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              169.5,
+              376.5
+            ]
+          }
+        },
+        "frame": 32,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            211.0,
+            243
+          ],
+          [
+            220.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F33": {
+      "ball_center_shift_px": 18.027756377319946,
+      "nominal": {
+        "direct_coverage": 0.217022140713148,
+        "objects": {
+          "teammate": {
+            "pixels": 1772,
+            "largest_contiguous_component": 1659,
+            "center_xy": [
+              183.0,
+              161.0
+            ]
+          },
+          "ball": {
+            "pixels": 19,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              247.0,
+              235.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              314.0,
+              378.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              193.0,
+              362.0
+            ]
+          }
+        },
+        "frame": 33,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ],
+          [
+            224.5,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.7128877778790087,
+        "plane_identity_error": 6.218983661376853e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21243408235659939,
+        "objects": {
+          "teammate": {
+            "pixels": 1302,
+            "largest_contiguous_component": 1241,
+            "center_xy": [
+              212.0,
+              167.0
+            ]
+          },
+          "ball": {
+            "pixels": 29,
+            "largest_contiguous_component": 22,
+            "center_xy": [
+              229.0,
+              236.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              300.0,
+              374.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 44,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              172.5,
+              371.5
+            ]
+          }
+        },
+        "frame": 33,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ],
+          [
+            224.5,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.670011765130823e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F34": {
+      "ball_center_shift_px": 18.110770276274835,
+      "nominal": {
+        "direct_coverage": 0.21989047041876345,
+        "objects": {
+          "teammate": {
+            "pixels": 1908,
+            "largest_contiguous_component": 1888,
+            "center_xy": [
+              181.0,
+              158.0
+            ]
+          },
+          "ball": {
+            "pixels": 29,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              244.0,
+              241.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              316.0,
+              375.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 45,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              197.0,
+              359.0
+            ]
+          }
+        },
+        "frame": 34,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ],
+          [
+            230.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 0.7131525601311953,
+        "plane_identity_error": 6.271025365656158e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21509934447243675,
+        "objects": {
+          "teammate": {
+            "pixels": 1370,
+            "largest_contiguous_component": 1364,
+            "center_xy": [
+              211.0,
+              163.0
+            ]
+          },
+          "ball": {
+            "pixels": 28,
+            "largest_contiguous_component": 14,
+            "center_xy": [
+              226.0,
+              243.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              303.0,
+              370.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 8,
+            "center_xy": [
+              177.5,
+              367.0
+            ]
+          }
+        },
+        "frame": 34,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            210.5,
+            243
+          ],
+          [
+            230.0,
+            237
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F35": {
+      "ball_center_shift_px": 17.18284027743958,
+      "nominal": {
+        "direct_coverage": 0.21996662076493023,
+        "objects": {
+          "teammate": {
+            "pixels": 1922,
+            "largest_contiguous_component": 1914,
+            "center_xy": [
+              182.0,
+              155.0
+            ]
+          },
+          "ball": {
+            "pixels": 24,
+            "largest_contiguous_component": 23,
+            "center_xy": [
+              247.0,
+              243.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              317.0,
+              374.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 14,
+            "center_xy": [
+              196.0,
+              356.0
+            ]
+          }
+        },
+        "frame": 35,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            233.5,
+            237
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7130130512026239,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21519453240514522,
+        "objects": {
+          "teammate": {
+            "pixels": 1438,
+            "largest_contiguous_component": 1433,
+            "center_xy": [
+              209.0,
+              161.0
+            ]
+          },
+          "ball": {
+            "pixels": 26,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              230.0,
+              245.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 50,
+            "largest_contiguous_component": 11,
+            "center_xy": [
+              302.5,
+              368.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 47,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              178.0,
+              364.0
+            ]
+          }
+        },
+        "frame": 35,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            233.5,
+            237
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.140921104957897e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F36": {
+      "ball_center_shift_px": 17.0,
+      "nominal": {
+        "direct_coverage": 0.21948433523920727,
+        "objects": {
+          "teammate": {
+            "pixels": 2058,
+            "largest_contiguous_component": 2033,
+            "center_xy": [
+              184.0,
+              154.0
+            ]
+          },
+          "ball": {
+            "pixels": 41,
+            "largest_contiguous_component": 41,
+            "center_xy": [
+              245.0,
+              248.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 49,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              316.0,
+              372.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 49,
+            "largest_contiguous_component": 21,
+            "center_xy": [
+              195.0,
+              355.0
+            ]
+          }
+        },
+        "frame": 36,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            210.5,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7131127004373178,
+        "plane_identity_error": 6.591949208711867e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21424265307806045,
+        "objects": {
+          "teammate": {
+            "pixels": 1617,
+            "largest_contiguous_component": 1594,
+            "center_xy": [
+              209.0,
+              162.0
+            ]
+          },
+          "ball": {
+            "pixels": 36,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              228.0,
+              248.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 49,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              303.0,
+              367.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 46,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              176.0,
+              364.0
+            ]
+          }
+        },
+        "frame": 36,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            210.5,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F37": {
+      "ball_center_shift_px": 13.152946437965905,
+      "nominal": {
+        "direct_coverage": 0.2178026817613575,
+        "objects": {
+          "teammate": {
+            "pixels": 1917,
+            "largest_contiguous_component": 1880,
+            "center_xy": [
+              188.0,
+              154.0
+            ]
+          },
+          "ball": {
+            "pixels": 57,
+            "largest_contiguous_component": 57,
+            "center_xy": [
+              242.0,
+              252.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              317.0,
+              372.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 43,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              194.0,
+              355.0
+            ]
+          }
+        },
+        "frame": 37,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            210.5,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7129561087827988,
+        "plane_identity_error": 6.097553018058477e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21318289409390606,
+        "objects": {
+          "teammate": {
+            "pixels": 1560,
+            "largest_contiguous_component": 1548,
+            "center_xy": [
+              210.0,
+              162.0
+            ]
+          },
+          "ball": {
+            "pixels": 41,
+            "largest_contiguous_component": 29,
+            "center_xy": [
+              229.0,
+              250.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              304.0,
+              367.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              177.0,
+              364.0
+            ]
+          }
+        },
+        "frame": 37,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            210.5,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F38": {
+      "ball_center_shift_px": 13.341664064126334,
+      "nominal": {
+        "direct_coverage": 0.21763768934466282,
+        "objects": {
+          "teammate": {
+            "pixels": 1878,
+            "largest_contiguous_component": 1847,
+            "center_xy": [
+              191.0,
+              155.0
+            ]
+          },
+          "ball": {
+            "pixels": 81,
+            "largest_contiguous_component": 81,
+            "center_xy": [
+              245.0,
+              255.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              318.0,
+              370.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 14,
+            "center_xy": [
+              197.0,
+              351.0
+            ]
+          }
+        },
+        "frame": 38,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7127311862244898,
+        "plane_identity_error": 6.461844948013606e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2120089095905015,
+        "objects": {
+          "teammate": {
+            "pixels": 1551,
+            "largest_contiguous_component": 1521,
+            "center_xy": [
+              209.0,
+              163.0
+            ]
+          },
+          "ball": {
+            "pixels": 48,
+            "largest_contiguous_component": 44,
+            "center_xy": [
+              232.0,
+              252.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 51,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              305.0,
+              367.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              180.0,
+              360.0
+            ]
+          }
+        },
+        "frame": 38,
+        "lowest_wearer_y": 243,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.245004513516506e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F39": {
+      "ball_center_shift_px": 12.36931687685298,
+      "nominal": {
+        "direct_coverage": 0.2172759752003706,
+        "objects": {
+          "teammate": {
+            "pixels": 1873,
+            "largest_contiguous_component": 1839,
+            "center_xy": [
+              191.0,
+              152.0
+            ]
+          },
+          "ball": {
+            "pixels": 69,
+            "largest_contiguous_component": 68,
+            "center_xy": [
+              244.0,
+              261.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              319.5,
+              367.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 34,
+            "largest_contiguous_component": 10,
+            "center_xy": [
+              202.5,
+              345.5
+            ]
+          }
+        },
+        "frame": 39,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7122813411078717,
+        "plane_identity_error": 6.609296443471635e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21223736062900186,
+        "objects": {
+          "teammate": {
+            "pixels": 1543,
+            "largest_contiguous_component": 1516,
+            "center_xy": [
+              208.0,
+              162.0
+            ]
+          },
+          "ball": {
+            "pixels": 61,
+            "largest_contiguous_component": 58,
+            "center_xy": [
+              232.0,
+              258.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              306.0,
+              362.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 33,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              187.0,
+              352.0
+            ]
+          }
+        },
+        "frame": 39,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.557254739192331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F40": {
+      "ball_center_shift_px": 12.5,
+      "nominal": {
+        "direct_coverage": 0.21813901245692746,
+        "objects": {
+          "teammate": {
+            "pixels": 1828,
+            "largest_contiguous_component": 1821,
+            "center_xy": [
+              190.0,
+              149.0
+            ]
+          },
+          "ball": {
+            "pixels": 102,
+            "largest_contiguous_component": 84,
+            "center_xy": [
+              247.0,
+              265.5
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              321.0,
+              363.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 35,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              209.0,
+              333.0
+            ]
+          }
+        },
+        "frame": 40,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7123752961005831,
+        "plane_identity_error": 6.609296443471635e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21295444305540573,
+        "objects": {
+          "teammate": {
+            "pixels": 1491,
+            "largest_contiguous_component": 1486,
+            "center_xy": [
+              206.0,
+              160.0
+            ]
+          },
+          "ball": {
+            "pixels": 81,
+            "largest_contiguous_component": 67,
+            "center_xy": [
+              235.0,
+              262.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              306.5,
+              358.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 36,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              196.5,
+              337.0
+            ]
+          }
+        },
+        "frame": 40,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.268043809681823e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F41": {
+      "ball_center_shift_px": 12.649110640673518,
+      "nominal": {
+        "direct_coverage": 0.21936376385777653,
+        "objects": {
+          "teammate": {
+            "pixels": 1788,
+            "largest_contiguous_component": 1775,
+            "center_xy": [
+              188.0,
+              145.0
+            ]
+          },
+          "ball": {
+            "pixels": 107,
+            "largest_contiguous_component": 95,
+            "center_xy": [
+              246.0,
+              273.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              322.5,
+              361.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 27,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              229.0,
+              314.0
+            ]
+          }
+        },
+        "frame": 41,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7127425747084548,
+        "plane_identity_error": 6.407634839389331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21414746514535196,
+        "objects": {
+          "teammate": {
+            "pixels": 1398,
+            "largest_contiguous_component": 1377,
+            "center_xy": [
+              205.0,
+              156.0
+            ]
+          },
+          "ball": {
+            "pixels": 89,
+            "largest_contiguous_component": 86,
+            "center_xy": [
+              234.0,
+              269.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 7,
+            "center_xy": [
+              308.5,
+              357.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 26,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              216.0,
+              312.0
+            ]
+          }
+        },
+        "frame": 41,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.869504964868156e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F42": {
+      "ball_center_shift_px": 13.416407864998739,
+      "nominal": {
+        "direct_coverage": 0.22063293629388958,
+        "objects": {
+          "teammate": {
+            "pixels": 1857,
+            "largest_contiguous_component": 1843,
+            "center_xy": [
+              185.0,
+              141.0
+            ]
+          },
+          "ball": {
+            "pixels": 99,
+            "largest_contiguous_component": 58,
+            "center_xy": [
+              247.0,
+              279.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              323.0,
+              358.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          }
+        },
+        "frame": 42,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7129646501457726,
+        "plane_identity_error": 6.407634839389331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21518184068078408,
+        "objects": {
+          "teammate": {
+            "pixels": 1423,
+            "largest_contiguous_component": 1412,
+            "center_xy": [
+              203.0,
+              152.0
+            ]
+          },
+          "ball": {
+            "pixels": 91,
+            "largest_contiguous_component": 81,
+            "center_xy": [
+              235.0,
+              273.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 6,
+            "center_xy": [
+              309.0,
+              354.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          }
+        },
+        "frame": 42,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.628812082576374e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "F43": {
+      "ball_center_shift_px": 13.46291201783626,
+      "nominal": {
+        "direct_coverage": 0.22265726632948984,
+        "objects": {
+          "teammate": {
+            "pixels": 1880,
+            "largest_contiguous_component": 1859,
+            "center_xy": [
+              183.0,
+              138.0
+            ]
+          },
+          "ball": {
+            "pixels": 105,
+            "largest_contiguous_component": 88,
+            "center_xy": [
+              249.0,
+              285.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              323.5,
+              354.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          }
+        },
+        "frame": 43,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 0.7130215925655977,
+        "plane_identity_error": 6.331740687315346e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21639390035727205,
+        "objects": {
+          "teammate": {
+            "pixels": 1439,
+            "largest_contiguous_component": 1408,
+            "center_xy": [
+              200.0,
+              149.0
+            ]
+          },
+          "ball": {
+            "pixels": 88,
+            "largest_contiguous_component": 85,
+            "center_xy": [
+              236.5,
+              280.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              309.0,
+              350.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          }
+        },
+        "frame": 43,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            237.0,
+            239
+          ],
+          [
+            211.0,
+            241
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.557254739192331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    },
+    "F44": {
+      "ball_center_shift_px": 13.038404810405298,
+      "nominal": {
+        "direct_coverage": 0.2240723935957559,
+        "objects": {
+          "teammate": {
+            "pixels": 1957,
+            "largest_contiguous_component": 1956,
+            "center_xy": [
+              180.0,
+              137.0
+            ]
+          },
+          "ball": {
+            "pixels": 101,
+            "largest_contiguous_component": 89,
+            "center_xy": [
+              252.0,
+              290.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 55,
+            "largest_contiguous_component": 5,
+            "center_xy": [
+              323.0,
+              348.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 29,
+            "largest_contiguous_component": 4,
+            "center_xy": [
+              215.0,
+              314.0
+            ]
+          }
+        },
+        "frame": 44,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            241
+          ],
+          [
+            236.5,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 0.7128820836370262,
+        "plane_identity_error": 6.331740687315346e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2168190731233699,
+        "objects": {
+          "teammate": {
+            "pixels": 1482,
+            "largest_contiguous_component": 1479,
+            "center_xy": [
+              197.0,
+              149.0
+            ]
+          },
+          "ball": {
+            "pixels": 79,
+            "largest_contiguous_component": 74,
+            "center_xy": [
+              241.0,
+              283.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 53,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              308.0,
+              345.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 30,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              200.0,
+              318.5
+            ]
+          }
+        },
+        "frame": 44,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            211.5,
+            241
+          ],
+          [
+            236.5,
+            239
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.557254739192331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F45": {
+      "ball_center_shift_px": 13.601470508735444,
+      "nominal": {
+        "direct_coverage": 0.22238439425572556,
+        "objects": {
+          "teammate": {
+            "pixels": 1943,
+            "largest_contiguous_component": 1915,
+            "center_xy": [
+              179.0,
+              135.0
+            ]
+          },
+          "ball": {
+            "pixels": 81,
+            "largest_contiguous_component": 76,
+            "center_xy": [
+              257.0,
+              290.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              323.0,
+              341.5
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 42,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              207.0,
+              323.0
+            ]
+          }
+        },
+        "frame": 45,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            212.0,
+            239
+          ],
+          [
+            235.5,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 0.712879236516035,
+        "plane_identity_error": 6.314393452555578e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2156704720686876,
+        "objects": {
+          "teammate": {
+            "pixels": 1498,
+            "largest_contiguous_component": 1468,
+            "center_xy": [
+              195.0,
+              148.0
+            ]
+          },
+          "ball": {
+            "pixels": 89,
+            "largest_contiguous_component": 82,
+            "center_xy": [
+              246.0,
+              282.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 57,
+            "largest_contiguous_component": 15,
+            "center_xy": [
+              309.0,
+              338.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_4": {
+            "pixels": 41,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              192.0,
+              332.0
+            ]
+          }
+        },
+        "frame": 45,
+        "lowest_wearer_y": 242,
+        "red_shoe_source_points": [
+          [
+            212.0,
+            239
+          ],
+          [
+            235.5,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.366435156834882e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F46": {
+      "ball_center_shift_px": 13.601470508735444,
+      "nominal": {
+        "direct_coverage": 0.22291744667889302,
+        "objects": {
+          "teammate": {
+            "pixels": 1910,
+            "largest_contiguous_component": 1904,
+            "center_xy": [
+              177.0,
+              136.0
+            ]
+          },
+          "ball": {
+            "pixels": 83,
+            "largest_contiguous_component": 71,
+            "center_xy": [
+              258.0,
+              299.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 9,
+            "center_xy": [
+              322.0,
+              334.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 20,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              222.5,
+              435.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 35,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              208.0,
+              320.0
+            ]
+          }
+        },
+        "frame": 46,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            214.5,
+            239
+          ],
+          [
+            236.0,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 0.7127311862244898,
+        "plane_identity_error": 6.331740687315346e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21560701344688196,
+        "objects": {
+          "teammate": {
+            "pixels": 1468,
+            "largest_contiguous_component": 1453,
+            "center_xy": [
+              192.0,
+              148.0
+            ]
+          },
+          "ball": {
+            "pixels": 90,
+            "largest_contiguous_component": 53,
+            "center_xy": [
+              247.0,
+              291.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              307.0,
+              331.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 20,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              217.0,
+              436.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 36,
+            "largest_contiguous_component": 16,
+            "center_xy": [
+              193.0,
+              327.5
+            ]
+          }
+        },
+        "frame": 46,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            214.5,
+            239
+          ],
+          [
+            236.0,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.557254739192331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F47": {
+      "ball_center_shift_px": 12.041594578792296,
+      "nominal": {
+        "direct_coverage": 0.22256842425896195,
+        "objects": {
+          "teammate": {
+            "pixels": 1968,
+            "largest_contiguous_component": 1961,
+            "center_xy": [
+              173.0,
+              135.0
+            ]
+          },
+          "ball": {
+            "pixels": 80,
+            "largest_contiguous_component": 72,
+            "center_xy": [
+              262.0,
+              300.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 56,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              321.0,
+              325.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 23,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              238.0,
+              404.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 35,
+            "largest_contiguous_component": 13,
+            "center_xy": [
+              206.0,
+              318.0
+            ]
+          }
+        },
+        "frame": 47,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            216.5,
+            237
+          ],
+          [
+            236.0,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 0.7127852815233237,
+        "plane_identity_error": 6.331740687315346e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.2152897203378537,
+        "objects": {
+          "teammate": {
+            "pixels": 1528,
+            "largest_contiguous_component": 1515,
+            "center_xy": [
+              190.0,
+              148.0
+            ]
+          },
+          "ball": {
+            "pixels": 93,
+            "largest_contiguous_component": 88,
+            "center_xy": [
+              253.0,
+              292.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 23,
+            "center_xy": [
+              306.0,
+              323.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 24,
+            "largest_contiguous_component": 2,
+            "center_xy": [
+              232.5,
+              399.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 36,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              190.5,
+              327.5
+            ]
+          }
+        },
+        "frame": 47,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            216.5,
+            237
+          ],
+          [
+            236.0,
+            238
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.557254739192331e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "F48": {
+      "ball_center_shift_px": 14.142135623730951,
+      "nominal": {
+        "direct_coverage": 0.2222511311499337,
+        "objects": {
+          "teammate": {
+            "pixels": 2055,
+            "largest_contiguous_component": 2033,
+            "center_xy": [
+              169.0,
+              134.0
+            ]
+          },
+          "ball": {
+            "pixels": 97,
+            "largest_contiguous_component": 64,
+            "center_xy": [
+              265.0,
+              307.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 52,
+            "largest_contiguous_component": 12,
+            "center_xy": [
+              319.5,
+              320.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 16,
+            "largest_contiguous_component": 1,
+            "center_xy": [
+              263.0,
+              338.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 38,
+            "largest_contiguous_component": 17,
+            "center_xy": [
+              204.0,
+              316.0
+            ]
+          }
+        },
+        "frame": 48,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            236.0,
+            238
+          ],
+          [
+            219.0,
+            235
+          ]
+        ],
+        "valid_depth_fraction": 0.7129874271137027,
+        "plane_identity_error": 6.331740687315346e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "alternate": {
+        "direct_coverage": 0.21454725446272757,
+        "objects": {
+          "teammate": {
+            "pixels": 1576,
+            "largest_contiguous_component": 1555,
+            "center_xy": [
+              187.0,
+              148.0
+            ]
+          },
+          "ball": {
+            "pixels": 89,
+            "largest_contiguous_component": 59,
+            "center_xy": [
+              255.0,
+              297.0
+            ]
+          },
+          "disc_1": {
+            "pixels": 0,
+            "largest_contiguous_component": 0,
+            "center_xy": null
+          },
+          "disc_2": {
+            "pixels": 54,
+            "largest_contiguous_component": 27,
+            "center_xy": [
+              304.0,
+              319.0
+            ]
+          },
+          "disc_3": {
+            "pixels": 16,
+            "largest_contiguous_component": 3,
+            "center_xy": [
+              256.0,
+              322.0
+            ]
+          },
+          "disc_4": {
+            "pixels": 37,
+            "largest_contiguous_component": 18,
+            "center_xy": [
+              189.0,
+              327.0
+            ]
+          }
+        },
+        "frame": 48,
+        "lowest_wearer_y": 240,
+        "red_shoe_source_points": [
+          [
+            236.0,
+            238
+          ],
+          [
+            219.0,
+            235
+          ]
+        ],
+        "valid_depth_fraction": 1.0,
+        "plane_identity_error": 6.492202608843201e-16,
+        "source_objects_with_supported_depth": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  },
+  "products": {
+    "rebuild-comparison.jpg": "c6d4314356c5ce7283c54f664a33009020ac1ee79e5ac3d2faf48e3e6e856e40",
+    "alternate-provenance.npz": "2593d12f6dac80a35f8266b92469054899826b3e955a4f2af05f45b0e16a2b76",
+    "alternate-prior.mp4": "57e388d5c1b0423c772f6a746262332cfc860403f00fa46e0f7d3f9bb25574d9",
+    "nominal-camera.json": "ecf43fa90e569f42df9776388466ad2b7c1da9da7095bfec17df3ffccfda28a2",
+    "alternate-camera.json": "d76763a1630cddb1751d41b17270005abac81361b3a58c04c5d907555a7d0bbd",
+    "nominal-provenance.npz": "0679afd095998872cc672978a6881e4f1e910dae54601ff7aae92a76e2e6ae91",
+    "nominal-prior.mp4": "bbb0dd921d41d88b4fa24e863898290d09c0e067e1b795377375138021a0fc3a"
+  }
+}

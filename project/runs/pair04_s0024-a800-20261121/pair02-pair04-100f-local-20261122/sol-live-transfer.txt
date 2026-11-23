@@ -1,0 +1,13 @@
+{"model": "gpt-6.2-sol", "input_tokens": 93, "output_tokens": 4652, "reasoning_tokens": 4122, "status": "completed"}
+**Open Jupyter through the normal browser UI and check what landed before retrying.** Losing the automation debugger doesn’t tell you whether Jupyter stopped or the upload finished. Leave the original tab and any running jobs alone.
+
+| Rank | Recovery option | Test and next step |
+|---|---|---|
+| **1 — Reuse the upload if it finished** | In a Jupyter terminal or notebook cell, check the candidate archive’s exact byte count and SHA-256 against the local original. | If both match, test the archive (`unzip -t` for ZIP) and confirm it contains the four expected EXO clips. If they don’t match, leave the partial file untouched; don’t treat 1 MB as a resume offset. |
+| **2 — Retry once through the normal Jupyter UI** | Use the existing authenticated session. Create a fresh private staging folder, check available space and any workspace quota, and upload a small test file first. | If the test arrives intact, upload the archive once or upload the four originals individually if they’re smaller. Verify the remote files against local hashes. If even the tiny upload fails, skip chunking. |
+| **3 — If small uploads work but the archive stalls again, split it locally** | If workspace policy permits, split the archive into numbered 512 KiB parts. Upload the parts and concatenate them in order into a **new** file. | Check the part count and sizes, then verify the reconstructed archive’s SHA-256 and integrity before extracting. If you hit an explicit policy limit or quota, use an approved route instead. |
+| **4 — Use another approved transfer route only if it’s already available** | A provider browser uploader or private workspace storage that both sides are already authorized to use can be faster than chunking. | Verify hashes on the GPU machine. If no authenticated write path works, ask the authorized operator to restore normal access. Don’t rely on SSH credentials you haven’t confirmed are available. |
+
+**While transfer is blocked:** Check that the old depth and prior files are readable. If the GPU is idle and you have a known-matching old input set, run a short baseline into a new output directory. That tests the environment, not the new clips.
+
+**Before running all four:** Verify the staged clip names and hashes, then decode a few frames and smoke-test one clip. Reuse old depth or priors only if they’re verified to match that clip and its frame alignment. Check that the run actually read the new input path and produced fresh output before processing the rest.

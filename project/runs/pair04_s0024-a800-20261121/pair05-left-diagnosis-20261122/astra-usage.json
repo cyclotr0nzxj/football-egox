@@ -1,0 +1,16 @@
+[
+  {
+    "model": "gpt-6.2-astra",
+    "input_tokens": 563,
+    "output_tokens": 16000,
+    "reasoning_tokens": 16000,
+    "status": "incomplete"
+  },
+  {
+    "model": "gpt-6.2-astra",
+    "input_tokens": 171,
+    "output_tokens": 1509,
+    "reasoning_tokens": 1391,
+    "status": "completed"
+  }
+]

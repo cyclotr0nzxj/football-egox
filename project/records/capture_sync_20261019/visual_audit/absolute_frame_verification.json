@@ -1,0 +1,142 @@
+[
+  {
+    "key": "MVI_5688",
+    "source_path": "验证视频/验证exo/MVI_5688.MP4",
+    "frame_indices": [
+      1178,
+      1179,
+      1180,
+      1181,
+      1182
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": false,
+    "max_pixel_error": 2
+  },
+  {
+    "key": "170618",
+    "source_path": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+    "frame_indices": [
+      1159,
+      1160,
+      1161,
+      1162,
+      1163
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": true,
+    "max_pixel_error": 0
+  },
+  {
+    "key": "MVI_5689",
+    "source_path": "验证视频/验证exo/MVI_5689.MP4",
+    "frame_indices": [
+      629,
+      630,
+      631,
+      632,
+      633
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": false,
+    "max_pixel_error": 2
+  },
+  {
+    "key": "170820",
+    "source_path": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+    "frame_indices": [
+      605,
+      606,
+      607,
+      608,
+      609
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": true,
+    "max_pixel_error": 0
+  },
+  {
+    "key": "MVI_5691",
+    "source_path": "验证视频/验证exo/MVI_5691.MP4",
+    "frame_indices": [
+      736,
+      737,
+      738,
+      739,
+      740
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": false,
+    "max_pixel_error": 2
+  },
+  {
+    "key": "171228",
+    "source_path": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+    "frame_indices": [
+      713,
+      714,
+      715,
+      716,
+      717
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": true,
+    "max_pixel_error": 0
+  },
+  {
+    "key": "MVI_5693",
+    "source_path": "验证视频/验证exo/MVI_5693.MP4",
+    "frame_indices": [
+      558,
+      559,
+      560,
+      561,
+      562
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": false,
+    "max_pixel_error": 1
+  },
+  {
+    "key": "171850",
+    "source_path": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+    "frame_indices": [
+      527,
+      528,
+      529,
+      530,
+      531
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": true,
+    "max_pixel_error": 0
+  },
+  {
+    "key": "MVI_5694",
+    "source_path": "验证视频/验证exo/MVI_5694.MP4",
+    "frame_indices": [
+      1070,
+      1071,
+      1072,
+      1073,
+      1074
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": false,
+    "max_pixel_error": 2
+  },
+  {
+    "key": "172108",
+    "source_path": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+    "frame_indices": [
+      1049,
+      1050,
+      1051,
+      1052,
+      1053
+    ],
+    "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+    "seek_matches_absolute_frame_selection": true,
+    "max_pixel_error": 0
+  }
+]

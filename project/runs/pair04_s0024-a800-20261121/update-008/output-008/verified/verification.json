@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "counts": {
+    "verified": 3
+  },
+  "batch_result": {
+    "file": "batch-result.json",
+    "sha256": "48297769199d2e563702c99c76bdab5b41cc7101efcbd2b0eba34410da6096ad",
+    "status": "complete",
+    "inference_exit_code": 0,
+    "adapter_evidence": "runtime_audit_verified"
+  },
+  "takes": [
+    {
+      "take": "pair04_s0024",
+      "status": "verified",
+      "video": "pair04_s0024_ego.mp4",
+      "receipt": "pair04_s0024.receipt.json",
+      "sha256": "61936d9f0ae9244713186efb0c3c0f0f792770d38bf5c335698fe7891054c9ee"
+    },
+    {
+      "take": "pair05_s0024",
+      "status": "verified",
+      "video": "pair05_s0024_ego.mp4",
+      "receipt": "pair05_s0024.receipt.json",
+      "sha256": "98fe4e765bb2376ca86581c5b49b3df6bdc2329d47e4fed1a68c46150a204db9"
+    },
+    {
+      "take": "pair01_s0288",
+      "status": "verified",
+      "video": "pair01_s0288_ego.mp4",
+      "receipt": "pair01_s0288.receipt.json",
+      "sha256": "9864dd1fd77a84181d22ea5fe846c96542fa536b106abc2099e6ea6829c1633c"
+    }
+  ]
+}

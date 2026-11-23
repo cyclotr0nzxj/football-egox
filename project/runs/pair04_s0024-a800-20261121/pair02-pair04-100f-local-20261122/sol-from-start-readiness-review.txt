@@ -1,0 +1,5 @@
+- **Time budget:** At 22.9 s/step, six 50-step windows take **1h 54m 30s** of denoising. Scaling the 87-minute batch gives a rough **2h 10m 30s** CLI estimate, not an exact forecast because startup happens once. Reserve about **2h 15m**, plus time for stitching, export, and review.
+- **Batch completeness:** Confirm `--idx -1` sees exactly the six intended windows, with EXO, prior, and depth aligned across each 49-frame span. Require a complete result for every window in a fresh run directory. Incomplete prior-batch hashes are diagnostic only, not acceptance evidence.
+- **Fixed cuts:** Assemble one video per source range using only new outputs. Check retained source-frame indices at each cut for gaps, repeats, or a switch to the wrong range. A 100-frame total alone won’t catch those errors.
+- **Export:** Decode both final files and verify exactly **100 frames each at constant 25 fps** (4.00 s per video).
+- **Seam gate:** Loop a short span around every fixed cut in the final encodes at 25 fps. Hold delivery if any join shows a visible motion hitch, geometry jump, or brightness pop. No footage was provided to clear this gate.

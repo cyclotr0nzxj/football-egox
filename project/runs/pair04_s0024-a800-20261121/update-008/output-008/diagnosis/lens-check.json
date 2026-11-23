@@ -1,0 +1,15 @@
+{
+  "metric": "Pixel residual after current GGA inverse and exact Aria forward equations on an ideal continuous grid; excludes discrete rot90 index, point rasterization, and attention pooling.",
+  "physical_image_width": 448,
+  "latent_grid": [
+    56,
+    56
+  ],
+  "nominal_circle_samples": 2451,
+  "median_px": 13.119380117850522,
+  "p90_px": 38.24585222225116,
+  "max_px": 54.63871949717863,
+  "optical_center_px": 0.0,
+  "matched_aria_inverse_p90_px": 1.194928035673754e-05,
+  "matched_aria_inverse_max_px": 3.756707558857414e-05
+}

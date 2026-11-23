@@ -1,0 +1,21 @@
+{
+  "raw_sha256": "226ab80a04c8585207b36ff523de607698dc1ccd32c86e3f85759d88f2207ff7",
+  "raw_frames": 49,
+  "fps": 30.0,
+  "shape": [
+    49,
+    448,
+    1232,
+    3
+  ],
+  "generated_region_xywh": [
+    784,
+    0,
+    448,
+    448
+  ],
+  "generated_rgb_min": 0,
+  "generated_rgb_max": 255,
+  "generated_rgb_mean": 69.93412039959479,
+  "generated_temporal_distinct_frames": 49
+}

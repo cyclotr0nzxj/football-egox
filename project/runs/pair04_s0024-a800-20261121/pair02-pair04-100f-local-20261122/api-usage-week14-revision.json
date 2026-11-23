@@ -1,0 +1,236 @@
+{
+  "calls": [
+    {
+      "step": "abstract_tight",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 268,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 4967,
+        "output_tokens_details": {
+          "reasoning_tokens": 4709
+        },
+        "total_tokens": 5235
+      },
+      "request_id": "req_24bc5d687efe4e1f91377fbd82d7749a",
+      "time_utc": "2026-11-22T18:11:39.283958+00:00"
+    },
+    {
+      "step": "astra_geometry_short",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 268,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 10500,
+        "output_tokens_details": {
+          "reasoning_tokens": 10488
+        },
+        "total_tokens": 10768
+      },
+      "request_id": "req_6006332715564e69ac23e04d7e5a0db2",
+      "time_utc": "2026-11-22T18:14:33.164450+00:00"
+    },
+    {
+      "step": "astra_unit",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 107,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 609,
+        "output_tokens_details": {
+          "reasoning_tokens": 538
+        },
+        "total_tokens": 716
+      },
+      "request_id": "req_41d98c45a47240838bd00e63d12ef677",
+      "time_utc": "2026-11-22T18:14:54.065380+00:00"
+    },
+    {
+      "step": "claim_guard",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 397,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 2577,
+        "output_tokens_details": {
+          "reasoning_tokens": 2436
+        },
+        "total_tokens": 2974
+      },
+      "request_id": "req_d2df887cd19d4c9d85eaac2ff5f35495",
+      "time_utc": "2026-11-22T18:13:43.427396+00:00"
+    },
+    {
+      "step": "framing",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 635,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 19000,
+        "output_tokens_details": {
+          "reasoning_tokens": 19000
+        },
+        "total_tokens": 19635
+      },
+      "request_id": "req_65196e5649af47d1b2c010d27504fb4a",
+      "time_utc": "2026-11-22T18:09:02.271529+00:00"
+    },
+    {
+      "step": "methods",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 776,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 21000,
+        "output_tokens_details": {
+          "reasoning_tokens": 21000
+        },
+        "total_tokens": 21776
+      },
+      "request_id": "req_dc66c7a8d1164fe9b3016c01b5c0872b",
+      "time_utc": "2026-11-22T18:10:53.444053+00:00"
+    },
+    {
+      "step": "results",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 443,
+        "input_tokens_details": {
+          "cache_write_tokens": 0,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 0
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 7607,
+        "output_tokens_details": {
+          "reasoning_tokens": 7064
+        },
+        "total_tokens": 8050
+      },
+      "request_id": "req_f24231d8fad147aa932b85d55037094a",
+      "time_utc": "2026-11-22T18:08:39.460147+00:00"
+    },
+    {
+      "step": "technical_review",
+      "model": "gpt-6.2-astra",
+      "effort": "max",
+      "status": "incomplete",
+      "usage": {
+        "input_tokens": 2301,
+        "input_tokens_details": {
+          "cache_write_tokens": 2298,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 2298
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 15000,
+        "output_tokens_details": {
+          "reasoning_tokens": 15000
+        },
+        "total_tokens": 17301
+      },
+      "request_id": "req_f9130ca8dec4457b86fc2c2b77d3972e",
+      "time_utc": "2026-11-22T18:14:01.050805+00:00"
+    },
+    {
+      "step": "writing_review",
+      "model": "gpt-6.2-sol",
+      "effort": "max",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 1130,
+        "input_tokens_details": {
+          "cache_write_tokens": 1127,
+          "cache_write_tokens_details": {
+            "ttl_12h_tokens": 0,
+            "ttl_30m_tokens": 1127
+          },
+          "cached_tokens": 0
+        },
+        "output_tokens": 6816,
+        "output_tokens_details": {
+          "reasoning_tokens": 6453
+        },
+        "total_tokens": 7946
+      },
+      "request_id": "req_1cf3660cd67e40b498a3140e9628f13b",
+      "time_utc": "2026-11-22T18:11:26.210128+00:00"
+    }
+  ],
+  "by_model": {
+    "gpt-6.2-astra": {
+      "input_tokens": 3452,
+      "output_tokens": 47109,
+      "total_tokens": 50561,
+      "completed": 1,
+      "incomplete": 3
+    },
+    "gpt-6.2-sol": {
+      "input_tokens": 2873,
+      "output_tokens": 40967,
+      "total_tokens": 43840,
+      "completed": 4,
+      "incomplete": 1
+    }
+  }
+}

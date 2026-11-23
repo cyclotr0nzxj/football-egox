@@ -1,0 +1,5 @@
+**Hold the launch.** The lower of host availability and cgroup headroom fell from 119.7 to 70.7 GiB, 39.3 GiB below the checkpoint gate. An empty GPU process list doesn’t show that host RAM was freed.
+
+1. **After shutdown, verify CPU workers exited.** Before initializing CUDA, read host `MemAvailable` and the target cgroup’s `memory.current` and `memory.max`, including ancestors. Cgroup headroom is the smallest `max − current` across finite limits. Compare both in GiB.
+2. **Identify the constraint.** Host `MemAvailable` already accounts for estimated reclaim. If cgroup headroom is limiting, inspect that group’s `memory.stat`: `anon` and `shmem` show charged allocations; `inactive_file` suggests potentially reclaimable cache. Don’t add it back to pass the gate.
+3. **Recheck before launch.** Require both readings to reach 110 GiB or defer. Keep the original batch-reload code and four-window baseline. Verify RAM, cgroup headroom, and VRAM separately for the point-cloud renderer, budgeting for overlap if concurrent.

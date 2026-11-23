@@ -1,0 +1,32 @@
+{
+  "status": "local_preflight_pass",
+  "bundle_file": "pair01-first-orientation-bundle.zip",
+  "bundle_sha256": "d73ca238af7686ab9f4bafd2ddb172199756d11eff692c54b70afc59c4981037",
+  "bundle_bytes": 27440,
+  "verified_depth_frames": 49,
+  "renderer_assets_verified": 7,
+  "first_and_candidate_center_max_delta": 4.440892098500626e-15,
+  "passed": [
+    "frozen_inputs",
+    "historical_fixture_stage",
+    "visual_receipt_gate",
+    "repeat_inference_gate",
+    "tampered_bundle_rejected"
+  ],
+  "live_render_or_inference": false,
+  "conditioning_processor_historical_fixture": {
+    "diffusers": "0.34.0",
+    "fixture": "first Pair01 prior",
+    "device": "cpu",
+    "count": 49,
+    "rgb_sha256": "32613e383aeb4eeeb6838a996ccde38c4d49cea1ad3f336660bee9c8dda58077",
+    "preprocessed_pixels_match_in_order": true
+  },
+  "final_recovery_historical_fixture": {
+    "arm": "A",
+    "decoded_frames": 49,
+    "exact_pts": true,
+    "crop": "448x448 at x=784",
+    "visual_verdict": "ineligible historical smoke"
+  }
+}

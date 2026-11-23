@@ -1,0 +1,17 @@
+{
+  "bundle_sha256": "200c8f4f3bbc95e60ba9e4175d31fb5b8ee995540d210ba1605ed03c1c5440f2",
+  "stock_integrity_check": "real",
+  "media_decode_and_sha256": "real",
+  "gpu_checks": "stand-ins",
+  "model_inference": "stand-in using historical video/audit fixture",
+  "passed": [
+    "preflight_without_output",
+    "scoped_launch_and_output_verification",
+    "existing_receipt_recheck",
+    "interrupted_receipt_recovery",
+    "zero_hook_no_receipt_or_retry",
+    "mutated_depth_refused",
+    "mutated_official_wrapper_refused",
+    "resealed_plan_refused"
+  ]
+}

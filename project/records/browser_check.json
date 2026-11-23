@@ -1,0 +1,12 @@
+{
+  "url": "http://127.0.0.1:7860/",
+  "real_frames_loaded": 49,
+  "next": "0 -> 1",
+  "previous": "1 -> 0",
+  "slider": "0 -> 24",
+  "slow_playback": "0.25x, observed frame 1 and automatic stop at 48",
+  "step_back_from_end": "48 -> 47",
+  "triptych_canvas": "Single 1680x448 canvas contains source exo, GT and generated at the same index",
+  "comparison_download": "Browser downloadMedia action completed without error; content hashes separately verified",
+  "visual_layout": "Three preserved-aspect-ratio panels visible; no overlap"
+}

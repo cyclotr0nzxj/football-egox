@@ -1,0 +1,13 @@
+{
+  "captured_utc": "2026-09-11T04:20:47.753300+00:00",
+  "gpu": "NVIDIA A800-SXM4-80GB, GPU-3b2ce68a-9f0c-a4fb-5ab5-297b3ba1ad9d, 81920 MiB, 580.126.09",
+  "memory_limit_bytes": 128849018880,
+  "cpu_quota": "1800000 100000",
+  "disk": {
+    "total": 268435456000,
+    "used": 16201981952,
+    "free": 252233474048
+  },
+  "os": "PRETTY_NAME=\"Ubuntu 22.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"22.04\"\nVERSION=\"22.04.5 LTS (Jammy Jellyfish)\"\nVERSION_CODENAME=jammy\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=jammy\n",
+  "code_commit": "43c095b552a8f09d3a81c0882491f52c5cf4e953"
+}

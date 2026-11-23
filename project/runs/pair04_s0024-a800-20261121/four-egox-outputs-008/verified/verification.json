@@ -1,0 +1,36 @@
+{
+  "complete": true,
+  "counts": {
+    "verified": 4
+  },
+  "takes": [
+    {
+      "take": "pair04_s0024",
+      "status": "verified",
+      "video": "pair04_s0024_ego.mp4",
+      "receipt": "pair04_s0024.receipt.json",
+      "sha256": "4d590adb93803383fbf1d398be980cf5f25cd4444efcc94066b302dd9b4cf86c"
+    },
+    {
+      "take": "pair01_s0288",
+      "status": "verified",
+      "video": "pair01_s0288_ego.mp4",
+      "receipt": "pair01_s0288.receipt.json",
+      "sha256": "515214b8d487c6edec53a7f5b8a0d39f1ab2bdb866b098759c099b9fd3512a11"
+    },
+    {
+      "take": "pair02_s0000",
+      "status": "verified",
+      "video": "pair02_s0000_ego.mp4",
+      "receipt": "pair02_s0000.receipt.json",
+      "sha256": "a72c52389713689b0abd19decbb4b5726e28df0b8b6270c4cc54505d4249a607"
+    },
+    {
+      "take": "pair05_s0024",
+      "status": "verified",
+      "video": "pair05_s0024_ego.mp4",
+      "receipt": "pair05_s0024.receipt.json",
+      "sha256": "df81ba4a06fd42b7ae64b35d5de52fd40882143e3356595e1bbbde077bcc2dec"
+    }
+  ]
+}

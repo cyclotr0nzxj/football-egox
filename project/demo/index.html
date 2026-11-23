@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Football EgoX · 同步对照</title>
+<style>
+:root{color-scheme:dark;font:16px/1.6 system-ui,sans-serif;background:#101713;color:#eaf3ec}body{margin:0}main{max-width:1500px;margin:auto;padding:32px 24px}h1{font-size:32px;letter-spacing:-1px;margin:10px 0}p{color:#adbfb0}small,.eyebrow{color:#99ba9f}.eyebrow{letter-spacing:2px;font-size:12px}header{display:flex;justify-content:space-between;gap:20px;align-items:center}.badge{border:1px solid #43604a;border-radius:20px;padding:5px 14px;font-size:13px;white-space:nowrap}.viewer{background:#080e0a;border:1px solid #304136;border-radius:16px;overflow:hidden;margin:24px 0}.labels{display:grid;grid-template-columns:784fr 448fr 448fr;background:#1e2a22}.labels>div{padding:14px 18px;border-right:1px solid #36463b}.labels span{display:block;color:#a6b5aa;font-size:12px}canvas{width:100%;height:auto;display:block}.controls{padding:18px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}button,select,a.action{background:#25392a;border:1px solid #4b6853;border-radius:8px;padding:9px 14px;color:#eaf3ec;font:inherit;cursor:pointer;text-decoration:none}button:disabled{opacity:.4;cursor:default}button.primary{background:#baf4a6;color:#172416;border-color:#baf4a6}input[type=range]{flex:1;min-width:160px;accent-color:#baf4a6}output{font-variant-numeric:tabular-nums;min-width:115px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{padding:22px;background:#17211b;border:1px solid #304136;border-radius:14px}.card h2{font-size:18px;margin:0 0 12px}.card p{margin:8px 0;font-size:14px}#status{color:#baf4a6;min-height:26px}.links{display:flex;gap:12px;flex-wrap:wrap}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.7 ui-monospace,monospace;color:#b7cabd}footer{font-size:12px;color:#8b9f91;margin:30px 0}@media(max-width:750px){main{padding:20px 12px}header{display:block}.grid{grid-template-columns:1fr}.labels>div{font-size:12px;padding:8px}.labels span{font-size:10px}h1{font-size:26px}}
+</style>
+<main>
+<header><div><div class="eyebrow">FOOTBALL EGOX / 阶段 A</div><h1>换一个视角，看同一个瞬间。</h1><p>第三人称输入、官方实拍参考与真实生成结果，按帧同步对照。</p></div><div class="badge" id="badge">正在读取结果状态</div></header>
+<div id="status" role="status">正在加载…</div>
+<section class="viewer" aria-label="三路同步逐帧对照">
+<div class="labels"><div>第三人称输入<span>官方 exo · 原始样例</span></div><div>实拍第一人称 GT<span>仅展示与评估</span></div><div>生成第一人称<span>官方 Wan + EgoX · seed 42</span></div></div>
+<canvas id="canvas" width="1680" height="448" aria-label="同步三路画面"></canvas>
+<div class="controls"><button id="play" class="primary" disabled>播放</button><button id="prev" disabled aria-label="上一帧">← 上一帧</button><button id="next" disabled aria-label="下一帧">下一帧 →</button><input id="scrub" type="range" min="0" max="48" value="0" aria-label="帧编号" disabled><output id="frame">第 — / — 帧</output><select id="speed" aria-label="播放速度"><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option></select></div>
+</section>
+<div class="links" id="downloads"></div>
+<p><small>空格播放 / 暂停，← → 逐帧。三路共用一张无损帧图；回放速度不改变对应帧。帧号从 0 开始。</small></p>
+<div class="grid"><section class="card"><h2>本次运行</h2><div id="run"></div></section><section class="card"><h2>对齐与评估</h2><div id="evaluation"></div></section><section class="card"><h2>人、球、遮挡与闪烁</h2><div id="observations"></div></section><section class="card"><h2>使用范围</h2><p>使用官方提供的相机轨迹、内外参、深度、几何先验与文字描述。GT 不进入生成流程。</p><p>这个案例验证官方条件下的管线与生成效果；没有训练或微调，未验证手机视频泛化。</p><p>资源和完整复现记录见交付文件。完成后请在 AutoDL 控制台人工关机。</p></section></div>
+<footer>cmu_soccer06_6_877_925 · 本地私有研究 Demo · 不调用外部 API</footer>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id),ctx=$('canvas').getContext('2d');
+let data,images=[],index=0,playing=false,last=0,elapsed=0;
+function paragraph(target,text){const p=document.createElement('p');p.textContent=text;$(target).append(p)}
+function pause(){playing=false;$('play').textContent='播放'}
+function show(n){index=Math.max(0,Math.min(images.length-1,n));ctx.drawImage(images[index],0,0);$('scrub').value=index;$('frame').value=`第 ${index} / ${images.length-1} 帧`;window.currentFrame=index;}
+function toggle(){if(!images.length)return;if(playing){pause();return}if(index===images.length-1)show(0);playing=true;last=performance.now();elapsed=0;$('play').textContent='暂停';}
+function tick(now){if(playing){elapsed+=(now-last)*Number($('speed').value);const steps=Math.floor(elapsed*data.fps/1000);if(steps){elapsed-=steps*1000/data.fps;show(index+steps);if(index===images.length-1)pause()}}last=now;requestAnimationFrame(tick)}
+$('play').onclick=toggle;$('prev').onclick=()=>{pause();show(index-1)};$('next').onclick=()=>{pause();show(index+1)};$('scrub').oninput=()=>{pause();show(Number($('scrub').value))};
+document.addEventListener('keydown',e=>{if(!images.length||['INPUT','SELECT'].includes(e.target.tagName))return;if(e.code==='Space'){e.preventDefault();toggle()}if(e.code==='ArrowLeft'){e.preventDefault();$('prev').click()}if(e.code==='ArrowRight'){e.preventDefault();$('next').click()}});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)pause()});
+async function init(){try{const res=await fetch('artifacts/manifest.json',{cache:'no-store'});if(!res.ok)throw Error('尚未取得真实生成结果');data=await res.json();$('badge').textContent=data.gpu_inference_completed?'GPU 真实推理已完成':'GPU 推理未完成';for(const text of data.run_summary||[])paragraph('run',text);for(const text of data.alignment_summary||[])paragraph('evaluation',text);for(const text of data.observations||[])paragraph('observations',text);if(!data.gpu_inference_completed){$('status').textContent='尚无真实生成视频；当前不展示替代结果。';return}for(const item of data.downloads||[]){const a=document.createElement('a');a.className='action';a.textContent=item.label;a.href=item.path;a.download='';$('downloads').append(a)};$('canvas').width=data.width;$('canvas').height=data.height;let loaded=0;images=await Promise.all(data.frames.map(src=>new Promise((resolve,reject)=>{const img=new Image();img.onload=()=>{$('status').textContent=`正在加载同步帧 ${++loaded}/${data.frames.length}`;resolve(img)};img.onerror=()=>reject(Error('同步帧加载失败'));img.src=src})));$('scrub').max=images.length-1;for(const id of ['play','prev','next','scrub'])$(id).disabled=false;show(0);$('status').textContent=`${images.length} 帧已就绪 · ${data.fps} fps · 三路共用帧编号`;window.demoReady=true;requestAnimationFrame(tick)}catch(e){$('status').textContent=e.message;$('badge').textContent='真实结果待交付'}}init();
+</script>
+</html>

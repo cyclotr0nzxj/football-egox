@@ -1,0 +1,23 @@
+{
+  "note": "Manually reviewed on the unmodified local R8 RGB frames at native coordinates. The conservative polygon includes visibly continuous ball material and leaves ambiguous shadow, outline blends, grass and the teammate's foot outside. No metric or unseen ball surface is inferred.",
+  "frames": {
+    "F12": {
+      "visible_polygon_xy": [[543,300],[549,298],[554,299],[559,301],[561,304],[562,308],[564,312],[566,318],[565,321],[559,323],[554,324],[549,323],[544,321],[540,318],[537,314],[537,309],[540,304]],
+      "negative_controls": [
+        {"name":"teammate_pants","xy":[569,302],"source_instance":2},
+        {"name":"teammate_pants","xy":[568,312],"source_instance":2},
+        {"name":"grass","xy":[529,307],"source_instance":0},
+        {"name":"grass","xy":[548,292],"source_instance":0}
+      ]
+    },
+    "F24": {
+      "visible_polygon_xy": [[507,298],[514,298],[519,300],[522,302],[524,306],[525,308],[526,312],[524,317],[521,320],[519,324],[512,325],[506,324],[502,322],[499,318],[496,313],[496,309],[498,305],[503,301]],
+      "negative_controls": [
+        {"name":"teammate_pants","xy":[531,309],"source_instance":2},
+        {"name":"teammate_white_shoe","xy":[527,335],"source_instance":2},
+        {"name":"grass","xy":[492,309],"source_instance":0},
+        {"name":"grass","xy":[510,294],"source_instance":0}
+      ]
+    }
+  }
+}

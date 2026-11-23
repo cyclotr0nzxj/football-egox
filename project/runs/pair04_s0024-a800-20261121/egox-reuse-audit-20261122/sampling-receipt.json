@@ -1,0 +1,1390 @@
+{
+  "official_code_ref": "43c095b552a8f09d3a81c0882491f52c5cf4e953",
+  "positions_per_axis": {
+    "official": [
+      3,
+      4,
+      11,
+      12
+    ],
+    "uniform": [
+      1,
+      5,
+      9,
+      13
+    ]
+  },
+  "pixels_per_patch_per_method": 16,
+  "anchors_sha256": "8fcd1e42a6c9b5fcf31465f5b99bfddab9f6ed17a62ac1de6db9c8b93601e428",
+  "lens_sha256": "177721241c123019e7f1932639c59efb510e314514f561ef9d54ce122f6a1ee8",
+  "protocol_sha256": "5393112e6c5b391a53aedde26da9db57a7c009e63e7313e6855d9d85ce4ce91f",
+  "synthetic_integer_phase_control": {
+    "by_radius_px": {
+      "1": {
+        "frames": 256,
+        "official_misses": 208,
+        "uniform_misses": 176,
+        "median_counts_official_uniform": [
+          0.0,
+          0.0
+        ],
+        "uniform_more": 72,
+        "official_more": 40
+      },
+      "2": {
+        "frames": 256,
+        "official_misses": 160,
+        "uniform_misses": 80,
+        "median_counts_official_uniform": [
+          0.0,
+          1.0
+        ],
+        "uniform_more": 108,
+        "official_more": 28
+      },
+      "3": {
+        "frames": 256,
+        "official_misses": 80,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 80,
+        "official_more": 0
+      },
+      "4": {
+        "frames": 256,
+        "official_misses": 16,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 16,
+        "official_more": 0
+      },
+      "5": {
+        "frames": 256,
+        "official_misses": 0,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 0,
+        "official_more": 0
+      },
+      "6": {
+        "frames": 256,
+        "official_misses": 0,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 0,
+        "official_more": 0
+      },
+      "7": {
+        "frames": 256,
+        "official_misses": 0,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 0,
+        "official_more": 0
+      },
+      "8": {
+        "frames": 256,
+        "official_misses": 0,
+        "uniform_misses": 0,
+        "median_counts_official_uniform": [
+          1.0,
+          1.0
+        ],
+        "uniform_more": 0,
+        "official_more": 0
+      }
+    },
+    "radius_one_uniform_miss_official_hit_center_xy": [
+      3,
+      2
+    ]
+  },
+  "takes": {
+    "pair01_s0288": {
+      "exo_sha256": "94a34d2fdccee5594be5cbc768d7c7656b065d10c5d347c80d5dd3d5a05ee2ab",
+      "virtual_camera_sha256": "e4f801e2d5a56c7d2c50da904fede6ade4d4572e45546f010063688ff51819c6",
+      "input": {
+        "width": 784,
+        "height": 448,
+        "r_frame_rate": "25/1",
+        "nb_frames": "49"
+      },
+      "included": [
+        {
+          "frame": 8,
+          "anchor_xy_radius": [
+            506,
+            288,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                16,
+                15
+              ],
+              "projected_disk_winners": 217,
+              "winner_counts_official_uniform": [
+                16,
+                11
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                8,
+                6
+              ],
+              "projected_disk_winners": 94,
+              "winner_counts_official_uniform": [
+                8,
+                6
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 29,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 16,
+          "anchor_xy_radius": [
+            562,
+            274,
+            7
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 149,
+              "source_counts_official_uniform": [
+                8,
+                8
+              ],
+              "projected_disk_winners": 116,
+              "winner_counts_official_uniform": [
+                6,
+                5
+              ]
+            },
+            "0.6": {
+              "disk_px": 57,
+              "source_counts_official_uniform": [
+                4,
+                3
+              ],
+              "projected_disk_winners": 50,
+              "winner_counts_official_uniform": [
+                4,
+                3
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                3,
+                1
+              ],
+              "projected_disk_winners": 21,
+              "winner_counts_official_uniform": [
+                3,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "anchor_xy_radius": [
+            577,
+            272,
+            7
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 149,
+              "source_counts_official_uniform": [
+                12,
+                10
+              ],
+              "projected_disk_winners": 143,
+              "winner_counts_official_uniform": [
+                12,
+                8
+              ]
+            },
+            "0.6": {
+              "disk_px": 57,
+              "source_counts_official_uniform": [
+                1,
+                4
+              ],
+              "projected_disk_winners": 55,
+              "winner_counts_official_uniform": [
+                1,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 21,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "anchor_xy_radius": [
+            601,
+            282,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                13,
+                10
+              ],
+              "projected_disk_winners": 176,
+              "winner_counts_official_uniform": [
+                13,
+                8
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                4,
+                4
+              ],
+              "projected_disk_winners": 67,
+              "winner_counts_official_uniform": [
+                4,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                1,
+                1
+              ],
+              "projected_disk_winners": 19,
+              "winner_counts_official_uniform": [
+                1,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 32,
+          "anchor_xy_radius": [
+            610,
+            287,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                13,
+                14
+              ],
+              "projected_disk_winners": 187,
+              "winner_counts_official_uniform": [
+                13,
+                13
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                6,
+                4
+              ],
+              "projected_disk_winners": 67,
+              "winner_counts_official_uniform": [
+                6,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                0,
+                2
+              ],
+              "projected_disk_winners": 21,
+              "winner_counts_official_uniform": [
+                0,
+                2
+              ]
+            }
+          }
+        },
+        {
+          "frame": 36,
+          "anchor_xy_radius": [
+            610,
+            291,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                10,
+                14
+              ],
+              "projected_disk_winners": 177,
+              "winner_counts_official_uniform": [
+                9,
+                13
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                4,
+                4
+              ],
+              "projected_disk_winners": 59,
+              "winner_counts_official_uniform": [
+                4,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                4,
+                2
+              ],
+              "projected_disk_winners": 18,
+              "winner_counts_official_uniform": [
+                4,
+                2
+              ]
+            }
+          }
+        },
+        {
+          "frame": 40,
+          "anchor_xy_radius": [
+            613,
+            292,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                10,
+                10
+              ],
+              "projected_disk_winners": 171,
+              "winner_counts_official_uniform": [
+                9,
+                7
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                4,
+                4
+              ],
+              "projected_disk_winners": 59,
+              "winner_counts_official_uniform": [
+                4,
+                3
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                4,
+                1
+              ],
+              "projected_disk_winners": 18,
+              "winner_counts_official_uniform": [
+                4,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "anchor_xy_radius": [
+            616,
+            292,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                9,
+                13
+              ],
+              "projected_disk_winners": 149,
+              "winner_counts_official_uniform": [
+                9,
+                11
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                6,
+                4
+              ],
+              "projected_disk_winners": 63,
+              "winner_counts_official_uniform": [
+                6,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 20,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 48,
+          "anchor_xy_radius": [
+            618,
+            296,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                13,
+                13
+              ],
+              "projected_disk_winners": 142,
+              "winner_counts_official_uniform": [
+                11,
+                10
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                6,
+                4
+              ],
+              "projected_disk_winners": 43,
+              "winner_counts_official_uniform": [
+                5,
+                3
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 16,
+              "winner_counts_official_uniform": [
+                0,
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "excluded": [
+        [
+          0,
+          "blurred"
+        ],
+        [
+          4,
+          "blurred"
+        ],
+        [
+          12,
+          "visible"
+        ],
+        [
+          24,
+          "visible"
+        ]
+      ],
+      "summary": {
+        "1.0": {
+          "source": {
+            "frames": 9,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              12.0,
+              13.0
+            ],
+            "uniform_more": 3,
+            "official_more": 3
+          },
+          "projected": {
+            "frames": 9,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              11.0,
+              10.0
+            ],
+            "uniform_more": 2,
+            "official_more": 6
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.6": {
+          "source": {
+            "frames": 9,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              4.0,
+              4.0
+            ],
+            "uniform_more": 1,
+            "official_more": 5
+          },
+          "projected": {
+            "frames": 9,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              4.0,
+              4.0
+            ],
+            "uniform_more": 1,
+            "official_more": 6
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.35": {
+          "source": {
+            "frames": 9,
+            "official_misses": 5,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              0.0,
+              1.0
+            ],
+            "uniform_more": 5,
+            "official_more": 3
+          },
+          "projected": {
+            "frames": 9,
+            "official_misses": 5,
+            "uniform_misses": 1,
+            "median_counts_official_uniform": [
+              0.0,
+              1.0
+            ],
+            "uniform_more": 4,
+            "official_more": 3
+          },
+          "no_projected_disk_winner": 0
+        }
+      }
+    },
+    "pair04_s0024": {
+      "exo_sha256": "c96a61109c50b3890c4b610ba4b1bc6ad5eb3be1ef40bfeab72656cbc682c1d4",
+      "virtual_camera_sha256": "736f9607d6512933a439eee02002ee56d0f3333cc652a3e774f1e25d1e8f1493",
+      "input": {
+        "width": 784,
+        "height": 448,
+        "r_frame_rate": "25/1",
+        "nb_frames": "49"
+      },
+      "included": [
+        {
+          "frame": 0,
+          "anchor_xy_radius": [
+            335,
+            269,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                16,
+                16
+              ],
+              "projected_disk_winners": 211,
+              "winner_counts_official_uniform": [
+                15,
+                10
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                8,
+                6
+              ],
+              "projected_disk_winners": 72,
+              "winner_counts_official_uniform": [
+                7,
+                1
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                0,
+                2
+              ],
+              "projected_disk_winners": 22,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 4,
+          "anchor_xy_radius": [
+            345,
+            268,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                15,
+                17
+              ],
+              "projected_disk_winners": 198,
+              "winner_counts_official_uniform": [
+                8,
+                13
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                6,
+                7
+              ],
+              "projected_disk_winners": 65,
+              "winner_counts_official_uniform": [
+                2,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                3,
+                2
+              ],
+              "projected_disk_winners": 19,
+              "winner_counts_official_uniform": [
+                2,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 16,
+          "anchor_xy_radius": [
+            360,
+            256,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                16,
+                15
+              ],
+              "projected_disk_winners": 208,
+              "winner_counts_official_uniform": [
+                13,
+                12
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                5,
+                6
+              ],
+              "projected_disk_winners": 68,
+              "winner_counts_official_uniform": [
+                4,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 17,
+              "winner_counts_official_uniform": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "anchor_xy_radius": [
+            377,
+            255,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                16,
+                16
+              ],
+              "projected_disk_winners": 207,
+              "winner_counts_official_uniform": [
+                16,
+                10
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                7,
+                6
+              ],
+              "projected_disk_winners": 79,
+              "winner_counts_official_uniform": [
+                7,
+                3
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                0,
+                2
+              ],
+              "projected_disk_winners": 22,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "anchor_xy_radius": [
+            414,
+            256,
+            8
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 197,
+              "source_counts_official_uniform": [
+                16,
+                13
+              ],
+              "projected_disk_winners": 173,
+              "winner_counts_official_uniform": [
+                13,
+                12
+              ]
+            },
+            "0.6": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                4,
+                4
+              ],
+              "projected_disk_winners": 56,
+              "winner_counts_official_uniform": [
+                2,
+                4
+              ]
+            },
+            "0.35": {
+              "disk_px": 21,
+              "source_counts_official_uniform": [
+                0,
+                1
+              ],
+              "projected_disk_winners": 15,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            }
+          }
+        },
+        {
+          "frame": 32,
+          "anchor_xy_radius": [
+            436,
+            255,
+            9
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                18,
+                14
+              ],
+              "projected_disk_winners": 164,
+              "winner_counts_official_uniform": [
+                14,
+                7
+              ]
+            },
+            "0.6": {
+              "disk_px": 97,
+              "source_counts_official_uniform": [
+                8,
+                6
+              ],
+              "projected_disk_winners": 78,
+              "winner_counts_official_uniform": [
+                7,
+                3
+              ]
+            },
+            "0.35": {
+              "disk_px": 29,
+              "source_counts_official_uniform": [
+                1,
+                2
+              ],
+              "projected_disk_winners": 25,
+              "winner_counts_official_uniform": [
+                1,
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "excluded": [
+        [
+          8,
+          "partial"
+        ],
+        [
+          12,
+          "visible"
+        ],
+        [
+          24,
+          "visible"
+        ],
+        [
+          36,
+          "partial"
+        ],
+        [
+          40,
+          "partial"
+        ],
+        [
+          44,
+          "partial"
+        ],
+        [
+          48,
+          "partial"
+        ]
+      ],
+      "summary": {
+        "1.0": {
+          "source": {
+            "frames": 6,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              16.0,
+              15.5
+            ],
+            "uniform_more": 1,
+            "official_more": 3
+          },
+          "projected": {
+            "frames": 6,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              13.5,
+              11.0
+            ],
+            "uniform_more": 1,
+            "official_more": 5
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.6": {
+          "source": {
+            "frames": 6,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              6.5,
+              6.0
+            ],
+            "uniform_more": 2,
+            "official_more": 3
+          },
+          "projected": {
+            "frames": 6,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              5.5,
+              3.5
+            ],
+            "uniform_more": 2,
+            "official_more": 3
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.35": {
+          "source": {
+            "frames": 6,
+            "official_misses": 4,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              0.0,
+              2.0
+            ],
+            "uniform_more": 5,
+            "official_more": 1
+          },
+          "projected": {
+            "frames": 6,
+            "official_misses": 4,
+            "uniform_misses": 2,
+            "median_counts_official_uniform": [
+              0.0,
+              1.0
+            ],
+            "uniform_more": 3,
+            "official_more": 1
+          },
+          "no_projected_disk_winner": 0
+        }
+      }
+    },
+    "pair05_s0024": {
+      "exo_sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+      "virtual_camera_sha256": "c2422ed6f6ecb0c150b8be612bc7c927cc39f5ec70cdd5a0593d8811d8d5846c",
+      "input": {
+        "width": 784,
+        "height": 448,
+        "r_frame_rate": "25/1",
+        "nb_frames": "49"
+      },
+      "included": [
+        {
+          "frame": 16,
+          "anchor_xy_radius": [
+            545,
+            314,
+            15
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 709,
+              "source_counts_official_uniform": [
+                45,
+                44
+              ],
+              "projected_disk_winners": 151,
+              "winner_counts_official_uniform": [
+                13,
+                7
+              ]
+            },
+            "0.6": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                15,
+                17
+              ],
+              "projected_disk_winners": 11,
+              "winner_counts_official_uniform": [
+                0,
+                1
+              ]
+            },
+            "0.35": {
+              "disk_px": 89,
+              "source_counts_official_uniform": [
+                5,
+                7
+              ],
+              "projected_disk_winners": 1,
+              "winner_counts_official_uniform": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 20,
+          "anchor_xy_radius": [
+            529,
+            311,
+            15
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 709,
+              "source_counts_official_uniform": [
+                49,
+                44
+              ],
+              "projected_disk_winners": 135,
+              "winner_counts_official_uniform": [
+                11,
+                6
+              ]
+            },
+            "0.6": {
+              "disk_px": 253,
+              "source_counts_official_uniform": [
+                16,
+                16
+              ],
+              "projected_disk_winners": 4,
+              "winner_counts_official_uniform": [
+                0,
+                0
+              ]
+            },
+            "0.35": {
+              "disk_px": 89,
+              "source_counts_official_uniform": [
+                6,
+                6
+              ],
+              "projected_disk_winners": 0,
+              "winner_counts_official_uniform": [
+                0,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 28,
+          "anchor_xy_radius": [
+            497,
+            310,
+            14
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 613,
+              "source_counts_official_uniform": [
+                38,
+                41
+              ],
+              "projected_disk_winners": 123,
+              "winner_counts_official_uniform": [
+                9,
+                7
+              ]
+            },
+            "0.6": {
+              "disk_px": 221,
+              "source_counts_official_uniform": [
+                15,
+                14
+              ],
+              "projected_disk_winners": 18,
+              "winner_counts_official_uniform": [
+                1,
+                0
+              ]
+            },
+            "0.35": {
+              "disk_px": 69,
+              "source_counts_official_uniform": [
+                4,
+                4
+              ],
+              "projected_disk_winners": 5,
+              "winner_counts_official_uniform": [
+                1,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 44,
+          "anchor_xy_radius": [
+            292,
+            251,
+            10
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 317,
+              "source_counts_official_uniform": [
+                21,
+                18
+              ],
+              "projected_disk_winners": 222,
+              "winner_counts_official_uniform": [
+                14,
+                11
+              ]
+            },
+            "0.6": {
+              "disk_px": 113,
+              "source_counts_official_uniform": [
+                4,
+                6
+              ],
+              "projected_disk_winners": 53,
+              "winner_counts_official_uniform": [
+                2,
+                0
+              ]
+            },
+            "0.35": {
+              "disk_px": 37,
+              "source_counts_official_uniform": [
+                4,
+                2
+              ],
+              "projected_disk_winners": 10,
+              "winner_counts_official_uniform": [
+                2,
+                0
+              ]
+            }
+          }
+        },
+        {
+          "frame": 48,
+          "anchor_xy_radius": [
+            267,
+            245,
+            10
+          ],
+          "support": {
+            "1.0": {
+              "disk_px": 317,
+              "source_counts_official_uniform": [
+                23,
+                22
+              ],
+              "projected_disk_winners": 260,
+              "winner_counts_official_uniform": [
+                16,
+                18
+              ]
+            },
+            "0.6": {
+              "disk_px": 113,
+              "source_counts_official_uniform": [
+                5,
+                8
+              ],
+              "projected_disk_winners": 78,
+              "winner_counts_official_uniform": [
+                3,
+                5
+              ]
+            },
+            "0.35": {
+              "disk_px": 37,
+              "source_counts_official_uniform": [
+                4,
+                2
+              ],
+              "projected_disk_winners": 19,
+              "winner_counts_official_uniform": [
+                2,
+                0
+              ]
+            }
+          }
+        }
+      ],
+      "excluded": [
+        [
+          0,
+          "blurred"
+        ],
+        [
+          4,
+          "blurred"
+        ],
+        [
+          8,
+          "blurred"
+        ],
+        [
+          12,
+          "blurred"
+        ],
+        [
+          24,
+          "visible"
+        ],
+        [
+          32,
+          "blurred"
+        ],
+        [
+          36,
+          "blurred"
+        ],
+        [
+          40,
+          "blurred"
+        ]
+      ],
+      "summary": {
+        "1.0": {
+          "source": {
+            "frames": 5,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              38.0,
+              41.0
+            ],
+            "uniform_more": 1,
+            "official_more": 4
+          },
+          "projected": {
+            "frames": 5,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              13.0,
+              7.0
+            ],
+            "uniform_more": 1,
+            "official_more": 4
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.6": {
+          "source": {
+            "frames": 5,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              15.0,
+              14.0
+            ],
+            "uniform_more": 3,
+            "official_more": 1
+          },
+          "projected": {
+            "frames": 5,
+            "official_misses": 2,
+            "uniform_misses": 3,
+            "median_counts_official_uniform": [
+              1.0,
+              0.0
+            ],
+            "uniform_more": 2,
+            "official_more": 2
+          },
+          "no_projected_disk_winner": 0
+        },
+        "0.35": {
+          "source": {
+            "frames": 5,
+            "official_misses": 0,
+            "uniform_misses": 0,
+            "median_counts_official_uniform": [
+              4.0,
+              4.0
+            ],
+            "uniform_more": 1,
+            "official_more": 2
+          },
+          "projected": {
+            "frames": 4,
+            "official_misses": 1,
+            "uniform_misses": 4,
+            "median_counts_official_uniform": [
+              1.5,
+              0.0
+            ],
+            "uniform_more": 0,
+            "official_more": 3
+          },
+          "no_projected_disk_winner": 1
+        }
+      }
+    }
+  },
+  "passed_substitution_gate": false,
+  "interpretation": "Only traces direct RGB-pixel support of the released geometry branch. Direction normalization, model attention, video encoding and video quality are outside this audit."
+}

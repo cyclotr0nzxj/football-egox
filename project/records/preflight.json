@@ -1,0 +1,23 @@
+{
+  "utc": "2026-09-11T05:30:42.782375+00:00",
+  "cpu_imports_passed": true,
+  "official_code_files_verified": 34,
+  "sample_structure_passed": true,
+  "python": "3.10.21 (main, Aug 27 2026, 14:42:07) [GCC 14.3.0]",
+  "versions": {
+    "torch": "2.5.1",
+    "torchvision": "0.20.1",
+    "diffusers": "0.34.0",
+    "transformers": "4.49.0",
+    "accelerate": "1.5.2",
+    "peft": "0.17.1",
+    "numpy": "2.2.6",
+    "decord": "0.6.0",
+    "scikit-image": "0.25.2"
+  },
+  "cuda_smoke": "passed",
+  "diffusion_inference_started": false,
+  "cuda_result": 2097152.0,
+  "cuda_runtime": "12.4",
+  "gpu_name": "NVIDIA A800-SXM4-80GB"
+}

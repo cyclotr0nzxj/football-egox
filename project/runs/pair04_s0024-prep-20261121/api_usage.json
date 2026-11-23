@@ -1,0 +1,7 @@
+[
+  {"model":"gpt-6.2-sol","input_tokens":149,"output_tokens":583,"status":"completed"},
+  {"model":"gpt-6.2-astra","input_tokens":144,"output_tokens":13,"status":"completed"},
+  {"model":"gpt-6.2-sol","input_tokens":146,"output_tokens":213,"status":"completed"},
+  {"model":"gpt-6.1-terra","input_tokens":148,"output_tokens":284,"status":"completed"},
+  {"model":"gpt-6.2-sol","input_tokens":175,"output_tokens":2719,"status":"completed"}
+]

@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-21T07:40:12.567610+00:00",
+  "scope": "Read-only semantic and numeric review of restored nine-section lab report JSON/Markdown, eight report images and existing measured evidence. No detector rerun, model inference, new sampling, final PDF-layout audit or ZIP audit.",
+  "report_format": {
+    "title": "足球双视角画面的Harris与SIFT特征检测",
+    "sections": [
+      "1 实验目的与整体流程",
+      "2 数据采集与同步处理",
+      "3 动态实验：双视角检测对照",
+      "4 实验原理与参数设置",
+      "5 静态实验结果：响应与特征分布",
+      "6 受控变换与评价方法",
+      "7 定量实验结果与比较",
+      "8 失败案例与结果分析",
+      "9 实验总结、局限与复现"
+    ],
+    "section_count": 9,
+    "abstract_present": true,
+    "abstract_characters": 208,
+    "keywords_present": true,
+    "report_image_count": 8,
+    "prior_report_images_preserved": 7,
+    "only_replaced_prior_plot": "Single repeatability macro bar chart replaced by Nature-informed repeatability/source-retention all-observation plot.",
+    "table_count": 9,
+    "prior_table_count": 10,
+    "only_removed_table": "First-page four-row process summary compressed to prose; every parameter/count/quantitative/diagnostic table retained.",
+    "assessment": "Meets experiment-process and result-display priority with minimal paper-form additions; no abstract-only substitute for experimental evidence."
+  },
+  "numeric_checks": {
+    "original_metric_rows": 48,
+    "unique_image_condition_method_keys": 48,
+    "conditions": [
+      "identity",
+      "rotation15",
+      "rotation45",
+      "scale075",
+      "scale125",
+      "gaussian"
+    ],
+    "methods": [
+      "harris",
+      "sift"
+    ],
+    "original_to_unique_to_retained_table_values_checked": 24,
+    "all_condition_macro_table_values_checked": 24,
+    "case_table_Ns_Nt_M_r_cs_values_checked": 20,
+    "new_plot_point_values_checked": 96,
+    "new_plot_unique_macro_groups_checked": 24,
+    "new_plot_values_equal_recomputed_original_CSV": true,
+    "four_input_sha256_verified": {
+      "exo_f0050": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09",
+      "exo_f0200": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92",
+      "ego_f0050": "194e4bb99aef7fe15282c7dc68b543381ccfc3dc8af2c386297a54edbcec56f1",
+      "ego_f0200": "c6c5f7deafffe396de02aa989fcbe05eccc75d3c7f6a04a4340f6df76805cb79"
+    },
+    "dynamic_csv_rows": 1244,
+    "F155_four_counts_checked": {
+      "exo_harris": 500,
+      "exo_sift": 286,
+      "ego_harris": 384,
+      "ego_sift": 332
+    },
+    "static_metric_fields_checked": [
+      "source_raw_count",
+      "source_unique_count",
+      "source_retained_count",
+      "common_source_count",
+      "common_target_count",
+      "one_to_one_match_count",
+      "repeatability"
+    ],
+    "run_opencv_version": "4.11.0",
+    "run_numpy_version": "2.3.5",
+    "parameters_from_saved_run": {
+      "seed": 42,
+      "opencv_threads": 1,
+      "image_size": [
+        960,
+        540
+      ],
+      "harris": {
+        "blockSize": 2,
+        "ksize": 3,
+        "k": 0.04,
+        "positive_response_threshold_fraction": 0.01,
+        "local_nms_window": 3
+      },
+      "sift": {
+        "nfeatures": 500,
+        "nOctaveLayers": 3,
+        "contrastThreshold": 0.04,
+        "edgeThreshold": 10,
+        "sigma": 1.6
+      },
+      "unique_position_rounding_decimals": 3,
+      "minimum_position_distance_px": 5.0,
+      "maximum_retained_positions": 500,
+      "common_visibility_margin_px": 16,
+      "repeatability_tolerance_target_px": 3.0,
+      "gaussian_kernel": [
+        9,
+        9
+      ],
+      "gaussian_sigma": 2.0
+    }
+  },
+  "image_caption_checks": {
+    "Figure1": "Two synchronized F50 view originals; temporal alignment is not spatial registration.",
+    "Figure2": "Scene2 capture setup photographs; not full calibration.",
+    "Figure3": "F155 at6.20s, EXOleft/EGO right,Harris top/SIFT bottom; counts match CSV.",
+    "Figure4_5": "Original,Harris positive-response heat map,Harris points,SIFT scale circles/orientation lines all restored; evaluation remains center-only.",
+    "Figure6": "F50 rotation45,scale0.75,Gaussian9x9sigma2 for both views; examples represent three of five non-identity changes.",
+    "Figure7": "Two metrics; all four related-image observations and unweighted means, no inferential confidence interval; r matches full table.",
+    "Figure8": "Rotation common target centers colored matched green/unmatched red; blur shows all retained target positions in yellow."
+  },
+  "claim_boundary_checks": {
+    "A_R_H_M_r_cs_symbols_distinct": true,
+    "four_images_one_clip_not_independent_sessions": true,
+    "dynamic_detection_not_tracking": true,
+    "static_JPEG_dynamic_H264_distinguished": true,
+    "classical_region_overlap_metric_not_conflated": true,
+    "independent_static_audit_not_claimed_detector_rerun": true,
+    "no_universal_method_ranking": true,
+    "no_completed_self_collected_EgoX_training_finetuning": true,
+    "no_claim_semantic_ball_detection": true
+  },
+  "references": {
+    "count": 5,
+    "primary_sources_verified_in_this_review_sequence": true,
+    "items": [
+      "[1] OpenCV 4.11.0. Harris Corner Detection.\nhttps://docs.opencv.org/4.11.0/dc/d0d/tutorial_py_features_harris.html",
+      "[2] OpenCV 4.11.0. Introduction to SIFT.\nhttps://docs.opencv.org/4.11.0/da/df5/tutorial_py_sift_intro.html",
+      "[3] Lowe DG. Distinctive Image Features from Scale-Invariant Keypoints. IJCV 60(2):91–110, 2004. https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf",
+      "[4] Mikolajczyk K, et al. A Comparison of Affine Region Detectors. IJCV 65(1/2):43–72, 2005. 官方评估说明：https://www.robots.ox.ac.uk/~vgg/research/affine/evaluation.html",
+      "[5] Harris C, Stephens M. A Combined Corner and Edge Detector. Alvey Vision Conference, 1988. doi:10.5244/C.2.23. https://www.bmva-archive.org.uk/bmvc/1988/avc-88-023.html"
+    ],
+    "note": "Numbering restored to prior report plus Harris original as5; all in-text references match this order. OpenCV SIFT title is shortened but unambiguous."
+  },
+  "required_fixes": [],
+  "artifact_sha256": {
+    "report_data.json": "3a7182cb229736bff31e85fb46bd61f841d3735b80d84933fbbe50892fce94e9",
+    "实验报告.md": "5a8b1d65c4a840c9c595bda685bf82daaaaa744e29df28b1ec29188421c484c9",
+    "assemble_feature_report.py": "96e7962484b1f969511d694823be939bf80d8e17b54ea6e9bffde0c93a2507ea",
+    "metrics.csv": "96fd1b3f31ec51c6167759a5a7f20cd3a9c97d271e68bb24b5bf58bbfa00698f",
+    "paired_originals.png": "9bb0948b4c39eeabd8ed042d55e86b30216fa876f346d582f4d74478365a2d55",
+    "capture_setup.jpg": "c63ed6d7f382382305248ed982bc780b2b2f77077b5071ddc2d5c8fea739bbed",
+    "frame_0155.jpg": "f284443d1647deb5cd14220dd3cdb9be476b5b872adcd6d6596e801024241ff8",
+    "feature_exo_f50.png": "4b3da3beaf217cbd7f4a42ef47c52310f7d1fcde4c090b4778ca96557e6e7751",
+    "feature_ego_f50.png": "8c5762b77acceb83e1b700f5d5d2dcc7e7ddf380937763e201f0bd427b399085",
+    "controlled_samples.png": "fd51245c2c2f359d1880ceeca3a0a34ca70a9fd3cde630bda28a845526764bfc",
+    "figure2_stability.png": "12122909f2d183e1133875c72f450c9c7ef4313143a083928f85587244beafd1",
+    "failure_case.png": "9fb2ab8aac7a98172b48a3231695133c8e33a70e700df4205b7f6ca00af49b6c",
+    "第8周_Harris与SIFT实验报告.pdf": "1eaef9f69b1916441bf9c27acd97183ee2bfa8888bdd6766cefe6c30704aad6d"
+  },
+  "outside_scope": [
+    "Final PDF page rendering/font/text-layout verification (page count9confirmed only)",
+    "Actual copied 10 source videos and3work/detection videos, repository portability and ZIP validation"
+  ],
+  "updated_utc": "2026-10-21T07:51:33.254087+00:00",
+  "scope_amendment": {
+    "scope": "Targeted final review of two delivery-scope paragraphs only, plus PDF page count and unchanged section/image/table structure. Previous scientific review retained; no detector rerun or media/package re-audit.",
+    "P2": "工作图统一缩至960×540，保留原始JPEG字节与SHA256。同步只保证时间对应，不把EXO/EGO直接用单应矩阵配准。提交包附5组裁剪后的4K配对素材（10条）、两路960×540工作视频及一条检测成品。4K素材已同步和裁剪，保留来源映射与SHA256；配对04为本次实验输入。",
+    "P9": "仓库包含data、scripts、results、videos、evidence与report，附5组裁剪后的4K配对素材（10条）和3条工作/检测视频，按组编号保留来源与对应关系。按README可在本地复现静态实验、动态检测及PDF，输入和提交文件附SHA256校验。",
+    "cropped_4K_paired_videos": {
+      "pairs": 5,
+      "files": 10,
+      "description": "Already synchronized and cropped source-resolution paired clips; not described as untouched camera raw files."
+    },
+    "separate_work_and_detection_videos": {
+      "count": 3,
+      "content": "two960x540workvideos+onecomparisonresult"
+    },
+    "pair04_remains_only_experiment_clip": true,
+    "per_pair_mapping_and_SHA256_stated": true,
+    "superseded_12_video_scope_absent": true,
+    "current_PDF_pages": 9,
+    "section_count": 9,
+    "image_count": 8,
+    "table_count": 9,
+    "previous_metric_CSV_and_eight_report_image_hashes_unchanged": true,
+    "five_references_unchanged": true,
+    "outside_scope": "Actual 10 source-video content, copied media hashes, ZIP contents and final PDF visual layout are checked separately by the primary packaging/QA workflow."
+  }
+}

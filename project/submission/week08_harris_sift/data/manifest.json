@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "pair_id": "04",
+  "field_scene_id": "2",
+  "scene04_meaning": "paired clip04, field scene2; not field scene4",
+  "capture_fps": 25,
+  "source_video_size": [
+    3840,
+    2160
+  ],
+  "working_size": [
+    960,
+    540
+  ],
+  "source_videos_included": true,
+  "packaged_source_video_manifest": "data/source_videos_4k/manifest.json",
+  "source_video_provenance": {
+    "exo": {
+      "path": "验证视频/裁剪后验证exo/MVI_5693.MP4",
+      "sha256": "9c4f10825e9b6e2936ac87e4a1d1e45473f6259b6184d77b262981d9400ab2a4",
+      "probe": {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.100 h264_videotoolbox"
+        }
+      }
+    },
+    "ego": {
+      "path": "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "sha256": "291b754f49eceb3999a0aef289b5d2d1823982623cfde7244c7487c5c88ce526",
+      "probe": {
+        "codec_name": "hevc",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-10-19T13:55:34.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "encoder": "Lavc62.28.100 hevc_videotoolbox"
+        }
+      }
+    }
+  },
+  "synchronization_uncertainty_frames": 1,
+  "images": [
+    {
+      "path": "data/frames/scene04/exo/0050.jpg",
+      "source_project_relative_path": "output/week08/frames/scene04/exo/0050.jpg",
+      "sha256": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09",
+      "width": 960,
+      "height": 540,
+      "view": "exo",
+      "visible_frame": 50,
+      "trimmed_clip_pts_seconds": 2.0,
+      "base_aligned_frame": 149,
+      "historical_raw_exo_frame": 180,
+      "historical_raw_exo_frame_is_history_only": true
+    },
+    {
+      "path": "data/frames/scene04/exo/0200.jpg",
+      "source_project_relative_path": "output/week08/frames/scene04/exo/0200.jpg",
+      "sha256": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92",
+      "width": 960,
+      "height": 540,
+      "view": "exo",
+      "visible_frame": 200,
+      "trimmed_clip_pts_seconds": 8.0,
+      "base_aligned_frame": 299,
+      "historical_raw_exo_frame": 330,
+      "historical_raw_exo_frame_is_history_only": true
+    },
+    {
+      "path": "data/frames/scene04/ego/0050.jpg",
+      "source_project_relative_path": "output/week08/frames/scene04/ego/0050.jpg",
+      "sha256": "194e4bb99aef7fe15282c7dc68b543381ccfc3dc8af2c386297a54edbcec56f1",
+      "width": 960,
+      "height": 540,
+      "view": "ego",
+      "visible_frame": 50,
+      "trimmed_clip_pts_seconds": 2.0,
+      "base_aligned_frame": 149,
+      "historical_raw_exo_frame": 180,
+      "historical_raw_exo_frame_is_history_only": true
+    },
+    {
+      "path": "data/frames/scene04/ego/0200.jpg",
+      "source_project_relative_path": "output/week08/frames/scene04/ego/0200.jpg",
+      "sha256": "c6c5f7deafffe396de02aa989fcbe05eccc75d3c7f6a04a4340f6df76805cb79",
+      "width": 960,
+      "height": 540,
+      "view": "ego",
+      "visible_frame": 200,
+      "trimmed_clip_pts_seconds": 8.0,
+      "base_aligned_frame": 299,
+      "historical_raw_exo_frame": 330,
+      "historical_raw_exo_frame_is_history_only": true
+    }
+  ],
+  "capture_evidence": {
+    "path": "data/capture_setup.jpg",
+    "sha256": "c63ed6d7f382382305248ed982bc780b2b2f77077b5071ddc2d5c8fea739bbed",
+    "source_project_relative_path": "output/week08/report_assets/capture_setup.jpg"
+  },
+  "note": "Four JPEGs reproduce detection experiments. Five final trimmed 4K pairs are included under data/source_videos_4k; historical uncut-frame indices are provenance only, not a claim of recovering uncut camera recordings."
+}

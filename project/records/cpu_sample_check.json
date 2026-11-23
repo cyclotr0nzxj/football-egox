@@ -1,0 +1,28 @@
+{
+  "depth_count": 49,
+  "depth_shape": [
+    448,
+    796
+  ],
+  "depth_dtype": "float32",
+  "depth_all_finite": true,
+  "depth_min": 1.2685546875,
+  "depth_max": 23.15625,
+  "trajectory_shape": [
+    49,
+    3,
+    4
+  ],
+  "inference_metadata_keys": [
+    "exo_path",
+    "ego_prior_path",
+    "prompt",
+    "camera_intrinsics",
+    "camera_extrinsics",
+    "ego_intrinsics",
+    "ego_extrinsics"
+  ],
+  "GT_path_removed": true,
+  "official_prompt_unchanged": true,
+  "provided_geometry_not_rerendered": true
+}

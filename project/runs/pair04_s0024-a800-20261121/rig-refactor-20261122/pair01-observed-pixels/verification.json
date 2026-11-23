@@ -1,0 +1,529 @@
+{
+  "mode": "single_projection_observation",
+  "exo_sha256": "94a34d2fdccee5594be5cbc768d7c7656b065d10c5d347c80d5dd3d5a05ee2ab",
+  "maps_sha256": "ec9f50f9c5f5a9a7d0947a3c9b99d29f11c9c6c41053793e148b06788f68d9cb",
+  "alternate_maps_sha256": null,
+  "data_sha256": "5fa4ebc688aa09db09bfa09a51447cbbe3504bddd3bc68786c8a40abc196e0bc",
+  "frames": [
+    {
+      "frame": 0,
+      "target_pixels": 518,
+      "by_object": {
+        "3": 518
+      },
+      "primary_candidate_by_object": {
+        "3": 518
+      }
+    },
+    {
+      "frame": 1,
+      "target_pixels": 600,
+      "by_object": {
+        "3": 600
+      },
+      "primary_candidate_by_object": {
+        "3": 600
+      }
+    },
+    {
+      "frame": 2,
+      "target_pixels": 605,
+      "by_object": {
+        "3": 605
+      },
+      "primary_candidate_by_object": {
+        "3": 605
+      }
+    },
+    {
+      "frame": 3,
+      "target_pixels": 640,
+      "by_object": {
+        "3": 640
+      },
+      "primary_candidate_by_object": {
+        "3": 640
+      }
+    },
+    {
+      "frame": 4,
+      "target_pixels": 624,
+      "by_object": {
+        "3": 624
+      },
+      "primary_candidate_by_object": {
+        "3": 624
+      }
+    },
+    {
+      "frame": 5,
+      "target_pixels": 575,
+      "by_object": {
+        "3": 575
+      },
+      "primary_candidate_by_object": {
+        "3": 575
+      }
+    },
+    {
+      "frame": 6,
+      "target_pixels": 540,
+      "by_object": {
+        "3": 540
+      },
+      "primary_candidate_by_object": {
+        "3": 540
+      }
+    },
+    {
+      "frame": 7,
+      "target_pixels": 524,
+      "by_object": {
+        "3": 524
+      },
+      "primary_candidate_by_object": {
+        "3": 524
+      }
+    },
+    {
+      "frame": 8,
+      "target_pixels": 539,
+      "by_object": {
+        "3": 539
+      },
+      "primary_candidate_by_object": {
+        "3": 539
+      }
+    },
+    {
+      "frame": 9,
+      "target_pixels": 507,
+      "by_object": {
+        "3": 507
+      },
+      "primary_candidate_by_object": {
+        "3": 507
+      }
+    },
+    {
+      "frame": 10,
+      "target_pixels": 501,
+      "by_object": {
+        "3": 501
+      },
+      "primary_candidate_by_object": {
+        "3": 501
+      }
+    },
+    {
+      "frame": 11,
+      "target_pixels": 530,
+      "by_object": {
+        "3": 530
+      },
+      "primary_candidate_by_object": {
+        "3": 530
+      }
+    },
+    {
+      "frame": 12,
+      "target_pixels": 551,
+      "by_object": {
+        "3": 551
+      },
+      "primary_candidate_by_object": {
+        "3": 551
+      }
+    },
+    {
+      "frame": 13,
+      "target_pixels": 567,
+      "by_object": {
+        "3": 567
+      },
+      "primary_candidate_by_object": {
+        "3": 567
+      }
+    },
+    {
+      "frame": 14,
+      "target_pixels": 537,
+      "by_object": {
+        "3": 537
+      },
+      "primary_candidate_by_object": {
+        "3": 537
+      }
+    },
+    {
+      "frame": 15,
+      "target_pixels": 551,
+      "by_object": {
+        "3": 551
+      },
+      "primary_candidate_by_object": {
+        "3": 551
+      }
+    },
+    {
+      "frame": 16,
+      "target_pixels": 595,
+      "by_object": {
+        "2": 16,
+        "3": 579
+      },
+      "primary_candidate_by_object": {
+        "2": 16,
+        "3": 579
+      }
+    },
+    {
+      "frame": 17,
+      "target_pixels": 47,
+      "by_object": {
+        "2": 47
+      },
+      "primary_candidate_by_object": {
+        "2": 47
+      }
+    },
+    {
+      "frame": 18,
+      "target_pixels": 53,
+      "by_object": {
+        "2": 53
+      },
+      "primary_candidate_by_object": {
+        "2": 53
+      }
+    },
+    {
+      "frame": 19,
+      "target_pixels": 48,
+      "by_object": {
+        "2": 48
+      },
+      "primary_candidate_by_object": {
+        "2": 48
+      }
+    },
+    {
+      "frame": 20,
+      "target_pixels": 105,
+      "by_object": {
+        "1": 49,
+        "2": 56
+      },
+      "primary_candidate_by_object": {
+        "1": 49,
+        "2": 56
+      }
+    },
+    {
+      "frame": 21,
+      "target_pixels": 110,
+      "by_object": {
+        "1": 46,
+        "2": 64
+      },
+      "primary_candidate_by_object": {
+        "1": 46,
+        "2": 64
+      }
+    },
+    {
+      "frame": 22,
+      "target_pixels": 116,
+      "by_object": {
+        "1": 48,
+        "2": 68
+      },
+      "primary_candidate_by_object": {
+        "1": 48,
+        "2": 68
+      }
+    },
+    {
+      "frame": 23,
+      "target_pixels": 116,
+      "by_object": {
+        "1": 49,
+        "2": 67
+      },
+      "primary_candidate_by_object": {
+        "1": 49,
+        "2": 67
+      }
+    },
+    {
+      "frame": 24,
+      "target_pixels": 123,
+      "by_object": {
+        "1": 46,
+        "2": 77
+      },
+      "primary_candidate_by_object": {
+        "1": 46,
+        "2": 77
+      }
+    },
+    {
+      "frame": 25,
+      "target_pixels": 125,
+      "by_object": {
+        "1": 47,
+        "2": 78
+      },
+      "primary_candidate_by_object": {
+        "1": 47,
+        "2": 78
+      }
+    },
+    {
+      "frame": 26,
+      "target_pixels": 134,
+      "by_object": {
+        "1": 43,
+        "2": 91
+      },
+      "primary_candidate_by_object": {
+        "1": 43,
+        "2": 91
+      }
+    },
+    {
+      "frame": 27,
+      "target_pixels": 133,
+      "by_object": {
+        "1": 48,
+        "2": 85
+      },
+      "primary_candidate_by_object": {
+        "1": 48,
+        "2": 85
+      }
+    },
+    {
+      "frame": 28,
+      "target_pixels": 111,
+      "by_object": {
+        "1": 41,
+        "2": 70
+      },
+      "primary_candidate_by_object": {
+        "1": 41,
+        "2": 70
+      }
+    },
+    {
+      "frame": 29,
+      "target_pixels": 34,
+      "by_object": {
+        "2": 34
+      },
+      "primary_candidate_by_object": {
+        "2": 34
+      }
+    },
+    {
+      "frame": 30,
+      "target_pixels": 32,
+      "by_object": {
+        "2": 32
+      },
+      "primary_candidate_by_object": {
+        "2": 32
+      }
+    },
+    {
+      "frame": 31,
+      "target_pixels": 27,
+      "by_object": {
+        "2": 27
+      },
+      "primary_candidate_by_object": {
+        "2": 27
+      }
+    },
+    {
+      "frame": 32,
+      "target_pixels": 30,
+      "by_object": {
+        "2": 30
+      },
+      "primary_candidate_by_object": {
+        "2": 30
+      }
+    },
+    {
+      "frame": 33,
+      "target_pixels": 30,
+      "by_object": {
+        "2": 30
+      },
+      "primary_candidate_by_object": {
+        "2": 30
+      }
+    },
+    {
+      "frame": 34,
+      "target_pixels": 35,
+      "by_object": {
+        "2": 35
+      },
+      "primary_candidate_by_object": {
+        "2": 35
+      }
+    },
+    {
+      "frame": 35,
+      "target_pixels": 43,
+      "by_object": {
+        "2": 43
+      },
+      "primary_candidate_by_object": {
+        "2": 43
+      }
+    },
+    {
+      "frame": 36,
+      "target_pixels": 49,
+      "by_object": {
+        "2": 49
+      },
+      "primary_candidate_by_object": {
+        "2": 49
+      }
+    },
+    {
+      "frame": 37,
+      "target_pixels": 50,
+      "by_object": {
+        "2": 50
+      },
+      "primary_candidate_by_object": {
+        "2": 50
+      }
+    },
+    {
+      "frame": 38,
+      "target_pixels": 54,
+      "by_object": {
+        "2": 54
+      },
+      "primary_candidate_by_object": {
+        "2": 54
+      }
+    },
+    {
+      "frame": 39,
+      "target_pixels": 51,
+      "by_object": {
+        "2": 51
+      },
+      "primary_candidate_by_object": {
+        "2": 51
+      }
+    },
+    {
+      "frame": 40,
+      "target_pixels": 48,
+      "by_object": {
+        "2": 48
+      },
+      "primary_candidate_by_object": {
+        "2": 48
+      }
+    },
+    {
+      "frame": 41,
+      "target_pixels": 43,
+      "by_object": {
+        "2": 43
+      },
+      "primary_candidate_by_object": {
+        "2": 43
+      }
+    },
+    {
+      "frame": 42,
+      "target_pixels": 40,
+      "by_object": {
+        "2": 40
+      },
+      "primary_candidate_by_object": {
+        "2": 40
+      }
+    },
+    {
+      "frame": 43,
+      "target_pixels": 151,
+      "by_object": {
+        "2": 70,
+        "3": 81
+      },
+      "primary_candidate_by_object": {
+        "2": 70,
+        "3": 81
+      }
+    },
+    {
+      "frame": 44,
+      "target_pixels": 512,
+      "by_object": {
+        "2": 38,
+        "3": 474
+      },
+      "primary_candidate_by_object": {
+        "2": 38,
+        "3": 474
+      }
+    },
+    {
+      "frame": 45,
+      "target_pixels": 398,
+      "by_object": {
+        "3": 398
+      },
+      "primary_candidate_by_object": {
+        "3": 398
+      }
+    },
+    {
+      "frame": 46,
+      "target_pixels": 364,
+      "by_object": {
+        "3": 364
+      },
+      "primary_candidate_by_object": {
+        "3": 364
+      }
+    },
+    {
+      "frame": 47,
+      "target_pixels": 405,
+      "by_object": {
+        "3": 405
+      },
+      "primary_candidate_by_object": {
+        "3": 405
+      }
+    },
+    {
+      "frame": 48,
+      "target_pixels": 417,
+      "by_object": {
+        "3": 417
+      },
+      "primary_candidate_by_object": {
+        "3": 417
+      }
+    }
+  ],
+  "diagnostic_old_generation_sha256": null,
+  "limits": [
+    "Unknown pixels are a separate validity bit, including actual black observations.",
+    "The map validates provenance and exact pixel preservation under the supplied projection hypotheses.",
+    "Geometry agreement is not ground truth. Exact anchors alone make no claim about the rest of the frame."
+  ]
+}

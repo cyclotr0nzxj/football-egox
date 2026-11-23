@@ -1,0 +1,73 @@
+{
+  "_id": "69482e9a8d40e0fd475f47aa",
+  "id": "DAVIAN-Robotics/EgoX",
+  "private": false,
+  "pipeline_tag": "video-to-video",
+  "library_name": "diffusers",
+  "tags": [
+    "diffusers",
+    "egocentric",
+    "exocentric",
+    "exo-to-ego",
+    "ic-lora",
+    "video-to-video",
+    "en",
+    "arxiv:2512.08269",
+    "base_model:Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+    "base_model:finetune:Wan-AI/Wan2.1-I2V-14B-480P-Diffusers",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 1774,
+  "likes": 9,
+  "modelId": "DAVIAN-Robotics/EgoX",
+  "author": "DAVIAN-Robotics",
+  "sha": "28b19ef9f079bf73c84b2347fe6701e8ab7f6634",
+  "lastModified": "2025-12-27T11:17:28.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "license": "mit",
+    "base_model": [
+      "Wan-AI/Wan2.1-I2V-14B-480P-Diffusers"
+    ],
+    "pipeline_tag": "video-to-video",
+    "library_name": "diffusers",
+    "tags": [
+      "egocentric",
+      "exocentric",
+      "exo-to-ego",
+      "ic-lora"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "262f9d1021a1e024e12ef22036a0510e93746fa5",
+      "size": 1754
+    },
+    {
+      "rfilename": "pytorch_lora_weights.safetensors",
+      "blobId": "e124066947b90aac508ad0707fc8ace577388bda",
+      "size": 3355522016,
+      "lfs": {
+        "sha256": "1c61d1871d379358a0e98f3acd9bfffcd1c4300b9096231327a7da5f1683e9f6",
+        "size": 3355522016,
+        "pointerSize": 135
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2025-12-21T17:30:02.000Z",
+  "usedStorage": 3355522016
+}

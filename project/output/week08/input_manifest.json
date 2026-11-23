@@ -1,0 +1,15 @@
+{
+  "input_manifest": "records/user_ego_trim_20261019/trim_manifest.json",
+  "main_pair": "04",
+  "decode_size": [
+    960,
+    540
+  ],
+  "source_size": [
+    3840,
+    2160
+  ],
+  "main_frames": 311,
+  "time_base_seconds": 0.04,
+  "originals_modified": false
+}

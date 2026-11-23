@@ -1,0 +1,29 @@
+{
+  "annotation_method": "Manually selected from visible neighboring frames; not automatic touch detection or force/contact ground truth. Previously estimated +/-1 frame camera synchronization uncertainty also applies.",
+  "events": [
+    {
+      "frame": 48,
+      "seconds": 1.92,
+      "event": "foot-ball approach/contact transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 150,
+      "seconds": 6.0,
+      "event": "receiving/controlling contact transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 270,
+      "seconds": 10.8,
+      "event": "foot-ball controlling transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 292,
+      "seconds": 11.68,
+      "event": "opposite-side touch transition",
+      "uncertainty_frames": 2
+    }
+  ]
+}

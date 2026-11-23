@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-19",
+  "pdf": "output/week08/第8周实验报告.pdf",
+  "sha256": "2c7b57dcfa431326584cb282bc2032de79c7f677469e6bdbe5399b316d13e86a",
+  "bytes": 13549065,
+  "pages": 11,
+  "page_checks": [
+    {
+      "page": 1,
+      "text_characters": 647,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 2,
+      "text_characters": 538,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 3,
+      "text_characters": 692,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 4,
+      "text_characters": 282,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 5,
+      "text_characters": 706,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 6,
+      "text_characters": 423,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "root"
+    },
+    {
+      "page": 7,
+      "text_characters": 592,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "capture_metadata"
+    },
+    {
+      "page": 8,
+      "text_characters": 433,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "capture_metadata"
+    },
+    {
+      "page": 9,
+      "text_characters": 684,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "capture_metadata"
+    },
+    {
+      "page": 10,
+      "text_characters": 706,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "capture_metadata"
+    },
+    {
+      "page": 11,
+      "text_characters": 1787,
+      "text_outside_safe_page_bounds": 0,
+      "rendered": true,
+      "visual_review": "passed",
+      "reviewer": "capture_metadata"
+    }
+  ],
+  "independent_fact_review": "passed after correcting GGA wording, source-grid wording, virtualenv activation",
+  "algorithm_results": {
+    "segmentation_n": 6,
+    "segmentation_mean_iou_raw": 0.45118452130620373,
+    "segmentation_mean_iou_refined": 0.6192933729355471,
+    "segmentation_zero_iou_frames": [
+      170,
+      130
+    ],
+    "controlled_grid": {
+      "mean_px": 0.47581400300015003,
+      "median_px": 0.4722968516264961,
+      "p95_px": 0.8272992783001759,
+      "maximum_px": 1.2480005083993593,
+      "point_count": 187
+    }
+  },
+  "generation_scope": "Reused successful official sample from 2026-09-11; self-collected generation NOT RUN",
+  "cloud_check": {
+    "authentication_succeeded": false,
+    "new_gpu_job_started": false
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "Pillow": "12.3.0",
+      "reportlab": "4.4.9",
+      "pypdf": "6.10.0"
+    }
+  },
+  "reproduction_review": "Default 12 selected frames per view cover all required experiments and report assets; current CLI and dependencies verified",
+  "source_hashes": {
+    "scripts/assemble_week08_report.py": "e0c9e37201e83c9406b0e7ed64ab9c4fc35d4660abced1a4b4a2f59139244760",
+    "scripts/build_week08_pdf.py": "355164e2a1655545a3c65c621b78537e541dbd892b78979076dad58d2e1cf602",
+    "scripts/course_image_experiments.py": "e19f83636e998f8fe5145a588d537193cd52e8945b5e58a3d6d57aaacbfb0979",
+    "scripts/course_registration.py": "21cdf8202d2259b962b4e8fc238c0a3ecc84540b103b5d10ea77ce1699b09153",
+    "scripts/prepare_week08_frames.py": "e3126371971bf780f2b1274d5b4d68b06f4cf17628c9037e398a0777530caeea",
+    "output/week08/report_data.json": "ee85006849e5c04babb8e3c6448272e4c5af30f8aa89a0157ee3724bf2353fd9"
+  }
+}

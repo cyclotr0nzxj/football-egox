@@ -1,0 +1,6 @@
+{"model": "gpt-6.2-sol", "input_tokens": 105, "output_tokens": 3000, "reasoning_tokens": 2818, "status": "completed"}
+1. Keep offsets **0, 28, 52**. Match global frames 28–48 to the anchor; check the last window through its overlap with the middle one.
+2. Verify intrinsics after crop/resize; measure static-background pixel motion and reprojection error to test the fixed-camera assumption.
+3. In the anchor coordinate system, measure rotation drift, camera-center drift, and depth-scale disagreement within and across windows.
+4. Compare old ViPE, new ViPE, and aligned-model depths at the same corrected foreground head pixels in common units. Check against independent head range or known-height geometry; 2.5% ground error doesn’t resolve the 5.6–7.1× gap.
+5. Back-project the head tracks and measure 3D head height, speed, and jumps at window handoffs before using them in EgoX.

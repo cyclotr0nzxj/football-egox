@@ -1,0 +1,18 @@
+[
+  {
+    "artifact": "runs/pair04_s0024-a800-20261121/multiclip-evidence/pair02_s0000/geometry/vipe_results/pair02_s0000",
+    "synthetic_scale": 1.35,
+    "recovered_scale": 0.7407407164573669,
+    "heldout_error": 0.0,
+    "2_percent_focal_mismatch_rejected": true,
+    "60_percent_heldout_scale_drift_rejected": true
+  },
+  {
+    "artifact": "runs/pair04_s0024-a800-20261121/geometry-008/pair04_s0024",
+    "synthetic_scale": 1.35,
+    "recovered_scale": 0.7407407164573669,
+    "heldout_error": 0.0,
+    "2_percent_focal_mismatch_rejected": true,
+    "60_percent_heldout_scale_drift_rejected": true
+  }
+]

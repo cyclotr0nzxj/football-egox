@@ -1,0 +1,491 @@
+{
+  "status": "passed",
+  "audited_at_utc": "2026-10-20T03:18:34.936354+00:00",
+  "scope": "Read-only video/CSV/parameter/PTS verification and same-function redetection on F0/F50/F155/F200/F310. Only the requested audit JSON is written.",
+  "passed_counts": {
+    "videos_with_311_decoded_pts": 3,
+    "synchronized_pts_per_video": 311,
+    "unique_csv_frame_view_method_rows": 1244,
+    "mapping_rows": 311,
+    "same_function_detection_cases": 20,
+    "exact_rebuilt_jpeg_previews": 5,
+    "static_jpeg_neighbor_timing_checks": 4
+  },
+  "parameters_equal_static_results_and_current_helper": true,
+  "parameters": {
+    "seed": 42,
+    "opencv_threads": 1,
+    "harris": {
+      "blockSize": 2,
+      "ksize": 3,
+      "k": 0.04,
+      "positive_response_threshold_fraction": 0.01,
+      "local_nms_window": 3
+    },
+    "sift": {
+      "nfeatures": 500,
+      "nOctaveLayers": 3,
+      "contrastThreshold": 0.04,
+      "edgeThreshold": 10,
+      "sigma": 1.6
+    },
+    "unique_position_rounding_decimals": 3,
+    "minimum_position_distance_px": 5.0,
+    "maximum_retained_positions": 500,
+    "common_visibility_margin_px": 16
+  },
+  "video_checks": {
+    "exo": {
+      "path": "data/video_pair04/exo.mp4",
+      "decoded_frame_count": 311,
+      "dimensions": [
+        960,
+        540
+      ],
+      "fps": 25,
+      "duration_seconds": 12.44,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 12.4,
+      "all_pts_equal_n_over_25": true,
+      "aac_audio_present": false,
+      "sha256": "a6a55d2bf06005b149ee8b3a2697a80062fafa1a0bf9467a6c561c2f30519b29"
+    },
+    "ego": {
+      "path": "data/video_pair04/ego.mp4",
+      "decoded_frame_count": 311,
+      "dimensions": [
+        960,
+        540
+      ],
+      "fps": 25,
+      "duration_seconds": 12.44,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 12.4,
+      "all_pts_equal_n_over_25": true,
+      "aac_audio_present": true,
+      "sha256": "c704441bb6215b2a7dfadab282da6463df6b108be5f88dbafceaf3fd3f203c50"
+    },
+    "comparison": {
+      "path": "videos/动态特征检测_双视角对照.mp4",
+      "decoded_frame_count": 311,
+      "dimensions": [
+        1536,
+        960
+      ],
+      "fps": 25,
+      "duration_seconds": 12.44,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 12.4,
+      "all_pts_equal_n_over_25": true,
+      "aac_audio_present": true,
+      "sha256": "e24f97d84805ef7ebb8bc384848984b5e7e0eb4157a708e2d8075c0bc4358bf0"
+    }
+  },
+  "sample_redetection": [
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "view": "exo",
+      "method": "harris",
+      "raw_count": 15589,
+      "unique_position_count": 2977,
+      "retained_count": 500,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "view": "exo",
+      "method": "sift",
+      "raw_count": 452,
+      "unique_position_count": 328,
+      "retained_count": 268,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "view": "ego",
+      "method": "harris",
+      "raw_count": 427,
+      "unique_position_count": 116,
+      "retained_count": 69,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "view": "ego",
+      "method": "sift",
+      "raw_count": 481,
+      "unique_position_count": 378,
+      "retained_count": 337,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 2.0,
+      "view": "exo",
+      "method": "harris",
+      "raw_count": 13995,
+      "unique_position_count": 2824,
+      "retained_count": 500,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 2.0,
+      "view": "exo",
+      "method": "sift",
+      "raw_count": 454,
+      "unique_position_count": 324,
+      "retained_count": 263,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 2.0,
+      "view": "ego",
+      "method": "harris",
+      "raw_count": 339,
+      "unique_position_count": 109,
+      "retained_count": 91,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 50,
+      "time_seconds": 2.0,
+      "view": "ego",
+      "method": "sift",
+      "raw_count": 470,
+      "unique_position_count": 353,
+      "retained_count": 324,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 155,
+      "time_seconds": 6.2,
+      "view": "exo",
+      "method": "harris",
+      "raw_count": 15440,
+      "unique_position_count": 3116,
+      "retained_count": 500,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 155,
+      "time_seconds": 6.2,
+      "view": "exo",
+      "method": "sift",
+      "raw_count": 461,
+      "unique_position_count": 352,
+      "retained_count": 286,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 155,
+      "time_seconds": 6.2,
+      "view": "ego",
+      "method": "harris",
+      "raw_count": 1317,
+      "unique_position_count": 481,
+      "retained_count": 384,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 155,
+      "time_seconds": 6.2,
+      "view": "ego",
+      "method": "sift",
+      "raw_count": 471,
+      "unique_position_count": 376,
+      "retained_count": 332,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 200,
+      "time_seconds": 8.0,
+      "view": "exo",
+      "method": "harris",
+      "raw_count": 14667,
+      "unique_position_count": 2998,
+      "retained_count": 500,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 200,
+      "time_seconds": 8.0,
+      "view": "exo",
+      "method": "sift",
+      "raw_count": 466,
+      "unique_position_count": 342,
+      "retained_count": 286,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 200,
+      "time_seconds": 8.0,
+      "view": "ego",
+      "method": "harris",
+      "raw_count": 487,
+      "unique_position_count": 124,
+      "retained_count": 99,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 200,
+      "time_seconds": 8.0,
+      "view": "ego",
+      "method": "sift",
+      "raw_count": 464,
+      "unique_position_count": 355,
+      "retained_count": 332,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 310,
+      "time_seconds": 12.4,
+      "view": "exo",
+      "method": "harris",
+      "raw_count": 13586,
+      "unique_position_count": 2797,
+      "retained_count": 500,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 310,
+      "time_seconds": 12.4,
+      "view": "exo",
+      "method": "sift",
+      "raw_count": 464,
+      "unique_position_count": 335,
+      "retained_count": 271,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 310,
+      "time_seconds": 12.4,
+      "view": "ego",
+      "method": "harris",
+      "raw_count": 397,
+      "unique_position_count": 113,
+      "retained_count": 84,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    },
+    {
+      "frame_index": 310,
+      "time_seconds": 12.4,
+      "view": "ego",
+      "method": "sift",
+      "raw_count": 198,
+      "unique_position_count": 162,
+      "retained_count": 146,
+      "csv_equals_same_function_redetection": true,
+      "unique_centers_and_5px_spacing": "passed"
+    }
+  ],
+  "sample_overlay_checks": [
+    {
+      "frame_index": 0,
+      "preview": "evidence/dynamic/previews/frame_0000.jpg",
+      "preview_exactly_equals_rebuilt_jpeg_pixels": true,
+      "encoded_video_rgb_mae_to_preencode_canvas_diagnostic": 3.194899559020996,
+      "loose_integrity_threshold_mae": 20.0
+    },
+    {
+      "frame_index": 50,
+      "preview": "evidence/dynamic/previews/frame_0050.jpg",
+      "preview_exactly_equals_rebuilt_jpeg_pixels": true,
+      "encoded_video_rgb_mae_to_preencode_canvas_diagnostic": 3.7229747772216797,
+      "loose_integrity_threshold_mae": 20.0
+    },
+    {
+      "frame_index": 155,
+      "preview": "evidence/dynamic/previews/frame_0155.jpg",
+      "preview_exactly_equals_rebuilt_jpeg_pixels": true,
+      "encoded_video_rgb_mae_to_preencode_canvas_diagnostic": 3.7112791538238525,
+      "loose_integrity_threshold_mae": 20.0
+    },
+    {
+      "frame_index": 200,
+      "preview": "evidence/dynamic/previews/frame_0200.jpg",
+      "preview_exactly_equals_rebuilt_jpeg_pixels": true,
+      "encoded_video_rgb_mae_to_preencode_canvas_diagnostic": 3.751988649368286,
+      "loose_integrity_threshold_mae": 20.0
+    },
+    {
+      "frame_index": 310,
+      "preview": "evidence/dynamic/previews/frame_0310.jpg",
+      "preview_exactly_equals_rebuilt_jpeg_pixels": true,
+      "encoded_video_rgb_mae_to_preencode_canvas_diagnostic": 3.5130960941314697,
+      "loose_integrity_threshold_mae": 20.0
+    }
+  ],
+  "static_jpeg_timing_checks": [
+    {
+      "view": "exo",
+      "static_visible_frame": 50,
+      "reference_sha256": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09",
+      "working_frame_offsets_checked": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "pixel_mae_by_offset_diagnostic_only": {
+        "-3": 5.052530765533447,
+        "-2": 4.662327766418457,
+        "-1": 4.314237594604492,
+        "0": 3.371507167816162,
+        "1": 3.835422992706299,
+        "2": 5.050468921661377,
+        "3": 7.406687259674072
+      },
+      "best_matching_working_frame_offset": 0,
+      "same_action_timestamp_check": "passed"
+    },
+    {
+      "view": "exo",
+      "static_visible_frame": 200,
+      "reference_sha256": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92",
+      "working_frame_offsets_checked": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "pixel_mae_by_offset_diagnostic_only": {
+        "-3": 10.736332893371582,
+        "-2": 8.891181945800781,
+        "-1": 3.708587884902954,
+        "0": 3.43649959564209,
+        "1": 5.320969104766846,
+        "2": 5.968649864196777,
+        "3": 6.257397651672363
+      },
+      "best_matching_working_frame_offset": 0,
+      "same_action_timestamp_check": "passed"
+    },
+    {
+      "view": "ego",
+      "static_visible_frame": 50,
+      "reference_sha256": "194e4bb99aef7fe15282c7dc68b543381ccfc3dc8af2c386297a54edbcec56f1",
+      "working_frame_offsets_checked": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "pixel_mae_by_offset_diagnostic_only": {
+        "-3": 18.296947479248047,
+        "-2": 17.066905975341797,
+        "-1": 14.479864120483398,
+        "0": 3.3563947677612305,
+        "1": 14.512314796447754,
+        "2": 16.75364112854004,
+        "3": 16.656152725219727
+      },
+      "best_matching_working_frame_offset": 0,
+      "same_action_timestamp_check": "passed"
+    },
+    {
+      "view": "ego",
+      "static_visible_frame": 200,
+      "reference_sha256": "c6c5f7deafffe396de02aa989fcbe05eccc75d3c7f6a04a4340f6df76805cb79",
+      "working_frame_offsets_checked": [
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3
+      ],
+      "pixel_mae_by_offset_diagnostic_only": {
+        "-3": 12.595221519470215,
+        "-2": 11.631590843200684,
+        "-1": 10.0291109085083,
+        "0": 3.2777180671691895,
+        "1": 9.781159400939941,
+        "2": 12.145308494567871,
+        "3": 13.587343215942383
+      },
+      "best_matching_working_frame_offset": 0,
+      "same_action_timestamp_check": "passed"
+    }
+  ],
+  "source_input_note": "The earlier static experiment used saved JPEGs. This dynamic experiment uses the saved H.264 working copies. Compression/decoding differences can change retained point counts; they are not forced to match the JPEG experiment.",
+  "source_timeline_note": "Discard/negative-PTS preroll is removed with trim=start=0. All 311 visible frames and n/25 timestamps are retained; last-frame display duration is standardized to 0.040s (source edit-list endpoint is about 3.984ms longer).",
+  "input_integrity": {
+    "manifest_sha256": "cc4a117eb1cf1745bfa0f744ae43ee57acc0739023a2c744a5da6a1e686d6100",
+    "counts_sha256": "3a4f5ee190447738c78f65167d3d5840f3e75c8ea113d8637d5e05e0ce162e4a",
+    "producer_audit_sha256": "048f796b67fc5174e63b7dfb541950c7437400d90dc9f024fedd23e5be1f0637",
+    "static_metrics_sha256": "cc49069d5a4b0e1883eddbc83298b1028a6838908f6be772531407b1da1ab5e9",
+    "detector_helper_sha256": "6f7ba9709536b48a31328b3cc7a986ddb9c0aee8b39042b01186a9f695903ca1",
+    "auditor_sha256": "b2a499135b80b09ce42fa7db17f2a5f878fe19700b7dedbe76043b628be2db5f"
+  },
+  "visual_review": {
+    "status": "passed",
+    "reviewer": "coding assistant",
+    "reviewed_at_utc": "2026-10-20T03:19:06.350430+00:00",
+    "method": "Actually viewed all five saved JPEG previews using view_image after numerical checks; not a human-annotator review.",
+    "frames_reviewed": [
+      0,
+      50,
+      155,
+      200,
+      310
+    ],
+    "observations": [
+      "All four panels show matching frame/time labels; left is EXO/R8, right EGO/Nano, upper Harris, lower SIFT. Method and count labels are readable.",
+      "F0/F50/F155 show the wearing player handling the ball; F200 shows the partner and ball farther ahead; F310 shows a moving foot/ball with retained motion blur. Both views provide consistent action context at the sampled timestamps.",
+      "Each panel preserves 16:9 image content; overlays are visible on the underlying image. No point trails or track identities are shown.",
+      "Some large SIFT circles extend outside the picture boundary: only centers are constrained by the 16px margin, as documented."
+    ],
+    "scope": "Five sampled previews, including first/middle/last; this does not visually review every video frame or improve the original approximately +/-1-frame synchronization uncertainty."
+  },
+  "limitations": [
+    "Detection spot checks use the same fixed detect/point_picture functions as the producer; this is not independent validation of Harris/SIFT algorithms.",
+    "All 311 timestamps and 1244 row keys are checked; detection counts and overlays are recomputed only at five selected frames per view.",
+    "Preview JPEGs are display illustrations. Actual numerical inputs are the two saved H.264 working copies, so counts need not equal the earlier static JPEG experiment.",
+    "F50/F200 versus their +/-3 working-video neighbors use pixel MAE only to check frame-number consistency; no point-count equality to static JPEGs or subframe synchronization accuracy is inferred.",
+    "The lossy output-frame MAE threshold is a loose layout/integrity diagnostic, not a detector, synchronization-accuracy or image-quality benchmark.",
+    "The pre-existing clap synchronization uncertainty remains approximately +/-1 original frame. Equal exported PTS do not independently remove that uncertainty.",
+    "These are independent framewise detections: no tracking, point identity persistence, cross-view correspondence or video repeatability is evaluated.",
+    "Source edit-list endpoint is about 3.984ms longer than the 12.44s working copies; the last displayed frame duration is standardized, not preserved exactly."
+  ],
+  "packaging_note": {
+    "audit_scope": "Audit of the source-project dynamic artifacts; source manifest/audit hashes are historical original-input values.",
+    "original_manifest": "evidence/dynamic/source_manifest.json",
+    "portable_copy": "Location strings are mapped for this package, not presented as a new audit run. Use the included audit_feature_video.py to check packaged paths anew.",
+    "detector_spot_checks": "Same-function sample redetection, not an independent Harris/SIFT implementation."
+  }
+}

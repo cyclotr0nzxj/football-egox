@@ -1,0 +1,15 @@
+{
+  "historical_output_cpu_checks": [
+    {
+      "take": "pair02_s0000",
+      "status": "verified",
+      "frames": 49
+    },
+    {
+      "take": "pair04_s0024",
+      "status": "verified",
+      "frames": 49
+    }
+  ],
+  "gpu_rerun_this_turn": false
+}

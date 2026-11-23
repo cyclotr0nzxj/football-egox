@@ -1,0 +1,258 @@
+{
+  "name": "pair05_s0024",
+  "width": 784,
+  "height": 448,
+  "video_sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+  "target_pixel": [
+    674,
+    219
+  ],
+  "frames": [
+    {
+      "frame": 0,
+      "x": 238,
+      "y": 109
+    },
+    {
+      "frame": 1,
+      "x": 237,
+      "y": 108
+    },
+    {
+      "frame": 2,
+      "x": 235,
+      "y": 107
+    },
+    {
+      "frame": 3,
+      "x": 233,
+      "y": 106
+    },
+    {
+      "frame": 4,
+      "x": 232,
+      "y": 106
+    },
+    {
+      "frame": 5,
+      "x": 230,
+      "y": 106
+    },
+    {
+      "frame": 6,
+      "x": 229,
+      "y": 106
+    },
+    {
+      "frame": 7,
+      "x": 227,
+      "y": 105
+    },
+    {
+      "frame": 8,
+      "x": 225,
+      "y": 104
+    },
+    {
+      "frame": 9,
+      "x": 224,
+      "y": 104
+    },
+    {
+      "frame": 10,
+      "x": 223,
+      "y": 104
+    },
+    {
+      "frame": 11,
+      "x": 221,
+      "y": 103
+    },
+    {
+      "frame": 12,
+      "x": 220,
+      "y": 104
+    },
+    {
+      "frame": 13,
+      "x": 219,
+      "y": 104
+    },
+    {
+      "frame": 14,
+      "x": 218,
+      "y": 104
+    },
+    {
+      "frame": 15,
+      "x": 218,
+      "y": 104
+    },
+    {
+      "frame": 16,
+      "x": 219,
+      "y": 103
+    },
+    {
+      "frame": 17,
+      "x": 218,
+      "y": 103
+    },
+    {
+      "frame": 18,
+      "x": 218,
+      "y": 103
+    },
+    {
+      "frame": 19,
+      "x": 218,
+      "y": 104
+    },
+    {
+      "frame": 20,
+      "x": 217,
+      "y": 104
+    },
+    {
+      "frame": 21,
+      "x": 217,
+      "y": 105
+    },
+    {
+      "frame": 22,
+      "x": 218,
+      "y": 106
+    },
+    {
+      "frame": 23,
+      "x": 218,
+      "y": 106
+    },
+    {
+      "frame": 24,
+      "x": 219,
+      "y": 106
+    },
+    {
+      "frame": 25,
+      "x": 219,
+      "y": 106
+    },
+    {
+      "frame": 26,
+      "x": 219,
+      "y": 106
+    },
+    {
+      "frame": 27,
+      "x": 220,
+      "y": 106
+    },
+    {
+      "frame": 28,
+      "x": 220,
+      "y": 107
+    },
+    {
+      "frame": 29,
+      "x": 221,
+      "y": 108
+    },
+    {
+      "frame": 30,
+      "x": 222,
+      "y": 109
+    },
+    {
+      "frame": 31,
+      "x": 223,
+      "y": 110
+    },
+    {
+      "frame": 32,
+      "x": 223,
+      "y": 110
+    },
+    {
+      "frame": 33,
+      "x": 224,
+      "y": 110
+    },
+    {
+      "frame": 34,
+      "x": 226,
+      "y": 110
+    },
+    {
+      "frame": 35,
+      "x": 227,
+      "y": 111
+    },
+    {
+      "frame": 36,
+      "x": 228,
+      "y": 112
+    },
+    {
+      "frame": 37,
+      "x": 230,
+      "y": 112
+    },
+    {
+      "frame": 38,
+      "x": 232,
+      "y": 113
+    },
+    {
+      "frame": 39,
+      "x": 234,
+      "y": 114
+    },
+    {
+      "frame": 40,
+      "x": 235,
+      "y": 115
+    },
+    {
+      "frame": 41,
+      "x": 237,
+      "y": 116
+    },
+    {
+      "frame": 42,
+      "x": 238,
+      "y": 117
+    },
+    {
+      "frame": 43,
+      "x": 239,
+      "y": 117
+    },
+    {
+      "frame": 44,
+      "x": 240,
+      "y": 117
+    },
+    {
+      "frame": 45,
+      "x": 242,
+      "y": 118
+    },
+    {
+      "frame": 46,
+      "x": 243,
+      "y": 118
+    },
+    {
+      "frame": 47,
+      "x": 244,
+      "y": 119
+    },
+    {
+      "frame": 48,
+      "x": 244,
+      "y": 119
+    }
+  ],
+  "notes": "The 49 zero-based EXO anchors were manually marked and checked on the cap of the far player in every decoded staged frame. The virtual look-at target is an unobstructed point on the upper diagonal white painted field line on the right; the corresponding 5x5 area was visually checked across the staged clip. EXO source is MVI_5694.MP4 from the user-trimmed third-person set, visible frames 24 through 72 inclusive. Stage frame i maps to source frame 24+i. The source crop is x=30, y=0, w=3780, h=2160; resize is 784x448. Only EXO was viewed."
+}

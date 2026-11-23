@@ -1,0 +1,15 @@
+{"model": "gpt-6.2-sol", "input_tokens": 143, "output_tokens": 7865, "reasoning_tokens": 7283, "status": "completed"}
+**Indexing.** At offset \(o\), local frame \(i\) uses that window’s EXO RGB, intrinsics, and depth, and virtual pose \(g=o+i\). Match W28[0:21] with W0[28:49], then W52[0:25] with W28[24:49] (half-open slices). Keep W0; append W28[21:] and W52[25:] for 101 frames.
+
+**Scale.** Fit \(s=\operatorname{median}(Z_{\rm prev,root}/Z_{\rm new})\) on valid, matched static background. Check \(sZ_{\rm new}/Z_{\rm prev,root}\approx1\) on held-out frames; reject systematic drift. If comparing W52 against **raw** W28, use \(s_{52}=s_{28}\operatorname{median}(Z_{28}/Z_{52})\). Do not chain again if W28 is already normalized.
+
+**Rendering and GGA.** For EXO \(x\) and ego \(e\) world-to-camera poses in the same root gauge, set \(A=R_eR_x^\top,\ b=t_e-A t_x\). If the supplied pose is already EXO→ego, use it directly as \([A|b]\). Both consumers use
+\[
+X_e=A\bigl(sZ_{\rm new}K_{\rm new}^{-1}[u,v,1]^\top\bigr)+b,
+\qquad p_e=\pi(K_eX_e),
+\]
+where \(\pi\) divides by the third coordinate. Alternatively, use raw \(Z_{\rm new}\) and \(b/s\) (equivalently, divide both root translations by \(s\)). **Do not combine conversions.** For different ViPE world gauges, align first: \(X_{\rm root}=sQX_{\rm raw}+a\) implies \(R_x=R_{\rm raw}Q^\top,\ t_x=s t_{\rm raw}-R_xa\).
+
+Use optical-axis depth and **new EXO \(K\)**, even if near-equal. Old \(K\) requires remapping to its grid. Update intrinsics for crop/resize, not depth scale.
+
+**Test.** Forward-project known 3D points into both cameras; feed EXO \(Z_x/s\) and verify both unit choices recover the direct ego pixels. With \(A=I,\ b=(-1,0,0)\), EXO \((f_x,c_x)=(100,50)\), ego \((120,40)\), and \(u=60,\ Z_{\rm new}=2,\ s=2\), expect \(u_e=22\).

@@ -1,0 +1,213 @@
+{
+  "pixel_metrics_computed": true,
+  "alignment_review": {
+    "sample": "cmu_soccer06_6_877_925",
+    "source_integrity_verified": true,
+    "delivered_native_raster": [
+      448,
+      448
+    ],
+    "frame_mapping": {
+      "source_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "generated_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48
+      ],
+      "source_mp4_fps": 20,
+      "official_output_fps": 30,
+      "reason": "Official inference truncates exo and prior to first num_frames=49; official GT/prior preprocessing also selects first 49 without even downsampling."
+    },
+    "output_region_expected": {
+      "full_size": [
+        1232,
+        448
+      ],
+      "ego_crop_xywh": [
+        784,
+        0,
+        448,
+        448
+      ],
+      "reason": "Official pipeline decodes exo and ego latents separately and concatenates exo left / ego right."
+    },
+    "native_plane_evidence": [
+      "Official datasets/utils.py preprocess_video_with_resize ego_gt/ego_prior uses width=height and no rotation/flip; provided GT already 448 square.",
+      "Official sft_trainer.py lines 672-688 decode latent_ego to 448x448 and concatenate as right branch without rotation/flip.",
+      "GT and prior preview confirms upright supplied image convention; this is a raster convention check, not ray-level calibration."
+    ],
+    "mp4_display_matrix": [
+      {
+        "video": "exo.mp4",
+        "side_data": []
+      },
+      {
+        "video": "ego_GT.mp4",
+        "side_data": []
+      },
+      {
+        "video": "ego_Prior.mp4",
+        "side_data": []
+      }
+    ],
+    "physical_calibration_independently_verified": false,
+    "raw_sensor_timestamps_independently_verified": false,
+    "calibration_limits": [
+      "No source-specific online_calibration or original sensor timestamp provenance bundled with the selected EgoX example.",
+      "Provided ego K has fx=fy=150 and cx=cy=255.5, whereas the 448x448 raster midpoint is 223.5; no independently verified preprocessing mapping is provided.",
+      "Official infer.py uses hardcoded Aria distortion coefficients and rotates ray maps; these official conditioning settings are preserved unchanged."
+    ],
+    "allowed_metric_scope": "Descriptive full-raster RGB reconstruction error against the official supplied GT, conditional on completed real-output shape/hash review; not a sensor-calibrated camera-pose metric.",
+    "forbidden_transformations": [
+      "spatial registration",
+      "temporal offset search",
+      "rotation or flip",
+      "rescaling",
+      "fisheye border masking",
+      "colour fitting"
+    ],
+    "real_output_review_complete": true,
+    "generated_sha256": "226ab80a04c8585207b36ff523de607698dc1ccd32c86e3f85759d88f2207ff7",
+    "native_target_grid_verified": true,
+    "frame_index_mapping_verified": true,
+    "review_method": "Checked original successful run: 49 decoded frames, 1232x448, 30fps; reviewed GT versus generated native right branch at frames 0,4,8,...,48. Both use upright supplied fisheye raster with consistent left/right scene orientation. Position differences are retained as model errors; no registration was performed.",
+    "summary_zh": [
+      "已核对真实输出尺寸、右侧分支、画面方向和源帧编号；按官方原生 448×448 平面直接比较。",
+      "生成中的球、人和相机视野与 GT 存在偏差，保留这些误差，不做后验配准。",
+      "原始传感器标定和采集时间未独立验证；指标仅描述该交付图像平面，不代表标定精度。"
+    ]
+  },
+  "frames": 49,
+  "comparison_domain": "Decoded official GT RGB uint8 versus rightmost 448 columns of unmodified official output; full 448x448 including black fisheye border",
+  "transformations": "No scaling, rotation, translation, warping, masking, colour correction, temporal shift or best-match search. Select source frames 0..48 per official truncation; extract generated branch x=784..1231.",
+  "decoder": "OpenCV 5.0.0 BGR to RGB; metrics before extra delivery encode",
+  "aggregation": "Arithmetic mean across 49 per-frame PSNR and SSIM values; PSNR uses 8-bit RGB MSE. SSIM Gaussian sigma=1.5, population covariance, per-channel average.",
+  "scope": "Descriptive error in supplied benchmark raster; not a calibration validation or reproduction of paper aggregate results.",
+  "lpips": "Not computed; PSNR and SSIM suffice for this basic evaluation. No additional metric model downloaded.",
+  "temporal_note": "Adjacent-frame MAE includes camera/object motion and must not be called a flicker metric.",
+  "mean_psnr_rgb_db": 17.479634102478094,
+  "mean_ssim_rgb": 0.638364217655988,
+  "mean_gt_adjacent_mae": 10.91695866982142,
+  "mean_generated_adjacent_mae": 11.21457744638125,
+  "observations_zh": [
+    "场景与视角：球门、黄色标志盘、红衣球员和向下看脚部再抬头的变化能够生成；草地明显更平滑、偏蓝，视野和人物尺度与 GT 不完全一致。",
+    "球的位置：0–16 帧可见脚前足球；20–48 帧 GT 中球逐渐到达对方脚下，生成中球仍偏近、滞留在前景，传递距离和接球关系没有准确复现。",
+    "人和遮挡：0–18 帧生成了较大面积的红色躯干、手臂和鞋，肢体轮廓与 GT 不同；脚与球接触附近存在形变。28–48 帧对方球员的脚部与手臂动作明显弱于 GT，不能据此验证真实接触或遮挡关系。",
+    "连续性与闪烁：49 帧均不同，场地和球门大体连续，缩略逐帧检查未见整屏突闪；局部球纹、手脚形状仍有变化。相邻帧 MAE 包含真实运动，未将其冒充独立闪烁指标。"
+  ],
+  "visual_review": {
+    "all_49_generated_frames_reviewed": true,
+    "gt_pair_indices": [
+      0,
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      28,
+      32,
+      36,
+      40,
+      44,
+      48
+    ],
+    "method": "49-frame labeled contact sheet, native-size GT/generated pairs, browser frame stepping and 0.25x playback functionality check; no frame or seed selection."
+  }
+}

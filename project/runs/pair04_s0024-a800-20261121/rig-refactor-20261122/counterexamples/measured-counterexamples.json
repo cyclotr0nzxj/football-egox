@@ -1,0 +1,81 @@
+{
+  "Pair01_F28": {
+    "scope": "Local shoe-point depth counterexample, not whole-frame or rigid shoe reconstruction. Nominal field calibration and approximate ball radius are assumptions.",
+    "r8_ball_pixel_anchor": [
+      601,
+      282
+    ],
+    "r8_red_edge_pixel": [
+      597,
+      283
+    ],
+    "r8_red_edge_rgb": [
+      202,
+      127,
+      119
+    ],
+    "approx_ball_radius_m": 0.11,
+    "shoe_point_perturbation_along_exo_ray_m": 0.16,
+    "r8_equal_shoe_reprojection_px_xy": [
+      [
+        597.0,
+        283.0
+      ],
+      [
+        597.0,
+        283.0
+      ]
+    ],
+    "approx_ball_center_m": [
+      3.432072432376988,
+      0.952441153482609,
+      8.719762974125265
+    ],
+    "surface_clearance_m": [
+      -4.3021142204224816e-16,
+      0.1475043511694913
+    ],
+    "shoe_point_height_above_ground_m": [
+      0.1001321609639676,
+      0.11950920319608072
+    ],
+    "calibration_sweep_cases": 12,
+    "calibration_sweep_noncontact_gap_minmax_m": [
+      0.14371955319170038,
+      0.15108963929672453
+    ]
+  },
+  "Pair05": {
+    "F12": {
+      "valid_circle_pixels": 157583,
+      "real_foreground_pixels": 1939,
+      "real_foreground_valid_circle_fraction": 0.01230462676811585,
+      "same_frame_visible_observed_valid_circle_fraction": 0.21700944898878685,
+      "central_upper_unknown_fraction": 0.9539388020833334,
+      "unknown_pixel_rgb_mae_255_real_prior_vs_old_completions": 64.49655822648705,
+      "central_upper_unknown_rgb_mae_255_real_prior_vs_old_completions": 73.57713213249812,
+      "shared_observed_pixel_rgb_maxdiff": 0.0,
+      "synthetic_duplicate_teammate_copy_unknown_pixels": 1872,
+      "synthetic_duplicate_teammate_shift_xy": [
+        96,
+        -64
+      ]
+    },
+    "F24": {
+      "valid_circle_pixels": 157583,
+      "real_foreground_pixels": 1290,
+      "real_foreground_valid_circle_fraction": 0.00818616221292906,
+      "same_frame_visible_observed_valid_circle_fraction": 0.20929288057721962,
+      "central_upper_unknown_fraction": 0.9740280877976191,
+      "unknown_pixel_rgb_mae_255_real_prior_vs_old_completions": 66.91284249048972,
+      "central_upper_unknown_rgb_mae_255_real_prior_vs_old_completions": 77.01302586872279,
+      "shared_observed_pixel_rgb_maxdiff": 0.0,
+      "synthetic_duplicate_teammate_copy_unknown_pixels": 1214,
+      "synthetic_duplicate_teammate_shift_xy": [
+        96,
+        -64
+      ]
+    },
+    "scope": "Pixel-level adversarial composites only. Exact timing, hashes and same-frame source IDs are verified. Difference outside measured support is non-identifiability, not a model run."
+  }
+}

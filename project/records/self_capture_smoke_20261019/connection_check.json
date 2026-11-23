@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-10-19T14:57:51.631656+00:00",
+  "purpose": "Reuse existing authorized AutoDL environment for self-collected official-weight inference",
+  "default_physical_interface": "en0",
+  "host_source": "scripts/cloud.sh",
+  "attempts": [
+    {
+      "transport": "physical interface bound nc",
+      "exit_code": 255,
+      "error": "Connection closed by UNKNOWN port 65535",
+      "authenticated": false
+    },
+    {
+      "transport": "direct OpenSSH",
+      "exit_code": 255,
+      "error": "Connection refused",
+      "authenticated": false
+    }
+  ],
+  "gpu_inspected": false,
+  "remote_environment_inspected": false,
+  "gpu_jobs_started": 0,
+  "cloud_resource_created": false,
+  "blocked_on": "Current reachable GPU endpoint or original instance startup",
+  "local_preparation": "Completed 49-frame RGB EXO clip and isolated Nano reference; both fully decoded at 25fps, 1.96s. Depth, target trajectory, geometric prior and self-generated video NOT RUN."
+}

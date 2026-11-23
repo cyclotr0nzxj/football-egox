@@ -1,0 +1,12 @@
+{
+  "phase": "preparation",
+  "formal_inference_starts": 0,
+  "notes": [
+    "Cloud raw.githubusercontent.com intermittent; single 70MB sample transferred via Mac after Git blob verification.",
+    "Hugging Face direct unreachable; hf-mirror file hashes checked against HF official API.",
+    "ModelScope Wan-AI metadata matches all 23 LFS blobs, but endpoint less stable; default remains hf-mirror.",
+    "Downloads preserve complete files and completed range blocks; use bounded per-request retries.",
+    "UV 120-second HTTP timeout caused large-wheel retries; extended to 3600 seconds without altering package versions."
+  ],
+  "sensitive_data": "SSH authentication only in existing connection; credentials not stored in project."
+}

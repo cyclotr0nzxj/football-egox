@@ -1,0 +1,65 @@
+{
+  "windows": [
+    {
+      "name": "pair02_s0028",
+      "source_start": 28,
+      "source_end": 76,
+      "exo": "pair02-pair04-100f-prep-20261122/inputs/Pair02/exo-window-0028.mp4",
+      "exo_sha256": "166ab45c8c3a88ace197001a752bdea0de4384c6f2e98c6b949689013c19fb5b",
+      "annotation_sha256": "cc47420d8a7ee04dca420b706463654f1e8e4f35603b75f38e8a37474bf1378f",
+      "camera_check": {
+        "good_matches": 2009,
+        "inliers": 1869,
+        "inlier_median_identity_displacement_px": 1.44000244140625,
+        "inlier_p90_identity_displacement_px": 2.4437673091888428,
+        "scope": "matched static points only; not lens calibration"
+      }
+    },
+    {
+      "name": "pair02_s0052",
+      "source_start": 52,
+      "source_end": 100,
+      "exo": "pair02-pair04-100f-prep-20261122/inputs/Pair02/exo-window-0052.mp4",
+      "exo_sha256": "eaa0be7621776a407cad3c8733429e2dcb752c4723e859a23ec04d87b1113edd",
+      "annotation_sha256": "331f0c718f66534e989b42bad070bf5be294d0978a41aa7f89535758273b0b05",
+      "camera_check": {
+        "good_matches": 2009,
+        "inliers": 1869,
+        "inlier_median_identity_displacement_px": 1.44000244140625,
+        "inlier_p90_identity_displacement_px": 2.4437673091888428,
+        "scope": "matched static points only; not lens calibration"
+      }
+    },
+    {
+      "name": "pair04_s0052",
+      "source_start": 52,
+      "source_end": 100,
+      "exo": "pair02-pair04-100f-prep-20261122/inputs/Pair04/exo-window-0052.mp4",
+      "exo_sha256": "1faa8752dfa9b04e66d89df49dd4c218891e719c937ce966d08198951a6ee5b4",
+      "annotation_sha256": "7a664814a57b7b5a54a135531b133f046a3777e8062c43ae87fb3ca42b1037e6",
+      "camera_check": {
+        "good_matches": 1579,
+        "inliers": 1457,
+        "inlier_median_identity_displacement_px": 8.653313636779785,
+        "inlier_p90_identity_displacement_px": 9.863077163696289,
+        "scope": "matched static points only; not lens calibration"
+      }
+    },
+    {
+      "name": "pair04_s0076",
+      "source_start": 76,
+      "source_end": 124,
+      "exo": "pair02-pair04-100f-prep-20261122/inputs/Pair04/exo-window-0076.mp4",
+      "exo_sha256": "2cb9b864c51c3aadfca28e46f5993df4512e12461665078035f13c33c3a588ac",
+      "annotation_sha256": "92c17b8b12687bf0fa478e8a72af25ec380614e640a0169be60c356f8b450b1c",
+      "camera_check": {
+        "good_matches": 1579,
+        "inliers": 1457,
+        "inlier_median_identity_displacement_px": 8.653313636779785,
+        "inlier_p90_identity_displacement_px": 9.863077163696289,
+        "scope": "matched static points only; not lens calibration"
+      }
+    }
+  ],
+  "caution": "EXO and 2D anchor preparation only. No 3D trajectory, new ViPE geometry, rendered prior or EgoX launch readiness is asserted."
+}

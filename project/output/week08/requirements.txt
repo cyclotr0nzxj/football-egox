@@ -1,0 +1,6 @@
+# Reproduced with Python 3.12 on macOS. FFmpeg/ffprobe are external commands.
+numpy==2.3.5
+opencv-python-headless==4.11.0.86
+Pillow==12.3.0
+reportlab==4.4.9
+pypdf==6.10.0

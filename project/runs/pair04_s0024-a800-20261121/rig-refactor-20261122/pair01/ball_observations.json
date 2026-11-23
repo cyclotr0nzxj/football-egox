@@ -1,0 +1,16 @@
+{
+  "exo_sha256": "94a34d2fdccee5594be5cbc768d7c7656b065d10c5d347c80d5dd3d5a05ee2ab",
+  "method": "Manual same-frame review of the 784x448 R8 image at source PTS i/25. Centers are approximate to one pixel; core radius deliberately smaller than observed outline. F28 obscured left side omitted.",
+  "observations": {
+    "20": [577, 272, 4, null],
+    "21": [581, 273, 4, null],
+    "22": [585, 275, 4, null],
+    "23": [588, 279, 4, null],
+    "24": [591, 283, 4, null],
+    "25": [595, 288, 4, null],
+    "26": [598, 285, 4, null],
+    "27": [601, 283, 4, null],
+    "28": [604, 282, 4, 602]
+  },
+  "scope": "F20-F27 visibly separated from red shoe in source image; F28 image contours abut or overlap. Physical 3D contact not established."
+}

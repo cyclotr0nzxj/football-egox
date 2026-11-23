@@ -1,0 +1,636 @@
+{
+  "F12": {
+    "old_teammate_camera_left_degrees": -4.64,
+    "views": {
+      "-15": {
+        "teammate": [
+          1872,
+          [
+            168.0,
+            202.0
+          ]
+        ],
+        "ball": [
+          33,
+          [
+            163.0,
+            257.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          49,
+          [
+            268.0,
+            429.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          25,
+          [
+            136.0,
+            424.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2222,
+        "three_way_visible": true
+      },
+      "-10": {
+        "teammate": [
+          1880,
+          [
+            191.0,
+            201.0
+          ]
+        ],
+        "ball": [
+          33,
+          [
+            186.0,
+            256.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          37,
+          [
+            283.0,
+            431.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          34,
+          [
+            151.0,
+            422.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2227,
+        "three_way_visible": true
+      },
+      "-5": {
+        "teammate": [
+          1862,
+          [
+            214.0,
+            201.0
+          ]
+        ],
+        "ball": [
+          31,
+          [
+            208.0,
+            255.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          23,
+          [
+            296.0,
+            433.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          36,
+          [
+            167.0,
+            419.5
+          ]
+        ],
+        "nominal_circle_coverage": 0.2206,
+        "three_way_visible": true
+      },
+      "0": {
+        "teammate": [
+          1872,
+          [
+            238.0,
+            201.0
+          ]
+        ],
+        "ball": [
+          30,
+          [
+            231.0,
+            255.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          37,
+          [
+            183.0,
+            418.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.217,
+        "three_way_visible": true
+      },
+      "5": {
+        "teammate": [
+          1879,
+          [
+            261.0,
+            201.0
+          ]
+        ],
+        "ball": [
+          28,
+          [
+            253.0,
+            255.5
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          38,
+          [
+            199.0,
+            417.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2109,
+        "three_way_visible": true
+      },
+      "10": {
+        "teammate": [
+          1894,
+          [
+            284.0,
+            202.0
+          ]
+        ],
+        "ball": [
+          32,
+          [
+            275.0,
+            256.5
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          38,
+          [
+            214.5,
+            416.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2032,
+        "three_way_visible": true
+      },
+      "15": {
+        "teammate": [
+          1910,
+          [
+            308.0,
+            203.0
+          ]
+        ],
+        "ball": [
+          32,
+          [
+            298.0,
+            257.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          38,
+          [
+            230.5,
+            416.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.1952,
+        "three_way_visible": true
+      },
+      "20": {
+        "teammate": [
+          1923,
+          [
+            331.0,
+            204.0
+          ]
+        ],
+        "ball": [
+          33,
+          [
+            320.0,
+            260.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          38,
+          [
+            246.0,
+            416.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.1872,
+        "three_way_visible": true
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {
+      "teammate": -2.98,
+      "ball": -1.43,
+      "disc_4": 12.82
+    }
+  },
+  "F24": {
+    "old_teammate_camera_left_degrees": 0.27,
+    "views": {
+      "-15": {
+        "teammate": [
+          1218,
+          [
+            149.0,
+            207.0
+          ]
+        ],
+        "ball": [
+          15,
+          [
+            162.0,
+            262.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          46,
+          [
+            258.5,
+            425.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          31,
+          [
+            130.0,
+            420.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2133,
+        "three_way_visible": true
+      },
+      "-10": {
+        "teammate": [
+          1204,
+          [
+            172.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          16,
+          [
+            183.0,
+            261.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          44,
+          [
+            274.5,
+            427.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          40,
+          [
+            146.0,
+            418.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2138,
+        "three_way_visible": true
+      },
+      "-5": {
+        "teammate": [
+          1223,
+          [
+            195.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          20,
+          [
+            206.0,
+            260.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          39,
+          [
+            290.0,
+            429.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          41,
+          [
+            161.0,
+            415.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.213,
+        "three_way_visible": true
+      },
+      "0": {
+        "teammate": [
+          1214,
+          [
+            219.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          14,
+          [
+            228.5,
+            259.5
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          20,
+          [
+            303.5,
+            429.0
+          ]
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          42,
+          [
+            177.5,
+            413.5
+          ]
+        ],
+        "nominal_circle_coverage": 0.2093,
+        "three_way_visible": true
+      },
+      "5": {
+        "teammate": [
+          1217,
+          [
+            242.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          16,
+          [
+            250.0,
+            260.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          46,
+          [
+            193.0,
+            412.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.2042,
+        "three_way_visible": true
+      },
+      "10": {
+        "teammate": [
+          1215,
+          [
+            265.0,
+            206.0
+          ]
+        ],
+        "ball": [
+          18,
+          [
+            272.5,
+            261.5
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          45,
+          [
+            210.0,
+            411.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.1972,
+        "three_way_visible": true
+      },
+      "15": {
+        "teammate": [
+          1227,
+          [
+            289.0,
+            207.0
+          ]
+        ],
+        "ball": [
+          12,
+          [
+            294.5,
+            262.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          45,
+          [
+            226.0,
+            411.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.189,
+        "three_way_visible": true
+      },
+      "20": {
+        "teammate": [
+          1247,
+          [
+            312.0,
+            208.0
+          ]
+        ],
+        "ball": [
+          13,
+          [
+            316.0,
+            264.0
+          ]
+        ],
+        "disc_1": [
+          0,
+          null
+        ],
+        "disc_2": [
+          0,
+          null
+        ],
+        "disc_3": [
+          0,
+          null
+        ],
+        "disc_4": [
+          45,
+          [
+            242.0,
+            412.0
+          ]
+        ],
+        "nominal_circle_coverage": 0.1816,
+        "three_way_visible": true
+      }
+    },
+    "frozen_visible_object_left_bearing_degrees": {
+      "teammate": 1.18,
+      "ball": -1.07,
+      "disc_2": -25.35,
+      "disc_4": 14.09
+    }
+  }
+}

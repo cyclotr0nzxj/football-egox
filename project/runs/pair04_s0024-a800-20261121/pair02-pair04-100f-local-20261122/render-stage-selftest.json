@@ -1,0 +1,26 @@
+[
+  {
+    "pair": "Pair02",
+    "collection_verified": true,
+    "receiver_and_wrong_digest_rejection_passed": true,
+    "archived_geometry": "real first window duplicated to simulate two windows",
+    "renderer_converter": "simulated, no GPU or model inference",
+    "both_windows_staged": true,
+    "overlap_videos_written": true,
+    "depth_arrays_verified_each": 49,
+    "inference_invocation": "simulated using archived raw output and audit, no inference",
+    "historical_result_verifier_passed": true
+  },
+  {
+    "pair": "Pair04",
+    "collection_verified": true,
+    "receiver_and_wrong_digest_rejection_passed": true,
+    "archived_geometry": "real first window duplicated to simulate two windows",
+    "renderer_converter": "simulated, no GPU or model inference",
+    "both_windows_staged": true,
+    "overlap_videos_written": true,
+    "depth_arrays_verified_each": 49,
+    "inference_invocation": "simulated using archived raw output and audit, no inference",
+    "historical_result_verifier_passed": true
+  }
+]

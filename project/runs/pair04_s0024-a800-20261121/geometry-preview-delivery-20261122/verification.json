@@ -1,0 +1,44 @@
+{
+  "Pair01": {
+    "source": "runs/pair04_s0024-a800-20261121/ball-view-cpu-review/pair01_s0288-aim-preview.mp4",
+    "source_sha256": "799eb6c10f05af102cf41949b67c74aa9c095b11d584af24e27b53f327413f7c",
+    "output": "Pair01-geometry.mp4",
+    "sha256": "6d65503e81c4657c6709e4f430ba35f5291828acbf3e320c5f1828219a58d751",
+    "frames": 49,
+    "fps": 25,
+    "duration_seconds": 1.96,
+    "size": [
+      448,
+      448
+    ],
+    "right_crop_xywh": [
+      896,
+      48,
+      448,
+      448
+    ],
+    "mean_abs_rgb_difference": 0.7762544211721678,
+    "full_decode_and_pts": "passed"
+  },
+  "Pair05": {
+    "source": "runs/pair04_s0024-a800-20261121/ball-view-cpu-review/pair05_s0024-aim-preview.mp4",
+    "source_sha256": "ec727525811f66ffeff42cc74c9b1a6c43109e9222915dd3152e0ab03e8f0cd8",
+    "output": "Pair05-geometry.mp4",
+    "sha256": "d6928173be58381811f9806a9c752234cb73b0bcd2b4f719ed9fde2609be8497",
+    "frames": 49,
+    "fps": 25,
+    "duration_seconds": 1.96,
+    "size": [
+      448,
+      448
+    ],
+    "right_crop_xywh": [
+      896,
+      48,
+      448,
+      448
+    ],
+    "mean_abs_rgb_difference": 0.6955281016264925,
+    "full_decode_and_pts": "passed"
+  }
+}

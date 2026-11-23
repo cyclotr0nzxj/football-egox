@@ -1,0 +1,75 @@
+{
+  "plan_sha256": "3cd25a102a6ecf4006add800b293dcf40b82b296392ff652aeea308fcd0f501e",
+  "seed_geometry": "pinned Pair05 Aria arm",
+  "edge_columns": [
+    "flat_ego_query",
+    "object_id",
+    "flat_exo_key",
+    "sample_count"
+  ],
+  "sample_columns": [
+    "source_and_target_frame",
+    "destination_flat_pixel",
+    "source_flat_pixel",
+    "object_id"
+  ],
+  "frames": {
+    "F12": {
+      "time_slot": 3,
+      "input_visible_pixels": 1939,
+      "selected_pixels": 1052,
+      "maximum_samples_per_source_block": 16,
+      "source_blocks_at_budget": 45,
+      "mixed_source_blocks_blocked_yx": [],
+      "per_object": {
+        "1": {
+          "selected_pixels": 993,
+          "routes": 152
+        },
+        "2": {
+          "selected_pixels": 29,
+          "routes": 6
+        },
+        "6": {
+          "selected_pixels": 30,
+          "routes": 6
+        }
+      },
+      "routed_query_patches": 26,
+      "object_branches": 26
+    },
+    "F24": {
+      "time_slot": 6,
+      "input_visible_pixels": 1290,
+      "selected_pixels": 851,
+      "maximum_samples_per_source_block": 16,
+      "source_blocks_at_budget": 36,
+      "mixed_source_blocks_blocked_yx": [
+        [
+          20,
+          32
+        ]
+      ],
+      "per_object": {
+        "1": {
+          "selected_pixels": 790,
+          "routes": 114
+        },
+        "2": {
+          "selected_pixels": 13,
+          "routes": 5
+        },
+        "4": {
+          "selected_pixels": 16,
+          "routes": 4
+        },
+        "6": {
+          "selected_pixels": 32,
+          "routes": 8
+        }
+      },
+      "routed_query_patches": 25,
+      "object_branches": 27
+    }
+  }
+}

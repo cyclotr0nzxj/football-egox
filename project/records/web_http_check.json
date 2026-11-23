@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "/artifacts/manifest.json",
+    "status": 200
+  },
+  {
+    "path": "/artifacts/source/exo.mp4",
+    "status": 200
+  },
+  {
+    "path": "/PROJECT.md",
+    "status": 404
+  },
+  {
+    "path": "/records/download_plan.json",
+    "status": 404
+  },
+  {
+    "path": "/artifacts/../PROJECT.md",
+    "status": 404
+  }
+]

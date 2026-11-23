@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv*/
+results_reproduced*/
+report_reproduced*/
+.package_state.json
+*.package-partial

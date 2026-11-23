@@ -1,0 +1,82 @@
+{
+  "rows": [
+    {
+      "pair": "04",
+      "original_visible_frame_range": [
+        24,
+        72
+      ],
+      "original_reference_files": [
+        "验证视频/裁剪后验证exo/MVI_5693.MP4",
+        "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4"
+      ],
+      "generated": "runs/pair04_s0024-a800-20261121/four-egox-outputs-008/verified/pair04_s0024_ego.mp4",
+      "generated_sha256": "4d590adb93803383fbf1d398be980cf5f25cd4444efcc94066b302dd9b4cf86c",
+      "compared_frames": 49,
+      "playback_fps": 25,
+      "file": "pair04-comparison.mp4",
+      "sha256": "cc67027ff7c7b462b6e19c192ec82702cd75ac2c4fb209974b174ed87b806fbb",
+      "verified_source_and_export_pts": true
+    },
+    {
+      "pair": "01",
+      "original_visible_frame_range": [
+        288,
+        336
+      ],
+      "original_reference_files": [
+        "验证视频/裁剪后验证exo/MVI_5688.MP4",
+        "验证视频/裁剪后验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4"
+      ],
+      "generated": "runs/pair04_s0024-a800-20261121/four-egox-outputs-008/verified/pair01_s0288_ego.mp4",
+      "generated_sha256": "515214b8d487c6edec53a7f5b8a0d39f1ab2bdb866b098759c099b9fd3512a11",
+      "compared_frames": 49,
+      "playback_fps": 25,
+      "file": "pair01-comparison.mp4",
+      "sha256": "aa227c2b0d934fdaa539957ef51ac28942c4a07bf57a6fa7937a43c0910d7ee1",
+      "verified_source_and_export_pts": true
+    },
+    {
+      "pair": "02",
+      "original_visible_frame_range": [
+        0,
+        48
+      ],
+      "original_reference_files": [
+        "验证视频/裁剪后验证exo/MVI_5689.MP4",
+        "验证视频/裁剪后验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4"
+      ],
+      "generated": "runs/pair04_s0024-a800-20261121/four-egox-outputs-008/verified/pair02_s0000_ego.mp4",
+      "generated_sha256": "a72c52389713689b0abd19decbb4b5726e28df0b8b6270c4cc54505d4249a607",
+      "compared_frames": 49,
+      "playback_fps": 25,
+      "file": "pair02-comparison.mp4",
+      "sha256": "5f3e534450ba5643046bdea2b263b8333bb728073911932af1a0dc8364a77f3f",
+      "verified_source_and_export_pts": true
+    },
+    {
+      "pair": "05",
+      "original_visible_frame_range": [
+        24,
+        72
+      ],
+      "original_reference_files": [
+        "验证视频/裁剪后验证exo/MVI_5694.MP4",
+        "验证视频/裁剪后验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4"
+      ],
+      "generated": "runs/pair04_s0024-a800-20261121/four-egox-outputs-008/verified/pair05_s0024_ego.mp4",
+      "generated_sha256": "df81ba4a06fd42b7ae64b35d5de52fd40882143e3356595e1bbbde077bcc2dec",
+      "compared_frames": 49,
+      "playback_fps": 25,
+      "file": "pair05-comparison.mp4",
+      "sha256": "c8cbbdc38393684ebaf9b90fc90b86b1baa639962312b4379bce5d1b57b01352",
+      "verified_source_and_export_pts": true
+    }
+  ],
+  "physical_exo_nano_sync_uncertainty_frames": 1,
+  "panel_order": [
+    "original_EXO",
+    "generated_EgoX",
+    "original_Nano"
+  ]
+}

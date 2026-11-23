@@ -1,0 +1,34 @@
+[
+  {
+    "pair": "Pair02",
+    "type": "EXO-only synthetic footage, not EgoX output",
+    "frames": 100,
+    "fps": 25,
+    "source_cuts": [
+      49,
+      76
+    ],
+    "max_frame_rgb_mae_vs_selected_input": 3.0033415710034013,
+    "decoded_and_pts_checked": true,
+    "overlap_videos_frames": [
+      21,
+      25
+    ]
+  },
+  {
+    "pair": "Pair04",
+    "type": "EXO-only synthetic footage, not EgoX output",
+    "frames": 100,
+    "fps": 25,
+    "source_cuts": [
+      73,
+      100
+    ],
+    "max_frame_rgb_mae_vs_selected_input": 2.75252610809949,
+    "decoded_and_pts_checked": true,
+    "overlap_videos_frames": [
+      21,
+      25
+    ]
+  }
+]

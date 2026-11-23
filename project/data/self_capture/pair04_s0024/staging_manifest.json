@@ -1,0 +1,840 @@
+{
+  "schema_version": 1,
+  "preprocessing_spec": {
+    "pair_id": "04",
+    "visible_frame_start_inclusive": 24,
+    "visible_frame_stop_exclusive": 73,
+    "frame_count": 49,
+    "fps": 25,
+    "exo_source_size": [
+      3840,
+      2160
+    ],
+    "exo_crop_xywh": [
+      30,
+      0,
+      3780,
+      2160
+    ],
+    "exo_output_size": [
+      784,
+      448
+    ],
+    "nano_output_size": [
+      960,
+      540
+    ],
+    "encoder": "libx264",
+    "crf": 18,
+    "pixel_format": "yuv420p",
+    "audio": false
+  },
+  "trim_manifest": "records/user_ego_trim_20261019/trim_manifest.json",
+  "sources": {
+    "exo": {
+      "path": "验证视频/裁剪后验证exo/MVI_5693.MP4",
+      "sha256": "9c4f10825e9b6e2936ac87e4a1d1e45473f6259b6184d77b262981d9400ab2a4",
+      "stream": {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "pix_fmt": "yuv420p",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "25/1",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.100 h264_videotoolbox"
+        }
+      }
+    },
+    "nano": {
+      "path": "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "sha256": "291b754f49eceb3999a0aef289b5d2d1823982623cfde7244c7487c5c88ce526",
+      "stream": {
+        "codec_name": "hevc",
+        "width": 3840,
+        "height": 2160,
+        "pix_fmt": "yuv420p10le",
+        "color_range": "tv",
+        "color_space": "bt709",
+        "r_frame_rate": "25/1",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-10-19T13:55:34.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "encoder": "Lavc62.28.100 hevc_videotoolbox"
+        }
+      }
+    }
+  },
+  "exo_inference_rgb_path": "egox_input/example/self_capture/videos/pair04_s0024/exo.mp4",
+  "nano_reference_path": "reference/nano.mp4",
+  "reference_isolation": "Nano is an evaluation/reference video outside egox_input. No Nano pixels are used for EXO window selection, prompt selection, priors, model metadata, or model input.",
+  "frame_mapping": [
+    {
+      "model_frame": 0,
+      "short_clip_visible_frame": 24,
+      "short_clip_pts_seconds": 0.96,
+      "model_pts_seconds": 0.0,
+      "base_aligned_frame": 123,
+      "historical_raw_exo_frame": 154
+    },
+    {
+      "model_frame": 1,
+      "short_clip_visible_frame": 25,
+      "short_clip_pts_seconds": 1.0,
+      "model_pts_seconds": 0.04,
+      "base_aligned_frame": 124,
+      "historical_raw_exo_frame": 155
+    },
+    {
+      "model_frame": 2,
+      "short_clip_visible_frame": 26,
+      "short_clip_pts_seconds": 1.04,
+      "model_pts_seconds": 0.08,
+      "base_aligned_frame": 125,
+      "historical_raw_exo_frame": 156
+    },
+    {
+      "model_frame": 3,
+      "short_clip_visible_frame": 27,
+      "short_clip_pts_seconds": 1.08,
+      "model_pts_seconds": 0.12,
+      "base_aligned_frame": 126,
+      "historical_raw_exo_frame": 157
+    },
+    {
+      "model_frame": 4,
+      "short_clip_visible_frame": 28,
+      "short_clip_pts_seconds": 1.12,
+      "model_pts_seconds": 0.16,
+      "base_aligned_frame": 127,
+      "historical_raw_exo_frame": 158
+    },
+    {
+      "model_frame": 5,
+      "short_clip_visible_frame": 29,
+      "short_clip_pts_seconds": 1.16,
+      "model_pts_seconds": 0.2,
+      "base_aligned_frame": 128,
+      "historical_raw_exo_frame": 159
+    },
+    {
+      "model_frame": 6,
+      "short_clip_visible_frame": 30,
+      "short_clip_pts_seconds": 1.2,
+      "model_pts_seconds": 0.24,
+      "base_aligned_frame": 129,
+      "historical_raw_exo_frame": 160
+    },
+    {
+      "model_frame": 7,
+      "short_clip_visible_frame": 31,
+      "short_clip_pts_seconds": 1.24,
+      "model_pts_seconds": 0.28,
+      "base_aligned_frame": 130,
+      "historical_raw_exo_frame": 161
+    },
+    {
+      "model_frame": 8,
+      "short_clip_visible_frame": 32,
+      "short_clip_pts_seconds": 1.28,
+      "model_pts_seconds": 0.32,
+      "base_aligned_frame": 131,
+      "historical_raw_exo_frame": 162
+    },
+    {
+      "model_frame": 9,
+      "short_clip_visible_frame": 33,
+      "short_clip_pts_seconds": 1.32,
+      "model_pts_seconds": 0.36,
+      "base_aligned_frame": 132,
+      "historical_raw_exo_frame": 163
+    },
+    {
+      "model_frame": 10,
+      "short_clip_visible_frame": 34,
+      "short_clip_pts_seconds": 1.36,
+      "model_pts_seconds": 0.4,
+      "base_aligned_frame": 133,
+      "historical_raw_exo_frame": 164
+    },
+    {
+      "model_frame": 11,
+      "short_clip_visible_frame": 35,
+      "short_clip_pts_seconds": 1.4,
+      "model_pts_seconds": 0.44,
+      "base_aligned_frame": 134,
+      "historical_raw_exo_frame": 165
+    },
+    {
+      "model_frame": 12,
+      "short_clip_visible_frame": 36,
+      "short_clip_pts_seconds": 1.44,
+      "model_pts_seconds": 0.48,
+      "base_aligned_frame": 135,
+      "historical_raw_exo_frame": 166
+    },
+    {
+      "model_frame": 13,
+      "short_clip_visible_frame": 37,
+      "short_clip_pts_seconds": 1.48,
+      "model_pts_seconds": 0.52,
+      "base_aligned_frame": 136,
+      "historical_raw_exo_frame": 167
+    },
+    {
+      "model_frame": 14,
+      "short_clip_visible_frame": 38,
+      "short_clip_pts_seconds": 1.52,
+      "model_pts_seconds": 0.56,
+      "base_aligned_frame": 137,
+      "historical_raw_exo_frame": 168
+    },
+    {
+      "model_frame": 15,
+      "short_clip_visible_frame": 39,
+      "short_clip_pts_seconds": 1.56,
+      "model_pts_seconds": 0.6,
+      "base_aligned_frame": 138,
+      "historical_raw_exo_frame": 169
+    },
+    {
+      "model_frame": 16,
+      "short_clip_visible_frame": 40,
+      "short_clip_pts_seconds": 1.6,
+      "model_pts_seconds": 0.64,
+      "base_aligned_frame": 139,
+      "historical_raw_exo_frame": 170
+    },
+    {
+      "model_frame": 17,
+      "short_clip_visible_frame": 41,
+      "short_clip_pts_seconds": 1.64,
+      "model_pts_seconds": 0.68,
+      "base_aligned_frame": 140,
+      "historical_raw_exo_frame": 171
+    },
+    {
+      "model_frame": 18,
+      "short_clip_visible_frame": 42,
+      "short_clip_pts_seconds": 1.68,
+      "model_pts_seconds": 0.72,
+      "base_aligned_frame": 141,
+      "historical_raw_exo_frame": 172
+    },
+    {
+      "model_frame": 19,
+      "short_clip_visible_frame": 43,
+      "short_clip_pts_seconds": 1.72,
+      "model_pts_seconds": 0.76,
+      "base_aligned_frame": 142,
+      "historical_raw_exo_frame": 173
+    },
+    {
+      "model_frame": 20,
+      "short_clip_visible_frame": 44,
+      "short_clip_pts_seconds": 1.76,
+      "model_pts_seconds": 0.8,
+      "base_aligned_frame": 143,
+      "historical_raw_exo_frame": 174
+    },
+    {
+      "model_frame": 21,
+      "short_clip_visible_frame": 45,
+      "short_clip_pts_seconds": 1.8,
+      "model_pts_seconds": 0.84,
+      "base_aligned_frame": 144,
+      "historical_raw_exo_frame": 175
+    },
+    {
+      "model_frame": 22,
+      "short_clip_visible_frame": 46,
+      "short_clip_pts_seconds": 1.84,
+      "model_pts_seconds": 0.88,
+      "base_aligned_frame": 145,
+      "historical_raw_exo_frame": 176
+    },
+    {
+      "model_frame": 23,
+      "short_clip_visible_frame": 47,
+      "short_clip_pts_seconds": 1.88,
+      "model_pts_seconds": 0.92,
+      "base_aligned_frame": 146,
+      "historical_raw_exo_frame": 177
+    },
+    {
+      "model_frame": 24,
+      "short_clip_visible_frame": 48,
+      "short_clip_pts_seconds": 1.92,
+      "model_pts_seconds": 0.96,
+      "base_aligned_frame": 147,
+      "historical_raw_exo_frame": 178
+    },
+    {
+      "model_frame": 25,
+      "short_clip_visible_frame": 49,
+      "short_clip_pts_seconds": 1.96,
+      "model_pts_seconds": 1.0,
+      "base_aligned_frame": 148,
+      "historical_raw_exo_frame": 179
+    },
+    {
+      "model_frame": 26,
+      "short_clip_visible_frame": 50,
+      "short_clip_pts_seconds": 2.0,
+      "model_pts_seconds": 1.04,
+      "base_aligned_frame": 149,
+      "historical_raw_exo_frame": 180
+    },
+    {
+      "model_frame": 27,
+      "short_clip_visible_frame": 51,
+      "short_clip_pts_seconds": 2.04,
+      "model_pts_seconds": 1.08,
+      "base_aligned_frame": 150,
+      "historical_raw_exo_frame": 181
+    },
+    {
+      "model_frame": 28,
+      "short_clip_visible_frame": 52,
+      "short_clip_pts_seconds": 2.08,
+      "model_pts_seconds": 1.12,
+      "base_aligned_frame": 151,
+      "historical_raw_exo_frame": 182
+    },
+    {
+      "model_frame": 29,
+      "short_clip_visible_frame": 53,
+      "short_clip_pts_seconds": 2.12,
+      "model_pts_seconds": 1.16,
+      "base_aligned_frame": 152,
+      "historical_raw_exo_frame": 183
+    },
+    {
+      "model_frame": 30,
+      "short_clip_visible_frame": 54,
+      "short_clip_pts_seconds": 2.16,
+      "model_pts_seconds": 1.2,
+      "base_aligned_frame": 153,
+      "historical_raw_exo_frame": 184
+    },
+    {
+      "model_frame": 31,
+      "short_clip_visible_frame": 55,
+      "short_clip_pts_seconds": 2.2,
+      "model_pts_seconds": 1.24,
+      "base_aligned_frame": 154,
+      "historical_raw_exo_frame": 185
+    },
+    {
+      "model_frame": 32,
+      "short_clip_visible_frame": 56,
+      "short_clip_pts_seconds": 2.24,
+      "model_pts_seconds": 1.28,
+      "base_aligned_frame": 155,
+      "historical_raw_exo_frame": 186
+    },
+    {
+      "model_frame": 33,
+      "short_clip_visible_frame": 57,
+      "short_clip_pts_seconds": 2.28,
+      "model_pts_seconds": 1.32,
+      "base_aligned_frame": 156,
+      "historical_raw_exo_frame": 187
+    },
+    {
+      "model_frame": 34,
+      "short_clip_visible_frame": 58,
+      "short_clip_pts_seconds": 2.32,
+      "model_pts_seconds": 1.36,
+      "base_aligned_frame": 157,
+      "historical_raw_exo_frame": 188
+    },
+    {
+      "model_frame": 35,
+      "short_clip_visible_frame": 59,
+      "short_clip_pts_seconds": 2.36,
+      "model_pts_seconds": 1.4,
+      "base_aligned_frame": 158,
+      "historical_raw_exo_frame": 189
+    },
+    {
+      "model_frame": 36,
+      "short_clip_visible_frame": 60,
+      "short_clip_pts_seconds": 2.4,
+      "model_pts_seconds": 1.44,
+      "base_aligned_frame": 159,
+      "historical_raw_exo_frame": 190
+    },
+    {
+      "model_frame": 37,
+      "short_clip_visible_frame": 61,
+      "short_clip_pts_seconds": 2.44,
+      "model_pts_seconds": 1.48,
+      "base_aligned_frame": 160,
+      "historical_raw_exo_frame": 191
+    },
+    {
+      "model_frame": 38,
+      "short_clip_visible_frame": 62,
+      "short_clip_pts_seconds": 2.48,
+      "model_pts_seconds": 1.52,
+      "base_aligned_frame": 161,
+      "historical_raw_exo_frame": 192
+    },
+    {
+      "model_frame": 39,
+      "short_clip_visible_frame": 63,
+      "short_clip_pts_seconds": 2.52,
+      "model_pts_seconds": 1.56,
+      "base_aligned_frame": 162,
+      "historical_raw_exo_frame": 193
+    },
+    {
+      "model_frame": 40,
+      "short_clip_visible_frame": 64,
+      "short_clip_pts_seconds": 2.56,
+      "model_pts_seconds": 1.6,
+      "base_aligned_frame": 163,
+      "historical_raw_exo_frame": 194
+    },
+    {
+      "model_frame": 41,
+      "short_clip_visible_frame": 65,
+      "short_clip_pts_seconds": 2.6,
+      "model_pts_seconds": 1.64,
+      "base_aligned_frame": 164,
+      "historical_raw_exo_frame": 195
+    },
+    {
+      "model_frame": 42,
+      "short_clip_visible_frame": 66,
+      "short_clip_pts_seconds": 2.64,
+      "model_pts_seconds": 1.68,
+      "base_aligned_frame": 165,
+      "historical_raw_exo_frame": 196
+    },
+    {
+      "model_frame": 43,
+      "short_clip_visible_frame": 67,
+      "short_clip_pts_seconds": 2.68,
+      "model_pts_seconds": 1.72,
+      "base_aligned_frame": 166,
+      "historical_raw_exo_frame": 197
+    },
+    {
+      "model_frame": 44,
+      "short_clip_visible_frame": 68,
+      "short_clip_pts_seconds": 2.72,
+      "model_pts_seconds": 1.76,
+      "base_aligned_frame": 167,
+      "historical_raw_exo_frame": 198
+    },
+    {
+      "model_frame": 45,
+      "short_clip_visible_frame": 69,
+      "short_clip_pts_seconds": 2.76,
+      "model_pts_seconds": 1.8,
+      "base_aligned_frame": 168,
+      "historical_raw_exo_frame": 199
+    },
+    {
+      "model_frame": 46,
+      "short_clip_visible_frame": 70,
+      "short_clip_pts_seconds": 2.8,
+      "model_pts_seconds": 1.84,
+      "base_aligned_frame": 169,
+      "historical_raw_exo_frame": 200
+    },
+    {
+      "model_frame": 47,
+      "short_clip_visible_frame": 71,
+      "short_clip_pts_seconds": 2.84,
+      "model_pts_seconds": 1.88,
+      "base_aligned_frame": 170,
+      "historical_raw_exo_frame": 201
+    },
+    {
+      "model_frame": 48,
+      "short_clip_visible_frame": 72,
+      "short_clip_pts_seconds": 2.88,
+      "model_pts_seconds": 1.92,
+      "base_aligned_frame": 171,
+      "historical_raw_exo_frame": 202
+    }
+  ],
+  "historical_raw_exo_backup_available_now": false,
+  "historical_raw_note": "The original raw backup is absent. Original EXO indices are historical coordinates recorded during synchronization, not recovered raw footage.",
+  "spatial_transform": {
+    "coordinate_convention": "Integer (u,v) denotes the center of the top-left pixel at (0,0); crop rectangle uses half-open source bounds.",
+    "exo_crop_source_bounds_xyxy": [
+      30,
+      0,
+      3810,
+      2160
+    ],
+    "exo_scale_exact": "28/135",
+    "exo_scale_xy": [
+      0.2074074074074074,
+      0.2074074074074074
+    ],
+    "exo_pixel_center_forward": "u_out=(u_source-30+0.5)*(784/3780)-0.5; v_out=(v_source+0.5)*(448/2160)-0.5",
+    "exo_pixel_center_inverse": "u_source=(u_out+0.5)/(784/3780)+30-0.5; v_source=(v_out+0.5)/(448/2160)-0.5",
+    "image_coordinate_transform_only_not_camera_K": [
+      [
+        0.2074074074074074,
+        0,
+        -6.618518518518519
+      ],
+      [
+        0,
+        0.2074074074074074,
+        -0.3962962962962963
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "nano_reference_scale_xy": [
+      0.25,
+      0.25
+    ],
+    "nano_pixel_center_forward": "u_out=(u_source+0.5)*0.25-0.5; v_out=(v_source+0.5)*0.25-0.5",
+    "resize_kernel": "FFmpeg scale default bicubic",
+    "encoding_note": "Both clips are H.264 CRF18 8-bit yuv420p limited-range BT.709 derivatives. Nano source is 10-bit and is converted to 8-bit for this reference clip."
+  },
+  "verification": {
+    "exo": {
+      "status": "passed",
+      "decoded_frames": 49,
+      "size": [
+        784,
+        448
+      ],
+      "fps": 25,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 1.92,
+      "duration_seconds": 1.96,
+      "all_frame_pts_seconds": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.52,
+        0.56,
+        0.6,
+        0.64,
+        0.68,
+        0.72,
+        0.76,
+        0.8,
+        0.84,
+        0.88,
+        0.92,
+        0.96,
+        1.0,
+        1.04,
+        1.08,
+        1.12,
+        1.16,
+        1.2,
+        1.24,
+        1.28,
+        1.32,
+        1.36,
+        1.4,
+        1.44,
+        1.48,
+        1.52,
+        1.56,
+        1.6,
+        1.64,
+        1.68,
+        1.72,
+        1.76,
+        1.8,
+        1.84,
+        1.88,
+        1.92
+      ],
+      "full_decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-threads",
+        "4",
+        "-i",
+        "./data/self_capture/pair04_s0024/egox_input/example/self_capture/videos/pair04_s0024/exo.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sha256": "c96a61109c50b3890c4b610ba4b1bc6ad5eb3be1ef40bfeab72656cbc682c1d4",
+      "encoding_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-v",
+        "info",
+        "-n",
+        "-hwaccel",
+        "videotoolbox",
+        "-threads",
+        "4",
+        "-filter_threads",
+        "2",
+        "-i",
+        "./验证视频/裁剪后验证exo/MVI_5693.MP4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-vf",
+        "trim=start=0,trim=start_frame=24:end_frame=73,setpts=N/(25*TB),crop=3780:2160:30:0,scale=784:448,format=yuv420p",
+        "-frames:v",
+        "49",
+        "-r",
+        "25",
+        "-fps_mode",
+        "cfr",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-threads",
+        "4",
+        "-pix_fmt",
+        "yuv420p",
+        "-color_range",
+        "tv",
+        "-colorspace",
+        "bt709",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-map_metadata",
+        "-1",
+        "-movflags",
+        "+faststart",
+        "./data/self_capture/pair04_s0024/egox_input/example/self_capture/videos/pair04_s0024/exo.partial.mp4"
+      ]
+    },
+    "nano": {
+      "status": "passed",
+      "decoded_frames": 49,
+      "size": [
+        960,
+        540
+      ],
+      "fps": 25,
+      "first_pts_seconds": 0.0,
+      "last_pts_seconds": 1.92,
+      "duration_seconds": 1.96,
+      "all_frame_pts_seconds": [
+        0.0,
+        0.04,
+        0.08,
+        0.12,
+        0.16,
+        0.2,
+        0.24,
+        0.28,
+        0.32,
+        0.36,
+        0.4,
+        0.44,
+        0.48,
+        0.52,
+        0.56,
+        0.6,
+        0.64,
+        0.68,
+        0.72,
+        0.76,
+        0.8,
+        0.84,
+        0.88,
+        0.92,
+        0.96,
+        1.0,
+        1.04,
+        1.08,
+        1.12,
+        1.16,
+        1.2,
+        1.24,
+        1.28,
+        1.32,
+        1.36,
+        1.4,
+        1.44,
+        1.48,
+        1.52,
+        1.56,
+        1.6,
+        1.64,
+        1.68,
+        1.72,
+        1.76,
+        1.8,
+        1.84,
+        1.88,
+        1.92
+      ],
+      "full_decode_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-v",
+        "error",
+        "-xerror",
+        "-err_detect",
+        "explode",
+        "-threads",
+        "4",
+        "-i",
+        "./data/self_capture/pair04_s0024/reference/nano.mp4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-f",
+        "null",
+        "-"
+      ],
+      "sha256": "7c0ac6f4bbc69266f867845fd86ac78564473e8e1af10cd0c7e3032fdb1dbf26",
+      "encoding_command": [
+        "ffmpeg",
+        "-nostdin",
+        "-v",
+        "info",
+        "-n",
+        "-hwaccel",
+        "videotoolbox",
+        "-threads",
+        "4",
+        "-filter_threads",
+        "2",
+        "-i",
+        "./验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-sn",
+        "-dn",
+        "-vf",
+        "trim=start=0,trim=start_frame=24:end_frame=73,setpts=N/(25*TB),scale=960:540,format=yuv420p",
+        "-frames:v",
+        "49",
+        "-r",
+        "25",
+        "-fps_mode",
+        "cfr",
+        "-c:v",
+        "libx264",
+        "-preset",
+        "fast",
+        "-crf",
+        "18",
+        "-threads",
+        "4",
+        "-pix_fmt",
+        "yuv420p",
+        "-color_range",
+        "tv",
+        "-colorspace",
+        "bt709",
+        "-color_primaries",
+        "bt709",
+        "-color_trc",
+        "bt709",
+        "-map_metadata",
+        "-1",
+        "-movflags",
+        "+faststart",
+        "./data/self_capture/pair04_s0024/reference/nano.partial.mp4"
+      ]
+    }
+  },
+  "contact_sheet": "exo_contact_sheet.png",
+  "contact_sheet_sha256": "cfab2355e501c94b28390741d38dae84910757d8db673f22dcc041171d60024b",
+  "contact_sheet_provenance": "Decoded only from staged EXO model frames 0,24,48. No Nano frame was used for this sheet.",
+  "missing_inputs": [
+    "Estimated scene depth for the selected EXO frames",
+    "Calibrated or estimated camera intrinsics and source camera poses",
+    "Per-frame target ego camera trajectory in the same coordinate system",
+    "Renderer-produced geometric ego priors and their valid masks",
+    "Verified official inference metadata and text conditioning"
+  ],
+  "execution_status": {
+    "rgb_staging": "completed_and_fully_decoded",
+    "geometry_estimation": "not_run",
+    "ego_prior_rendering": "not_run",
+    "self_capture_egox_generation": "not_run",
+    "model_metadata_created": false
+  }
+}

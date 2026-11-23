@@ -1,0 +1,37 @@
+[
+  {
+    "path": "artifacts/source/exo.mp4",
+    "sha256": "2ff43497893eddf94444a98ea8a4e3a60cf0082b2a75ae6d9461502376f94996",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/source/ego_GT.mp4",
+    "sha256": "24a0e000c46727df21dc32ab5ba885afbba886ec5701832e82b3a1f0b4d41e6c",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/generated_ego.mp4",
+    "sha256": "4d2f1c1d3b4ef8cb23e6da9a0b679535beff8873aef4f77ff5423b3fdb86c41f",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/official_output.mp4",
+    "sha256": "226ab80a04c8585207b36ff523de607698dc1ccd32c86e3f85759d88f2207ff7",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/frames/005.png",
+    "sha256": "e378e57c5801d3d452150709a1fb763c5c6c23a3cf4c54160040f4dc6139a85c",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/frames/035.png",
+    "sha256": "523dc9171aeb132586237ae072e8aa8dab5244625dbbd88135201bae931ebff4",
+    "matches_existing_record": true
+  },
+  {
+    "path": "artifacts/evaluation.json",
+    "sha256": "fc4abfb3162c7ffe42969a9d8ef39a81465f970059363df6747404a0dde94890",
+    "matches_existing_record": true
+  }
+]

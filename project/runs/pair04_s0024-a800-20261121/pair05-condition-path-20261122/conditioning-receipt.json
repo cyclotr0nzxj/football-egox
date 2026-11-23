@@ -1,0 +1,110 @@
+{
+  "executed_pipeline_sha256": "7749960c26408605c27ce067ced46e7a234d1a3faa5c6eecdadfea4fe3c14af7",
+  "patch_size": [
+    1,
+    2,
+    2
+  ],
+  "exo_boundary_aligned_to_patch": true,
+  "tensor_test": {
+    "scope": "executed B tensor plumbing with mocked encoder, transformer, solver and decoder",
+    "transformer_input_shape": [
+      1,
+      36,
+      13,
+      56,
+      154
+    ],
+    "ego_prior_channels_inclusive": [
+      20,
+      35
+    ],
+    "ego_uses_columns_inclusive": [
+      98,
+      153
+    ],
+    "test_nonzero_elements": 512,
+    "identical_placement_in_both_cfg_branches": true,
+    "decoder_widths": [
+      98,
+      56
+    ]
+  },
+  "clean_prediction_math": {
+    "scope": "training flow target checked with synthetic samples",
+    "equation": "predicted_clean = noisy_ego - sigma * predicted_velocity",
+    "sigmas_stressed": [
+      0.15,
+      0.5,
+      0.85
+    ],
+    "max_absolute_error": 0.0
+  },
+  "gga_route_geometry": {
+    "routed_queries": 51,
+    "total_ego_queries": 10192,
+    "frames": {
+      "12": {
+        "teammate": {
+          "geometry_label_pixels": 1872,
+          "blocks": 20,
+          "blocks_with_same_identity_route": 20,
+          "route_samples": 993,
+          "max_label_pixels_in_any_256pixel_block": 246
+        },
+        "ball": {
+          "geometry_label_pixels": 30,
+          "blocks": 2,
+          "blocks_with_same_identity_route": 2,
+          "route_samples": 29,
+          "max_label_pixels_in_any_256pixel_block": 17
+        },
+        "disc_2": {
+          "geometry_label_pixels": 0,
+          "blocks": 0,
+          "blocks_with_same_identity_route": 0,
+          "route_samples": 0,
+          "max_label_pixels_in_any_256pixel_block": 0
+        },
+        "disc_4": {
+          "geometry_label_pixels": 37,
+          "blocks": 4,
+          "blocks_with_same_identity_route": 4,
+          "route_samples": 30,
+          "max_label_pixels_in_any_256pixel_block": 18
+        }
+      },
+      "24": {
+        "teammate": {
+          "geometry_label_pixels": 1214,
+          "blocks": 15,
+          "blocks_with_same_identity_route": 15,
+          "route_samples": 790,
+          "max_label_pixels_in_any_256pixel_block": 239
+        },
+        "ball": {
+          "geometry_label_pixels": 14,
+          "blocks": 2,
+          "blocks_with_same_identity_route": 2,
+          "route_samples": 13,
+          "max_label_pixels_in_any_256pixel_block": 11
+        },
+        "disc_2": {
+          "geometry_label_pixels": 20,
+          "blocks": 4,
+          "blocks_with_same_identity_route": 4,
+          "route_samples": 16,
+          "max_label_pixels_in_any_256pixel_block": 9
+        },
+        "disc_4": {
+          "geometry_label_pixels": 42,
+          "blocks": 6,
+          "blocks_with_same_identity_route": 6,
+          "route_samples": 32,
+          "max_label_pixels_in_any_256pixel_block": 23
+        }
+      }
+    }
+  },
+  "projection_file_sha256": "e665f13acd916a49082633ddda9adda8299f2b3e24e636a203eee904491788e2"
+}

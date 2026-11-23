@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "pair_id": "04",
+  "trim_manifest": "evidence/trim_manifest.json",
+  "image_size": [
+    960,
+    540
+  ],
+  "selected_visible_frames": [
+    50,
+    200
+  ],
+  "preroll_policy": "ffmpeg trim=start=0 precedes select; negative PTS and discard packets are excluded from the visible-frame index.",
+  "filter_for_all_selected_frames": "trim=start=0,select='eq(n,0)+eq(n,10)+eq(n,48)+eq(n,50)+eq(n,130)+eq(n,150)+eq(n,170)+eq(n,200)+eq(n,230)+eq(n,270)+eq(n,280)+eq(n,292)',scale=960:540",
+  "historical_raw_exo_backup_available_now": false,
+  "historical_raw_exo_note": "Raw EXO frame indices below are historical coordinates from the trim manifest. The raw backup was absent when this course experiment was prepared; these numbers are not evidence that raw footage was recovered.",
+  "source_videos": {
+    "exo": {
+      "path": "验证视频/裁剪后验证exo/MVI_5693.MP4",
+      "sha256": "9c4f10825e9b6e2936ac87e4a1d1e45473f6259b6184d77b262981d9400ab2a4",
+      "probe": {
+        "codec_name": "h264",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "encoder": "Lavc62.28.100 h264_videotoolbox"
+        }
+      }
+    },
+    "ego": {
+      "path": "验证视频/裁剪后验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+      "sha256": "291b754f49eceb3999a0aef289b5d2d1823982623cfde7244c7487c5c88ce526",
+      "probe": {
+        "codec_name": "hevc",
+        "width": 3840,
+        "height": 2160,
+        "r_frame_rate": "25/1",
+        "time_base": "1/12800",
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "creation_time": "2026-10-19T13:55:34.000000Z",
+          "language": "und",
+          "handler_name": "Core Media Video",
+          "encoder": "Lavc62.28.100 hevc_videotoolbox"
+        }
+      }
+    }
+  },
+  "frames": [
+    {
+      "visible_frame": 50,
+      "source_pts_seconds": 2.0,
+      "source_pts_exact": "2.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 149,
+      "base_aligned_pts_seconds": 5.96,
+      "historical_raw_exo_frame": 180,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "data/frames/scene04/exo/0050.jpg",
+        "ego": "data/frames/scene04/ego/0050.jpg"
+      }
+    },
+    {
+      "visible_frame": 200,
+      "source_pts_seconds": 8.0,
+      "source_pts_exact": "8.000000",
+      "source_pts_match_between_views": true,
+      "base_aligned_frame": 299,
+      "base_aligned_pts_seconds": 11.96,
+      "historical_raw_exo_frame": 330,
+      "historical_raw_exo_frame_is_history_only": true,
+      "images": {
+        "exo": "data/frames/scene04/exo/0200.jpg",
+        "ego": "data/frames/scene04/ego/0200.jpg"
+      }
+    }
+  ],
+  "source_mapping_project_relative_path": "output/week08/frames/scene04/frame_mapping.json",
+  "package_root_relative_paths": true,
+  "source_videos_included_in_submission": true,
+  "packaged_source_video_manifest": "data/source_videos_4k/manifest.json"
+}

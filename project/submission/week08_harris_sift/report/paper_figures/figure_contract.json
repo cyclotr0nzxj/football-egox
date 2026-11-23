@@ -1,0 +1,66 @@
+{
+  "backend": "Python/matplotlib",
+  "matplotlib_version": "3.10.8",
+  "opencv_version": "4.11.0",
+  "numpy_version": "2.2.6",
+  "target": "Chinese course research article; Nature-informed graphics, not a Nature submission",
+  "core_claim": "High minimum-denominator location repeatability can coexist with substantial loss of source locations.",
+  "figure1": {
+    "archetype": "image plate",
+    "question": "Where are the retained centers in two synchronized F50 views?",
+    "scope": "2 representative F50 images, chosen before this revision; F200 results remain fully represented in quantitative Figure2",
+    "size_mm": [
+      180,
+      86
+    ]
+  },
+  "figure2": {
+    "archetype": "quantitative grid",
+    "question": "How do repeatability and source retention respond under the same controlled conditions?",
+    "input_rows": 48,
+    "excluded_rows": 0,
+    "n": "4 images, 2 views x 2 moments from one recording",
+    "center": "unweighted macro mean across images",
+    "spread": "all four observations shown; no inferential interval",
+    "test": "none",
+    "size_mm": [
+      180,
+      110
+    ]
+  },
+  "figure3": {
+    "archetype": "image plate + quant",
+    "question": "Why can the Harris rotation45 case have high r but low source retention?",
+    "selection": "existing diagnosed EGO F200 rotation45 case; not a representative population estimate",
+    "size_mm": [
+      180,
+      122
+    ]
+  },
+  "image_integrity": {
+    "source_photos": "four saved 960x540 JPEG inputs",
+    "crop": "none",
+    "color_adjustment": "none",
+    "response_only": "recomputed Harris response for display, per-image log-positive normalization, magma pseudocolour",
+    "rotation_case": "recorded H applied in memory to original JPEG; no reloading lossy transformed JPEG",
+    "point_overlay": "all saved centers relevant to the specified panel; no aesthetic subsampling"
+  },
+  "input_sha256": {
+    "metrics.csv": "96fd1b3f31ec51c6167759a5a7f20cd3a9c97d271e68bb24b5bf58bbfa00698f",
+    "exo_f0050": "e5c3cfa2d2569f0bff282226d7f4179f722fa8242c917eb59baaf546bf78ff09",
+    "exo_f0200": "982f126e81f14731a0156b14dac5e667974696d01ac65c83f325ace6d85abe92",
+    "ego_f0050": "194e4bb99aef7fe15282c7dc68b543381ccfc3dc8af2c386297a54edbcec56f1",
+    "ego_f0200": "c6c5f7deafffe396de02aa989fcbe05eccc75d3c7f6a04a4340f6df76805cb79"
+  },
+  "exports": [
+    "SVG with editable text",
+    "PDF with embedded TrueType text",
+    "PNG 300dpi"
+  ],
+  "minimum_font_pt": 7,
+  "limitations": [
+    "Four related images do not establish generalization",
+    "Position matching is not descriptor matching or tracking",
+    "No statistical tests, seeds, confidence intervals, new independent sessions, or new model results"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "frames": {
+    "F12": {
+      "nominal": [
+        {
+          "target_scale": 1,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 42,
+          "ball_subpixels_after_zbuffer": 36,
+          "original_grid_cells_with_surviving_ball_subpixel": 36
+        },
+        {
+          "target_scale": 2,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 97,
+          "ball_subpixels_after_zbuffer": 94,
+          "original_grid_cells_with_surviving_ball_subpixel": 30
+        },
+        {
+          "target_scale": 4,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 216,
+          "ball_subpixels_after_zbuffer": 215,
+          "original_grid_cells_with_surviving_ball_subpixel": 42
+        }
+      ],
+      "alternate": [
+        {
+          "target_scale": 1,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 38,
+          "ball_subpixels_after_zbuffer": 30,
+          "original_grid_cells_with_surviving_ball_subpixel": 30
+        },
+        {
+          "target_scale": 2,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 92,
+          "ball_subpixels_after_zbuffer": 85,
+          "original_grid_cells_with_surviving_ball_subpixel": 27
+        },
+        {
+          "target_scale": 4,
+          "ball_source_samples_in_view": 374,
+          "ball_subpixels_before_zbuffer": 218,
+          "ball_subpixels_after_zbuffer": 217,
+          "original_grid_cells_with_surviving_ball_subpixel": 37
+        }
+      ]
+    },
+    "F24": {
+      "nominal": [
+        {
+          "target_scale": 1,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 34,
+          "ball_subpixels_after_zbuffer": 3,
+          "original_grid_cells_with_surviving_ball_subpixel": 3
+        },
+        {
+          "target_scale": 2,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 89,
+          "ball_subpixels_after_zbuffer": 40,
+          "original_grid_cells_with_surviving_ball_subpixel": 22
+        },
+        {
+          "target_scale": 4,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 186,
+          "ball_subpixels_after_zbuffer": 131,
+          "original_grid_cells_with_surviving_ball_subpixel": 31
+        }
+      ],
+      "alternate": [
+        {
+          "target_scale": 1,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 48,
+          "ball_subpixels_after_zbuffer": 12,
+          "original_grid_cells_with_surviving_ball_subpixel": 12
+        },
+        {
+          "target_scale": 2,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 142,
+          "ball_subpixels_after_zbuffer": 72,
+          "original_grid_cells_with_surviving_ball_subpixel": 37
+        },
+        {
+          "target_scale": 4,
+          "ball_source_samples_in_view": 260,
+          "ball_subpixels_before_zbuffer": 231,
+          "ball_subpixels_after_zbuffer": 183,
+          "original_grid_cells_with_surviving_ball_subpixel": 48
+        }
+      ]
+    }
+  },
+  "interpretation": "4x is a subdivision diagnostic with the old EXO ball label. A coarse cell carrying one surviving subpixel is not a visible full-size ball pixel."
+}

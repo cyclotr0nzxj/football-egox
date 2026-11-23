@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "members": [
+    "exo_only/example/self_capture/videos/pair04_s0024/exo.mp4",
+    "scripts/pair04_cpu_dry_run.py",
+    "scripts/pair04_vipe_preflight.py"
+  ],
+  "archive_crc": "passed",
+  "extracted_cpu_dry_run": "passed",
+  "extra_input_file_rejected": true,
+  "sha256": "89b4ff66f68bb63ca8adc4aff136a58dc5916617382d9363b574cd4f0389bbf8",
+  "bytes": 727441
+}

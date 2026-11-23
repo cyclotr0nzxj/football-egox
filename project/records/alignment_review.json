@@ -1,0 +1,173 @@
+{
+  "sample": "cmu_soccer06_6_877_925",
+  "source_integrity_verified": true,
+  "delivered_native_raster": [
+    448,
+    448
+  ],
+  "frame_mapping": {
+    "source_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "generated_indices": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+    ],
+    "source_mp4_fps": 20,
+    "official_output_fps": 30,
+    "reason": "Official inference truncates exo and prior to first num_frames=49; official GT/prior preprocessing also selects first 49 without even downsampling."
+  },
+  "output_region_expected": {
+    "full_size": [
+      1232,
+      448
+    ],
+    "ego_crop_xywh": [
+      784,
+      0,
+      448,
+      448
+    ],
+    "reason": "Official pipeline decodes exo and ego latents separately and concatenates exo left / ego right."
+  },
+  "native_plane_evidence": [
+    "Official datasets/utils.py preprocess_video_with_resize ego_gt/ego_prior uses width=height and no rotation/flip; provided GT already 448 square.",
+    "Official sft_trainer.py lines 672-688 decode latent_ego to 448x448 and concatenate as right branch without rotation/flip.",
+    "GT and prior preview confirms upright supplied image convention; this is a raster convention check, not ray-level calibration."
+  ],
+  "mp4_display_matrix": [
+    {
+      "video": "exo.mp4",
+      "side_data": []
+    },
+    {
+      "video": "ego_GT.mp4",
+      "side_data": []
+    },
+    {
+      "video": "ego_Prior.mp4",
+      "side_data": []
+    }
+  ],
+  "physical_calibration_independently_verified": false,
+  "raw_sensor_timestamps_independently_verified": false,
+  "calibration_limits": [
+    "No source-specific online_calibration or original sensor timestamp provenance bundled with the selected EgoX example.",
+    "Provided ego K has fx=fy=150 and cx=cy=255.5, whereas the 448x448 raster midpoint is 223.5; no independently verified preprocessing mapping is provided.",
+    "Official infer.py uses hardcoded Aria distortion coefficients and rotates ray maps; these official conditioning settings are preserved unchanged."
+  ],
+  "allowed_metric_scope": "Descriptive full-raster RGB reconstruction error against the official supplied GT, conditional on completed real-output shape/hash review; not a sensor-calibrated camera-pose metric.",
+  "forbidden_transformations": [
+    "spatial registration",
+    "temporal offset search",
+    "rotation or flip",
+    "rescaling",
+    "fisheye border masking",
+    "colour fitting"
+  ],
+  "real_output_review_complete": true,
+  "generated_sha256": "226ab80a04c8585207b36ff523de607698dc1ccd32c86e3f85759d88f2207ff7",
+  "native_target_grid_verified": true,
+  "frame_index_mapping_verified": true,
+  "review_method": "Checked original successful run: 49 decoded frames, 1232x448, 30fps; reviewed GT versus generated native right branch at frames 0,4,8,...,48. Both use upright supplied fisheye raster with consistent left/right scene orientation. Position differences are retained as model errors; no registration was performed.",
+  "summary_zh": [
+    "已核对真实输出尺寸、右侧分支、画面方向和源帧编号；按官方原生 448×448 平面直接比较。",
+    "生成中的球、人和相机视野与 GT 存在偏差，保留这些误差，不做后验配准。",
+    "原始传感器标定和采集时间未独立验证；指标仅描述该交付图像平面，不代表标定精度。"
+  ]
+}

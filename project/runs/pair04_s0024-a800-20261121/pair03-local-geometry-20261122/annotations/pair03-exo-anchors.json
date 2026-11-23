@@ -1,0 +1,2157 @@
+{
+  "name": "pair03",
+  "width": 784,
+  "height": 448,
+  "video_sha256": "512a57b111ec1420e21def2814bdd17105d9a611f7e4e5da40f623c2e92a94b9",
+  "source": "Pair03 cropped external R8 view, first 49 visible frames",
+  "wearer_identity": "red shoes, dark helmet",
+  "teammate_identity": "white shoes",
+  "frames": [
+    {
+      "frame": 0,
+      "wearer_head_xy": [
+        515,
+        178
+      ],
+      "teammate_head_xy": [
+        451,
+        196
+      ],
+      "teammate_torso_xy": [
+        437,
+        229
+      ],
+      "wearer_ground_xy": [
+        531,
+        330
+      ],
+      "teammate_ground_xy": [
+        423,
+        308
+      ],
+      "wearer_box_xyxy": [
+        501,
+        166,
+        563,
+        332
+      ],
+      "teammate_box_xyxy": [
+        413,
+        186,
+        464,
+        310
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        519,
+        310
+      ],
+      "ball_evidence_xy": [
+        519,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 1,
+      "wearer_head_xy": [
+        514,
+        178
+      ],
+      "teammate_head_xy": [
+        451,
+        196
+      ],
+      "teammate_torso_xy": [
+        436,
+        229
+      ],
+      "wearer_ground_xy": [
+        532,
+        330
+      ],
+      "teammate_ground_xy": [
+        423,
+        308
+      ],
+      "wearer_box_xyxy": [
+        500,
+        166,
+        562,
+        332
+      ],
+      "teammate_box_xyxy": [
+        414,
+        186,
+        464,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        518,
+        310
+      ],
+      "ball_evidence_xy": [
+        518,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 2,
+      "wearer_head_xy": [
+        512,
+        178
+      ],
+      "teammate_head_xy": [
+        451,
+        197
+      ],
+      "teammate_torso_xy": [
+        436,
+        229
+      ],
+      "wearer_ground_xy": [
+        533,
+        330
+      ],
+      "teammate_ground_xy": [
+        423,
+        308
+      ],
+      "wearer_box_xyxy": [
+        498,
+        167,
+        560,
+        332
+      ],
+      "teammate_box_xyxy": [
+        414,
+        187,
+        464,
+        310
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        518,
+        310
+      ],
+      "ball_evidence_xy": [
+        518,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 3,
+      "wearer_head_xy": [
+        510,
+        179
+      ],
+      "teammate_head_xy": [
+        451,
+        198
+      ],
+      "teammate_torso_xy": [
+        436,
+        230
+      ],
+      "wearer_ground_xy": [
+        533,
+        330
+      ],
+      "teammate_ground_xy": [
+        423,
+        308
+      ],
+      "wearer_box_xyxy": [
+        496,
+        168,
+        558,
+        332
+      ],
+      "teammate_box_xyxy": [
+        413,
+        188,
+        464,
+        311
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        518,
+        310
+      ],
+      "ball_evidence_xy": [
+        518,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 4,
+      "wearer_head_xy": [
+        508,
+        180
+      ],
+      "teammate_head_xy": [
+        451,
+        198
+      ],
+      "teammate_torso_xy": [
+        435,
+        232
+      ],
+      "wearer_ground_xy": [
+        533,
+        330
+      ],
+      "teammate_ground_xy": [
+        423,
+        309
+      ],
+      "wearer_box_xyxy": [
+        495,
+        169,
+        557,
+        333
+      ],
+      "teammate_box_xyxy": [
+        412,
+        189,
+        463,
+        312
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        517,
+        310
+      ],
+      "ball_evidence_xy": [
+        517,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 5,
+      "wearer_head_xy": [
+        504,
+        181
+      ],
+      "teammate_head_xy": [
+        450,
+        198
+      ],
+      "teammate_torso_xy": [
+        434,
+        232
+      ],
+      "wearer_ground_xy": [
+        532,
+        330
+      ],
+      "teammate_ground_xy": [
+        424,
+        309
+      ],
+      "wearer_box_xyxy": [
+        492,
+        170,
+        552,
+        332
+      ],
+      "teammate_box_xyxy": [
+        412,
+        189,
+        462,
+        312
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        515,
+        310
+      ],
+      "ball_evidence_xy": [
+        515,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 6,
+      "wearer_head_xy": [
+        501,
+        182
+      ],
+      "teammate_head_xy": [
+        450,
+        199
+      ],
+      "teammate_torso_xy": [
+        434,
+        232
+      ],
+      "wearer_ground_xy": [
+        530,
+        329
+      ],
+      "teammate_ground_xy": [
+        424,
+        309
+      ],
+      "wearer_box_xyxy": [
+        490,
+        171,
+        548,
+        331
+      ],
+      "teammate_box_xyxy": [
+        413,
+        189,
+        462,
+        312
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        512,
+        310
+      ],
+      "ball_evidence_xy": [
+        512,
+        310
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 7,
+      "wearer_head_xy": [
+        499,
+        183
+      ],
+      "teammate_head_xy": [
+        450,
+        199
+      ],
+      "teammate_torso_xy": [
+        433,
+        232
+      ],
+      "wearer_ground_xy": [
+        525,
+        329
+      ],
+      "teammate_ground_xy": [
+        424,
+        309
+      ],
+      "wearer_box_xyxy": [
+        486,
+        172,
+        546,
+        332
+      ],
+      "teammate_box_xyxy": [
+        411,
+        188,
+        462,
+        312
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        510,
+        311
+      ],
+      "ball_evidence_xy": [
+        510,
+        311
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 8,
+      "wearer_head_xy": [
+        497,
+        184
+      ],
+      "teammate_head_xy": [
+        449,
+        199
+      ],
+      "teammate_torso_xy": [
+        432,
+        232
+      ],
+      "wearer_ground_xy": [
+        520,
+        329
+      ],
+      "teammate_ground_xy": [
+        423,
+        309
+      ],
+      "wearer_box_xyxy": [
+        482,
+        173,
+        545,
+        332
+      ],
+      "teammate_box_xyxy": [
+        409,
+        188,
+        461,
+        312
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        508,
+        312
+      ],
+      "ball_evidence_xy": [
+        505,
+        310
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 9,
+      "wearer_head_xy": [
+        495,
+        185
+      ],
+      "teammate_head_xy": [
+        448,
+        200
+      ],
+      "teammate_torso_xy": [
+        431,
+        234
+      ],
+      "wearer_ground_xy": [
+        520,
+        330
+      ],
+      "teammate_ground_xy": [
+        422,
+        308
+      ],
+      "wearer_box_xyxy": [
+        480,
+        174,
+        545,
+        333
+      ],
+      "teammate_box_xyxy": [
+        409,
+        189,
+        460,
+        312
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 10,
+      "wearer_head_xy": [
+        493,
+        186
+      ],
+      "teammate_head_xy": [
+        448,
+        201
+      ],
+      "teammate_torso_xy": [
+        430,
+        235
+      ],
+      "wearer_ground_xy": [
+        520,
+        330
+      ],
+      "teammate_ground_xy": [
+        420,
+        308
+      ],
+      "wearer_box_xyxy": [
+        478,
+        176,
+        545,
+        334
+      ],
+      "teammate_box_xyxy": [
+        409,
+        190,
+        460,
+        311
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 11,
+      "wearer_head_xy": [
+        491,
+        186
+      ],
+      "teammate_head_xy": [
+        447,
+        201
+      ],
+      "teammate_torso_xy": [
+        429,
+        235
+      ],
+      "wearer_ground_xy": [
+        519,
+        329
+      ],
+      "teammate_ground_xy": [
+        418,
+        308
+      ],
+      "wearer_box_xyxy": [
+        472,
+        176,
+        541,
+        333
+      ],
+      "teammate_box_xyxy": [
+        406,
+        191,
+        459,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 12,
+      "wearer_head_xy": [
+        489,
+        187
+      ],
+      "teammate_head_xy": [
+        446,
+        201
+      ],
+      "teammate_torso_xy": [
+        428,
+        235
+      ],
+      "wearer_ground_xy": [
+        518,
+        328
+      ],
+      "teammate_ground_xy": [
+        415,
+        308
+      ],
+      "wearer_box_xyxy": [
+        465,
+        176,
+        537,
+        332
+      ],
+      "teammate_box_xyxy": [
+        404,
+        192,
+        458,
+        310
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 13,
+      "wearer_head_xy": [
+        487,
+        186
+      ],
+      "teammate_head_xy": [
+        446,
+        202
+      ],
+      "teammate_torso_xy": [
+        426,
+        234
+      ],
+      "wearer_ground_xy": [
+        514,
+        326
+      ],
+      "teammate_ground_xy": [
+        414,
+        308
+      ],
+      "wearer_box_xyxy": [
+        462,
+        176,
+        534,
+        330
+      ],
+      "teammate_box_xyxy": [
+        404,
+        193,
+        457,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 14,
+      "wearer_head_xy": [
+        485,
+        186
+      ],
+      "teammate_head_xy": [
+        446,
+        203
+      ],
+      "teammate_torso_xy": [
+        425,
+        234
+      ],
+      "wearer_ground_xy": [
+        510,
+        323
+      ],
+      "teammate_ground_xy": [
+        414,
+        308
+      ],
+      "wearer_box_xyxy": [
+        460,
+        175,
+        531,
+        327
+      ],
+      "teammate_box_xyxy": [
+        403,
+        194,
+        456,
+        310
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 15,
+      "wearer_head_xy": [
+        481,
+        185
+      ],
+      "teammate_head_xy": [
+        442,
+        204
+      ],
+      "teammate_torso_xy": [
+        425,
+        233
+      ],
+      "wearer_ground_xy": [
+        506,
+        320
+      ],
+      "teammate_ground_xy": [
+        412,
+        306
+      ],
+      "wearer_box_xyxy": [
+        458,
+        174,
+        528,
+        324
+      ],
+      "teammate_box_xyxy": [
+        401,
+        194,
+        453,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 16,
+      "wearer_head_xy": [
+        477,
+        184
+      ],
+      "teammate_head_xy": [
+        438,
+        205
+      ],
+      "teammate_torso_xy": [
+        425,
+        232
+      ],
+      "wearer_ground_xy": [
+        502,
+        316
+      ],
+      "teammate_ground_xy": [
+        410,
+        305
+      ],
+      "wearer_box_xyxy": [
+        456,
+        172,
+        526,
+        321
+      ],
+      "teammate_box_xyxy": [
+        399,
+        195,
+        450,
+        309
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        509,
+        304
+      ],
+      "ball_evidence_xy": [
+        513,
+        302
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 17,
+      "wearer_head_xy": [
+        475,
+        184
+      ],
+      "teammate_head_xy": [
+        436,
+        206
+      ],
+      "teammate_torso_xy": [
+        424,
+        233
+      ],
+      "wearer_ground_xy": [
+        492,
+        314
+      ],
+      "teammate_ground_xy": [
+        410,
+        306
+      ],
+      "wearer_box_xyxy": [
+        453,
+        172,
+        522,
+        318
+      ],
+      "teammate_box_xyxy": [
+        398,
+        196,
+        449,
+        309
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        509,
+        303
+      ],
+      "ball_evidence_xy": [
+        513,
+        301
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 18,
+      "wearer_head_xy": [
+        473,
+        183
+      ],
+      "teammate_head_xy": [
+        435,
+        208
+      ],
+      "teammate_torso_xy": [
+        422,
+        234
+      ],
+      "wearer_ground_xy": [
+        483,
+        312
+      ],
+      "teammate_ground_xy": [
+        409,
+        306
+      ],
+      "wearer_box_xyxy": [
+        450,
+        173,
+        519,
+        315
+      ],
+      "teammate_box_xyxy": [
+        397,
+        198,
+        448,
+        309
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        509,
+        303
+      ],
+      "ball_evidence_xy": [
+        509,
+        303
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 19,
+      "wearer_head_xy": [
+        473,
+        184
+      ],
+      "teammate_head_xy": [
+        434,
+        208
+      ],
+      "teammate_torso_xy": [
+        420,
+        234
+      ],
+      "wearer_ground_xy": [
+        478,
+        312
+      ],
+      "teammate_ground_xy": [
+        410,
+        307
+      ],
+      "wearer_box_xyxy": [
+        448,
+        174,
+        524,
+        316
+      ],
+      "teammate_box_xyxy": [
+        398,
+        198,
+        448,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        508,
+        302
+      ],
+      "ball_evidence_xy": [
+        508,
+        302
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 20,
+      "wearer_head_xy": [
+        473,
+        185
+      ],
+      "teammate_head_xy": [
+        432,
+        209
+      ],
+      "teammate_torso_xy": [
+        418,
+        234
+      ],
+      "wearer_ground_xy": [
+        473,
+        312
+      ],
+      "teammate_ground_xy": [
+        410,
+        308
+      ],
+      "wearer_box_xyxy": [
+        447,
+        175,
+        529,
+        317
+      ],
+      "teammate_box_xyxy": [
+        399,
+        198,
+        447,
+        311
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        507,
+        301
+      ],
+      "ball_evidence_xy": [
+        507,
+        301
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 21,
+      "wearer_head_xy": [
+        472,
+        184
+      ],
+      "teammate_head_xy": [
+        434,
+        208
+      ],
+      "teammate_torso_xy": [
+        418,
+        232
+      ],
+      "wearer_ground_xy": [
+        472,
+        312
+      ],
+      "teammate_ground_xy": [
+        411,
+        308
+      ],
+      "wearer_box_xyxy": [
+        445,
+        174,
+        530,
+        317
+      ],
+      "teammate_box_xyxy": [
+        400,
+        197,
+        448,
+        310
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        505,
+        301
+      ],
+      "ball_evidence_xy": [
+        505,
+        301
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 22,
+      "wearer_head_xy": [
+        472,
+        184
+      ],
+      "teammate_head_xy": [
+        435,
+        207
+      ],
+      "teammate_torso_xy": [
+        418,
+        231
+      ],
+      "wearer_ground_xy": [
+        472,
+        313
+      ],
+      "teammate_ground_xy": [
+        412,
+        307
+      ],
+      "wearer_box_xyxy": [
+        443,
+        174,
+        530,
+        317
+      ],
+      "teammate_box_xyxy": [
+        401,
+        196,
+        450,
+        310
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        505,
+        300
+      ],
+      "ball_evidence_xy": [
+        505,
+        300
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 23,
+      "wearer_head_xy": [
+        472,
+        184
+      ],
+      "teammate_head_xy": [
+        436,
+        204
+      ],
+      "teammate_torso_xy": [
+        418,
+        230
+      ],
+      "wearer_ground_xy": [
+        472,
+        313
+      ],
+      "teammate_ground_xy": [
+        412,
+        306
+      ],
+      "wearer_box_xyxy": [
+        444,
+        174,
+        525,
+        317
+      ],
+      "teammate_box_xyxy": [
+        400,
+        194,
+        450,
+        309
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        504,
+        300
+      ],
+      "ball_evidence_xy": [
+        504,
+        300
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 24,
+      "wearer_head_xy": [
+        471,
+        185
+      ],
+      "teammate_head_xy": [
+        438,
+        202
+      ],
+      "teammate_torso_xy": [
+        419,
+        228
+      ],
+      "wearer_ground_xy": [
+        473,
+        313
+      ],
+      "teammate_ground_xy": [
+        411,
+        305
+      ],
+      "wearer_box_xyxy": [
+        444,
+        175,
+        520,
+        317
+      ],
+      "teammate_box_xyxy": [
+        399,
+        192,
+        450,
+        308
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        499,
+        298
+      ],
+      "ball_evidence_xy": [
+        499,
+        298
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 8
+    },
+    {
+      "frame": 25,
+      "wearer_head_xy": [
+        470,
+        186
+      ],
+      "teammate_head_xy": [
+        436,
+        205
+      ],
+      "teammate_torso_xy": [
+        418,
+        230
+      ],
+      "wearer_ground_xy": [
+        472,
+        310
+      ],
+      "teammate_ground_xy": [
+        412,
+        306
+      ],
+      "wearer_box_xyxy": [
+        444,
+        175,
+        517,
+        316
+      ],
+      "teammate_box_xyxy": [
+        400,
+        194,
+        450,
+        308
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        494,
+        298
+      ],
+      "ball_evidence_xy": [
+        494,
+        298
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 26,
+      "wearer_head_xy": [
+        469,
+        186
+      ],
+      "teammate_head_xy": [
+        434,
+        208
+      ],
+      "teammate_torso_xy": [
+        417,
+        231
+      ],
+      "wearer_ground_xy": [
+        471,
+        307
+      ],
+      "teammate_ground_xy": [
+        414,
+        306
+      ],
+      "wearer_box_xyxy": [
+        445,
+        175,
+        514,
+        315
+      ],
+      "teammate_box_xyxy": [
+        401,
+        197,
+        450,
+        309
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        487,
+        298
+      ],
+      "ball_evidence_xy": [
+        487,
+        298
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 27,
+      "wearer_head_xy": [
+        468,
+        187
+      ],
+      "teammate_head_xy": [
+        434,
+        208
+      ],
+      "teammate_torso_xy": [
+        416,
+        234
+      ],
+      "wearer_ground_xy": [
+        486,
+        308
+      ],
+      "teammate_ground_xy": [
+        414,
+        305
+      ],
+      "wearer_box_xyxy": [
+        448,
+        176,
+        514,
+        314
+      ],
+      "teammate_box_xyxy": [
+        400,
+        198,
+        450,
+        308
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        484,
+        297
+      ],
+      "ball_evidence_xy": [
+        484,
+        297
+      ],
+      "ball_status": "clear",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 28,
+      "wearer_head_xy": [
+        468,
+        188
+      ],
+      "teammate_head_xy": [
+        434,
+        208
+      ],
+      "teammate_torso_xy": [
+        415,
+        236
+      ],
+      "wearer_ground_xy": [
+        501,
+        309
+      ],
+      "teammate_ground_xy": [
+        413,
+        304
+      ],
+      "wearer_box_xyxy": [
+        450,
+        177,
+        513,
+        313
+      ],
+      "teammate_box_xyxy": [
+        398,
+        198,
+        450,
+        308
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        480,
+        294
+      ],
+      "ball_evidence_xy": [
+        482,
+        292
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 29,
+      "wearer_head_xy": [
+        468,
+        189
+      ],
+      "teammate_head_xy": [
+        432,
+        210
+      ],
+      "teammate_torso_xy": [
+        412,
+        236
+      ],
+      "wearer_ground_xy": [
+        500,
+        309
+      ],
+      "teammate_ground_xy": [
+        414,
+        304
+      ],
+      "wearer_box_xyxy": [
+        452,
+        178,
+        512,
+        314
+      ],
+      "teammate_box_xyxy": [
+        397,
+        199,
+        448,
+        308
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        477,
+        293
+      ],
+      "ball_evidence_xy": [
+        481,
+        293
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 30,
+      "wearer_head_xy": [
+        467,
+        190
+      ],
+      "teammate_head_xy": [
+        431,
+        211
+      ],
+      "teammate_torso_xy": [
+        410,
+        237
+      ],
+      "wearer_ground_xy": [
+        500,
+        309
+      ],
+      "teammate_ground_xy": [
+        414,
+        304
+      ],
+      "wearer_box_xyxy": [
+        453,
+        180,
+        512,
+        314
+      ],
+      "teammate_box_xyxy": [
+        396,
+        200,
+        447,
+        308
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        475,
+        293
+      ],
+      "ball_evidence_xy": [
+        479,
+        293
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 31,
+      "wearer_head_xy": [
+        466,
+        190
+      ],
+      "teammate_head_xy": [
+        431,
+        210
+      ],
+      "teammate_torso_xy": [
+        409,
+        236
+      ],
+      "wearer_ground_xy": [
+        500,
+        309
+      ],
+      "teammate_ground_xy": [
+        412,
+        304
+      ],
+      "wearer_box_xyxy": [
+        452,
+        180,
+        510,
+        314
+      ],
+      "teammate_box_xyxy": [
+        392,
+        200,
+        446,
+        307
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        473,
+        292
+      ],
+      "ball_evidence_xy": [
+        477,
+        292
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 32,
+      "wearer_head_xy": [
+        464,
+        190
+      ],
+      "teammate_head_xy": [
+        431,
+        209
+      ],
+      "teammate_torso_xy": [
+        408,
+        235
+      ],
+      "wearer_ground_xy": [
+        499,
+        309
+      ],
+      "teammate_ground_xy": [
+        409,
+        303
+      ],
+      "wearer_box_xyxy": [
+        451,
+        179,
+        507,
+        313
+      ],
+      "teammate_box_xyxy": [
+        389,
+        199,
+        444,
+        306
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 33,
+      "wearer_head_xy": [
+        462,
+        191
+      ],
+      "teammate_head_xy": [
+        430,
+        210
+      ],
+      "teammate_torso_xy": [
+        408,
+        234
+      ],
+      "wearer_ground_xy": [
+        482,
+        306
+      ],
+      "teammate_ground_xy": [
+        409,
+        302
+      ],
+      "wearer_box_xyxy": [
+        449,
+        180,
+        506,
+        311
+      ],
+      "teammate_box_xyxy": [
+        389,
+        200,
+        444,
+        306
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 34,
+      "wearer_head_xy": [
+        460,
+        192
+      ],
+      "teammate_head_xy": [
+        430,
+        210
+      ],
+      "teammate_torso_xy": [
+        407,
+        233
+      ],
+      "wearer_ground_xy": [
+        465,
+        303
+      ],
+      "teammate_ground_xy": [
+        409,
+        302
+      ],
+      "wearer_box_xyxy": [
+        447,
+        181,
+        505,
+        309
+      ],
+      "teammate_box_xyxy": [
+        389,
+        200,
+        444,
+        305
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 35,
+      "wearer_head_xy": [
+        458,
+        192
+      ],
+      "teammate_head_xy": [
+        428,
+        210
+      ],
+      "teammate_torso_xy": [
+        404,
+        232
+      ],
+      "wearer_ground_xy": [
+        466,
+        302
+      ],
+      "teammate_ground_xy": [
+        407,
+        301
+      ],
+      "wearer_box_xyxy": [
+        442,
+        182,
+        502,
+        308
+      ],
+      "teammate_box_xyxy": [
+        386,
+        200,
+        442,
+        304
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 36,
+      "wearer_head_xy": [
+        455,
+        193
+      ],
+      "teammate_head_xy": [
+        427,
+        210
+      ],
+      "teammate_torso_xy": [
+        402,
+        232
+      ],
+      "wearer_ground_xy": [
+        466,
+        302
+      ],
+      "teammate_ground_xy": [
+        405,
+        300
+      ],
+      "wearer_box_xyxy": [
+        438,
+        182,
+        500,
+        306
+      ],
+      "teammate_box_xyxy": [
+        383,
+        199,
+        440,
+        303
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 37,
+      "wearer_head_xy": [
+        454,
+        194
+      ],
+      "teammate_head_xy": [
+        426,
+        210
+      ],
+      "teammate_torso_xy": [
+        400,
+        232
+      ],
+      "wearer_ground_xy": [
+        466,
+        302
+      ],
+      "teammate_ground_xy": [
+        402,
+        299
+      ],
+      "wearer_box_xyxy": [
+        436,
+        182,
+        498,
+        306
+      ],
+      "teammate_box_xyxy": [
+        380,
+        200,
+        439,
+        303
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 38,
+      "wearer_head_xy": [
+        452,
+        194
+      ],
+      "teammate_head_xy": [
+        424,
+        211
+      ],
+      "teammate_torso_xy": [
+        398,
+        232
+      ],
+      "wearer_ground_xy": [
+        466,
+        302
+      ],
+      "teammate_ground_xy": [
+        398,
+        298
+      ],
+      "wearer_box_xyxy": [
+        435,
+        183,
+        495,
+        305
+      ],
+      "teammate_box_xyxy": [
+        378,
+        200,
+        438,
+        303
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 39,
+      "wearer_head_xy": [
+        451,
+        196
+      ],
+      "teammate_head_xy": [
+        420,
+        212
+      ],
+      "teammate_torso_xy": [
+        396,
+        234
+      ],
+      "wearer_ground_xy": [
+        466,
+        301
+      ],
+      "teammate_ground_xy": [
+        394,
+        298
+      ],
+      "wearer_box_xyxy": [
+        434,
+        185,
+        495,
+        304
+      ],
+      "teammate_box_xyxy": [
+        376,
+        201,
+        435,
+        302
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 40,
+      "wearer_head_xy": [
+        450,
+        197
+      ],
+      "teammate_head_xy": [
+        417,
+        212
+      ],
+      "teammate_torso_xy": [
+        393,
+        235
+      ],
+      "wearer_ground_xy": [
+        466,
+        300
+      ],
+      "teammate_ground_xy": [
+        390,
+        297
+      ],
+      "wearer_box_xyxy": [
+        434,
+        187,
+        495,
+        304
+      ],
+      "teammate_box_xyxy": [
+        373,
+        202,
+        432,
+        302
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        460,
+        286
+      ],
+      "ball_evidence_xy": [
+        457,
+        285
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 41,
+      "wearer_head_xy": [
+        448,
+        196
+      ],
+      "teammate_head_xy": [
+        416,
+        212
+      ],
+      "teammate_torso_xy": [
+        392,
+        234
+      ],
+      "wearer_ground_xy": [
+        467,
+        298
+      ],
+      "teammate_ground_xy": [
+        390,
+        298
+      ],
+      "wearer_box_xyxy": [
+        437,
+        185,
+        493,
+        302
+      ],
+      "teammate_box_xyxy": [
+        372,
+        202,
+        430,
+        302
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        459,
+        286
+      ],
+      "ball_evidence_xy": [
+        456,
+        285
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 42,
+      "wearer_head_xy": [
+        447,
+        195
+      ],
+      "teammate_head_xy": [
+        414,
+        213
+      ],
+      "teammate_torso_xy": [
+        391,
+        233
+      ],
+      "wearer_ground_xy": [
+        468,
+        295
+      ],
+      "teammate_ground_xy": [
+        391,
+        298
+      ],
+      "wearer_box_xyxy": [
+        440,
+        183,
+        491,
+        301
+      ],
+      "teammate_box_xyxy": [
+        371,
+        201,
+        428,
+        302
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        456,
+        285
+      ],
+      "ball_evidence_xy": [
+        452,
+        285
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 43,
+      "wearer_head_xy": [
+        446,
+        194
+      ],
+      "teammate_head_xy": [
+        412,
+        213
+      ],
+      "teammate_torso_xy": [
+        388,
+        234
+      ],
+      "wearer_ground_xy": [
+        471,
+        295
+      ],
+      "teammate_ground_xy": [
+        390,
+        297
+      ],
+      "wearer_box_xyxy": [
+        436,
+        183,
+        488,
+        300
+      ],
+      "teammate_box_xyxy": [
+        370,
+        202,
+        427,
+        300
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        455,
+        285
+      ],
+      "ball_evidence_xy": [
+        452,
+        284
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 44,
+      "wearer_head_xy": [
+        444,
+        194
+      ],
+      "teammate_head_xy": [
+        409,
+        213
+      ],
+      "teammate_torso_xy": [
+        385,
+        235
+      ],
+      "wearer_ground_xy": [
+        474,
+        295
+      ],
+      "teammate_ground_xy": [
+        389,
+        296
+      ],
+      "wearer_box_xyxy": [
+        433,
+        183,
+        486,
+        300
+      ],
+      "teammate_box_xyxy": [
+        368,
+        202,
+        426,
+        299
+      ],
+      "person_provenance": "manual",
+      "ball_xy": [
+        455,
+        284
+      ],
+      "ball_evidence_xy": [
+        452,
+        283
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 45,
+      "wearer_head_xy": [
+        442,
+        194
+      ],
+      "teammate_head_xy": [
+        408,
+        213
+      ],
+      "teammate_torso_xy": [
+        384,
+        234
+      ],
+      "wearer_ground_xy": [
+        474,
+        294
+      ],
+      "teammate_ground_xy": [
+        386,
+        295
+      ],
+      "wearer_box_xyxy": [
+        432,
+        182,
+        485,
+        300
+      ],
+      "teammate_box_xyxy": [
+        366,
+        202,
+        425,
+        299
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": [
+        453,
+        284
+      ],
+      "ball_evidence_xy": [
+        451,
+        282
+      ],
+      "ball_status": "partial",
+      "ball_radius_px_estimate": 7
+    },
+    {
+      "frame": 46,
+      "wearer_head_xy": [
+        440,
+        193
+      ],
+      "teammate_head_xy": [
+        407,
+        213
+      ],
+      "teammate_torso_xy": [
+        384,
+        234
+      ],
+      "wearer_ground_xy": [
+        474,
+        294
+      ],
+      "teammate_ground_xy": [
+        383,
+        294
+      ],
+      "wearer_box_xyxy": [
+        430,
+        181,
+        484,
+        299
+      ],
+      "teammate_box_xyxy": [
+        365,
+        201,
+        424,
+        299
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 47,
+      "wearer_head_xy": [
+        438,
+        194
+      ],
+      "teammate_head_xy": [
+        406,
+        214
+      ],
+      "teammate_torso_xy": [
+        383,
+        234
+      ],
+      "wearer_ground_xy": [
+        472,
+        292
+      ],
+      "teammate_ground_xy": [
+        382,
+        294
+      ],
+      "wearer_box_xyxy": [
+        428,
+        182,
+        482,
+        297
+      ],
+      "teammate_box_xyxy": [
+        364,
+        202,
+        422,
+        298
+      ],
+      "person_provenance": "linear_between_adjacent_manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    },
+    {
+      "frame": 48,
+      "wearer_head_xy": [
+        436,
+        194
+      ],
+      "teammate_head_xy": [
+        406,
+        215
+      ],
+      "teammate_torso_xy": [
+        382,
+        235
+      ],
+      "wearer_ground_xy": [
+        471,
+        290
+      ],
+      "teammate_ground_xy": [
+        381,
+        293
+      ],
+      "wearer_box_xyxy": [
+        427,
+        183,
+        481,
+        295
+      ],
+      "teammate_box_xyxy": [
+        364,
+        203,
+        421,
+        298
+      ],
+      "person_provenance": "manual",
+      "ball_xy": null,
+      "ball_evidence_xy": null,
+      "ball_status": "occluded_or_unconfirmed",
+      "ball_radius_px_estimate": null
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "pair": "01",
+    "match_count": 366,
+    "packet_count": 366,
+    "offset_counts": [
+      [
+        10.6,
+        366
+      ]
+    ],
+    "first_packets": [
+      {
+        "pts": -512,
+        "pts_time": "-0.040000",
+        "dts": -512,
+        "dts_time": "-0.040000",
+        "duration_time": "0.040000",
+        "size": "464802",
+        "flags": "KD_",
+        "data_hash": "SHA256:dc749f5c32c95124bf9258d153c77eb0544c484466ca0d480395caffc17d1d53"
+      },
+      {
+        "pts": 0,
+        "pts_time": "0.000000",
+        "dts": 0,
+        "dts_time": "0.000000",
+        "duration_time": "0.040000",
+        "size": "86559",
+        "flags": "___",
+        "data_hash": "SHA256:db0d6eaf0910492426c4fe704a16448b51e0c1e8030ccc9dfb722f9f72fa5cc2"
+      }
+    ],
+    "last_packets": [
+      {
+        "pts": 185856,
+        "pts_time": "14.520000",
+        "dts": 185856,
+        "dts_time": "14.520000",
+        "duration_time": "0.040000",
+        "size": "94482",
+        "flags": "___",
+        "data_hash": "SHA256:85817e3582ed5d5c4feb0c97e8904ff993c103756d21ce7b3a42c5ac27ad8af8"
+      },
+      {
+        "pts": 186368,
+        "pts_time": "14.560000",
+        "dts": 186368,
+        "dts_time": "14.560000",
+        "duration_time": "0.040000",
+        "size": "100286",
+        "flags": "___",
+        "data_hash": "SHA256:42e4e3b5595137ea3b05c29704fb7c4a497d07551e9cddf92541edc87485736a"
+      }
+    ]
+  },
+  {
+    "pair": "02",
+    "match_count": 355,
+    "packet_count": 355,
+    "offset_counts": [
+      [
+        0.68,
+        355
+      ]
+    ],
+    "first_packets": [
+      {
+        "pts": -2560,
+        "pts_time": "-0.200000",
+        "dts": -2560,
+        "dts_time": "-0.200000",
+        "duration_time": "0.040000",
+        "size": "549442",
+        "flags": "KD_",
+        "data_hash": "SHA256:0c681dadb9e51278f2c3aa1f404208771c8c128c94b7a61152dfd6bd9e25e0a2"
+      },
+      {
+        "pts": -2048,
+        "pts_time": "-0.160000",
+        "dts": -2048,
+        "dts_time": "-0.160000",
+        "duration_time": "0.040000",
+        "size": "36986",
+        "flags": "_D_",
+        "data_hash": "SHA256:fab25c3340bc04919d099ce22ac41cbf18773941002362ea6b690181ef1ceb48"
+      }
+    ],
+    "last_packets": [
+      {
+        "pts": 178176,
+        "pts_time": "13.920000",
+        "dts": 178176,
+        "dts_time": "13.920000",
+        "duration_time": "0.040000",
+        "size": "105164",
+        "flags": "___",
+        "data_hash": "SHA256:1b8d78a45217f843a894e2422bbcd4250145993fcf20b2a6037ba5263c1493e0"
+      },
+      {
+        "pts": 178688,
+        "pts_time": "13.960000",
+        "dts": 178688,
+        "dts_time": "13.960000",
+        "duration_time": "0.040000",
+        "size": "114839",
+        "flags": "___",
+        "data_hash": "SHA256:396584dedeaf46098909e852464a9d5543d7059b55d7910466c5f6e877a59674"
+      }
+    ]
+  },
+  {
+    "pair": "03",
+    "match_count": 283,
+    "packet_count": 283,
+    "offset_counts": [
+      [
+        3.48,
+        283
+      ]
+    ],
+    "first_packets": [
+      {
+        "pts": -1536,
+        "pts_time": "-0.120000",
+        "dts": -1536,
+        "dts_time": "-0.120000",
+        "duration_time": "0.040000",
+        "size": "305006",
+        "flags": "KD_",
+        "data_hash": "SHA256:0cdfde83f08d22269a1d5fa99c318da8ac6218223b6bae3dff9746db54005b1b"
+      },
+      {
+        "pts": -1024,
+        "pts_time": "-0.080000",
+        "dts": -1024,
+        "dts_time": "-0.080000",
+        "duration_time": "0.040000",
+        "size": "103364",
+        "flags": "_D_",
+        "data_hash": "SHA256:a88c6abf8b9968047e5899252b45baf9fe6d4d7f4d8904fd3a4244d41bf6e5b5"
+      }
+    ],
+    "last_packets": [
+      {
+        "pts": 142336,
+        "pts_time": "11.120000",
+        "dts": 142336,
+        "dts_time": "11.120000",
+        "duration_time": "0.040000",
+        "size": "109381",
+        "flags": "___",
+        "data_hash": "SHA256:b89b0d74ee0400c5c8c0e59516fdf22f02f25faedf96a36951116bb8d8d09503"
+      },
+      {
+        "pts": 142848,
+        "pts_time": "11.160000",
+        "dts": 142848,
+        "dts_time": "11.160000",
+        "duration_time": "0.040000",
+        "size": "100349",
+        "flags": "___",
+        "data_hash": "SHA256:de6bb10f19eaa8a6ff5a1d06aba4d4da134b1540aaa82fb18f1f9d094b4f9ce4"
+      }
+    ]
+  },
+  {
+    "pair": "04",
+    "match_count": 314,
+    "packet_count": 314,
+    "offset_counts": [
+      [
+        3.96,
+        314
+      ]
+    ],
+    "first_packets": [
+      {
+        "pts": -1536,
+        "pts_time": "-0.120000",
+        "dts": -1536,
+        "dts_time": "-0.120000",
+        "duration_time": "0.040000",
+        "size": "203222",
+        "flags": "KD_",
+        "data_hash": "SHA256:d5cc8c713606f43e338359a771c824973bb5b9ead8a25a6ff76d290aef669942"
+      },
+      {
+        "pts": -1024,
+        "pts_time": "-0.080000",
+        "dts": -1024,
+        "dts_time": "-0.080000",
+        "duration_time": "0.040000",
+        "size": "73974",
+        "flags": "_D_",
+        "data_hash": "SHA256:3152d330da5a468807f45a83b75c03fe036a3b7325fa6bd5d2f625b3811917b4"
+      }
+    ],
+    "last_packets": [
+      {
+        "pts": 158208,
+        "pts_time": "12.360000",
+        "dts": 158208,
+        "dts_time": "12.360000",
+        "duration_time": "0.040000",
+        "size": "138418",
+        "flags": "K__",
+        "data_hash": "SHA256:6bb64fe5467476c4b63de81c3be77de17ab271e7c0c8f31dcbe45078450111a4"
+      },
+      {
+        "pts": 158720,
+        "pts_time": "12.400000",
+        "dts": 158720,
+        "dts_time": "12.400000",
+        "duration_time": "0.040000",
+        "size": "87972",
+        "flags": "___",
+        "data_hash": "SHA256:a2e77932b0645508876a8868b267718382498b9fde6a89d1c27007702c9fd616"
+      }
+    ]
+  },
+  {
+    "pair": "05",
+    "match_count": 277,
+    "packet_count": 277,
+    "offset_counts": [
+      [
+        19.68,
+        277
+      ]
+    ],
+    "first_packets": [
+      {
+        "pts": -6144,
+        "pts_time": "-0.480000",
+        "dts": -6144,
+        "dts_time": "-0.480000",
+        "duration_time": "0.040000",
+        "size": "157255",
+        "flags": "KD_",
+        "data_hash": "SHA256:c7bedea6a42285aa37b991b0aefff678dc61340ec1f785b4c616dc32e3b2d972"
+      },
+      {
+        "pts": -5632,
+        "pts_time": "-0.440000",
+        "dts": -5632,
+        "dts_time": "-0.440000",
+        "duration_time": "0.040000",
+        "size": "111036",
+        "flags": "_D_",
+        "data_hash": "SHA256:e94b982701a109db1517ac135db6e285f03891d721ebe72264b417afdadf9afa"
+      }
+    ],
+    "last_packets": [
+      {
+        "pts": 134656,
+        "pts_time": "10.520000",
+        "dts": 134656,
+        "dts_time": "10.520000",
+        "duration_time": "0.040000",
+        "size": "129050",
+        "flags": "___",
+        "data_hash": "SHA256:2b2648ea1e4d1f5d2e60d806bc0a65b0c6ca75d14516764985472d410ef50935"
+      },
+      {
+        "pts": 135168,
+        "pts_time": "10.560000",
+        "dts": 135168,
+        "dts_time": "10.560000",
+        "duration_time": "0.040000",
+        "size": "138045",
+        "flags": "K__",
+        "data_hash": "SHA256:0b8a48183cc65e1e4bc74c8bac282eb9e38abfd791b98b2844e4d9d409d9907c"
+      }
+    ]
+  }
+]

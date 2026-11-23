@@ -1,0 +1,132 @@
+{
+  "seed": 42,
+  "opencv_version": "4.11.0",
+  "numpy_version": "2.3.5",
+  "parameters": {
+    "orb_nfeatures": 5000,
+    "orb_scaleFactor": 1.2,
+    "orb_nlevels": 8,
+    "orb_fastThreshold": 12,
+    "knn_k": 2,
+    "lowe_ratio": 0.75,
+    "ransac_reprojection_threshold_px": 3.0,
+    "ransac_max_iterations": 5000,
+    "ransac_confidence": 0.995,
+    "grid_columns": 17,
+    "grid_rows": 11,
+    "grid_margin_fraction": 0.075
+  },
+  "source_image": "./output/week08/frames/scene04/exo/0050.jpg",
+  "temporal_image": "./output/week08/frames/scene04/exo/0200.jpg",
+  "image_size": {
+    "width": 960,
+    "height": 540
+  },
+  "controlled": {
+    "experiment_type": "controlled_synthetic_perspective",
+    "source_keypoints": 5000,
+    "target_keypoints": 5000,
+    "knn_query_count": 5000,
+    "ratio_test_match_count": 2374,
+    "ransac_inlier_count": 1832,
+    "ransac_inlier_ratio": 0.7716933445661331,
+    "status": "estimated",
+    "H_source_to_target": [
+      [
+        0.8349523835564961,
+        -0.03306621149084647,
+        35.61083855283593
+      ],
+      [
+        -0.017767668062971025,
+        0.8182894724579807,
+        24.50066941904994
+      ],
+      [
+        -8.035878288805264e-05,
+        -0.00010104226741140988,
+        1.0
+      ]
+    ],
+    "inlier_fit_residual_diagnostic_only": {
+      "mean_px": 0.8063787458445822,
+      "median_px": 0.7026185457105649,
+      "p95_px": 1.9139220028428272,
+      "maximum_px": 3.8563093818602057,
+      "point_count": 1832
+    },
+    "H_true_source_to_target": [
+      [
+        0.8305962989953469,
+        -0.035765877011309496,
+        36.47999954223633
+      ],
+      [
+        -0.01813808731702837,
+        0.8146751650042534,
+        24.84000015258789
+      ],
+      [
+        -8.424747138903377e-05,
+        -0.00010556097028960065,
+        1.0
+      ]
+    ],
+    "accuracy_evaluation": "Fixed 17 x 11 image grid; points are independent of ORB features and are not used for fitting.",
+    "independent_grid_transfer_error": {
+      "mean_px": 0.47581400300015003,
+      "median_px": 0.4722968516264961,
+      "p95_px": 0.8272992783001759,
+      "maximum_px": 1.2480005083993593,
+      "point_count": 187
+    }
+  },
+  "temporal": {
+    "experiment_type": "real_same_camera_temporal",
+    "source_keypoints": 5000,
+    "target_keypoints": 5000,
+    "knn_query_count": 5000,
+    "ratio_test_match_count": 2815,
+    "ransac_inlier_count": 2663,
+    "ransac_inlier_ratio": 0.9460035523978686,
+    "status": "estimated",
+    "H_source_to_target": [
+      [
+        1.009044047173996,
+        -0.005157728884666002,
+        -5.175479287227473
+      ],
+      [
+        0.006895301177250759,
+        1.0017283144934386,
+        0.16689518597983857
+      ],
+      [
+        1.0728760378468233e-05,
+        -2.4146145515668333e-06,
+        1.0
+      ]
+    ],
+    "inlier_fit_residual_diagnostic_only": {
+      "mean_px": 0.8563560226160721,
+      "median_px": 0.7176967184785992,
+      "p95_px": 2.0942410615888845,
+      "maximum_px": 3.5889724661356373,
+      "point_count": 2663
+    },
+    "accuracy_evaluation": "Not available: this real pair has no ground-truth homography. Fit residual and identity displacement are diagnostics, not accuracy.",
+    "estimated_grid_displacement_from_identity_diagnostic_only": {
+      "mean_px": 5.830895973820083,
+      "median_px": 5.721920460098952,
+      "p95_px": 7.617873705438411,
+      "maximum_px": 8.1907235669942,
+      "point_count": 187
+    }
+  },
+  "limitations": [
+    "Controlled experiment is a synthetic planar warp of one real frame, not real camera/viewpoint conversion.",
+    "Temporal experiment uses two EXO frames from the same fixed camera, not EGO-to-EXO registration.",
+    "A single homography does not model general 3D viewpoint change or moving people and balls.",
+    "Temporal homography has no ground truth and is not reported as real registration accuracy."
+  ]
+}

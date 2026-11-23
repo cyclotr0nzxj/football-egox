@@ -1,0 +1,402 @@
+{
+  "main_pair": "04",
+  "size": [
+    960,
+    540
+  ],
+  "manual_reference_method": "Single-annotator coarse polygons drawn by inspecting unprocessed 960x540 images. Not model-produced masks, not pixel-perfect ground truth. Frames selected for instructional diversity, not a random generalization test.",
+  "pilot_frame": 0,
+  "roi_xyxy": [
+    250,
+    250,
+    750,
+    540
+  ],
+  "hsv_rules": [
+    {
+      "name": "bright_low_saturation",
+      "lower": [
+        0,
+        0,
+        135
+      ],
+      "upper": [
+        179,
+        90,
+        255
+      ]
+    },
+    {
+      "name": "yellow",
+      "lower": [
+        15,
+        45,
+        160
+      ],
+      "upper": [
+        40,
+        255,
+        255
+      ]
+    },
+    {
+      "name": "purple",
+      "lower": [
+        110,
+        45,
+        75
+      ],
+      "upper": [
+        165,
+        255,
+        255
+      ]
+    }
+  ],
+  "morph_close_kernel": 5,
+  "morph_close_iterations": 2,
+  "morph_open_kernel": 3,
+  "component_area": [
+    80,
+    15000
+  ],
+  "minimum_circularity": 0.45,
+  "aspect_ratio": [
+    0.55,
+    1.6
+  ],
+  "evaluation_frames": [
+    10,
+    50,
+    170,
+    230,
+    280,
+    130
+  ],
+  "reference_polygons": {
+    "10": [
+      [
+        593,
+        362
+      ],
+      [
+        612,
+        367
+      ],
+      [
+        626,
+        380
+      ],
+      [
+        634,
+        399
+      ],
+      [
+        630,
+        420
+      ],
+      [
+        615,
+        436
+      ],
+      [
+        595,
+        442
+      ],
+      [
+        576,
+        435
+      ],
+      [
+        561,
+        419
+      ],
+      [
+        555,
+        399
+      ],
+      [
+        560,
+        380
+      ],
+      [
+        575,
+        367
+      ]
+    ],
+    "50": [
+      [
+        550,
+        345
+      ],
+      [
+        570,
+        350
+      ],
+      [
+        585,
+        363
+      ],
+      [
+        593,
+        384
+      ],
+      [
+        590,
+        405
+      ],
+      [
+        577,
+        423
+      ],
+      [
+        557,
+        430
+      ],
+      [
+        537,
+        425
+      ],
+      [
+        520,
+        411
+      ],
+      [
+        512,
+        392
+      ],
+      [
+        514,
+        371
+      ],
+      [
+        531,
+        353
+      ]
+    ],
+    "170": [
+      [
+        590,
+        369
+      ],
+      [
+        609,
+        374
+      ],
+      [
+        623,
+        389
+      ],
+      [
+        632,
+        407
+      ],
+      [
+        628,
+        428
+      ],
+      [
+        615,
+        441
+      ],
+      [
+        596,
+        447
+      ],
+      [
+        577,
+        442
+      ],
+      [
+        562,
+        428
+      ],
+      [
+        556,
+        407
+      ],
+      [
+        561,
+        388
+      ],
+      [
+        576,
+        375
+      ]
+    ],
+    "230": [
+      [
+        654,
+        305
+      ],
+      [
+        677,
+        311
+      ],
+      [
+        695,
+        326
+      ],
+      [
+        705,
+        347
+      ],
+      [
+        701,
+        369
+      ],
+      [
+        688,
+        387
+      ],
+      [
+        665,
+        395
+      ],
+      [
+        644,
+        391
+      ],
+      [
+        626,
+        378
+      ],
+      [
+        614,
+        357
+      ],
+      [
+        614,
+        334
+      ],
+      [
+        630,
+        313
+      ]
+    ],
+    "280": [
+      [
+        656,
+        296
+      ],
+      [
+        678,
+        300
+      ],
+      [
+        695,
+        315
+      ],
+      [
+        703,
+        337
+      ],
+      [
+        698,
+        358
+      ],
+      [
+        683,
+        375
+      ],
+      [
+        660,
+        381
+      ],
+      [
+        638,
+        374
+      ],
+      [
+        621,
+        358
+      ],
+      [
+        614,
+        336
+      ],
+      [
+        620,
+        313
+      ],
+      [
+        634,
+        300
+      ]
+    ],
+    "130": [
+      [
+        547,
+        188
+      ],
+      [
+        555,
+        191
+      ],
+      [
+        561,
+        197
+      ],
+      [
+        563,
+        206
+      ],
+      [
+        559,
+        215
+      ],
+      [
+        550,
+        221
+      ],
+      [
+        541,
+        220
+      ],
+      [
+        535,
+        215
+      ],
+      [
+        532,
+        206
+      ],
+      [
+        534,
+        196
+      ],
+      [
+        540,
+        190
+      ]
+    ]
+  },
+  "manual_contact_events": [
+    {
+      "frame": 48,
+      "seconds": 1.92,
+      "event": "foot-ball approach/contact transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 150,
+      "seconds": 6.0,
+      "event": "receiving/controlling contact transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 270,
+      "seconds": 10.8,
+      "event": "foot-ball controlling transition",
+      "uncertainty_frames": 2
+    },
+    {
+      "frame": 292,
+      "seconds": 11.68,
+      "event": "opposite-side touch transition",
+      "uncertainty_frames": 2
+    }
+  ],
+  "event_annotation_note": "Manually selected from visible neighboring frames; not automatic touch detection or force/contact ground truth. Previously estimated +/-1 frame camera synchronization uncertainty also applies.",
+  "annotation_provenance": "Coarse reference polygons and nearby-touch frame choices were visually drafted by the coding assistant from unprocessed frames. No independent human or second-annotator verification has been performed."
+}

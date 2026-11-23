@@ -1,0 +1,3 @@
+[submodule "project/vendor/EgoX"]
+	path = project/vendor/EgoX
+	url = https://github.com/DAVIAN-Robotics/EgoX.git

@@ -1,0 +1,18 @@
+{
+  "README.md": "d9512d4be52954d054a442f2b09548ac531813b3c2e19d8ad3bdba8e2fc3c2e7",
+  "REPORT.md": "56421c6698e2e067dea57d56a620536b81de581aacd8d2d934120f4ce39b81f3",
+  "STATUS.md": "febfad266cc2f58cf17d20cc5d5e23ed88399187daa1676d0e287f8719043198",
+  "demo/index.html": "03294d9db23d7f3a53ac7b3b1d0adadab2242dc26154f9b0334acf93836637ff",
+  "scripts/build_artifacts.py": "47960a07efb4010a8ee35f6015b3969391514d56086b8e9ddee19992dac7bec7",
+  "scripts/cloud.sh": "49ed5487427bb8a5d47bf4d08366479fe94fdd56237f1a7f2c6856007e34a03f",
+  "scripts/download_models.py": "1c126f138b2678d8b93b3293d8193cdb8c7e910af50cb9b51c32d5dfe4700c68",
+  "scripts/download_sample.py": "3e6162585155698c511d6f53a37eac028387e5b1c2e5cdf499f5633646a1a91b",
+  "scripts/inspect_output.py": "108d64867533d79476bb0ab3846d91b856c177bb7d3d039b34d13cf961429e95",
+  "scripts/instrumented_infer.py": "37055dcc0a44785e3e4e8846de596db1a0256af4004204f40a26a5a6941ac063",
+  "scripts/preflight.py": "2adfb10f0703d7ef16fceae6820637147571a9c29a5ac854e7ee981c1d213dec",
+  "scripts/record_conditions.py": "b0fa6b12f6fc00d74199bbe5c9f05138ef346600c8df36dbefb42d49fc393c2e",
+  "scripts/run_baseline.py": "ac25207509c34a7af32516bf36d8222a9d377b83ab01865727b8ccbe38c7fe8e",
+  "scripts/serve.py": "249df5c4b204c7518d20e04b91af095789b193612d7405231bac40120f2480df",
+  "scripts/summarize_resources.py": "2e54e12df086a1eff8bd11313079d132f881dc33e312ce90ecc9007566133805",
+  "scripts/verify_delivery.py": "b4075cfe674b2ec8aac78c759af21d4361557388c7ebbb4aed29aa2e228c08a0"
+}

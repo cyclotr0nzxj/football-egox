@@ -1,0 +1,22 @@
+{
+  "status": "blocked",
+  "checks": {
+    "exo_cpu_dry_run": true,
+    "new_run_dir": true,
+    "renderer_commit": false,
+    "renderer_tracked_files_clean": false,
+    "python_3_10": false,
+    "torch_and_torchvision": false,
+    "pytorch3d_0_7_9": false,
+    "vipe_cli_from_active_env": false,
+    "vipe_import_from_pinned_checkout": false,
+    "nvidia_smi_visible": false
+  },
+  "remaining_manual_checks": [
+    "CUDA import and runtime compatibility",
+    "MoGe pin",
+    "ViPE checkpoint cache"
+  ],
+  "vipe_command_after_all_checks": "vipe infer './data/self_capture/pair04_s0024/egox_input/example/self_capture/videos/pair04_s0024/exo.mp4' --output './runs/pair04_s0024-prep-20261121/first_vipe/vipe_results' --start_frame 0 --end_frame 48 --assume_fixed_camera_pose --pipeline lyra",
+  "geometry_started": false
+}

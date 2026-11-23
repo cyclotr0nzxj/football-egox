@@ -1,0 +1,16 @@
+{
+  "cpu_only": true,
+  "triptych_frames_checked": 49,
+  "original_exo_pixels_exact": true,
+  "official_gt_pixels_exact": true,
+  "generated_branch_pixels_exact": true,
+  "source_index_mapping": "0..48 without offset",
+  "comparison_video": "49 frames, 30fps, 1680x528",
+  "generated_video": "49 frames, 30fps, 448x448",
+  "artifact_files_hash_verified": 106,
+  "local_backup_verified": true,
+  "local_artifact_files_hash_verified": 106,
+  "download_urls_hash_verified": 5,
+  "local_backup_path": "/Users/mac/\u9879\u76ee/\u8db3\u7403\u7b2c\u4e00\u89c6\u89d2",
+  "cloud_backup_path": "/root/autodl-tmp/football_egox"
+}

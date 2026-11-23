@@ -1,0 +1,898 @@
+{
+  "method": "CPU same-frame measured RGB reprojection using locally estimated geometry",
+  "exo_sha256": "512a57b111ec1420e21def2814bdd17105d9a611f7e4e5da40f623c2e92a94b9",
+  "annotations_sha256": "9bdaf82cebb92bcbd5e84d5ef659c787e973e8a64f220dd550ac6b60c6b6c68a",
+  "raw_inverse_depth_sha256": "abe4de2f02485f5eb57645027b74b6bb00dc882dd014aa6cdc55971cf8b3c128",
+  "approx_camera_z_depth_sha256": "707ef3cdf6626ea201fb84b3b602ff859d21137276e72013b87079bef6419767",
+  "head_trajectory_sha256": "bf045057895afff8ef544d3b9df69d2a7640b5aba2ae1f4e49c6ed2b39012880",
+  "preview_sha256": "52e51c4807af01bca52d05d135e38e1159f7b09f19f367825941f940f2a51376",
+  "frame_count": 49,
+  "fps": 25,
+  "ground_fit_per_frame": [
+    {
+      "frame": 0,
+      "slope": 0.00035799225752338853,
+      "offset": -0.06709247112493848,
+      "ground_samples": 7183,
+      "ground_fit_inlier_fraction": 0.9832938883474871,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0036944224613215115,
+      "valid_depth_fraction": 0.5019246537900874
+    },
+    {
+      "frame": 1,
+      "slope": 0.0003722810793193349,
+      "offset": -0.0751104451166584,
+      "ground_samples": 7164,
+      "ground_fit_inlier_fraction": 0.9868788386376326,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003107483616022283,
+      "valid_depth_fraction": 0.49878143221574345
+    },
+    {
+      "frame": 2,
+      "slope": 0.00036944904426367887,
+      "offset": -0.07071264399026793,
+      "ground_samples": 7182,
+      "ground_fit_inlier_fraction": 0.9894179894179894,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0029821151758794573,
+      "valid_depth_fraction": 0.4983828352769679
+    },
+    {
+      "frame": 3,
+      "slope": 0.00036877963403545973,
+      "offset": -0.06987394876582409,
+      "ground_samples": 7185,
+      "ground_fit_inlier_fraction": 0.9877522616562282,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0026950273868560012,
+      "valid_depth_fraction": 0.4982433263483965
+    },
+    {
+      "frame": 4,
+      "slope": 0.0003676308871758538,
+      "offset": -0.0682285598670806,
+      "ground_samples": 7142,
+      "ground_fit_inlier_fraction": 0.9854382525903108,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003181089970548473,
+      "valid_depth_fraction": 0.49930245535714285
+    },
+    {
+      "frame": 5,
+      "slope": 0.0003711891680265279,
+      "offset": -0.067651592399069,
+      "ground_samples": 7195,
+      "ground_fit_inlier_fraction": 0.9826268241834607,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004240296043461822,
+      "valid_depth_fraction": 0.5009253143221575
+    },
+    {
+      "frame": 6,
+      "slope": 0.0003738109610537391,
+      "offset": -0.07013329335275174,
+      "ground_samples": 7246,
+      "ground_fit_inlier_fraction": 0.9852332321280707,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0031253692633051583,
+      "valid_depth_fraction": 0.497295235058309
+    },
+    {
+      "frame": 7,
+      "slope": 0.0003730826004137257,
+      "offset": -0.06636911830365204,
+      "ground_samples": 7220,
+      "ground_fit_inlier_fraction": 0.9811634349030471,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0039088588640468075,
+      "valid_depth_fraction": 0.5008256650874635
+    },
+    {
+      "frame": 8,
+      "slope": 0.00036003313776179085,
+      "offset": -0.06558360695821566,
+      "ground_samples": 7129,
+      "ground_fit_inlier_fraction": 0.9845700659279001,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.002905128692135911,
+      "valid_depth_fraction": 0.5012726630830904
+    },
+    {
+      "frame": 9,
+      "slope": 0.00037991619020878514,
+      "offset": -0.06509987524782483,
+      "ground_samples": 7162,
+      "ground_fit_inlier_fraction": 0.982826026249651,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004134351572923356,
+      "valid_depth_fraction": 0.5020157616618076
+    },
+    {
+      "frame": 10,
+      "slope": 0.00037724905125551727,
+      "offset": -0.06814391169439801,
+      "ground_samples": 7165,
+      "ground_fit_inlier_fraction": 0.9833914863921842,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003499854876293479,
+      "valid_depth_fraction": 0.5012043321793003
+    },
+    {
+      "frame": 11,
+      "slope": 0.00039459088049792875,
+      "offset": -0.06729143254461845,
+      "ground_samples": 7139,
+      "ground_fit_inlier_fraction": 0.9799691833590138,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004219285783077842,
+      "valid_depth_fraction": 0.5023175564868805
+    },
+    {
+      "frame": 12,
+      "slope": 0.0003895887492506146,
+      "offset": -0.06540336342345376,
+      "ground_samples": 7112,
+      "ground_fit_inlier_fraction": 0.9720191226096738,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.005491198693977836,
+      "valid_depth_fraction": 0.5040713830174927
+    },
+    {
+      "frame": 13,
+      "slope": 0.0003881113848722481,
+      "offset": -0.06633307135666289,
+      "ground_samples": 7098,
+      "ground_fit_inlier_fraction": 0.9835164835164835,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004559929367584911,
+      "valid_depth_fraction": 0.5030378780976676
+    },
+    {
+      "frame": 14,
+      "slope": 0.0003799022298709851,
+      "offset": -0.06635479307796953,
+      "ground_samples": 7138,
+      "ground_fit_inlier_fraction": 0.9858503782572149,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.005143813467124753,
+      "valid_depth_fraction": 0.5056145225947521
+    },
+    {
+      "frame": 15,
+      "slope": 0.00037411278329513065,
+      "offset": -0.06786042795541887,
+      "ground_samples": 7254,
+      "ground_fit_inlier_fraction": 0.9859387923904053,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003547942553932884,
+      "valid_depth_fraction": 0.5026193513119533
+    },
+    {
+      "frame": 16,
+      "slope": 0.0003732484593561448,
+      "offset": -0.07112638542289998,
+      "ground_samples": 7238,
+      "ground_fit_inlier_fraction": 0.9868748273003592,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.002801606384084887,
+      "valid_depth_fraction": 0.500392902696793
+    },
+    {
+      "frame": 17,
+      "slope": 0.00037540811380233125,
+      "offset": -0.07177385840507135,
+      "ground_samples": 7285,
+      "ground_fit_inlier_fraction": 0.9844886753603295,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0034365080619737087,
+      "valid_depth_fraction": 0.49895225947521865
+    },
+    {
+      "frame": 18,
+      "slope": 0.0003647364155337001,
+      "offset": -0.07214888283295841,
+      "ground_samples": 7319,
+      "ground_fit_inlier_fraction": 0.9838775789042219,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004015876757481107,
+      "valid_depth_fraction": 0.5007146273688047
+    },
+    {
+      "frame": 19,
+      "slope": 0.000370343697154867,
+      "offset": -0.075021870282376,
+      "ground_samples": 7316,
+      "ground_fit_inlier_fraction": 0.981957353745216,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004019926295999211,
+      "valid_depth_fraction": 0.5006719205539358
+    },
+    {
+      "frame": 20,
+      "slope": 0.0003690060733221476,
+      "offset": -0.07323259517780639,
+      "ground_samples": 7239,
+      "ground_fit_inlier_fraction": 0.9784500621632822,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004697765180544558,
+      "valid_depth_fraction": 0.499775077441691
+    },
+    {
+      "frame": 21,
+      "slope": 0.0003769191759987997,
+      "offset": -0.07634586738192715,
+      "ground_samples": 7307,
+      "ground_fit_inlier_fraction": 0.9819351306965923,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004406360534060114,
+      "valid_depth_fraction": 0.49691941508746357
+    },
+    {
+      "frame": 22,
+      "slope": 0.0003848833025031991,
+      "offset": -0.07661298954851918,
+      "ground_samples": 7322,
+      "ground_fit_inlier_fraction": 0.9777383228626059,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004149174027716904,
+      "valid_depth_fraction": 0.4956154336734694
+    },
+    {
+      "frame": 23,
+      "slope": 0.00038477265057074807,
+      "offset": -0.07858087192032101,
+      "ground_samples": 7284,
+      "ground_fit_inlier_fraction": 0.9772103239978034,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.00381140245138914,
+      "valid_depth_fraction": 0.49463032981049565
+    },
+    {
+      "frame": 24,
+      "slope": 0.0003821436953034958,
+      "offset": -0.08053402967694565,
+      "ground_samples": 7350,
+      "ground_fit_inlier_fraction": 0.9736054421768707,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004774985694541337,
+      "valid_depth_fraction": 0.4940438228862974
+    },
+    {
+      "frame": 25,
+      "slope": 0.00037317732697140317,
+      "offset": -0.0792625460390507,
+      "ground_samples": 7368,
+      "ground_fit_inlier_fraction": 0.9822204125950055,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.005420090333478428,
+      "valid_depth_fraction": 0.49299608236151604
+    },
+    {
+      "frame": 26,
+      "slope": 0.00037824365394402887,
+      "offset": -0.07959199088168821,
+      "ground_samples": 7414,
+      "ground_fit_inlier_fraction": 0.9830051254383598,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004387412613449965,
+      "valid_depth_fraction": 0.4946701895043732
+    },
+    {
+      "frame": 27,
+      "slope": 0.0003829179711661338,
+      "offset": -0.07248926507442009,
+      "ground_samples": 7422,
+      "ground_fit_inlier_fraction": 0.9861223389921854,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0035054445779483245,
+      "valid_depth_fraction": 0.4964439458819242
+    },
+    {
+      "frame": 28,
+      "slope": 0.0003838945637835145,
+      "offset": -0.0755152162351833,
+      "ground_samples": 7397,
+      "ground_fit_inlier_fraction": 0.9867513856969041,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0037525892462933544,
+      "valid_depth_fraction": 0.4930359420553936
+    },
+    {
+      "frame": 29,
+      "slope": 0.0003800467808342628,
+      "offset": -0.06778714145642108,
+      "ground_samples": 7396,
+      "ground_fit_inlier_fraction": 0.9871552190373175,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0036119863969085175,
+      "valid_depth_fraction": 0.4983543640670554
+    },
+    {
+      "frame": 30,
+      "slope": 0.00037536087323759214,
+      "offset": -0.0644031579754869,
+      "ground_samples": 7399,
+      "ground_fit_inlier_fraction": 0.9845925125016894,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004361441869250471,
+      "valid_depth_fraction": 0.49957293185131196
+    },
+    {
+      "frame": 31,
+      "slope": 0.00037439887922082404,
+      "offset": -0.0659724128535746,
+      "ground_samples": 7389,
+      "ground_fit_inlier_fraction": 0.978481526593585,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004112530911696333,
+      "valid_depth_fraction": 0.4996697339650146
+    },
+    {
+      "frame": 32,
+      "slope": 0.0003704551471856487,
+      "offset": -0.06501036748957795,
+      "ground_samples": 7404,
+      "ground_fit_inlier_fraction": 0.9785251215559158,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004526644590524792,
+      "valid_depth_fraction": 0.49980070153061223
+    },
+    {
+      "frame": 33,
+      "slope": 0.00036441630367403145,
+      "offset": -0.06441116292148624,
+      "ground_samples": 7569,
+      "ground_fit_inlier_fraction": 0.979389615537059,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.004952182475921413,
+      "valid_depth_fraction": 0.5000370125728864
+    },
+    {
+      "frame": 34,
+      "slope": 0.00036492699518480274,
+      "offset": -0.06298787931137426,
+      "ground_samples": 7569,
+      "ground_fit_inlier_fraction": 0.9842779759545515,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0038313254050628687,
+      "valid_depth_fraction": 0.49993451621720114
+    },
+    {
+      "frame": 35,
+      "slope": 0.00037121635186991884,
+      "offset": -0.06972342352042088,
+      "ground_samples": 7605,
+      "ground_fit_inlier_fraction": 0.9847468770545693,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0031377620075682122,
+      "valid_depth_fraction": 0.49938217474489793
+    },
+    {
+      "frame": 36,
+      "slope": 0.0003765239371035338,
+      "offset": -0.06661464931546596,
+      "ground_samples": 7610,
+      "ground_fit_inlier_fraction": 0.9839684625492773,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.00289506194106591,
+      "valid_depth_fraction": 0.49984910258746357
+    },
+    {
+      "frame": 37,
+      "slope": 0.0003918858728386804,
+      "offset": -0.07105190682793433,
+      "ground_samples": 7595,
+      "ground_fit_inlier_fraction": 0.9793285055957867,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0037027755794533657,
+      "valid_depth_fraction": 0.49768529063411077
+    },
+    {
+      "frame": 38,
+      "slope": 0.00038840880187443683,
+      "offset": -0.06504057933127048,
+      "ground_samples": 7607,
+      "ground_fit_inlier_fraction": 0.9752859208623637,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003942486773543086,
+      "valid_depth_fraction": 0.5011103771865889
+    },
+    {
+      "frame": 39,
+      "slope": 0.00038454351064394406,
+      "offset": -0.07044372182933041,
+      "ground_samples": 7620,
+      "ground_fit_inlier_fraction": 0.9808398950131234,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003871958279209678,
+      "valid_depth_fraction": 0.4996441098760933
+    },
+    {
+      "frame": 40,
+      "slope": 0.0003838908696506319,
+      "offset": -0.06931912167221502,
+      "ground_samples": 7624,
+      "ground_fit_inlier_fraction": 0.984916054564533,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003356131626761072,
+      "valid_depth_fraction": 0.49856505102040816
+    },
+    {
+      "frame": 41,
+      "slope": 0.00038633013940660046,
+      "offset": -0.07491662666307634,
+      "ground_samples": 7612,
+      "ground_fit_inlier_fraction": 0.9826589595375722,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0036014794389257407,
+      "valid_depth_fraction": 0.4975856413994169
+    },
+    {
+      "frame": 42,
+      "slope": 0.0003843917050408854,
+      "offset": -0.07313557736160257,
+      "ground_samples": 7621,
+      "ground_fit_inlier_fraction": 0.9835979530245375,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.003529526644323544,
+      "valid_depth_fraction": 0.497665360787172
+    },
+    {
+      "frame": 43,
+      "slope": 0.00037492413558476846,
+      "offset": -0.07220478875224136,
+      "ground_samples": 7670,
+      "ground_fit_inlier_fraction": 0.9852672750977836,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0030318457997267206,
+      "valid_depth_fraction": 0.5001252733236151
+    },
+    {
+      "frame": 44,
+      "slope": 0.00037542607306921544,
+      "offset": -0.07144551205758279,
+      "ground_samples": 7661,
+      "ground_fit_inlier_fraction": 0.984205717269286,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0031987736865749378,
+      "valid_depth_fraction": 0.49901489613702626
+    },
+    {
+      "frame": 45,
+      "slope": 0.0003732917016641944,
+      "offset": -0.06848136329240904,
+      "ground_samples": 7650,
+      "ground_fit_inlier_fraction": 0.9845751633986928,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0030751450062054264,
+      "valid_depth_fraction": 0.5014349489795918
+    },
+    {
+      "frame": 46,
+      "slope": 0.00038627222869310927,
+      "offset": -0.06850662401150669,
+      "ground_samples": 7662,
+      "ground_fit_inlier_fraction": 0.9845993213260246,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0029233806395667083,
+      "valid_depth_fraction": 0.49933946793002915
+    },
+    {
+      "frame": 47,
+      "slope": 0.00038376631735874433,
+      "offset": -0.06965159518017665,
+      "ground_samples": 7657,
+      "ground_fit_inlier_fraction": 0.9830220713073005,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0030225734227724566,
+      "valid_depth_fraction": 0.5004413037536443
+    },
+    {
+      "frame": 48,
+      "slope": 0.0003811521932934125,
+      "offset": -0.07375616238647054,
+      "ground_samples": 7666,
+      "ground_fit_inlier_fraction": 0.9838246804069919,
+      "ground_fit_holdout_median_abs_inverse_depth": 0.0026629564498261843,
+      "valid_depth_fraction": 0.49971528790087466
+    }
+  ],
+  "source_object_pixel_support_per_frame": [
+    {
+      "frame": 0,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3032,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3004,
+      "ball_projected_pixels_zbuffer": 77,
+      "direct_coverage_fraction": 0.1971859056122449
+    },
+    {
+      "frame": 1,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3138,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3096,
+      "ball_projected_pixels_zbuffer": 79,
+      "direct_coverage_fraction": 0.1956363600127551
+    },
+    {
+      "frame": 2,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3177,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3133,
+      "ball_projected_pixels_zbuffer": 81,
+      "direct_coverage_fraction": 0.19621432557397958
+    },
+    {
+      "frame": 3,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3234,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3208,
+      "ball_projected_pixels_zbuffer": 71,
+      "direct_coverage_fraction": 0.1958057637117347
+    },
+    {
+      "frame": 4,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3163,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3126,
+      "ball_projected_pixels_zbuffer": 78,
+      "direct_coverage_fraction": 0.19415656887755103
+    },
+    {
+      "frame": 5,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 3093,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 3069,
+      "ball_projected_pixels_zbuffer": 69,
+      "direct_coverage_fraction": 0.18602020886479592
+    },
+    {
+      "frame": 6,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 2974,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 2957,
+      "ball_projected_pixels_zbuffer": 59,
+      "direct_coverage_fraction": 0.18037507971938777
+    },
+    {
+      "frame": 7,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 2821,
+      "source_ball_pixels_observed": 105,
+      "teammate_projected_pixels_zbuffer": 2808,
+      "ball_projected_pixels_zbuffer": 53,
+      "direct_coverage_fraction": 0.1834442761479592
+    },
+    {
+      "frame": 8,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2802,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2790,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.18193957270408162
+    },
+    {
+      "frame": 9,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2782,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2760,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1827716438137755
+    },
+    {
+      "frame": 10,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2797,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2755,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.18024055325255103
+    },
+    {
+      "frame": 11,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2910,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2892,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.17815290178571427
+    },
+    {
+      "frame": 12,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2930,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2923,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1749641262755102
+    },
+    {
+      "frame": 13,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2992,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2991,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.17052475286989796
+    },
+    {
+      "frame": 14,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2891,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2890,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.16937878667091838
+    },
+    {
+      "frame": 15,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2741,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2737,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.16394790338010204
+    },
+    {
+      "frame": 16,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2951,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2851,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.15229890784438777
+    },
+    {
+      "frame": 17,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2946,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2936,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13308155293367346
+    },
+    {
+      "frame": 18,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 2671,
+      "source_ball_pixels_observed": 102,
+      "teammate_projected_pixels_zbuffer": 2656,
+      "ball_projected_pixels_zbuffer": 38,
+      "direct_coverage_fraction": 0.1250797193877551
+    },
+    {
+      "frame": 19,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1304,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 1291,
+      "ball_projected_pixels_zbuffer": 27,
+      "direct_coverage_fraction": 0.12420778858418367
+    },
+    {
+      "frame": 20,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1385,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 1369,
+      "ball_projected_pixels_zbuffer": 47,
+      "direct_coverage_fraction": 0.1271922831632653
+    },
+    {
+      "frame": 21,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1326,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 1319,
+      "ball_projected_pixels_zbuffer": 4,
+      "direct_coverage_fraction": 0.12846779336734693
+    },
+    {
+      "frame": 22,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1284,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 1284,
+      "ball_projected_pixels_zbuffer": 82,
+      "direct_coverage_fraction": 0.13529376594387754
+    },
+    {
+      "frame": 23,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 2465,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 2465,
+      "ball_projected_pixels_zbuffer": 80,
+      "direct_coverage_fraction": 0.13928471779336735
+    },
+    {
+      "frame": 24,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1130,
+      "source_ball_pixels_observed": 109,
+      "teammate_projected_pixels_zbuffer": 1124,
+      "ball_projected_pixels_zbuffer": 83,
+      "direct_coverage_fraction": 0.13383390465561223
+    },
+    {
+      "frame": 25,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 2059,
+      "source_ball_pixels_observed": 89,
+      "teammate_projected_pixels_zbuffer": 2042,
+      "ball_projected_pixels_zbuffer": 10,
+      "direct_coverage_fraction": 0.12571747448979592
+    },
+    {
+      "frame": 26,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1763,
+      "source_ball_pixels_observed": 83,
+      "teammate_projected_pixels_zbuffer": 1611,
+      "ball_projected_pixels_zbuffer": 23,
+      "direct_coverage_fraction": 0.12208525988520408
+    },
+    {
+      "frame": 27,
+      "exo_ball_status": "clear",
+      "source_teammate_pixels_estimated": 1872,
+      "source_ball_pixels_observed": 86,
+      "teammate_projected_pixels_zbuffer": 1675,
+      "ball_projected_pixels_zbuffer": 25,
+      "direct_coverage_fraction": 0.12403838488520408
+    },
+    {
+      "frame": 28,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 893,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 779,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12072504783163265
+    },
+    {
+      "frame": 29,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 1980,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1902,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12531887755102042
+    },
+    {
+      "frame": 30,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2035,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1970,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1280193718112245
+    },
+    {
+      "frame": 31,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2166,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 2112,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13276267538265307
+    },
+    {
+      "frame": 32,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1233,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1178,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13221958705357142
+    },
+    {
+      "frame": 33,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1883,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1768,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13392857142857142
+    },
+    {
+      "frame": 34,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 942,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 751,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12962372448979592
+    },
+    {
+      "frame": 35,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 754,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 486,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1263801419005102
+    },
+    {
+      "frame": 36,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 2066,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1785,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13010702327806123
+    },
+    {
+      "frame": 37,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1046,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 902,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1264698262117347
+    },
+    {
+      "frame": 38,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1998,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1916,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1289959343112245
+    },
+    {
+      "frame": 39,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1952,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1808,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12440210459183673
+    },
+    {
+      "frame": 40,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 1522,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1342,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1219009088010204
+    },
+    {
+      "frame": 41,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 1495,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 996,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12152224170918367
+    },
+    {
+      "frame": 42,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 1994,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1680,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12473094706632654
+    },
+    {
+      "frame": 43,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2156,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1913,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12944435586734693
+    },
+    {
+      "frame": 44,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2149,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1864,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13225446428571427
+    },
+    {
+      "frame": 45,
+      "exo_ball_status": "partial",
+      "source_teammate_pixels_estimated": 2089,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1764,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.13351502710459184
+    },
+    {
+      "frame": 46,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 739,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 548,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12673389668367346
+    },
+    {
+      "frame": 47,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 1958,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 1789,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.1285724250637755
+    },
+    {
+      "frame": 48,
+      "exo_ball_status": "occluded_or_unconfirmed",
+      "source_teammate_pixels_estimated": 761,
+      "source_ball_pixels_observed": 0,
+      "teammate_projected_pixels_zbuffer": 692,
+      "ball_projected_pixels_zbuffer": 0,
+      "direct_coverage_fraction": 0.12201052295918367
+    }
+  ],
+  "visibility_note": "Labels are EXO-derived and approximate; direct z-buffer counts exclude display splats."
+}

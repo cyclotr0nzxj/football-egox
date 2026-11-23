@@ -1,0 +1,10 @@
+{
+  "pdf": "output/week08_harris_sift/paper_figures/figure1_feature_plate.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 7.0,
+  "text_run_count": 18,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

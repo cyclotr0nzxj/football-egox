@@ -1,0 +1,403 @@
+{
+  "status": "visual_audit_complete",
+  "original_files_modified": false,
+  "scope": "visual correspondence and approximate frame synchronization; not an optical calibration or full-clip quality review",
+  "offset_convention": "source_exo_frame = source_ego_frame + D; zero-based source frame index",
+  "rotation_note": "ffmpeg default autorotation respected DJI Display Matrix rotation -180; raw source retained unchanged.",
+  "pairs": [
+    {
+      "pair": 1,
+      "ego_key": "170618",
+      "exo_key": "MVI_5688",
+      "pairing": "confirmed_by_visual_context_and_same_clap_motion",
+      "scene_evidence": "同一戴帽灰衣主角、同一浅色衣搭档；开头双方站位和末尾近距离站位对应。",
+      "recommended_exo_minus_ego_frames": 19,
+      "fps": 25,
+      "recommended_exo_minus_ego_seconds": 0.76,
+      "uncertainty_frames": 1,
+      "end_clap": {
+        "exo_transition_frames": [
+          1179,
+          1180
+        ],
+        "ego_transition_frames": [
+          1160,
+          1161
+        ],
+        "exo_transition_seconds": [
+          47.16,
+          47.2
+        ],
+        "ego_transition_seconds": [
+          46.4,
+          46.44
+        ],
+        "note": "从张手到合掌的过渡范围；快门模糊与不同视角限制使单帧边界存在约1帧不确定性。",
+        "evidence": [
+          "MVI_5688_end_exact.jpg",
+          "170618_end_exact.jpg",
+          "MVI_5688_source_frame_verified.jpg",
+          "170618_source_frame_verified.jpg"
+        ]
+      },
+      "opening_clap": {
+        "exo_time_s": 1.0,
+        "ego_time_s": 0.24,
+        "status": "visible_in_both",
+        "evidence": "MVI_5688_start_clap.jpg"
+      }
+    },
+    {
+      "pair": 2,
+      "ego_key": "170820",
+      "exo_key": "MVI_5689",
+      "pairing": "confirmed_by_visual_context_and_same_clap_motion",
+      "scene_evidence": "同一较远距离训练站位，末尾搭档在远端球旁、主角拍掌。",
+      "recommended_exo_minus_ego_frames": 24,
+      "fps": 25,
+      "recommended_exo_minus_ego_seconds": 0.96,
+      "uncertainty_frames": 1,
+      "end_clap": {
+        "exo_transition_frames": [
+          630,
+          631
+        ],
+        "ego_transition_frames": [
+          606,
+          607
+        ],
+        "exo_transition_seconds": [
+          25.2,
+          25.24
+        ],
+        "ego_transition_seconds": [
+          24.24,
+          24.28
+        ],
+        "note": "从张手到合掌的过渡范围；快门模糊与不同视角限制使单帧边界存在约1帧不确定性。",
+        "evidence": [
+          "MVI_5689_end_exact.jpg",
+          "170820_end_exact.jpg",
+          "MVI_5689_source_frame_verified.jpg",
+          "170820_source_frame_verified.jpg"
+        ]
+      },
+      "opening_clap": {
+        "exo_time_s": 0.72,
+        "implied_ego_time_s": -0.24,
+        "status": "opening_clap_before_ego_recording_by_visual_mapping",
+        "evidence": "pairs_2_5_opening.jpg"
+      },
+      "middle_event": {
+        "exo_frames": [
+          452,
+          456
+        ],
+        "ego_frames": [
+          428,
+          432
+        ],
+        "offset_frames": 24,
+        "status": "ball_and_body_motion_consistent_contact_frame_not_visible_in_ego",
+        "note": "两边看到同一球靠近主角脚边并移动；Nano脚部接触点出画，不能独立声称逐帧触球验收通过。末尾拍掌为主要精确同步依据。",
+        "evidence": "MVI_5689_mid_touch_confirmed.jpg"
+      }
+    },
+    {
+      "pair": 3,
+      "ego_key": "171228",
+      "exo_key": "MVI_5691",
+      "pairing": "confirmed_by_visual_context_and_same_clap_motion",
+      "scene_evidence": "开头近距离对立站位一致；末尾搭档走近主角并从身旁经过，两视角位置和动作一致。",
+      "recommended_exo_minus_ego_frames": 23,
+      "fps": 25,
+      "recommended_exo_minus_ego_seconds": 0.92,
+      "uncertainty_frames": 1,
+      "end_clap": {
+        "exo_transition_frames": [
+          737,
+          738
+        ],
+        "ego_transition_frames": [
+          714,
+          715
+        ],
+        "exo_transition_seconds": [
+          29.48,
+          29.52
+        ],
+        "ego_transition_seconds": [
+          28.56,
+          28.6
+        ],
+        "note": "从张手到合掌的过渡范围；快门模糊与不同视角限制使单帧边界存在约1帧不确定性。",
+        "evidence": [
+          "MVI_5691_end_exact.jpg",
+          "171228_end_exact.jpg",
+          "MVI_5691_source_frame_verified.jpg",
+          "171228_source_frame_verified.jpg"
+        ]
+      },
+      "opening_clap": {
+        "exo_time_s": 3.12,
+        "ego_time_s": 2.2,
+        "status": "visible_in_both",
+        "evidence": "MVI_5691_start_clap.jpg"
+      }
+    },
+    {
+      "pair": 4,
+      "ego_key": "171850",
+      "exo_key": "MVI_5693",
+      "pairing": "confirmed_by_visual_context_and_same_clap_motion",
+      "scene_evidence": "纵向标志碟活动区、远端搭档和主角脚旁足球的位置对应。",
+      "recommended_exo_minus_ego_frames": 31,
+      "fps": 25,
+      "recommended_exo_minus_ego_seconds": 1.24,
+      "uncertainty_frames": 1,
+      "end_clap": {
+        "exo_transition_frames": [
+          559,
+          560
+        ],
+        "ego_transition_frames": [
+          528,
+          529
+        ],
+        "exo_transition_seconds": [
+          22.36,
+          22.4
+        ],
+        "ego_transition_seconds": [
+          21.12,
+          21.16
+        ],
+        "note": "从张手到合掌的过渡范围；快门模糊与不同视角限制使单帧边界存在约1帧不确定性。",
+        "evidence": [
+          "MVI_5693_end_exact.jpg",
+          "171850_end_exact.jpg",
+          "MVI_5693_source_frame_verified.jpg",
+          "171850_source_frame_verified.jpg"
+        ]
+      },
+      "opening_clap": {
+        "exo_time_s": 3.12,
+        "ego_time_s": 1.88,
+        "status": "visible_in_both",
+        "evidence": "MVI_5693_start_clap.jpg"
+      }
+    },
+    {
+      "pair": 5,
+      "ego_key": "172108",
+      "exo_key": "MVI_5694",
+      "pairing": "confirmed_by_visual_context_and_same_clap_motion",
+      "scene_evidence": "主角在标志碟远端，搭档在固定相机近端；Nano中搭档及摄影同学的相对方向对应。",
+      "recommended_exo_minus_ego_frames": 21,
+      "fps": 25,
+      "recommended_exo_minus_ego_seconds": 0.84,
+      "uncertainty_frames": 1,
+      "end_clap": {
+        "exo_transition_frames": [
+          1071,
+          1072
+        ],
+        "ego_transition_frames": [
+          1050,
+          1051
+        ],
+        "exo_transition_seconds": [
+          42.84,
+          42.88
+        ],
+        "ego_transition_seconds": [
+          42.0,
+          42.04
+        ],
+        "note": "从张手到合掌的过渡范围；快门模糊与不同视角限制使单帧边界存在约1帧不确定性。",
+        "evidence": [
+          "MVI_5694_end_exact.jpg",
+          "172108_end_exact.jpg",
+          "MVI_5694_source_frame_verified.jpg",
+          "172108_source_frame_verified.jpg"
+        ]
+      },
+      "opening_clap": {
+        "exo_time_s": 0.68,
+        "implied_ego_time_s": -0.16,
+        "status": "opening_clap_before_ego_recording_by_visual_mapping",
+        "evidence": "pairs_2_5_opening.jpg"
+      },
+      "middle_event": {
+        "exo_frames": [
+          462,
+          466
+        ],
+        "ego_frames": [
+          441,
+          445
+        ],
+        "offset_frames": 21,
+        "status": "same_ball_and_red_shoe_motion_visible_in_both",
+        "note": "两边均见主角绕球调整、红鞋抬起向球摆动，支持D=21；此处是动作相位复核，不将可见摆腿直接标作已确认触球。",
+        "evidence": "MVI_5694_mid_touch.jpg"
+      }
+    }
+  ],
+  "source_frame_verification": {
+    "completed_sources": 10,
+    "all_10_sources_checked": true,
+    "method": "For each source, decode from its beginning and select between(n, contact_frame-2, contact_frame+2); compare those five frames against accurate input seeking.",
+    "end_exact_original_method": "input -ss on exact 25 fps timestamps, no fps filter; 11 consecutive source frames cropped from original 4K",
+    "absolute_frame_evidence": "*_source_frame_verified.jpg and absolute_frame_verification.json",
+    "result": "DJI comparisons pixel-identical. Canon comparisons differ by at most 1-2 RGB code levels across the entire corresponding five-frame crops; visual frame identity agrees. The small nonzero difference was observed under VideoToolbox decoding, not a one-frame temporal displacement.",
+    "per_source": [
+      {
+        "key": "MVI_5688",
+        "source_path": "验证视频/验证exo/MVI_5688.MP4",
+        "frame_indices": [
+          1178,
+          1179,
+          1180,
+          1181,
+          1182
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": false,
+        "max_pixel_error": 2
+      },
+      {
+        "key": "170618",
+        "source_path": "验证视频/验证ego/dji_mimo_20261019_170618_20261019170618_1792410044968_video.MP4",
+        "frame_indices": [
+          1159,
+          1160,
+          1161,
+          1162,
+          1163
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": true,
+        "max_pixel_error": 0
+      },
+      {
+        "key": "MVI_5689",
+        "source_path": "验证视频/验证exo/MVI_5689.MP4",
+        "frame_indices": [
+          629,
+          630,
+          631,
+          632,
+          633
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": false,
+        "max_pixel_error": 2
+      },
+      {
+        "key": "170820",
+        "source_path": "验证视频/验证ego/dji_mimo_20261019_170820_20261019170820_1792410048749_video.MP4",
+        "frame_indices": [
+          605,
+          606,
+          607,
+          608,
+          609
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": true,
+        "max_pixel_error": 0
+      },
+      {
+        "key": "MVI_5691",
+        "source_path": "验证视频/验证exo/MVI_5691.MP4",
+        "frame_indices": [
+          736,
+          737,
+          738,
+          739,
+          740
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": false,
+        "max_pixel_error": 2
+      },
+      {
+        "key": "171228",
+        "source_path": "验证视频/验证ego/dji_mimo_20261019_171228_20261019171229_1792410055882_video.MP4",
+        "frame_indices": [
+          713,
+          714,
+          715,
+          716,
+          717
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": true,
+        "max_pixel_error": 0
+      },
+      {
+        "key": "MVI_5693",
+        "source_path": "验证视频/验证exo/MVI_5693.MP4",
+        "frame_indices": [
+          558,
+          559,
+          560,
+          561,
+          562
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": false,
+        "max_pixel_error": 1
+      },
+      {
+        "key": "171850",
+        "source_path": "验证视频/验证ego/dji_mimo_20261019_171850_20261019171851_1792410065028_video.MP4",
+        "frame_indices": [
+          527,
+          528,
+          529,
+          530,
+          531
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": true,
+        "max_pixel_error": 0
+      },
+      {
+        "key": "MVI_5694",
+        "source_path": "验证视频/验证exo/MVI_5694.MP4",
+        "frame_indices": [
+          1070,
+          1071,
+          1072,
+          1073,
+          1074
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": false,
+        "max_pixel_error": 2
+      },
+      {
+        "key": "172108",
+        "source_path": "验证视频/验证ego/dji_mimo_20261019_172108_20261019172108_1792410071364_video.MP4",
+        "frame_indices": [
+          1049,
+          1050,
+          1051,
+          1052,
+          1053
+        ],
+        "method": "decode from start and select between source frame n; videotoolbox; 25 fps source",
+        "seek_matches_absolute_frame_selection": true,
+        "max_pixel_error": 0
+      }
+    ]
+  },
+  "limitations": [
+    "视觉偏移比音频相关峰小约2至3帧；本核查不将差异全部归因于声传播，录音路径或视频/音频延迟亦可能影响。",
+    "第2及5组开头拍掌对应的Nano时间为负，因此不能作为两机共同开头锚点。",
+    "第2组中段球可见但脚部接触点出画；不夸大成第二个独立精确触球锚点。",
+    "所有偏移保留约1帧不确定性；25 fps下1帧为40 ms。"
+  ]
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "01",
+    "comparison_path": "验证视频/同步结果_20261019/01/comparison.mp4",
+    "video": {
+      "width": 1920,
+      "height": 540,
+      "fps": "25/1",
+      "nb_frames": "1231",
+      "duration": "49.240000"
+    },
+    "sample_output_frames": [
+      6,
+      615,
+      1160,
+      1161,
+      1162,
+      1230
+    ],
+    "status": "extracted_pending_actual_visual_review",
+    "sample_evidence": "pair_01_samples.jpg",
+    "clap_evidence": "pair_01_end_clap.jpg"
+  },
+  {
+    "id": "02",
+    "comparison_path": "验证视频/同步结果_20261019/02/comparison.mp4",
+    "video": {
+      "width": 1920,
+      "height": 540,
+      "fps": "25/1",
+      "nb_frames": "680",
+      "duration": "27.200000"
+    },
+    "sample_output_frames": [
+      0,
+      430,
+      606,
+      607,
+      608,
+      679
+    ],
+    "status": "extracted_pending_actual_visual_review",
+    "sample_evidence": "pair_02_samples.jpg",
+    "clap_evidence": "pair_02_end_clap.jpg"
+  },
+  {
+    "id": "03",
+    "comparison_path": "验证视频/同步结果_20261019/03/comparison.mp4",
+    "video": {
+      "width": 1920,
+      "height": 540,
+      "fps": "25/1",
+      "nb_frames": "786",
+      "duration": "31.440000"
+    },
+    "sample_output_frames": [
+      55,
+      393,
+      714,
+      715,
+      716,
+      785
+    ],
+    "status": "extracted_pending_actual_visual_review",
+    "sample_evidence": "pair_03_samples.jpg",
+    "clap_evidence": "pair_03_end_clap.jpg"
+  },
+  {
+    "id": "04",
+    "comparison_path": "验证视频/同步结果_20261019/04/comparison.mp4",
+    "video": {
+      "width": 1920,
+      "height": 540,
+      "fps": "25/1",
+      "nb_frames": "609",
+      "duration": "24.360000"
+    },
+    "sample_output_frames": [
+      47,
+      304,
+      528,
+      529,
+      530,
+      608
+    ],
+    "status": "extracted_pending_actual_visual_review",
+    "sample_evidence": "pair_04_samples.jpg",
+    "clap_evidence": "pair_04_end_clap.jpg"
+  },
+  {
+    "id": "05",
+    "comparison_path": "验证视频/同步结果_20261019/05/comparison.mp4",
+    "video": {
+      "width": 1920,
+      "height": 540,
+      "fps": "25/1",
+      "nb_frames": "1123",
+      "duration": "44.920000"
+    },
+    "sample_output_frames": [
+      0,
+      443,
+      1050,
+      1051,
+      1052,
+      1122
+    ],
+    "status": "extracted_pending_actual_visual_review",
+    "sample_evidence": "pair_05_samples.jpg",
+    "clap_evidence": "pair_05_end_clap.jpg"
+  }
+]

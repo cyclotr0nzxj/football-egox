@@ -1,0 +1,23 @@
+{
+  "archive": "/tmp/football-004-pair05-fix-oxZAAS5L/pair05-gga-foreground-bundle-004-retry1.zip",
+  "archive_sha256": "61f6b4cae58a6e2c06a0b5fcc6d9e91b7d09b4a66aaf16d4e27d0497945e17ad",
+  "source_sha256": "9fe63041f1fb4e0ea0fd03574b3fc020854f183539b0e7c6344c413b95932979",
+  "manifest_sha256": "f463c24f7717a96d184267c3b93b93475683e539a91c25762dcc2b549a33ad05",
+  "changed_members": {
+    "SHA256SUMS": "f463c24f7717a96d184267c3b93b93475683e539a91c25762dcc2b549a33ad05",
+    "check_foreground_cuda.py": "371020fa45e25d771c739172fb5b6dc3d6e220b689162f209d2af153f44f3210",
+    "run_pair05_gga_foreground_008.sh": "7e4fb4c9e17bd9e29f2c4c8d3225216ce1cb0b867041b9c5d7f0af50e52d89c8",
+    "stage_foreground_008.py": "2989cb53d4a6e02b475e1b5bd2a568357d7a32fdc15cc71e209a221d11dd4eb6",
+    "staged/pair05_gga_routes.py": "21ad9180713726ab1469d63db27b464731b8e76fea8f4f99a28be2e6e068d19a"
+  },
+  "verified": [
+    "crc",
+    "archive names",
+    "exact manifest",
+    "intended byte deltas",
+    "all Python compiled",
+    "bash syntax",
+    "original sha"
+  ],
+  "cuda_executed": false
+}

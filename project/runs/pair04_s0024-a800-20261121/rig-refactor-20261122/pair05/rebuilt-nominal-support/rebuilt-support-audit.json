@@ -1,0 +1,2824 @@
+{
+  "scope": "independent same-frame source identity check and sparse RGB observations; no denoising",
+  "status": "CPU_DIAGNOSTIC_ONLY",
+  "sample_columns": [
+    "frame",
+    "target_flat_pixel",
+    "exo_flat_pixel",
+    "object_id",
+    "r",
+    "g",
+    "b"
+  ],
+  "source_and_preview_pts": "same frame index, EXO i/25 and preview i/30 verified separately",
+  "exo_sha256": "902b187de0af168bdbc6ccf3ec4a8720d43298a65906b77e5e7d7e7e7e3f9fd7",
+  "preview_sha256": "bbb0dd921d41d88b4fa24e863898290d09c0e067e1b795377375138021a0fc3a",
+  "provenance_sha256": "0679afd095998872cc672978a6881e4f1e910dae54601ff7aae92a76e2e6ae91",
+  "verified_observed_rgb_sha256": "7d6094a68ecde0198266a4d16f825ba1000b4dd87015ffd5abf93fcd46bde345",
+  "frames_with_source_identity_conflicts": [],
+  "frames_with_both_teammate_and_ball_pixels": [
+    "F00",
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F33",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38",
+    "F39",
+    "F40",
+    "F41",
+    "F42",
+    "F43",
+    "F44",
+    "F45",
+    "F46",
+    "F47",
+    "F48"
+  ],
+  "frames": {
+    "F00": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1708,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            200.0,
+            136.0
+          ],
+          "radius_p90_from_target_median_px": 59.428944673818464,
+          "visible_rgb_mae_median": 3.3333333333333335
+        },
+        "ball": {
+          "validated_pixels": 150,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            227.0,
+            282.0
+          ],
+          "radius_p90_from_target_median_px": 13.0,
+          "visible_rgb_mae_median": 5.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 59,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9152542372881356,
+          "target_center_xy_median": [
+            312.0,
+            390.0
+          ],
+          "radius_p90_from_target_median_px": 23.8966524355233,
+          "visible_rgb_mae_median": 28.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 38,
+          "nearby_components": 6,
+          "largest_nearby_component_fraction": 0.6578947368421053,
+          "target_center_xy_median": [
+            186.0,
+            367.0
+          ],
+          "radius_p90_from_target_median_px": 21.95449840010015,
+          "visible_rgb_mae_median": 29.333333333333332
+        }
+      }
+    },
+    "F01": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1604,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            200.0,
+            140.0
+          ],
+          "radius_p90_from_target_median_px": 56.7009556005195,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 91,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            231.0,
+            261.0
+          ],
+          "radius_p90_from_target_median_px": 9.0,
+          "visible_rgb_mae_median": 5.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 60,
+          "nearby_components": 6,
+          "largest_nearby_component_fraction": 0.9,
+          "target_center_xy_median": [
+            311.0,
+            392.0
+          ],
+          "radius_p90_from_target_median_px": 22.130181047651877,
+          "visible_rgb_mae_median": 31.5
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 39,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.7948717948717948,
+          "target_center_xy_median": [
+            180.0,
+            375.0
+          ],
+          "radius_p90_from_target_median_px": 17.23215541748978,
+          "visible_rgb_mae_median": 31.666666666666668
+        }
+      }
+    },
+    "F02": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1555,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            203.0,
+            145.0
+          ],
+          "radius_p90_from_target_median_px": 54.064771216945985,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 97,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            225.0,
+            255.0
+          ],
+          "radius_p90_from_target_median_px": 8.06225774829855,
+          "visible_rgb_mae_median": 5.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8928571428571429,
+          "target_center_xy_median": [
+            309.0,
+            395.0
+          ],
+          "radius_p90_from_target_median_px": 20.232480684683757,
+          "visible_rgb_mae_median": 27.666666666666664
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 39,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.717948717948718,
+          "target_center_xy_median": [
+            176.0,
+            378.0
+          ],
+          "radius_p90_from_target_median_px": 15.79078824484625,
+          "visible_rgb_mae_median": 28.0
+        }
+      }
+    },
+    "F03": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1552,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            207.0,
+            153.0
+          ],
+          "radius_p90_from_target_median_px": 52.42804522673555,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 83,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            216.0,
+            256.0
+          ],
+          "radius_p90_from_target_median_px": 8.531102463881165,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9245283018867925,
+          "target_center_xy_median": [
+            306.0,
+            397.0
+          ],
+          "radius_p90_from_target_median_px": 15.469613230914351,
+          "visible_rgb_mae_median": 29.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 40,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.85,
+          "target_center_xy_median": [
+            175.0,
+            381.0
+          ],
+          "radius_p90_from_target_median_px": 19.625408734335654,
+          "visible_rgb_mae_median": 28.666666666666668
+        }
+      }
+    },
+    "F04": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1427,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            209.0,
+            156.0
+          ],
+          "radius_p90_from_target_median_px": 49.89180489699478,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 62,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            224.5,
+            243.0
+          ],
+          "radius_p90_from_target_median_px": 6.568825897084658,
+          "visible_rgb_mae_median": 6.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 51,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9411764705882353,
+          "target_center_xy_median": [
+            306.0,
+            401.0
+          ],
+          "radius_p90_from_target_median_px": 14.035668847618199,
+          "visible_rgb_mae_median": 28.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8536585365853658,
+          "target_center_xy_median": [
+            174.0,
+            384.0
+          ],
+          "radius_p90_from_target_median_px": 17.204650534085253,
+          "visible_rgb_mae_median": 28.333333333333332
+        }
+      }
+    },
+    "F05": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1452,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            210.0,
+            160.0
+          ],
+          "radius_p90_from_target_median_px": 50.80058977508438,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 61,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            224.0,
+            237.0
+          ],
+          "radius_p90_from_target_median_px": 7.0710678118654755,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9433962264150944,
+          "target_center_xy_median": [
+            303.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 14.884441020371193,
+          "visible_rgb_mae_median": 29.333333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 42,
+          "nearby_components": 6,
+          "largest_nearby_component_fraction": 0.8333333333333334,
+          "target_center_xy_median": [
+            172.0,
+            385.5
+          ],
+          "radius_p90_from_target_median_px": 24.96333103944294,
+          "visible_rgb_mae_median": 27.333333333333332
+        }
+      }
+    },
+    "F06": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1451,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            211.0,
+            164.0
+          ],
+          "radius_p90_from_target_median_px": 48.91829923454004,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 59,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            222.0,
+            234.0
+          ],
+          "radius_p90_from_target_median_px": 6.464140176446153,
+          "visible_rgb_mae_median": 4.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 49,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            302.0,
+            406.0
+          ],
+          "radius_p90_from_target_median_px": 13.038404810405298,
+          "visible_rgb_mae_median": 31.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 42,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8333333333333334,
+          "target_center_xy_median": [
+            170.0,
+            388.5
+          ],
+          "radius_p90_from_target_median_px": 24.904695062503666,
+          "visible_rgb_mae_median": 27.833333333333336
+        }
+      }
+    },
+    "F07": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1448,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            212.0,
+            168.0
+          ],
+          "radius_p90_from_target_median_px": 47.38143096192854,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 48,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9375,
+          "target_center_xy_median": [
+            225.0,
+            229.0
+          ],
+          "radius_p90_from_target_median_px": 8.018677324489564,
+          "visible_rgb_mae_median": 3.3333333333333335,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.8867924528301887,
+          "target_center_xy_median": [
+            298.0,
+            410.0
+          ],
+          "radius_p90_from_target_median_px": 20.891530868164967,
+          "visible_rgb_mae_median": 30.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 43,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7906976744186046,
+          "target_center_xy_median": [
+            169.0,
+            389.0
+          ],
+          "radius_p90_from_target_median_px": 23.071260752732766,
+          "visible_rgb_mae_median": 24.333333333333332
+        }
+      }
+    },
+    "F08": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1533,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            211.0,
+            169.0
+          ],
+          "radius_p90_from_target_median_px": 46.7375526398575,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 24,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            223.5,
+            227.0
+          ],
+          "radius_p90_from_target_median_px": 6.227050983124842,
+          "visible_rgb_mae_median": 4.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.8301886792452831,
+          "target_center_xy_median": [
+            296.0,
+            413.0
+          ],
+          "radius_p90_from_target_median_px": 19.078711731836297,
+          "visible_rgb_mae_median": 31.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 44,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8181818181818182,
+          "target_center_xy_median": [
+            169.5,
+            389.0
+          ],
+          "radius_p90_from_target_median_px": 21.461168532192467,
+          "visible_rgb_mae_median": 24.5
+        }
+      }
+    },
+    "F09": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1820,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            208.0,
+            172.0
+          ],
+          "radius_p90_from_target_median_px": 45.97172859255128,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 33,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            226.0,
+            225.0
+          ],
+          "radius_p90_from_target_median_px": 5.800000000000001,
+          "visible_rgb_mae_median": 7.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 54,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.8703703703703703,
+          "target_center_xy_median": [
+            297.0,
+            411.0
+          ],
+          "radius_p90_from_target_median_px": 21.584588523023925,
+          "visible_rgb_mae_median": 34.16666666666667
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 43,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7906976744186046,
+          "target_center_xy_median": [
+            170.0,
+            388.0
+          ],
+          "radius_p90_from_target_median_px": 23.7522919389486,
+          "visible_rgb_mae_median": 28.333333333333332
+        }
+      }
+    },
+    "F10": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1994,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            204.0,
+            173.0
+          ],
+          "radius_p90_from_target_median_px": 48.83646178829912,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 29,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            230.0,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 5.019803902718557,
+          "visible_rgb_mae_median": 4.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 52,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9615384615384616,
+          "target_center_xy_median": [
+            300.0,
+            406.0
+          ],
+          "radius_p90_from_target_median_px": 13.449902428866213,
+          "visible_rgb_mae_median": 29.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9024390243902439,
+          "target_center_xy_median": [
+            174.0,
+            387.0
+          ],
+          "radius_p90_from_target_median_px": 15.620499351813308,
+          "visible_rgb_mae_median": 27.0
+        }
+      }
+    },
+    "F11": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1949,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            199.0,
+            171.0
+          ],
+          "radius_p90_from_target_median_px": 51.44310160331963,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 37,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            231.0,
+            225.0
+          ],
+          "radius_p90_from_target_median_px": 12.056414474756945,
+          "visible_rgb_mae_median": 5.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 54,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8888888888888888,
+          "target_center_xy_median": [
+            299.0,
+            403.5
+          ],
+          "radius_p90_from_target_median_px": 16.681616051026502,
+          "visible_rgb_mae_median": 30.5
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9024390243902439,
+          "target_center_xy_median": [
+            176.0,
+            385.0
+          ],
+          "radius_p90_from_target_median_px": 14.866068747318506,
+          "visible_rgb_mae_median": 27.333333333333332
+        }
+      }
+    },
+    "F12": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2072,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            197.0,
+            171.0
+          ],
+          "radius_p90_from_target_median_px": 51.470374544800066,
+          "visible_rgb_mae_median": 3.3333333333333335
+        },
+        "ball": {
+          "validated_pixels": 36,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            231.0,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 5.0990195135927845,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 61,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9016393442622951,
+          "target_center_xy_median": [
+            301.0,
+            402.0
+          ],
+          "radius_p90_from_target_median_px": 24.041630560342615,
+          "visible_rgb_mae_median": 24.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 38,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9210526315789473,
+          "target_center_xy_median": [
+            178.0,
+            381.5
+          ],
+          "radius_p90_from_target_median_px": 13.524192300293356,
+          "visible_rgb_mae_median": 28.0
+        }
+      }
+    },
+    "F13": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2116,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            199.0,
+            171.0
+          ],
+          "radius_p90_from_target_median_px": 52.273270928881175,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 50,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.86,
+          "target_center_xy_median": [
+            228.0,
+            224.0
+          ],
+          "radius_p90_from_target_median_px": 27.91714879308296,
+          "visible_rgb_mae_median": 8.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 62,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.9193548387096774,
+          "target_center_xy_median": [
+            301.5,
+            399.0
+          ],
+          "radius_p90_from_target_median_px": 21.249361827859932,
+          "visible_rgb_mae_median": 27.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 43,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.8604651162790697,
+          "target_center_xy_median": [
+            179.0,
+            381.0
+          ],
+          "radius_p90_from_target_median_px": 25.20628234129887,
+          "visible_rgb_mae_median": 26.0
+        }
+      }
+    },
+    "F14": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2090,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            199.5,
+            171.0
+          ],
+          "radius_p90_from_target_median_px": 49.81916856284507,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 49,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            230.0,
+            224.0
+          ],
+          "radius_p90_from_target_median_px": 23.6234998409746,
+          "visible_rgb_mae_median": 5.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 63,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8571428571428571,
+          "target_center_xy_median": [
+            301.0,
+            396.0
+          ],
+          "radius_p90_from_target_median_px": 29.844674881199,
+          "visible_rgb_mae_median": 25.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 38,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9210526315789473,
+          "target_center_xy_median": [
+            182.0,
+            376.0
+          ],
+          "radius_p90_from_target_median_px": 14.264185159372662,
+          "visible_rgb_mae_median": 27.333333333333336
+        }
+      }
+    },
+    "F15": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2011,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            203.0,
+            173.0
+          ],
+          "radius_p90_from_target_median_px": 48.27007354458868,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 32,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.875,
+          "target_center_xy_median": [
+            234.5,
+            222.0
+          ],
+          "radius_p90_from_target_median_px": 11.788095894323497,
+          "visible_rgb_mae_median": 7.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8181818181818182,
+          "target_center_xy_median": [
+            301.0,
+            396.0
+          ],
+          "radius_p90_from_target_median_px": 23.621186125934248,
+          "visible_rgb_mae_median": 27.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 38,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9210526315789473,
+          "target_center_xy_median": [
+            181.0,
+            376.0
+          ],
+          "radius_p90_from_target_median_px": 13.98700069646995,
+          "visible_rgb_mae_median": 29.5
+        }
+      }
+    },
+    "F16": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2000,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            205.0,
+            175.0
+          ],
+          "radius_p90_from_target_median_px": 48.60041152089147,
+          "visible_rgb_mae_median": 3.3333333333333335
+        },
+        "ball": {
+          "validated_pixels": 7,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            237.0,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 3.8603870401261076,
+          "visible_rgb_mae_median": 14.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 58,
+          "nearby_components": 8,
+          "largest_nearby_component_fraction": 0.6896551724137931,
+          "target_center_xy_median": [
+            301.0,
+            398.5
+          ],
+          "radius_p90_from_target_median_px": 31.959207958817313,
+          "visible_rgb_mae_median": 25.833333333333336
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 37,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7297297297297297,
+          "target_center_xy_median": [
+            180.0,
+            379.0
+          ],
+          "radius_p90_from_target_median_px": 15.966328203800115,
+          "visible_rgb_mae_median": 29.333333333333332
+        }
+      }
+    },
+    "F17": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2002,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            205.0,
+            175.0
+          ],
+          "radius_p90_from_target_median_px": 47.687486998843525,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 6,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            237.5,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 3.8355919093947666,
+          "visible_rgb_mae_median": 8.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 54,
+          "nearby_components": 7,
+          "largest_nearby_component_fraction": 0.7592592592592593,
+          "target_center_xy_median": [
+            298.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 26.359035388293872,
+          "visible_rgb_mae_median": 29.833333333333336
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 36,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.7222222222222222,
+          "target_center_xy_median": [
+            174.0,
+            383.5
+          ],
+          "radius_p90_from_target_median_px": 16.97428556986843,
+          "visible_rgb_mae_median": 31.333333333333336
+        }
+      }
+    },
+    "F18": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2093,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            203.0,
+            174.0
+          ],
+          "radius_p90_from_target_median_px": 47.339125901599424,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 10,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            237.5,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 3.6791623375911606,
+          "visible_rgb_mae_median": 6.833333333333334,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9090909090909091,
+          "target_center_xy_median": [
+            297.0,
+            410.0
+          ],
+          "radius_p90_from_target_median_px": 21.483323032546544,
+          "visible_rgb_mae_median": 27.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8292682926829268,
+          "target_center_xy_median": [
+            173.0,
+            385.0
+          ],
+          "radius_p90_from_target_median_px": 19.235384061671343,
+          "visible_rgb_mae_median": 30.666666666666668
+        }
+      }
+    },
+    "F19": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1999,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            200.0,
+            173.0
+          ],
+          "radius_p90_from_target_median_px": 48.16637831516918,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 13,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            238.0,
+            220.0
+          ],
+          "radius_p90_from_target_median_px": 4.927743748298085,
+          "visible_rgb_mae_median": 7.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9056603773584906,
+          "target_center_xy_median": [
+            298.0,
+            409.0
+          ],
+          "radius_p90_from_target_median_px": 18.439088914585774,
+          "visible_rgb_mae_median": 29.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 42,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8095238095238095,
+          "target_center_xy_median": [
+            170.5,
+            385.0
+          ],
+          "radius_p90_from_target_median_px": 17.363569768795838,
+          "visible_rgb_mae_median": 31.0
+        }
+      }
+    },
+    "F20": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1818,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            198.0,
+            172.0
+          ],
+          "radius_p90_from_target_median_px": 48.1227512128067,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 8,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            236.5,
+            220.0
+          ],
+          "radius_p90_from_target_median_px": 3.757377123492964,
+          "visible_rgb_mae_median": 7.166666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 52,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9423076923076923,
+          "target_center_xy_median": [
+            296.0,
+            408.0
+          ],
+          "radius_p90_from_target_median_px": 14.744362732066163,
+          "visible_rgb_mae_median": 28.333333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8292682926829268,
+          "target_center_xy_median": [
+            171.0,
+            383.0
+          ],
+          "radius_p90_from_target_median_px": 20.12461179749811,
+          "visible_rgb_mae_median": 29.333333333333332
+        }
+      }
+    },
+    "F21": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1712,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            199.0,
+            173.0
+          ],
+          "radius_p90_from_target_median_px": 47.78490839530747,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 5,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            235.0,
+            219.0
+          ],
+          "radius_p90_from_target_median_px": 3.9481926370670997,
+          "visible_rgb_mae_median": 10.333333333333334,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 54,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9259259259259259,
+          "target_center_xy_median": [
+            295.0,
+            408.0
+          ],
+          "radius_p90_from_target_median_px": 17.565426762894123,
+          "visible_rgb_mae_median": 29.166666666666664
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 41,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8292682926829268,
+          "target_center_xy_median": [
+            170.0,
+            382.0
+          ],
+          "radius_p90_from_target_median_px": 20.12461179749811,
+          "visible_rgb_mae_median": 30.666666666666668
+        }
+      }
+    },
+    "F22": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1568,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            198.0,
+            174.0
+          ],
+          "radius_p90_from_target_median_px": 51.22499389946279,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 8,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            238.0,
+            219.5
+          ],
+          "radius_p90_from_target_median_px": 3.8252000466441944,
+          "visible_rgb_mae_median": 10.833333333333332,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9642857142857143,
+          "target_center_xy_median": [
+            296.5,
+            407.5
+          ],
+          "radius_p90_from_target_median_px": 14.90133048657757,
+          "visible_rgb_mae_median": 30.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 45,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8444444444444444,
+          "target_center_xy_median": [
+            172.0,
+            381.0
+          ],
+          "radius_p90_from_target_median_px": 25.297058540778355,
+          "visible_rgb_mae_median": 27.666666666666668
+        }
+      }
+    },
+    "F23": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1284,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            201.0,
+            170.5
+          ],
+          "radius_p90_from_target_median_px": 56.43002048056811,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 6,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            239.0,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 3.9240959812916367,
+          "visible_rgb_mae_median": 4.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9636363636363636,
+          "target_center_xy_median": [
+            297.0,
+            406.0
+          ],
+          "radius_p90_from_target_median_px": 19.524709604624263,
+          "visible_rgb_mae_median": 31.333333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 46,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8695652173913043,
+          "target_center_xy_median": [
+            174.0,
+            380.5
+          ],
+          "radius_p90_from_target_median_px": 21.111337726753867,
+          "visible_rgb_mae_median": 24.833333333333336
+        }
+      }
+    },
+    "F24": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1267,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            196.0,
+            168.0
+          ],
+          "radius_p90_from_target_median_px": 61.60032262119701,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 3,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            240.0,
+            219.0
+          ],
+          "radius_p90_from_target_median_px": 2.7298221281347037,
+          "visible_rgb_mae_median": 2.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.9636363636363636,
+          "target_center_xy_median": [
+            299.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 22.486888914707396,
+          "visible_rgb_mae_median": 30.333333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 47,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8723404255319149,
+          "target_center_xy_median": [
+            176.0,
+            380.0
+          ],
+          "radius_p90_from_target_median_px": 20.176288970930333,
+          "visible_rgb_mae_median": 24.0
+        }
+      }
+    },
+    "F25": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1259,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            191.0,
+            166.0
+          ],
+          "radius_p90_from_target_median_px": 61.63926090898005,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 5,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            244.0,
+            221.0
+          ],
+          "radius_p90_from_target_median_px": 5.019953266280535,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 59,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            301.0,
+            402.0
+          ],
+          "radius_p90_from_target_median_px": 23.094493285590303,
+          "visible_rgb_mae_median": 31.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 44,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8863636363636364,
+          "target_center_xy_median": [
+            179.0,
+            378.0
+          ],
+          "radius_p90_from_target_median_px": 19.99420476870329,
+          "visible_rgb_mae_median": 23.833333333333332
+        }
+      }
+    },
+    "F26": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1370,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            192.0,
+            164.0
+          ],
+          "radius_p90_from_target_median_px": 63.63410995689475,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 2,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            243.5,
+            220.0
+          ],
+          "radius_p90_from_target_median_px": 0.5,
+          "visible_rgb_mae_median": 8.666666666666668,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            302.0,
+            401.5
+          ],
+          "radius_p90_from_target_median_px": 19.32384702569285,
+          "visible_rgb_mae_median": 31.333333333333336
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 50,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.94,
+          "target_center_xy_median": [
+            178.0,
+            378.0
+          ],
+          "radius_p90_from_target_median_px": 20.659627295761005,
+          "visible_rgb_mae_median": 23.166666666666664
+        }
+      }
+    },
+    "F27": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1580,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            195.0,
+            164.0
+          ],
+          "radius_p90_from_target_median_px": 64.09830674398735,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 7,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            247.0,
+            224.0
+          ],
+          "radius_p90_from_target_median_px": 4.4738633753705965,
+          "visible_rgb_mae_median": 15.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.7678571428571429,
+          "target_center_xy_median": [
+            304.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 26.378501716577567,
+          "visible_rgb_mae_median": 33.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 48,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.8125,
+          "target_center_xy_median": [
+            181.0,
+            379.0
+          ],
+          "radius_p90_from_target_median_px": 23.953636592095883,
+          "visible_rgb_mae_median": 22.666666666666668
+        }
+      }
+    },
+    "F28": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1997,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            196.0,
+            165.0
+          ],
+          "radius_p90_from_target_median_px": 64.51356167225312,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 6,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            247.0,
+            223.0
+          ],
+          "radius_p90_from_target_median_px": 3.702459173643832,
+          "visible_rgb_mae_median": 15.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            303.5,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 16.629708242566107,
+          "visible_rgb_mae_median": 32.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 50,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.78,
+          "target_center_xy_median": [
+            179.5,
+            379.0
+          ],
+          "radius_p90_from_target_median_px": 22.02603620765013,
+          "visible_rgb_mae_median": 22.666666666666664
+        }
+      }
+    },
+    "F29": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1734,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            191.0,
+            164.0
+          ],
+          "radius_p90_from_target_median_px": 62.16268583919836,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 122,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            243.0,
+            230.0
+          ],
+          "radius_p90_from_target_median_px": 25.9148687311413,
+          "visible_rgb_mae_median": 5.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9454545454545454,
+          "target_center_xy_median": [
+            305.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 14.74372915981552,
+          "visible_rgb_mae_median": 33.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 50,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.84,
+          "target_center_xy_median": [
+            180.5,
+            379.0
+          ],
+          "radius_p90_from_target_median_px": 22.112167375210714,
+          "visible_rgb_mae_median": 23.833333333333336
+        }
+      }
+    },
+    "F30": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1804,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            192.0,
+            163.0
+          ],
+          "radius_p90_from_target_median_px": 66.21026965924875,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 101,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            245.0,
+            231.0
+          ],
+          "radius_p90_from_target_median_px": 18.35755975068582,
+          "visible_rgb_mae_median": 5.333333333333333,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            308.0,
+            401.0
+          ],
+          "radius_p90_from_target_median_px": 16.60195598740959,
+          "visible_rgb_mae_median": 33.16666666666667
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 50,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.88,
+          "target_center_xy_median": [
+            182.5,
+            377.5
+          ],
+          "radius_p90_from_target_median_px": 22.677875122065394,
+          "visible_rgb_mae_median": 24.666666666666668
+        }
+      }
+    },
+    "F31": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1733,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            193.0,
+            160.0
+          ],
+          "radius_p90_from_target_median_px": 69.58438581625623,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 45,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            248.0,
+            230.0
+          ],
+          "radius_p90_from_target_median_px": 5.754065922853802,
+          "visible_rgb_mae_median": 7.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            310.5,
+            394.0
+          ],
+          "radius_p90_from_target_median_px": 16.629708242566107,
+          "visible_rgb_mae_median": 32.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 50,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8,
+          "target_center_xy_median": [
+            187.0,
+            373.0
+          ],
+          "radius_p90_from_target_median_px": 22.129702478316077,
+          "visible_rgb_mae_median": 24.666666666666664
+        }
+      }
+    },
+    "F32": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1845,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            189.0,
+            160.0
+          ],
+          "radius_p90_from_target_median_px": 69.71653707571569,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 39,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            247.0,
+            234.0
+          ],
+          "radius_p90_from_target_median_px": 6.766563145999497,
+          "visible_rgb_mae_median": 5.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            312.0,
+            384.5
+          ],
+          "radius_p90_from_target_median_px": 16.00504750134825,
+          "visible_rgb_mae_median": 31.166666666666664
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 47,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8085106382978723,
+          "target_center_xy_median": [
+            189.0,
+            366.0
+          ],
+          "radius_p90_from_target_median_px": 28.72144828941659,
+          "visible_rgb_mae_median": 24.666666666666668
+        }
+      }
+    },
+    "F33": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1772,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            183.0,
+            161.0
+          ],
+          "radius_p90_from_target_median_px": 67.92715389834049,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 19,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            247.0,
+            235.0
+          ],
+          "radius_p90_from_target_median_px": 5.521436121059821,
+          "visible_rgb_mae_median": 8.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9285714285714286,
+          "target_center_xy_median": [
+            314.0,
+            378.5
+          ],
+          "radius_p90_from_target_median_px": 15.88244332594672,
+          "visible_rgb_mae_median": 31.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 47,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8085106382978723,
+          "target_center_xy_median": [
+            193.0,
+            362.0
+          ],
+          "radius_p90_from_target_median_px": 28.72144828941659,
+          "visible_rgb_mae_median": 26.0
+        }
+      }
+    },
+    "F34": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1908,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            181.0,
+            158.0
+          ],
+          "radius_p90_from_target_median_px": 70.26306429244873,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 29,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            244.0,
+            241.0
+          ],
+          "radius_p90_from_target_median_px": 5.2792156108742265,
+          "visible_rgb_mae_median": 8.666666666666666,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 51,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9411764705882353,
+          "target_center_xy_median": [
+            316.0,
+            375.0
+          ],
+          "radius_p90_from_target_median_px": 12.083045973594572,
+          "visible_rgb_mae_median": 31.333333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 45,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7111111111111111,
+          "target_center_xy_median": [
+            197.0,
+            359.0
+          ],
+          "radius_p90_from_target_median_px": 31.893293974626012,
+          "visible_rgb_mae_median": 26.0
+        }
+      }
+    },
+    "F35": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1922,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            182.0,
+            155.0
+          ],
+          "radius_p90_from_target_median_px": 65.10913653287518,
+          "visible_rgb_mae_median": 4.166666666666666
+        },
+        "ball": {
+          "validated_pixels": 24,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            247.0,
+            243.0
+          ],
+          "radius_p90_from_target_median_px": 5.873483213349104,
+          "visible_rgb_mae_median": 5.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 51,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9215686274509803,
+          "target_center_xy_median": [
+            317.0,
+            374.0
+          ],
+          "radius_p90_from_target_median_px": 10.44030650891055,
+          "visible_rgb_mae_median": 30.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 47,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7659574468085106,
+          "target_center_xy_median": [
+            196.0,
+            356.0
+          ],
+          "radius_p90_from_target_median_px": 22.38872595052284,
+          "visible_rgb_mae_median": 27.0
+        }
+      }
+    },
+    "F36": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2058,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            184.0,
+            154.0
+          ],
+          "radius_p90_from_target_median_px": 67.11929677819934,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 41,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            245.0,
+            248.0
+          ],
+          "radius_p90_from_target_median_px": 7.0,
+          "visible_rgb_mae_median": 5.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 49,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.9183673469387755,
+          "target_center_xy_median": [
+            316.0,
+            372.0
+          ],
+          "radius_p90_from_target_median_px": 10.841712794748211,
+          "visible_rgb_mae_median": 29.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 49,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7551020408163265,
+          "target_center_xy_median": [
+            195.0,
+            355.0
+          ],
+          "radius_p90_from_target_median_px": 21.155249000299158,
+          "visible_rgb_mae_median": 24.666666666666668
+        }
+      }
+    },
+    "F37": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1917,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            188.0,
+            154.0
+          ],
+          "radius_p90_from_target_median_px": 65.39570982734274,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 57,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            242.0,
+            252.0
+          ],
+          "radius_p90_from_target_median_px": 7.02842712474619,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 53,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8679245283018868,
+          "target_center_xy_median": [
+            317.0,
+            372.0
+          ],
+          "radius_p90_from_target_median_px": 18.2863995016647,
+          "visible_rgb_mae_median": 29.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 43,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7209302325581395,
+          "target_center_xy_median": [
+            194.0,
+            355.0
+          ],
+          "radius_p90_from_target_median_px": 18.776828378948842,
+          "visible_rgb_mae_median": 27.0
+        }
+      }
+    },
+    "F38": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1878,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            191.0,
+            155.0
+          ],
+          "radius_p90_from_target_median_px": 63.262941681187804,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 81,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            245.0,
+            255.0
+          ],
+          "radius_p90_from_target_median_px": 8.06225774829855,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 52,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8653846153846154,
+          "target_center_xy_median": [
+            318.0,
+            370.5
+          ],
+          "radius_p90_from_target_median_px": 18.104189798161233,
+          "visible_rgb_mae_median": 30.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 42,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8809523809523809,
+          "target_center_xy_median": [
+            197.0,
+            351.0
+          ],
+          "radius_p90_from_target_median_px": 21.22232376470448,
+          "visible_rgb_mae_median": 26.0
+        }
+      }
+    },
+    "F39": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1873,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            191.0,
+            152.0
+          ],
+          "radius_p90_from_target_median_px": 62.61625582601731,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 69,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.9855072463768116,
+          "target_center_xy_median": [
+            244.0,
+            261.0
+          ],
+          "radius_p90_from_target_median_px": 7.424087911424417,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8035714285714286,
+          "target_center_xy_median": [
+            319.5,
+            367.0
+          ],
+          "radius_p90_from_target_median_px": 18.20040529172357,
+          "visible_rgb_mae_median": 30.5
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 34,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.8529411764705882,
+          "target_center_xy_median": [
+            202.5,
+            345.5
+          ],
+          "radius_p90_from_target_median_px": 20.34370096299328,
+          "visible_rgb_mae_median": 26.333333333333332
+        }
+      }
+    },
+    "F40": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1828,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            190.0,
+            149.0
+          ],
+          "radius_p90_from_target_median_px": 63.16800949047114,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 102,
+          "nearby_components": 9,
+          "largest_nearby_component_fraction": 0.9019607843137255,
+          "target_center_xy_median": [
+            247.0,
+            265.5
+          ],
+          "radius_p90_from_target_median_px": 11.905956544490953,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8181818181818182,
+          "target_center_xy_median": [
+            321.0,
+            363.0
+          ],
+          "radius_p90_from_target_median_px": 17.46424919657298,
+          "visible_rgb_mae_median": 28.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 35,
+          "nearby_components": 6,
+          "largest_nearby_component_fraction": 0.6857142857142857,
+          "target_center_xy_median": [
+            209.0,
+            333.0
+          ],
+          "radius_p90_from_target_median_px": 24.199171422250505,
+          "visible_rgb_mae_median": 24.666666666666668
+        }
+      }
+    },
+    "F41": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1788,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            188.0,
+            145.0
+          ],
+          "radius_p90_from_target_median_px": 62.296851568377875,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 107,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.9906542056074766,
+          "target_center_xy_median": [
+            246.0,
+            273.0
+          ],
+          "radius_p90_from_target_median_px": 9.486832980505138,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 54,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8148148148148148,
+          "target_center_xy_median": [
+            322.5,
+            361.5
+          ],
+          "radius_p90_from_target_median_px": 17.145016534083577,
+          "visible_rgb_mae_median": 28.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 27,
+          "nearby_components": 7,
+          "largest_nearby_component_fraction": 0.6666666666666666,
+          "target_center_xy_median": [
+            229.0,
+            314.0
+          ],
+          "radius_p90_from_target_median_px": 68.1967379533538,
+          "visible_rgb_mae_median": 28.666666666666668
+        }
+      }
+    },
+    "F42": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1857,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            185.0,
+            141.0
+          ],
+          "radius_p90_from_target_median_px": 63.06978538570524,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 99,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9797979797979798,
+          "target_center_xy_median": [
+            247.0,
+            279.0
+          ],
+          "radius_p90_from_target_median_px": 10.0,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 3,
+          "largest_nearby_component_fraction": 0.9636363636363636,
+          "target_center_xy_median": [
+            323.0,
+            358.0
+          ],
+          "radius_p90_from_target_median_px": 15.88437917646227,
+          "visible_rgb_mae_median": 29.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 0
+        }
+      }
+    },
+    "F43": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1880,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            183.0,
+            138.0
+          ],
+          "radius_p90_from_target_median_px": 64.3840038453934,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 105,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            249.0,
+            285.0
+          ],
+          "radius_p90_from_target_median_px": 9.055385138137417,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 52,
+          "nearby_components": 2,
+          "largest_nearby_component_fraction": 0.9615384615384616,
+          "target_center_xy_median": [
+            323.5,
+            354.0
+          ],
+          "radius_p90_from_target_median_px": 17.149940303252308,
+          "visible_rgb_mae_median": 29.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 0
+        }
+      }
+    },
+    "F44": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1957,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            180.0,
+            137.0
+          ],
+          "radius_p90_from_target_median_px": 62.448372646933954,
+          "visible_rgb_mae_median": 3.6666666666666665
+        },
+        "ball": {
+          "validated_pixels": 101,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            252.0,
+            290.0
+          ],
+          "radius_p90_from_target_median_px": 9.055385138137417,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 55,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8909090909090909,
+          "target_center_xy_median": [
+            323.0,
+            348.0
+          ],
+          "radius_p90_from_target_median_px": 18.985699678629196,
+          "visible_rgb_mae_median": 25.0
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 29,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7586206896551724,
+          "target_center_xy_median": [
+            215.0,
+            314.0
+          ],
+          "radius_p90_from_target_median_px": 31.40777252637453,
+          "visible_rgb_mae_median": 33.666666666666664
+        }
+      }
+    },
+    "F45": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1943,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            179.0,
+            135.0
+          ],
+          "radius_p90_from_target_median_px": 58.816663420400054,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 81,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            257.0,
+            290.0
+          ],
+          "radius_p90_from_target_median_px": 8.06225774829855,
+          "visible_rgb_mae_median": 5.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8392857142857143,
+          "target_center_xy_median": [
+            323.0,
+            341.5
+          ],
+          "radius_p90_from_target_median_px": 34.499485535250216,
+          "visible_rgb_mae_median": 26.833333333333336
+        },
+        "disc_3": {
+          "validated_pixels": 0
+        },
+        "disc_4": {
+          "validated_pixels": 42,
+          "nearby_components": 6,
+          "largest_nearby_component_fraction": 0.7142857142857143,
+          "target_center_xy_median": [
+            207.0,
+            323.0
+          ],
+          "radius_p90_from_target_median_px": 24.056525647297924,
+          "visible_rgb_mae_median": 25.666666666666668
+        }
+      }
+    },
+    "F46": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1910,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            177.0,
+            136.0
+          ],
+          "radius_p90_from_target_median_px": 56.08029957123981,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 83,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            258.0,
+            299.0
+          ],
+          "radius_p90_from_target_median_px": 8.590660962697607,
+          "visible_rgb_mae_median": 6.0,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8392857142857143,
+          "target_center_xy_median": [
+            322.0,
+            334.0
+          ],
+          "radius_p90_from_target_median_px": 34.34357102605374,
+          "visible_rgb_mae_median": 25.666666666666668
+        },
+        "disc_3": {
+          "validated_pixels": 20,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            222.5,
+            435.0
+          ],
+          "radius_p90_from_target_median_px": 11.392514062640727,
+          "visible_rgb_mae_median": 30.666666666666668
+        },
+        "disc_4": {
+          "validated_pixels": 35,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.6857142857142857,
+          "target_center_xy_median": [
+            208.0,
+            320.0
+          ],
+          "radius_p90_from_target_median_px": 22.47013258779556,
+          "visible_rgb_mae_median": 24.0
+        }
+      }
+    },
+    "F47": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 1968,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            173.0,
+            135.0
+          ],
+          "radius_p90_from_target_median_px": 53.55463662001656,
+          "visible_rgb_mae_median": 4.333333333333333
+        },
+        "ball": {
+          "validated_pixels": 80,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            262.0,
+            300.0
+          ],
+          "radius_p90_from_target_median_px": 8.54400374531753,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 56,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8392857142857143,
+          "target_center_xy_median": [
+            321.0,
+            325.0
+          ],
+          "radius_p90_from_target_median_px": 34.04397501222566,
+          "visible_rgb_mae_median": 23.666666666666664
+        },
+        "disc_3": {
+          "validated_pixels": 23,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.6956521739130435,
+          "target_center_xy_median": [
+            238.0,
+            404.0
+          ],
+          "radius_p90_from_target_median_px": 28.869374505045094,
+          "visible_rgb_mae_median": 30.666666666666668
+        },
+        "disc_4": {
+          "validated_pixels": 35,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.6857142857142857,
+          "target_center_xy_median": [
+            206.0,
+            318.0
+          ],
+          "radius_p90_from_target_median_px": 19.547383755406628,
+          "visible_rgb_mae_median": 27.333333333333332
+        }
+      }
+    },
+    "F48": {
+      "object_id_conflicts_by_label": {},
+      "objects": {
+        "teammate": {
+          "validated_pixels": 2055,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            169.0,
+            134.0
+          ],
+          "radius_p90_from_target_median_px": 54.878024640455564,
+          "visible_rgb_mae_median": 4.0
+        },
+        "ball": {
+          "validated_pixels": 97,
+          "nearby_components": 1,
+          "largest_nearby_component_fraction": 1.0,
+          "target_center_xy_median": [
+            265.0,
+            307.0
+          ],
+          "radius_p90_from_target_median_px": 10.63014581273465,
+          "visible_rgb_mae_median": 6.666666666666667,
+          "rendered_rgb_near_black_fraction": 0.0
+        },
+        "disc_1": {
+          "validated_pixels": 0
+        },
+        "disc_2": {
+          "validated_pixels": 52,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.8846153846153846,
+          "target_center_xy_median": [
+            319.5,
+            320.0
+          ],
+          "radius_p90_from_target_median_px": 21.214514994608006,
+          "visible_rgb_mae_median": 22.833333333333332
+        },
+        "disc_3": {
+          "validated_pixels": 16,
+          "nearby_components": 4,
+          "largest_nearby_component_fraction": 0.625,
+          "target_center_xy_median": [
+            263.0,
+            338.0
+          ],
+          "radius_p90_from_target_median_px": 61.81822251486174,
+          "visible_rgb_mae_median": 29.0
+        },
+        "disc_4": {
+          "validated_pixels": 38,
+          "nearby_components": 5,
+          "largest_nearby_component_fraction": 0.7105263157894737,
+          "target_center_xy_median": [
+            204.0,
+            316.0
+          ],
+          "radius_p90_from_target_median_px": 17.32314831011434,
+          "visible_rgb_mae_median": 24.333333333333332
+        }
+      }
+    }
+  }
+}

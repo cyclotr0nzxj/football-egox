@@ -1,0 +1,56 @@
+{
+  "torch": "2.5.1+cu124",
+  "cuda_runtime": "12.4",
+  "events": [
+    {
+      "operation": "load_lora_weights",
+      "active_adapters": [
+        "default_0"
+      ],
+      "peft_config": {
+        "default_0": {
+          "r": 256,
+          "lora_alpha": 256
+        }
+      },
+      "kwargs": {
+        "weight_name": "pytorch_lora_weights.safetensors"
+      },
+      "component_dtypes": {
+        "transformer": "torch.bfloat16",
+        "vae": "torch.bfloat16",
+        "text_encoder": "torch.bfloat16",
+        "image_encoder": "torch.float32"
+      }
+    },
+    {
+      "operation": "fuse_lora",
+      "active_adapters": [
+        "default_0"
+      ],
+      "peft_config": {
+        "default_0": {
+          "r": 256,
+          "lora_alpha": 256
+        }
+      },
+      "kwargs": {
+        "components": [
+          "transformer"
+        ],
+        "lora_scale": 1.0
+      },
+      "component_dtypes": {
+        "transformer": "torch.bfloat16",
+        "vae": "torch.bfloat16",
+        "text_encoder": "torch.bfloat16",
+        "image_encoder": "torch.float32"
+      }
+    }
+  ],
+  "gt_policy": "GT path removed from inference metadata; no GT video used",
+  "elapsed_seconds": 5248.811021432048,
+  "max_rss_kib": 111921052,
+  "max_cuda_allocated_bytes": 63788660736,
+  "max_cuda_reserved_bytes": 77493960704
+}

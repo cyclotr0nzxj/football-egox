@@ -1,0 +1,65 @@
+{
+  "scope": "NumPy float32 reconstruction of actual EXO samples and selected GGA geometric logits. No learned attention, denoising or GPU.",
+  "ball_support": "Pair05 uses the observed-ball mask. Pair01 uses the inspected ball anchor's inner 65% radius.",
+  "takes": {
+    "pair01_s0288": {
+      "pose_comparison": {
+        "max_camera_center_delta": 2.6645352591003757e-15,
+        "forward_angle_difference_median_deg": 87.15547084713734,
+        "same_prompt_and_source_K": true
+      },
+      "query_frame": 36,
+      "query_token_yx": [
+        15,
+        16
+      ],
+      "same_frame_observed_ball_candidate_keys": 1,
+      "same_frame_ball_candidate_max_support_of_16": 4,
+      "same_frame_ball_candidate_best_geometric_weight": 3.8989546298980713,
+      "ball_candidate_source_frames_dot_at_least_0_98": [
+        40,
+        44
+      ],
+      "all_source_eligible_keys": 17836,
+      "all_ego_ungated_keys": 10192,
+      "similar_other_time_ball_candidates_removed_by_time_gate": 2,
+      "same_frame_ball_candidates_retained_by_time_gate": 1,
+      "pair01_wearer_gate": {
+        "upper_body_dominant_source_keys": 115,
+        "blocked_with_ball_protection": 115,
+        "observed_ball_keys_blocked": 0
+      }
+    },
+    "pair05_s0024": {
+      "pose_comparison": {
+        "max_camera_center_delta": 4.440892098500626e-15,
+        "forward_angle_difference_median_deg": 10.377623138275144,
+        "same_prompt_and_source_K": true
+      },
+      "query_frame": 24,
+      "query_token_yx": [
+        16,
+        14
+      ],
+      "same_frame_observed_ball_candidate_keys": 2,
+      "same_frame_ball_candidate_max_support_of_16": 6,
+      "same_frame_ball_candidate_best_geometric_weight": 3.998885154724121,
+      "ball_candidate_source_frames_dot_at_least_0_98": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36
+      ],
+      "all_source_eligible_keys": 17836,
+      "all_ego_ungated_keys": 10192,
+      "similar_other_time_ball_candidates_removed_by_time_gate": 16,
+      "same_frame_ball_candidates_retained_by_time_gate": 2,
+      "pair01_wearer_gate": null
+    }
+  }
+}

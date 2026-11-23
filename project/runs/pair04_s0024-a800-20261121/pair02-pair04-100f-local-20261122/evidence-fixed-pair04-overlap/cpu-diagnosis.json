@@ -1,0 +1,286 @@
+{
+  "archive_sha256": "586b8ff527a1953270fae1517f29a98efff95512660d0637629ba4672a58dc40",
+  "scale": 1.1597753763198853,
+  "heldout_medrel": {
+    "scale": 0.2468198463320732,
+    "affine": 0.06490723788738251,
+    "inverse_affine": 0.001464136061258614
+  },
+  "per_frame": [
+    {
+      "frame": 76,
+      "inputs_cross_window_rgb_mae": 4.159133184523809,
+      "pixels": 19005,
+      "median_ratio": 1.1597753763198853,
+      "p90_p10_ratio_span": 0.7474896907806396,
+      "oracle_frame_scale_p90": 0.3029381036758423,
+      "scale_medrel": 0.24619390070438385,
+      "affine_medrel": 0.06494756042957306,
+      "inverse_affine_medrel": 0.0017569591291248798
+    },
+    {
+      "frame": 77,
+      "inputs_cross_window_rgb_mae": 3.7854570957847424,
+      "pixels": 18998,
+      "median_ratio": 1.1593462228775024,
+      "p90_p10_ratio_span": 0.7476206421852112,
+      "oracle_frame_scale_p90": 0.3031007647514343,
+      "scale_medrel": 0.24695442616939545,
+      "affine_medrel": 0.06494756042957306,
+      "inverse_affine_medrel": 0.0017787566175684333
+    },
+    {
+      "frame": 78,
+      "inputs_cross_window_rgb_mae": 3.7268139956875608,
+      "pixels": 18998,
+      "median_ratio": 1.1593462228775024,
+      "p90_p10_ratio_span": 0.7476206421852112,
+      "oracle_frame_scale_p90": 0.30324089527130127,
+      "scale_medrel": 0.24695442616939545,
+      "affine_medrel": 0.06494756042957306,
+      "inverse_affine_medrel": 0.0017326893284916878
+    },
+    {
+      "frame": 79,
+      "inputs_cross_window_rgb_mae": 3.589810533588435,
+      "pixels": 19007,
+      "median_ratio": 1.159638524055481,
+      "p90_p10_ratio_span": 0.7493213415145874,
+      "oracle_frame_scale_p90": 0.3037192225456238,
+      "scale_medrel": 0.24717333912849426,
+      "affine_medrel": 0.06529323011636734,
+      "inverse_affine_medrel": 0.0014835199108347297
+    },
+    {
+      "frame": 80,
+      "inputs_cross_window_rgb_mae": 3.6135906371477162,
+      "pixels": 19018,
+      "median_ratio": 1.1597753763198853,
+      "p90_p10_ratio_span": 0.7490800619125366,
+      "oracle_frame_scale_p90": 0.30373692512512207,
+      "scale_medrel": 0.2479339838027954,
+      "affine_medrel": 0.06521305441856384,
+      "inverse_affine_medrel": 0.0012511558597907424
+    },
+    {
+      "frame": 81,
+      "inputs_cross_window_rgb_mae": 3.5286619670189503,
+      "pixels": 19028,
+      "median_ratio": 1.160367727279663,
+      "p90_p10_ratio_span": 0.7514616250991821,
+      "oracle_frame_scale_p90": 0.304376482963562,
+      "scale_medrel": 0.24797123670578003,
+      "affine_medrel": 0.06486691534519196,
+      "inverse_affine_medrel": 0.001085971249267459
+    },
+    {
+      "frame": 82,
+      "inputs_cross_window_rgb_mae": 3.5870848897594754,
+      "pixels": 19016,
+      "median_ratio": 1.1595091819763184,
+      "p90_p10_ratio_span": 0.7504774332046509,
+      "oracle_frame_scale_p90": 0.3041948676109314,
+      "scale_medrel": 0.2479339838027954,
+      "affine_medrel": 0.06486691534519196,
+      "inverse_affine_medrel": 0.0012713054893538356
+    },
+    {
+      "frame": 83,
+      "inputs_cross_window_rgb_mae": 3.3989452365767736,
+      "pixels": 19005,
+      "median_ratio": 1.1591836214065552,
+      "p90_p10_ratio_span": 0.7476208209991455,
+      "oracle_frame_scale_p90": 0.3033943772315979,
+      "scale_medrel": 0.24695442616939545,
+      "affine_medrel": 0.06478606164455414,
+      "inverse_affine_medrel": 0.0014447522116824985
+    },
+    {
+      "frame": 84,
+      "inputs_cross_window_rgb_mae": 3.6154374696307094,
+      "pixels": 18996,
+      "median_ratio": 1.1593462228775024,
+      "p90_p10_ratio_span": 0.7473709583282471,
+      "oracle_frame_scale_p90": 0.30329662561416626,
+      "scale_medrel": 0.24695442616939545,
+      "affine_medrel": 0.06501034647226334,
+      "inverse_affine_medrel": 0.0015330618480220437
+    },
+    {
+      "frame": 85,
+      "inputs_cross_window_rgb_mae": 3.2954865539965987,
+      "pixels": 19004,
+      "median_ratio": 1.1595091819763184,
+      "p90_p10_ratio_span": 0.7474990487098694,
+      "oracle_frame_scale_p90": 0.3034074306488037,
+      "scale_medrel": 0.2468322515487671,
+      "affine_medrel": 0.06557370722293854,
+      "inverse_affine_medrel": 0.0013408935628831387
+    },
+    {
+      "frame": 86,
+      "inputs_cross_window_rgb_mae": 3.2997287642735667,
+      "pixels": 19001,
+      "median_ratio": 1.1605316400527954,
+      "p90_p10_ratio_span": 0.7501270174980164,
+      "oracle_frame_scale_p90": 0.30398041009902954,
+      "scale_medrel": 0.24778534471988678,
+      "affine_medrel": 0.06494756042957306,
+      "inverse_affine_medrel": 0.0008041614200919867
+    },
+    {
+      "frame": 87,
+      "inputs_cross_window_rgb_mae": 3.2384577715014577,
+      "pixels": 19011,
+      "median_ratio": 1.1604305505752563,
+      "p90_p10_ratio_span": 0.7501136660575867,
+      "oracle_frame_scale_p90": 0.30394136905670166,
+      "scale_medrel": 0.24702811241149902,
+      "affine_medrel": 0.06486691534519196,
+      "inverse_affine_medrel": 0.0007759830332361162
+    },
+    {
+      "frame": 88,
+      "inputs_cross_window_rgb_mae": 3.5148249590014577,
+      "pixels": 19016,
+      "median_ratio": 1.1603169441223145,
+      "p90_p10_ratio_span": 0.7487472295761108,
+      "oracle_frame_scale_p90": 0.3037096858024597,
+      "scale_medrel": 0.24680744111537933,
+      "affine_medrel": 0.06453226506710052,
+      "inverse_affine_medrel": 0.0009327911539003253
+    },
+    {
+      "frame": 89,
+      "inputs_cross_window_rgb_mae": 3.2412868607264333,
+      "pixels": 19030,
+      "median_ratio": 1.1599693298339844,
+      "p90_p10_ratio_span": 0.7479454874992371,
+      "oracle_frame_scale_p90": 0.30331718921661377,
+      "scale_medrel": 0.24680744111537933,
+      "affine_medrel": 0.06447094678878784,
+      "inverse_affine_medrel": 0.0010095994221046567
+    },
+    {
+      "frame": 90,
+      "inputs_cross_window_rgb_mae": 3.343922725340136,
+      "pixels": 19026,
+      "median_ratio": 1.1599693298339844,
+      "p90_p10_ratio_span": 0.7477013468742371,
+      "oracle_frame_scale_p90": 0.3032163381576538,
+      "scale_medrel": 0.2467341274023056,
+      "affine_medrel": 0.0644262507557869,
+      "inverse_affine_medrel": 0.0012852683430537581
+    },
+    {
+      "frame": 91,
+      "inputs_cross_window_rgb_mae": 3.191942457786686,
+      "pixels": 19025,
+      "median_ratio": 1.1598360538482666,
+      "p90_p10_ratio_span": 0.748065710067749,
+      "oracle_frame_scale_p90": 0.30329638719558716,
+      "scale_medrel": 0.2467794418334961,
+      "affine_medrel": 0.06485863775014877,
+      "inverse_affine_medrel": 0.0016518624033778906
+    },
+    {
+      "frame": 92,
+      "inputs_cross_window_rgb_mae": 3.533820001214772,
+      "pixels": 19010,
+      "median_ratio": 1.160613775253296,
+      "p90_p10_ratio_span": 0.7474817633628845,
+      "oracle_frame_scale_p90": 0.3031655550003052,
+      "scale_medrel": 0.24680744111537933,
+      "affine_medrel": 0.06494738161563873,
+      "inverse_affine_medrel": 0.0019168131984770298
+    },
+    {
+      "frame": 93,
+      "inputs_cross_window_rgb_mae": 3.424860680879495,
+      "pixels": 19004,
+      "median_ratio": 1.160595178604126,
+      "p90_p10_ratio_span": 0.7484119534492493,
+      "oracle_frame_scale_p90": 0.30344158411026,
+      "scale_medrel": 0.24680744111537933,
+      "affine_medrel": 0.06472937762737274,
+      "inverse_affine_medrel": 0.0024174980353564024
+    },
+    {
+      "frame": 94,
+      "inputs_cross_window_rgb_mae": 3.3445737670068025,
+      "pixels": 18990,
+      "median_ratio": 1.160595178604126,
+      "p90_p10_ratio_span": 0.7484119534492493,
+      "oracle_frame_scale_p90": 0.3034481108188629,
+      "scale_medrel": 0.2467341274023056,
+      "affine_medrel": 0.06504100561141968,
+      "inverse_affine_medrel": 0.002771903295069933
+    },
+    {
+      "frame": 95,
+      "inputs_cross_window_rgb_mae": 3.4006819803814383,
+      "pixels": 19005,
+      "median_ratio": 1.1601642370224,
+      "p90_p10_ratio_span": 0.7468956112861633,
+      "oracle_frame_scale_p90": 0.3030177354812622,
+      "scale_medrel": 0.2467341274023056,
+      "affine_medrel": 0.06516508758068085,
+      "inverse_affine_medrel": 0.002389288740232587
+    },
+    {
+      "frame": 96,
+      "inputs_cross_window_rgb_mae": 3.5583631331997085,
+      "pixels": 18998,
+      "median_ratio": 1.1597329378128052,
+      "p90_p10_ratio_span": 0.7467213273048401,
+      "oracle_frame_scale_p90": 0.30285149812698364,
+      "scale_medrel": 0.24666094779968262,
+      "affine_medrel": 0.06529323011636734,
+      "inverse_affine_medrel": 0.002077727345749736
+    },
+    {
+      "frame": 97,
+      "inputs_cross_window_rgb_mae": 3.2937014091350827,
+      "pixels": 19001,
+      "median_ratio": 1.1591376066207886,
+      "p90_p10_ratio_span": 0.7443239092826843,
+      "oracle_frame_scale_p90": 0.3022230863571167,
+      "scale_medrel": 0.2465776652097702,
+      "affine_medrel": 0.06559963524341583,
+      "inverse_affine_medrel": 0.0016419884050264955
+    },
+    {
+      "frame": 98,
+      "inputs_cross_window_rgb_mae": 3.40738600127551,
+      "pixels": 18993,
+      "median_ratio": 1.158705711364746,
+      "p90_p10_ratio_span": 0.7427374720573425,
+      "oracle_frame_scale_p90": 0.301960289478302,
+      "scale_medrel": 0.2458295375108719,
+      "affine_medrel": 0.06529323011636734,
+      "inverse_affine_medrel": 0.0014850525185465813
+    },
+    {
+      "frame": 99,
+      "inputs_cross_window_rgb_mae": 3.4537143540451893,
+      "pixels": 19006,
+      "median_ratio": 1.1591376066207886,
+      "p90_p10_ratio_span": 0.74125075340271,
+      "oracle_frame_scale_p90": 0.3016032576560974,
+      "scale_medrel": 0.24554023146629333,
+      "affine_medrel": 0.06570707261562347,
+      "inverse_affine_medrel": 0.0011970640625804663
+    },
+    {
+      "frame": 100,
+      "inputs_cross_window_rgb_mae": 3.835078618500972,
+      "pixels": 18987,
+      "median_ratio": 1.1585428714752197,
+      "p90_p10_ratio_span": 0.7386301159858704,
+      "oracle_frame_scale_p90": 0.30074024200439453,
+      "scale_medrel": 0.24465027451515198,
+      "affine_medrel": 0.06542682647705078,
+      "inverse_affine_medrel": 0.0011836286867037416
+    }
+  ]
+}
