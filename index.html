@@ -3,43 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>足球第一视角｜视频附录</title>
+  <title>Football EgoX · 足球第一视角</title>
+  <meta name="description" content="从单台场边相机录像生成足球第一人称画面。浏览四段同步对照、方法报告与复现源码。">
+  <meta property="og:title" content="Football EgoX · 足球第一视角">
+  <meta property="og:image" content="https://cyclotr0nzxj.github.io/football-egox/appendix/stills/Pair02.jpg">
   <style>
     :root { color-scheme: dark; font-family: system-ui, -apple-system, sans-serif;
-      background: #12171e; color: #f0f4f8; }
+      background: #10171e; color: #f0f4f8; }
     body { margin: 0; }
     main { width: min(960px, calc(100% - 32px)); margin: 0 auto; padding: 30px 0 56px; }
-    h1 { font-size: clamp(1.5rem, 5vw, 2.25rem); margin: 0 0 .4em; line-height: 1.2; }
+    header { padding-bottom: 8px; }
+    h1 { font-size: clamp(1.65rem, 5vw, 2.65rem); margin: 0 0 .4em; line-height: 1.15; }
     p { color: #bfc8d3; line-height: 1.55; margin: .5em 0 1em; }
-    a { color: #a9d8ff; text-underline-offset: .18em; }
+    a { color: #a4e2cf; text-underline-offset: .18em; }
+    a:focus-visible { outline: 2px solid #a4e2cf; outline-offset: 3px; }
     nav { display: flex; gap: 8px; flex-wrap: wrap; margin: 20px 0 26px; }
     nav a { padding: 8px 12px; background: #232c37; border-radius: 7px; }
+    .primary { background: #a4e2cf; color: #10171e; font-weight: 650; }
+    .section-nav { margin: 0 0 22px; }
     section { margin: 22px 0; padding: 14px 16px; background: #1a222c;
       border: 1px solid #334150; border-radius: 10px; scroll-margin-top: 12px; }
     h2 { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: baseline;
       font-size: 1.12rem; margin: 0 0 12px; }
     h2 span { font-weight: 500; color: #c3cbd5; font-size: .92rem; }
+    .featured { border-color: #527b70; }
     video { display: block; width: 100%; aspect-ratio: 1392 / 546; background: #10141a; border-radius: 6px; }
     .download { display: inline-block; margin-top: 10px; padding: 5px 0; font-size: .92rem; }
     footer { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; }
     @media (max-width: 540px) { main { width: calc(100% - 20px); padding-top: 22px; }
+      .section-nav { gap: 6px; }
+      .section-nav a { padding-inline: 8px; }
       section { padding: 11px 10px; } }
   </style>
 </head>
 <body>
 <main>
-  <h1>足球第一视角</h1>
-  <p>左栏为场边第三人称，中栏为头戴实拍第一人称，右栏为实验结果。视频标签中的 R8 和 Nano 分别指场边相机和头戴相机。视频下载文件按附录中的片段编号命名。</p>
-  <nav aria-label="视频片段"><a href="#pair01">低头看球</a><a href="#pair02">向队友传球</a><a href="#pair04">沿标志盘带球</a><a href="#pair05">跟球</a></nav>
-  <section id="pair01" aria-labelledby="title01">
-    <h2 id="title01">低头看球 <span>几何预览</span></h2>
-    <video controls playsinline preload="none" poster="appendix/stills/Pair01.jpg" aria-label="低头看球三栏对照">
-      <source src="appendix/videos/Pair01.mp4" type="video/mp4">
-      <a href="appendix/videos/Pair01.mp4" download>下载低头看球视频</a>
-    </video>
-    <a class="download" href="appendix/videos/Pair01.mp4" download>下载 MP4</a>
-  </section>
-  <section id="pair02" aria-labelledby="title02">
+  <header>
+    <h1>Football EgoX · 足球第一视角</h1>
+    <p>从一台场边相机的录像，生成球员的第一人称画面。</p>
+    <nav aria-label="报告与源码">
+      <a class="primary" href="#pair02">观看传球对照</a>
+      <a href="report/week14_football_egox.pdf">实验报告 PDF</a>
+      <a href="https://github.com/cyclotr0nzxj/football-egox">GitHub 源码</a>
+    </nav>
+    <p>左栏是唯一视频输入（R8 场边录像），中栏是对照验证（Nano 头戴实拍），右栏是生成画面或几何预览。</p>
+  </header>
+  <nav class="section-nav" aria-label="视频片段"><a href="#pair02">向队友传球</a><a href="#pair04">沿标志盘带球</a><a href="#pair01">低头看球</a><a href="#pair05">跟球</a></nav>
+  <section class="featured" id="pair02" aria-labelledby="title02">
     <h2 id="title02">向队友传球 <span>EgoX 首版</span></h2>
     <video controls playsinline preload="none" poster="appendix/stills/Pair02.jpg" aria-label="向队友传球三栏对照">
       <source src="appendix/videos/Pair02.mp4" type="video/mp4">
@@ -55,6 +65,14 @@
     </video>
     <a class="download" href="appendix/videos/Pair04.mp4" download>下载 MP4</a>
   </section>
+  <section id="pair01" aria-labelledby="title01">
+    <h2 id="title01">低头看球 <span>几何预览</span></h2>
+    <video controls playsinline preload="none" poster="appendix/stills/Pair01.jpg" aria-label="低头看球三栏对照">
+      <source src="appendix/videos/Pair01.mp4" type="video/mp4">
+      <a href="appendix/videos/Pair01.mp4" download>下载低头看球视频</a>
+    </video>
+    <a class="download" href="appendix/videos/Pair01.mp4" download>下载 MP4</a>
+  </section>
   <section id="pair05" aria-labelledby="title05">
     <h2 id="title05">跟球 <span>几何预览</span></h2>
     <video controls playsinline preload="none" poster="appendix/stills/Pair05.jpg" aria-label="跟球三栏对照">
@@ -65,7 +83,7 @@
   </section>
   <footer>
     <a href="report/week14_football_egox.pdf">实验报告 PDF</a>
-    <a href="https://github.com/cyclotr0nzxj/football-egox-cv-appendix">GitHub 仓库</a>
+    <a href="https://github.com/cyclotr0nzxj/football-egox">GitHub 仓库</a>
   </footer>
 </main>
 </body>
