@@ -118,11 +118,12 @@
 \end{tabularx}
 
 \subsection*{A.2　本项目的公开资料}
-\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix}{本项目 GitHub 仓库}提供报告源文件、图源索引和核验记录。\href{https://cyclotr0nzxj.github.io/football-egox-cv-appendix/}{在线播放与下载}收录四段完整三栏视频。\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/blob/main/appendix/manifest.json}{视频清单}记录源帧范围、帧率和文件哈希。\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/blob/main/report/source-data.json}{图源索引}记录本文各图的原始帧号。
+\noindent\textbf{本项目 GitHub 仓库}\quad\url{https://github.com/cyclotr0nzxj/football-egox-cv-appendix}\par
+仓库收录报告源文件及核验资料。\href{https://cyclotr0nzxj.github.io/football-egox-cv-appendix/}{视频播放页}提供四段完整三栏视频。\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/blob/main/appendix/manifest.json}{视频清单}记录源帧范围、帧率和文件哈希。\href{https://github.com/cyclotr0nzxj/football-egox-cv-appendix/blob/main/report/source-data.json}{图源索引}记录各图的原始帧号。
 
-\subsection*{A.3　采用的公开实现}
+\subsection*{A.3　上游项目与资源}
 \begin{itemize}
-\item \href{https://github.com/DAVIAN-Robotics/EgoX}{EgoX 官方仓库}及\href{https://github.com/DAVIAN-Robotics/EgoX/tree/43c095b552a8f09d3a81c0882491f52c5cf4e953}{实验固定版本}提供第三人称到第一人称的视频转换实现。\href{https://huggingface.co/DAVIAN-Robotics/EgoX}{官方模型权重}基于\href{https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-480P-Diffusers}{Wan2.1 14B 图像到视频模型}。
+\item EgoX 的\href{https://keh0t0.github.io/EgoX/}{项目主页}展示了原论文的转换示例。\href{https://github.com/DAVIAN-Robotics/EgoX}{官方仓库}收录转换代码，实验使用其\href{https://github.com/DAVIAN-Robotics/EgoX/tree/43c095b552a8f09d3a81c0882491f52c5cf4e953}{固定版本}。\href{https://huggingface.co/DAVIAN-Robotics/EgoX}{官方模型权重}基于\href{https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-480P-Diffusers}{Wan2.1 14B 图像到视频模型}。
 \item \href{https://github.com/kdh8156/EgoX-EgoPriorRenderer/tree/17cdef688885c3ac6a4c371a2d620391cc28dab4}{官方几何渲染器的固定版本}用于从彩色点云渲染目标机位的先验。\href{https://github.com/nv-tlabs/vipe}{ViPE 官方实现}提供深度、相机内参和实例估计。实验用其固定相机的 Lyra 配置处理 784×448 的场边图像。
 \end{itemize}
 

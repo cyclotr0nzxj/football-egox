@@ -2,6 +2,12 @@
 
 计算机视觉课程实验。以单个场边机位拍摄的足球录像为输入，生成参与者位置的第一人称画面。同步的头戴实拍用于对照。
 
+## 向队友传球
+
+[![三栏对照动画，左为场边录像，中为头戴实拍，右为 EgoX 生成](appendix/passing-preview.gif)](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair02)
+
+[播放最终版](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/#pair02) · [下载原版 MP4](https://raw.githubusercontent.com/cyclotr0nzxj/football-egox-cv-appendix/main/appendix/videos/Pair02.mp4)
+
 [阅读全文（PDF）](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/report/week14_football_egox.pdf) · [报告源文件与图源](report/README.md) · [四段视频播放页](https://cyclotr0nzxj.github.io/football-egox-cv-appendix/)
 
 ## 视频附录
