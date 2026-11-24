@@ -5,8 +5,6 @@
 <p align="center">
   <a href="https://cyclotr0nzxj.github.io/football-egox/#pair02">观看传球对照</a> ·
   <a href="https://cyclotr0nzxj.github.io/football-egox/">全部视频</a> ·
-  <a href="https://cyclotr0nzxj.github.io/football-egox/report/week14_football_egox_reviewed.pdf">复审版报告</a> ·
-  <a href="https://cyclotr0nzxj.github.io/football-egox/report/week14_football_egox.pdf">原版报告</a> ·
   <a href="project/README.md">运行与复现</a>
 </p>
 

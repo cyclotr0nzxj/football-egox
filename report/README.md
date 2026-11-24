@@ -1,9 +1,6 @@
-# 足球第一视角实验报告
+# 足球第一视角实验图源与历史 LaTeX 源文件
 
-- [复审版课程报告（PDF，13 页）](week14_football_egox_reviewed.pdf) 详述深度反投影、随动机位和逐帧核验，新增几何先验、生成画面与头戴实拍的同帧对照。
-- [原版报告（PDF，6 页）](week14_football_egox.pdf) 概述转换方法与四段足球动作的结果。
-
-## 原版报告源文件
+## 历史 LaTeX 源文件
 
 [LaTeX 源文件](main.tex) · [图源索引](source-data.json)
 

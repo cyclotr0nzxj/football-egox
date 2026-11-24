@@ -18,3 +18,10 @@ __pycache__/
 **/.venv/
 project/dist/
 project/tmp/
+
+# Keep course reports and editing artifacts local
+/report/week14_football_egox.pdf
+/report/week14_football_egox_reviewed.pdf
+/report/_work/
+/report/*.docx
+/作业提交准备/
